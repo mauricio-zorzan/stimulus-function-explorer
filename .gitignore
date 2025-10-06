@@ -62,3 +62,4 @@ temp_images/
 
 # Streamlit
 .streamlit/
+.env
