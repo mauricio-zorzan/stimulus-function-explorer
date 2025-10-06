@@ -1,86 +1,129 @@
 # Stimulus Function Explorer
 
-A simple app to explore and manage stimulus functions from your GitHub repository.
+A comprehensive web application for exploring and discovering educational stimulus functions with integrated educational standards.
 
-## Features
+## 🚀 Live Demo
 
-- 📋 Browse all stimulus functions from your repo
-- 🔍 View function details, code, and tests
-- 🎨 Store and view generated images in S3
-- 🔄 Real-time sync with your GitHub repository
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stimulus-function-explorer.streamlit.app/)
 
-## Quick Start
+## 📋 Features
 
-### 1. Clone and Setup
+- **Function Gallery**: Browse all available stimulus functions with visual examples
+- **Advanced Search**: Search by function name, category, tags, description, or educational standards
+- **Educational Standards Integration**: View CCSS and other educational standards linked to each function
+- **AI-Powered Search**: Natural language search capabilities
+- **Function Details**: Comprehensive information about each function including parameters, examples, and standards
 
+## 🛠️ Local Development
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone <your-new-repo>
+git clone https://github.com/mauricio-zorzan/stimulus-function-explorer.git
 cd stimulus-function-explorer
+```
+
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment
-
+3. Set up environment variables:
 ```bash
-cp env.example .env
+# Create a .env file with your database credentials
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+OPENAI_API_KEY=your_openai_key  # Optional, for AI search
 ```
 
-Edit `.env` with your credentials:
-
-```
-# GitHub Configuration
-GITHUB_TOKEN=ghp_your_token_here
-GITHUB_REPO_OWNER=your_username
-GITHUB_REPO_NAME=coach-bot-external-content-generators
-
-# AWS S3 Configuration (optional)
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
-S3_BUCKET_NAME=stimulus-function-images
-AWS_REGION=us-east-1
-```
-
-### 3. Run the App
-
+4. Run the application:
 ```bash
 streamlit run app_new.py
 ```
 
-## Setting Up GitHub Token
+## 📊 Data Management
 
-1. Go to GitHub Settings → Developer settings → Personal access tokens
-2. Generate a new token with `repo` permissions
-3. Copy the token to your `.env` file
+### Updating Educational Standards
 
-## Setting Up S3 (Optional)
+To update the educational standards from the database:
 
-1. Create an AWS account
-2. Create an S3 bucket for storing images
-3. Create IAM user with S3 permissions
-4. Add credentials to `.env` file
+```bash
+python update_function_standards.py
+```
 
-## Usage
+This script will:
+- Connect to the MySQL database
+- Fetch standards for all functions
+- Update the local JSON files with the latest standards data
 
-1. **Function List**: Browse all available stimulus functions
-2. **Function Details**: View code, tests, and documentation
-3. **Images**: View generated sample images (requires S3)
+## 🏗️ Project Structure
 
-## Next Steps
+```
+├── app_new.py                 # Main Streamlit application
+├── src/                       # Source code modules
+│   ├── database.py           # Database connection and queries
+│   └── ai_search.py          # AI-powered search functionality
+├── data/                      # Function data and images
+│   ├── functions/            # JSON files for each function
+│   └── images/               # Example images for functions
+├── drawing_functions/         # Drawing function implementations
+├── stimulus_descriptions/     # Stimulus type descriptions
+└── requirements.txt          # Python dependencies
+```
 
-- Add image generation from test cases
-- Add AI-powered image analysis
-- Add function enhancement recommendations
-- Add automated testing
+## 🎯 Educational Standards
 
-## Development
+The application integrates with educational standards databases to provide:
+- **CCSS Standards**: Common Core State Standards for Mathematics
+- **Function Mapping**: Links between functions and relevant standards
+- **Search Integration**: Find functions by searching for specific standards
 
-To add new features:
+## 🔧 Configuration
 
-1. Create new modules in `src/`
-2. Update `app_new.py` to include new functionality
-3. Test with your GitHub repository
+### Database Connection
 
-## Troubleshooting
+The app connects to a MySQL database to fetch educational standards. Configure your database credentials in a `.env` file:
 
-- **GitHub API rate limits**: Use a personal access token
-- **Missing functions**: Check if your repo structure matches expected paths
+```env
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+```
+
+### AI Search (Optional)
+
+For enhanced search capabilities, add your OpenAI API key:
+
+```env
+OPENAI_API_KEY=your_openai_key
+```
+
+## 📈 Usage Statistics
+
+- **92 Functions**: Comprehensive collection of educational stimulus functions
+- **78 Functions with Standards**: Functions linked to educational standards
+- **Multiple Categories**: Geometry, data visualization, number operations, and more
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🆘 Support
+
+For questions or issues, please open an issue on GitHub or contact the development team.
+
+---
+
+**Built with ❤️ for educational technology**
