@@ -1,0 +1,34 @@
+{
+  "function_name": "draw_polygon_with_string_sides",
+  "description": "Draws polygon with string sides for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_polygon_with_string_sides\nresult = draw_polygon_with_string_sides(data)",
+  "image_path": "images/draw_polygon_with_string_sides_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:10.672518",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
+      "display_name": null,
+      "description": "Exhibit rectangles with the same area and different perimeters."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
+      "display_name": "Area, Perimeter and Side Length Word Problems",
+      "description": "Solve word problems involving area, perimeter, and side length."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.EE.A.1+2",
+      "display_name": "Adding Linear Expressions",
+      "description": "Add linear expressions."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:59.490202"
+}

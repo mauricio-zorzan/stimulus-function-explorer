@@ -1,0 +1,49 @@
+{
+  "function_name": "draw_measurement",
+  "description": "Draws measurement for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_measurement\nresult = draw_measurement(data)",
+  "image_path": "images/draw_measurement_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:52.022141",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+1",
+      "display_name": "Measuring Liquid Volume",
+      "description": "Measure and estimate liquid volumes using liters (l)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+2",
+      "display_name": "Measuring Mass",
+      "description": "Measure and estimate the masses of objects using standard units of grams (g) and kilograms (kg)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+4",
+      "display_name": null,
+      "description": "Solve one-step word problems by subtracting quantities of liquid volumes given in the same units."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+5",
+      "display_name": null,
+      "description": "Solve one-step word problems by multiplying quantities of masses or volumes given in the same units."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.A.3+3",
+      "display_name": "Two-Step Division Problems",
+      "description": "Solve word problems involving two step division."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+13",
+      "display_name": null,
+      "description": "Use the four operations to solve word problems involving liquid volumes, including problems that require expressing measurements given in a larger unit in terms of a smaller unit."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:55.632105"
+}

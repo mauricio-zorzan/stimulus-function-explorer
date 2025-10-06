@@ -1,0 +1,16 @@
+{
+  "function_name": "draw_labeled_transversal_angle",
+  "description": "Draws labeled transversal angle for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_labeled_transversal_angle\nresult = draw_labeled_transversal_angle(data)",
+  "image_path": "images/draw_labeled_transversal_angle_example.webp",
+  "category": "angles",
+  "tags": [
+    "angles"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:59.786479",
+  "test_data": "Generated from GitHub Actions workflow"
+}

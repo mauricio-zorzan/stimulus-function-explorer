@@ -1,0 +1,16 @@
+{
+  "function_name": "draw_circle_with_radius",
+  "description": "Draws circle with radius for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_circle_with_radius\nresult = draw_circle_with_radius(data)",
+  "image_path": "images/draw_circle_with_radius_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:11.746706",
+  "test_data": "Generated from GitHub Actions workflow"
+}

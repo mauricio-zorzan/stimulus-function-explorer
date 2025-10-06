@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_similar_right_triangles",
+  "description": "Draws similar right triangles for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_similar_right_triangles\nresult = draw_similar_right_triangles(data)",
+  "image_path": "images/draw_similar_right_triangles_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:12.178219",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+3",
+      "display_name": "Similar Triangles",
+      "description": "Understand the angle-angle criterion for similarity of triangles."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:01.809849"
+}

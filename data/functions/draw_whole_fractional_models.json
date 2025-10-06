@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_whole_fractional_models",
+  "description": "Draws whole fractional models for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_whole_fractional_models\nresult = draw_whole_fractional_models(data)",
+  "image_path": "images/draw_whole_fractional_models_example.webp",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-05T23:19:06.565604",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.C+2",
+      "display_name": "Whole Number Fraction Models",
+      "description": "Select fractions equivalent to whole numbers using models"
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:03.839036"
+}

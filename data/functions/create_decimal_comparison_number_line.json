@@ -1,0 +1,24 @@
+{
+  "function_name": "create_decimal_comparison_number_line",
+  "description": "Creates decimal comparison number line for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_decimal_comparison_number_line\nresult = create_decimal_comparison_number_line(data)",
+  "image_path": "images/create_decimal_comparison_number_line_example.webp",
+  "category": "number_lines",
+  "tags": [
+    "number_lines"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:08.106760",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.3.B+2",
+      "display_name": "Comparing Decimals on Number Lines",
+      "description": "Compare decimals to the thousandths on the number line."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:38.755077"
+}

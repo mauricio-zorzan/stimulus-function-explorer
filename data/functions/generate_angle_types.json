@@ -1,0 +1,59 @@
+{
+  "function_name": "generate_angle_types",
+  "description": "Generates angle types for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_angle_types\nresult = generate_angle_types(data)",
+  "image_path": "images/generate_angle_types_example.webp",
+  "category": "angles",
+  "tags": [
+    "angles"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:12.659820",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
+      "display_name": "Parallel Sides",
+      "description": "Recognize and describe basic geometric features: edges, vertices, parallel sides, and right angles."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
+      "display_name": null,
+      "description": "Draw examples of quadrilaterals that do not fit into the subcategories of rhombuses, rectangles, or squares."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+4",
+      "display_name": "Right Angles",
+      "description": "Determine if an angle is greater than, equal to, or less than a right angle."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+1",
+      "display_name": "Acute, Obtuse and Right Angles",
+      "description": "Identify right angles, obtuse angles, acute angles"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+7",
+      "display_name": null,
+      "description": "Draw acute angles."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+3",
+      "display_name": null,
+      "description": "Identify if a given triangle is scalene, isosceles but not equilateral, or equilateral"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.5.A+1",
+      "display_name": "Lines, Rays, and Angles",
+      "description": "Recognize, name, and use the properties of lines, rays, and angles to analyze and solve geometric problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.6+5",
+      "display_name": null,
+      "description": "Converting fractions of turns to degrees."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:04.706236"
+}

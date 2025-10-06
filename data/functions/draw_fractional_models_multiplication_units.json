@@ -1,0 +1,49 @@
+{
+  "function_name": "draw_fractional_models_multiplication_units",
+  "description": "Draws fractional models multiplication units for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_fractional_models_multiplication_units\nresult = draw_fractional_models_multiplication_units(data)",
+  "image_path": "images/draw_fractional_models_multiplication_units_example.webp",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:15.656889",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+5",
+      "display_name": "Multiplying Fractions",
+      "description": "Multiply two fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+6",
+      "display_name": "Multiplying a Mixed Number by a Whole Number",
+      "description": "Multiply mixed numbers by whole numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.B+1",
+      "display_name": null,
+      "description": "Calculate the area of rectangles with fractional sides."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+2",
+      "display_name": "Multiplying with Mixed Numbers: Word Problems",
+      "description": "Solve real world problems involving multiplication of a fraction and a mixed number, or two mixed numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+3",
+      "display_name": "Multiply Two Fractions: Word Problems",
+      "description": "Solve real world problems involving multiplication of two fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.RP.A.1+1",
+      "display_name": "Writing Ratios",
+      "description": "Understand the concept of a ratio and use ratio language to describe a ratio relationship between two quantities."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:51.849270"
+}

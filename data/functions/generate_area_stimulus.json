@@ -1,0 +1,16 @@
+{
+  "function_name": "generate_area_stimulus",
+  "description": "Generates area stimulus for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_area_stimulus\nresult = generate_area_stimulus(data)",
+  "image_path": "images/generate_area_stimulus_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:51.105740",
+  "test_data": "Generated from GitHub Actions workflow"
+}

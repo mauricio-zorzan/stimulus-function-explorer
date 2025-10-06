@@ -1,0 +1,537 @@
+{
+  "metadata": {
+    "total_functions": 88,
+    "last_updated": "2025-10-06T00:06:25.327780",
+    "version": "1.0.0"
+  },
+  "functions": [
+    {
+      "function_name": "draw_polygon_scale",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_polygon_scale_example.webp"
+    },
+    {
+      "function_name": "create_clock",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/create_clock_example.webp"
+    },
+    {
+      "function_name": "plot_points",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_points_example.webp"
+    },
+    {
+      "function_name": "create_dual_dot_plot",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_dual_dot_plot_example.webp"
+    },
+    {
+      "function_name": "create_probability_diagram",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/create_probability_diagram_example.webp"
+    },
+    {
+      "function_name": "draw_tree_diagram",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_tree_diagram_example.webp"
+    },
+    {
+      "function_name": "generate_unit_squares_unitless",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_unit_squares_unitless_example.webp"
+    },
+    {
+      "function_name": "draw_whole_fractional_models",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_whole_fractional_models_example.webp"
+    },
+    {
+      "function_name": "draw_divide_items_into_array",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_divide_items_into_array_example.webp"
+    },
+    {
+      "function_name": "generate_table",
+      "category": "tables",
+      "status": "working",
+      "image_path": "images/generate_table_example.webp"
+    },
+    {
+      "function_name": "plot_line",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_line_example.webp"
+    },
+    {
+      "function_name": "draw_lines_of_best_fit",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_lines_of_best_fit_example.webp"
+    },
+    {
+      "function_name": "draw_single_quadrilateral_stimulus",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_single_quadrilateral_stimulus_example.webp"
+    },
+    {
+      "function_name": "create_decimal_comparison_number_line",
+      "category": "number_lines",
+      "status": "working",
+      "image_path": "images/create_decimal_comparison_number_line_example.webp"
+    },
+    {
+      "function_name": "draw_quadrilateral_venn_diagram",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_quadrilateral_venn_diagram_example.webp"
+    },
+    {
+      "function_name": "draw_geometric_shapes_with_rotation",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_geometric_shapes_with_rotation_example.webp"
+    },
+    {
+      "function_name": "draw_decimal_grid",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_decimal_grid_example.webp"
+    },
+    {
+      "function_name": "create_scatterplot",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_scatterplot_example.webp"
+    },
+    {
+      "function_name": "create_multi_bar_graph",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_multi_bar_graph_example.webp"
+    },
+    {
+      "function_name": "draw_polygon_with_string_sides",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_polygon_with_string_sides_example.webp"
+    },
+    {
+      "function_name": "draw_stats_scatterplot",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/draw_stats_scatterplot_example.webp"
+    },
+    {
+      "function_name": "draw_composite_rectangular_grid",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_composite_rectangular_grid_example.webp"
+    },
+    {
+      "function_name": "plot_par_and_perp_lines",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_par_and_perp_lines_example.webp"
+    },
+    {
+      "function_name": "create_categorical_graph",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_categorical_graph_example.webp"
+    },
+    {
+      "function_name": "plot_points_four_quadrants",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_points_four_quadrants_example.webp"
+    },
+    {
+      "function_name": "draw_object_array",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_object_array_example.webp"
+    },
+    {
+      "function_name": "draw_divide_into_equal_groups",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_divide_into_equal_groups_example.webp"
+    },
+    {
+      "function_name": "draw_base_ten_blocks",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_base_ten_blocks_example.webp"
+    },
+    {
+      "function_name": "generate_rect_with_side_len_and_area",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_rect_with_side_len_and_area_example.webp"
+    },
+    {
+      "function_name": "draw_similar_right_triangles",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_similar_right_triangles_example.webp"
+    },
+    {
+      "function_name": "draw_measurement",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_measurement_example.webp"
+    },
+    {
+      "function_name": "create_multi_picture_graph",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_multi_picture_graph_example.webp"
+    },
+    {
+      "function_name": "draw_lines_rays_and_segments",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_lines_rays_and_segments_example.webp"
+    },
+    {
+      "function_name": "draw_box_plots",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/draw_box_plots_example.webp"
+    },
+    {
+      "function_name": "plot_lines",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_lines_example.webp"
+    },
+    {
+      "function_name": "draw_polygon_fully_labeled",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_polygon_fully_labeled_example.webp"
+    },
+    {
+      "function_name": "draw_bar_model",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_bar_model_example.webp"
+    },
+    {
+      "function_name": "generate_composite_rect_prism_v2",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_composite_rect_prism_v2_example.webp"
+    },
+    {
+      "function_name": "create_dot_plot",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/create_dot_plot_example.webp"
+    },
+    {
+      "function_name": "draw_bar_models",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_bar_models_example.webp"
+    },
+    {
+      "function_name": "create_parallel_quadrilateral",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/create_parallel_quadrilateral_example.webp"
+    },
+    {
+      "function_name": "draw_division_model",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_division_model_example.webp"
+    },
+    {
+      "function_name": "create_clock_number_line",
+      "category": "number_lines",
+      "status": "working",
+      "image_path": "images/create_clock_number_line_example.webp"
+    },
+    {
+      "function_name": "draw_parallel_lines_cut_by_transversal",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_parallel_lines_cut_by_transversal_example.webp"
+    },
+    {
+      "function_name": "draw_geometric_shapes_no_indicators",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_geometric_shapes_no_indicators_example.webp"
+    },
+    {
+      "function_name": "generate_angle_diagram",
+      "category": "angles",
+      "status": "working",
+      "image_path": "images/generate_angle_diagram_example.webp"
+    },
+    {
+      "function_name": "draw_circle_with_radius",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_circle_with_radius_example.webp"
+    },
+    {
+      "function_name": "draw_decimal_multiplication",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_decimal_multiplication_example.webp"
+    },
+    {
+      "function_name": "generate_stacked_line_plots",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/generate_stacked_line_plots_example.webp"
+    },
+    {
+      "function_name": "plot_nonlinear",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_nonlinear_example.webp"
+    },
+    {
+      "function_name": "create_fixed_step_number_line",
+      "category": "number_lines",
+      "status": "working",
+      "image_path": "images/create_fixed_step_number_line_example.webp"
+    },
+    {
+      "function_name": "draw_mixed_fractional_models",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_mixed_fractional_models_example.webp"
+    },
+    {
+      "function_name": "generate_spinner",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_spinner_example.webp"
+    },
+    {
+      "function_name": "generate_multiple_grids",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_multiple_grids_example.webp"
+    },
+    {
+      "function_name": "draw_composite_rectangular_triangular_grid",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_composite_rectangular_triangular_grid_example.webp"
+    },
+    {
+      "function_name": "draw_parallelogram_with_height",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_parallelogram_with_height_example.webp"
+    },
+    {
+      "function_name": "generate_angle_types",
+      "category": "angles",
+      "status": "working",
+      "image_path": "images/generate_angle_types_example.webp"
+    },
+    {
+      "function_name": "plot_points_quadrant_one",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/plot_points_quadrant_one_example.webp"
+    },
+    {
+      "function_name": "draw_fractional_pair_models",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_fractional_pair_models_example.webp"
+    },
+    {
+      "function_name": "draw_graphing_function",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/draw_graphing_function_example.webp"
+    },
+    {
+      "function_name": "draw_ruler_measured_objects",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_ruler_measured_objects_example.webp"
+    },
+    {
+      "function_name": "generate_area_stimulus",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_area_stimulus_example.webp"
+    },
+    {
+      "function_name": "unit_square_decomposition",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/unit_square_decomposition_example.webp"
+    },
+    {
+      "function_name": "generate_shape_with_base_and_height",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/generate_shape_with_base_and_height_example.webp"
+    },
+    {
+      "function_name": "draw_base_ten_blocks_division",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_base_ten_blocks_division_example.webp"
+    },
+    {
+      "function_name": "draw_geometric_shapes",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_geometric_shapes_example.webp"
+    },
+    {
+      "function_name": "draw_labeled_transversal_angle",
+      "category": "angles",
+      "status": "working",
+      "image_path": "images/draw_labeled_transversal_angle_example.webp"
+    },
+    {
+      "function_name": "draw_fractional_models",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_fractional_models_example.webp"
+    },
+    {
+      "function_name": "draw_prism_net",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_prism_net_example.webp"
+    },
+    {
+      "function_name": "generate_rect_with_side_len",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_rect_with_side_len_example.webp"
+    },
+    {
+      "function_name": "draw_fractional_models_unequal",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_fractional_models_unequal_example.webp"
+    },
+    {
+      "function_name": "draw_fractional_models_multiplication_units",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/draw_fractional_models_multiplication_units_example.webp"
+    },
+    {
+      "function_name": "generate_triangle_with_side_len",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/generate_triangle_with_side_len_example.webp"
+    },
+    {
+      "function_name": "generate_lines_of_symmetry",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_lines_of_symmetry_example.webp"
+    },
+    {
+      "function_name": "draw_regular_irregular_polygons",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_regular_irregular_polygons_example.webp"
+    },
+    {
+      "function_name": "generate_single_rect_with_side_len_stimulus",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_single_rect_with_side_len_stimulus_example.webp"
+    },
+    {
+      "function_name": "generate_piecewise_graph",
+      "category": "graphs",
+      "status": "working",
+      "image_path": "images/generate_piecewise_graph_example.webp"
+    },
+    {
+      "function_name": "create_inequality_number_line",
+      "category": "number_lines",
+      "status": "working",
+      "image_path": "images/create_inequality_number_line_example.webp"
+    },
+    {
+      "function_name": "draw_multiple_rectangular_prisms",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_multiple_rectangular_prisms_example.webp"
+    },
+    {
+      "function_name": "draw_polygons_bare",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/draw_polygons_bare_example.webp"
+    },
+    {
+      "function_name": "draw_measurement_comparison",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_measurement_comparison_example.webp"
+    },
+    {
+      "function_name": "generate_geometric_shapes_transformations",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/generate_geometric_shapes_transformations_example.webp"
+    },
+    {
+      "function_name": "create_unit_fraction_number_line",
+      "category": "fractions",
+      "status": "working",
+      "image_path": "images/create_unit_fraction_number_line_example.webp"
+    },
+    {
+      "function_name": "create_polygon",
+      "category": "geometry",
+      "status": "working",
+      "image_path": "images/create_polygon_example.webp"
+    },
+    {
+      "function_name": "generate_stimulus_with_grid",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/generate_stimulus_with_grid_example.webp"
+    },
+    {
+      "function_name": "draw_base_ten_blocks_grid",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_base_ten_blocks_grid_example.webp"
+    },
+    {
+      "function_name": "create_area_model",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/create_area_model_example.webp"
+    },
+    {
+      "function_name": "draw_quadrilateral_figures",
+      "category": "general",
+      "status": "working",
+      "image_path": "images/draw_quadrilateral_figures_example.webp"
+    }
+  ]
+}

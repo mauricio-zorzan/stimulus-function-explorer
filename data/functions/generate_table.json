@@ -1,0 +1,171 @@
+{
+  "function_name": "generate_table",
+  "description": "The Python function 'generate_table' creates a visual representation of data in a table format. It is designed to aid in the understanding of data organization, interpretation, and analysis. The function can generate both vertical and horizontal tables based on the input data.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_table\nresult = generate_table(data)",
+  "image_path": "images/generate_table_example.webp",
+  "category": "data_visualization",
+  "tags": [
+    "data",
+    "tables",
+    "visualization",
+    "analysis"
+  ],
+  "status": "working",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_level": "Middle/High School/College",
+  "mathematical_concepts": [
+    "data representation",
+    "data analysis",
+    "statistics"
+  ],
+  "stimulus_type_specification": {
+    "title": "Available Images: Data Tables",
+    "description": "The images produced by the 'generate_table' function are visual representations of data in a table format. These tables can be either vertical or horizontal, depending on the input data. The tables are generated using the matplotlib library and are saved as image files. The purpose of these images is to provide a clear and concise way to represent and analyze data. They can be used in a variety of educational settings, from teaching basic data representation in middle school to more advanced data analysis in college.",
+    "specifications": [
+      {
+        "section": "Table Generation",
+        "details": [
+          "The function takes as input a 'Table' object, which contains the data to be represented in the table.",
+          "The data is then extracted and wrapped using the 'extract_and_wrap_data' method of the 'Table' object.",
+          "The maximum cell dimensions are calculated using the 'calculate_max_cell_dimensions' method of the 'Table' object.",
+          "A table is then generated using the matplotlib library, with the cell text set to the values of the data and the row labels set to the index of the data.",
+          "The table is styled and saved as an image file."
+        ]
+      }
+    ],
+    "educational_purpose": "The 'generate_table' function aids in learning by providing a visual representation of data. By seeing data organized in a table format, students can more easily understand and analyze the data. This can help in teaching a variety of mathematical concepts, including data representation, data analysis, and statistics. Furthermore, by generating the tables as images, the function allows for easy integration of the tables into a variety of educational materials, such as worksheets, presentations, and online learning platforms."
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.A.2+2",
+      "display_name": "Graphing Real World Problems",
+      "description": "Given a point, identify which coordinate is a set number of units up and right from it."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.A.1+2",
+      "display_name": "Customary Conversions: Weight",
+      "description": "Convert to larger customary units involving fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.A.1+6",
+      "display_name": "Metric Conversions: Volume",
+      "description": "Perform multi-step metric conversions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.4+4",
+      "display_name": "Compare, Order and Round Decimals - Word Problems",
+      "description": "Solve word problems involving comparing, ordering and rounding decimals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+1",
+      "display_name": "Generating Patterns",
+      "description": "Generate two numerical patterns based on the given rules and starting number."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+3",
+      "display_name": "Relationships in Patterns",
+      "description": "Identify the relationship between corresponding terms of the two patterns."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.A+2",
+      "display_name": "Proportional Relationships in Tables",
+      "description": "Determine if two quantities represented in a table are in a proportional relationship."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.B+1",
+      "display_name": "Constant of Proportionality in Tables",
+      "description": "Identify the constant of proportionality in tables."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.C+1",
+      "display_name": "Proportional Relationship Equations",
+      "description": "Represent proportional relationships by equations. For example, if total cost t is proportional to the number n of items purchased at a constant price p, the relationship between the total cost and the number of items can be expressed as t = pn."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+2",
+      "display_name": "Solving Proportion Word Problems",
+      "description": "Write and solve proportions in real-world context word problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+5",
+      "display_name": "Percent Change",
+      "description": "Solve percent of change problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+9",
+      "display_name": "Deal Comparisons",
+      "description": "Compare pricing options word problem to determine the better deal or value"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.A.2+1",
+      "display_name": "Making Inferences",
+      "description": "Utilize data from a random sample to make informed inferences about a population characteristic that is not directly known."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.B.3+1",
+      "display_name": "Comparing Populations",
+      "description": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
+      "display_name": null,
+      "description": ""
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
+      "display_name": null,
+      "description": ""
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
+      "display_name": "Theoretical vs Experimental Probability",
+      "description": "Differentiate between experimental and theoretical probability."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+3",
+      "display_name": "Theoretical Probability",
+      "description": "Find theoretical probability."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+1",
+      "display_name": "Experimental Probability",
+      "description": "Find experiemental probability."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+2",
+      "display_name": "Making Predictions with Experimental Probability",
+      "description": "Make predictions using experimental proability."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.7.A+1",
+      "display_name": "Real World Probability Experiments",
+      "description": "Model real-life random selections by assigning equal probability to each outcome and calculate the probability of specified individuals or groups being chosen."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.7.A+2",
+      "display_name": "Probability of Opposite Events",
+      "description": "Find the probability of something NOT happening."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+3",
+      "display_name": "Sample Space Tables",
+      "description": "Create tables to systematically organize and represent sample spaces for compound events, clearly displaying all possible outcomes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+1",
+      "display_name": "Identifying Functions",
+      "description": "Identify whether or not a mathematical relation is a function."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.A.3+2",
+      "display_name": "Linear and Non-Linear Functions",
+      "description": "Identify whether or not a function is linear."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:11.115950"
+}

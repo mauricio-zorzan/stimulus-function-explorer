@@ -1,0 +1,29 @@
+{
+  "function_name": "draw_polygon_scale",
+  "description": "Draws polygon scale for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_polygon_scale\nresult = draw_polygon_scale(data)",
+  "image_path": "images/draw_polygon_scale_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:05.395391",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.A.1+2",
+      "display_name": "Scale Drawing Word Problems",
+      "description": "Solve problems involving computing actual lengths and areas from a scale drawing."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.A.1+3",
+      "display_name": "Area and Perimeter from Scale Drawings",
+      "description": "Solve problems involving computing perimeter or areas from a scale drawing."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:59.157661"
+}

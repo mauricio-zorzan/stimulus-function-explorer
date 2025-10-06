@@ -1,0 +1,64 @@
+{
+  "function_name": "generate_stacked_line_plots",
+  "description": "Generates stacked line plots for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_stacked_line_plots\nresult = generate_stacked_line_plots(data)",
+  "image_path": "images/generate_stacked_line_plots_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:10.254409",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.D.9+2",
+      "display_name": null,
+      "description": "Generate measurement data by making repeated measurements of the same object"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.B.4+2",
+      "display_name": "Line Plots",
+      "description": "Create line plots to display measurement data with a horizontal scale marked off in whole numbers, halves, or quarters."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.B.4+3",
+      "display_name": "Interpreting Line Plots",
+      "description": "Interpret a line plot."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.B.4+1",
+      "display_name": "Line Plots with Fractions",
+      "description": "Make a line plot to display a data set of measurements in fractions of a unit (1/2, 1/4, 1/8)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.B.4+2",
+      "display_name": "Solving Problems with Line Plots",
+      "description": "Solve problems involving addition and subtraction of fractions by using information presented in line plots."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.B.4+3",
+      "display_name": null,
+      "description": "Solve problems involving the subtraction of fractions by using information presented in line plots."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.B.2+1",
+      "display_name": "Line Plot of Fractional Measurements",
+      "description": "Make a line plot to display a data set of measurements in fractions of a unit.  "
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.B.2+2",
+      "display_name": "Operations on Fractions in Line Plots",
+      "description": "Use operations on fractions for this grade to solve problems involving information presented in line plots."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.B.3+1",
+      "display_name": "Comparing Populations",
+      "description": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:09.769404"
+}

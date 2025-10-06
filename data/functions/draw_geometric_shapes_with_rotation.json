@@ -1,0 +1,34 @@
+{
+  "function_name": "draw_geometric_shapes_with_rotation",
+  "description": "Draws geometric shapes with rotation for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_geometric_shapes_with_rotation\nresult = draw_geometric_shapes_with_rotation(data)",
+  "image_path": "images/draw_geometric_shapes_with_rotation_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:06.277894",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+2",
+      "display_name": "Sorting Quadrilaterals",
+      "description": "Compare quadrilaterals to determine how shared attributes group them into larger or overlapping categories (e.g., explaining why every square is both a rectangle and a rhombus)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+2",
+      "display_name": "Name for Quadrilaterals",
+      "description": "Select all names for a quadrilateral."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+3",
+      "display_name": null,
+      "description": "Describe relationships among quadrilaterals."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:53.553111"
+}

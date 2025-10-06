@@ -1,0 +1,16 @@
+{
+  "function_name": "draw_polygons_bare",
+  "description": "Draws polygons bare for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_polygons_bare\nresult = draw_polygons_bare(data)",
+  "image_path": "images/draw_polygons_bare_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:01.928792",
+  "test_data": "Generated from GitHub Actions workflow"
+}

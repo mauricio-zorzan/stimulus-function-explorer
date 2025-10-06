@@ -1,0 +1,54 @@
+{
+  "function_name": "draw_multiple_rectangular_prisms",
+  "description": "Draws multiple rectangular prisms for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_multiple_rectangular_prisms\nresult = draw_multiple_rectangular_prisms(data)",
+  "image_path": "images/draw_multiple_rectangular_prisms_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:56.422702",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.4+1",
+      "display_name": "Volume with Unit Cubes",
+      "description": "Measure volumes by counting unit cubes, using cubic cm, cubic in, cubic ft, and improvised units."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.B+1",
+      "display_name": "Right Rectangular Prism Volumes with Side Lengths",
+      "description": "Calculate the volume of cubes and rectangular prisms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.B+2",
+      "display_name": "Right Rectangular Prism Volumes with Base Area",
+      "description": "Apply the formula V = b \u00d7 h for rectangular prisms to find volumes of right rectangular prisms with whole-number edge lengths in mathematical problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.B+4",
+      "display_name": "Rectangular Prism Volume Word Problems",
+      "description": "Apply the formulas V = b \u00d7 h or V = l \u00d7 w \u00d7 h for rectangular prisms to find volumes of right rectangular prisms with whole-number edge lengths in the context of solving real-world problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.2+1",
+      "display_name": "Volume of Rectangular Prisms",
+      "description": "Apply the volume formulas V = l w h and V = B h to find volumes of right rectangular prisms"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.2+2",
+      "display_name": "Volume of Rectangular Prisms: Word Problems",
+      "description": "Solve real world problems involving the volume of right rectangular prisms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.4+2",
+      "display_name": "Surface Area of Cubes and Rectangular Prisms",
+      "description": "Calculate the surface area of cubes and rectangular prisms."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:56.711849"
+}

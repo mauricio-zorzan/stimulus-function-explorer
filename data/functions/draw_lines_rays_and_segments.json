@@ -1,0 +1,54 @@
+{
+  "function_name": "draw_lines_rays_and_segments",
+  "description": "Draws lines rays and segments for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_lines_rays_and_segments\nresult = draw_lines_rays_and_segments(data)",
+  "image_path": "images/draw_lines_rays_and_segments_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:58.838170",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+10",
+      "display_name": null,
+      "description": "Identify points, lines, line segments, rays, right angles, obtuse angles, acute angles, parallel lines, and perpendicular lines in two-dimensional figures."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+2",
+      "display_name": "Parallel Lines and Perpendicular Lines",
+      "description": "Identify parallel and perpendicular lines."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+4",
+      "display_name": null,
+      "description": "Draw rays."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+8",
+      "display_name": null,
+      "description": "Draw parallel lines."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+9",
+      "display_name": null,
+      "description": "Draw perpendicular lines."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+2",
+      "display_name": "Classifying Triangles by Angles",
+      "description": "Classify triangles as right, acute, or obtuse."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.5.A+1",
+      "display_name": "Lines, Rays, and Angles",
+      "description": "Recognize, name, and use the properties of lines, rays, and angles to analyze and solve geometric problems."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:55.290577"
+}

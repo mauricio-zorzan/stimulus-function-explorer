@@ -1,0 +1,24 @@
+{
+  "function_name": "generate_single_rect_with_side_len_stimulus",
+  "description": "Generates single rect with side len stimulus for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_single_rect_with_side_len_stimulus\nresult = generate_single_rect_with_side_len_stimulus(data)",
+  "image_path": "images/generate_single_rect_with_side_len_stimulus_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:01:14.894729",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+5",
+      "display_name": "Area and Perimeter",
+      "description": "Solve problems with rectangles with the same perimeter and different areas or with the same area and different perimeters."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:08.725727"
+}

@@ -1,0 +1,49 @@
+{
+  "function_name": "draw_ruler_measured_objects",
+  "description": "Draws ruler measured objects for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_ruler_measured_objects\nresult = draw_ruler_measured_objects(data)",
+  "image_path": "images/draw_ruler_measured_objects_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:05.285534",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.A.3+1",
+      "display_name": null,
+      "description": "Estimate lengths using units of inches."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.A.3+3",
+      "display_name": null,
+      "description": "Estimate lengths using units of centimeters."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.D.9+1",
+      "display_name": null,
+      "description": "Generate measurement data by measuring lengths of several objects to the nearest whole unit."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.D.9+2",
+      "display_name": null,
+      "description": "Generate measurement data by making repeated measurements of the same object"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.B.4+1",
+      "display_name": "Measuring with Halves and Fourths",
+      "description": "Generate measurement data by measuring lengths using rulers marked with halves and fourths of an inch."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+3",
+      "display_name": "Measuring Objects in Centimeters and Millimeters",
+      "description": "Use rulers to measure objects in centimeters and millimeters."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:01.478905"
+}

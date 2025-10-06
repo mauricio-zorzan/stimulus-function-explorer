@@ -1,0 +1,29 @@
+{
+  "function_name": "unit_square_decomposition",
+  "description": "Creates unit square decomposition for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for unit_square_decomposition\nresult = unit_square_decomposition(data)",
+  "image_path": "images/unit_square_decomposition_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:52.624561",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.B+2",
+      "display_name": "Area",
+      "description": "Multiply fractional side lengths to find areas of rectangles."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+4",
+      "display_name": "Multiply Fractions using Area Models",
+      "description": "Multiply fractions using area models."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:16.070145"
+}

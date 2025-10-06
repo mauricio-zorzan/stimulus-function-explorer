@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_regular_irregular_polygons",
+  "description": "Draws regular irregular polygons for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_regular_irregular_polygons\nresult = draw_regular_irregular_polygons(data)",
+  "image_path": "images/draw_regular_irregular_polygons_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:12.672011",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+4",
+      "display_name": null,
+      "description": "Classify polygons as regular or irregular."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:01.147312"
+}

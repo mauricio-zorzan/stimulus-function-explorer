@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_parallelogram_with_height",
+  "description": "Draws parallelogram with height for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_parallelogram_with_height\nresult = draw_parallelogram_with_height(data)",
+  "image_path": "images/draw_parallelogram_with_height_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:54.004289",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.1+1",
+      "display_name": "Area of Parallelograms",
+      "description": "Find the area of parallelograms."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:57.784683"
+}

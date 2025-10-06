@@ -1,0 +1,39 @@
+{
+  "function_name": "generate_stimulus_with_grid",
+  "description": "Generates stimulus with grid for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_stimulus_with_grid\nresult = generate_stimulus_with_grid(data)",
+  "image_path": "images/generate_stimulus_with_grid_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:34.630147",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.5.A+2",
+      "display_name": null,
+      "description": "Understand that \"a unit square\" can be used to measure area."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.6+1",
+      "display_name": "Measuring Area with Unit Squares",
+      "description": "Measure areas by counting unit squares."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.6+3",
+      "display_name": null,
+      "description": "Measure areas by counting unit squares in square inches \\((in^{2})\\)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.A+2",
+      "display_name": null,
+      "description": "Show that the area of a rectangle found by tiling corresponds to the area found by multiplying the side lengths."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:10.115713"
+}

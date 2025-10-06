@@ -1,0 +1,16 @@
+{
+  "function_name": "generate_piecewise_graph",
+  "description": "Generates piecewise graph for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_piecewise_graph\nresult = generate_piecewise_graph(data)",
+  "image_path": "images/generate_piecewise_graph_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:06.866862",
+  "test_data": "Generated from GitHub Actions workflow"
+}

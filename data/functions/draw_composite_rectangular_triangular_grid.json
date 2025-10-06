@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_composite_rectangular_triangular_grid",
+  "description": "Draws composite rectangular triangular grid for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_composite_rectangular_triangular_grid\nresult = draw_composite_rectangular_triangular_grid(data)",
+  "image_path": "images/draw_composite_rectangular_triangular_grid_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:10.852737",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.6+1",
+      "display_name": "Area of Compound Figures",
+      "description": "Find the area of compound figures."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:47.237283"
+}

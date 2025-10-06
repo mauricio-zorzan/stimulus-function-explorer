@@ -1,0 +1,24 @@
+{
+  "function_name": "generate_lines_of_symmetry",
+  "description": "Generates lines of symmetry for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_lines_of_symmetry\nresult = generate_lines_of_symmetry(data)",
+  "image_path": "images/generate_lines_of_symmetry_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:09.564920",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.3+1",
+      "display_name": "Counting Lines of Symmetry",
+      "description": "Identify now many lines of symmetries an image, shape or letter has."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:06.601341"
+}

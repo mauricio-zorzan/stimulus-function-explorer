@@ -1,0 +1,29 @@
+{
+  "function_name": "draw_polygon_fully_labeled",
+  "description": "Draws polygon fully labeled for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_polygon_fully_labeled\nresult = draw_polygon_fully_labeled(data)",
+  "image_path": "images/draw_polygon_fully_labeled_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:12.381436",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+4",
+      "display_name": null,
+      "description": "Classify polygons as regular or irregular."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+4",
+      "display_name": null,
+      "description": "Classify polygons as regular or irregular."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:09:42.660997"
+}

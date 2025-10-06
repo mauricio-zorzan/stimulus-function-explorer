@@ -1,0 +1,24 @@
+{
+  "function_name": "generate_multiple_grids",
+  "description": "Generates multiple grids for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_multiple_grids\nresult = generate_multiple_grids(data)",
+  "image_path": "images/generate_multiple_grids_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:45.403646",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+7",
+      "display_name": "Figures with the Same Area",
+      "description": "Given multiple shapes, determine which shapes have the same area."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:06.962507"
+}

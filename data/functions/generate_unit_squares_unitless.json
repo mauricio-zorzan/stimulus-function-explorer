@@ -1,0 +1,44 @@
+{
+  "function_name": "generate_unit_squares_unitless",
+  "description": "Generates unit squares unitless for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_unit_squares_unitless\nresult = generate_unit_squares_unitless(data)",
+  "image_path": "images/generate_unit_squares_unitless_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:32.063598",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.6+4",
+      "display_name": null,
+      "description": "Measure areas by counting unit squares in square feet \\((ft^{2})\\)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
+      "display_name": "Area Problems: Missing Side Length",
+      "description": "Given the area and a side, find the missing side length."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
+      "display_name": null,
+      "description": "Represent whole-number products as rectangular areas in mathematical reasoning."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
+      "display_name": null,
+      "description": "Exhibit rectangles with the same area and different perimeters."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
+      "display_name": "Area, Perimeter and Side Length Word Problems",
+      "description": "Solve word problems involving area, perimeter, and side length."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:11.779949"
+}

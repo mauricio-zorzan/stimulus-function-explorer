@@ -1,0 +1,16 @@
+{
+  "function_name": "create_probability_diagram",
+  "description": "Creates probability diagram for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_probability_diagram\nresult = create_probability_diagram(data)",
+  "image_path": "images/create_probability_diagram_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:09.342244",
+  "test_data": "Generated from GitHub Actions workflow"
+}

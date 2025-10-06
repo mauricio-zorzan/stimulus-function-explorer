@@ -1,0 +1,24 @@
+{
+  "function_name": "create_multi_picture_graph",
+  "description": "Creates multi picture graph for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_multi_picture_graph\nresult = create_multi_picture_graph(data)",
+  "image_path": "images/create_multi_picture_graph_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:07.386978",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.B.3+1",
+      "display_name": "Picture Graphs",
+      "description": "Draw a scaled picture graph to represent a data set with several categories."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:41.510185"
+}

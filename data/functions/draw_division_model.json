@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_division_model",
+  "description": "Draws division model for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_division_model\nresult = draw_division_model(data)",
+  "image_path": "images/draw_division_model_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:06.607181",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.A.1+6",
+      "display_name": null,
+      "description": "Divide proper fractions and whole numbers using models."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:51.168597"
+}

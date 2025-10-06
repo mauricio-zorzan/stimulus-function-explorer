@@ -1,0 +1,29 @@
+{
+  "function_name": "draw_single_quadrilateral_stimulus",
+  "description": "Draws single quadrilateral stimulus for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_single_quadrilateral_stimulus\nresult = draw_single_quadrilateral_stimulus(data)",
+  "image_path": "images/draw_single_quadrilateral_stimulus_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:42.920948",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+1",
+      "display_name": "Classifying Quadrilaterals",
+      "description": "Identify quadrilaterals \u2014including rhombuses, rectangles, squares, and parallelograms\u2014by analyzing visible attributes such as number of sides, right angles, and equal-length sides."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+6",
+      "display_name": null,
+      "description": "Identify rhombuses."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:02.841184"
+}

@@ -1,0 +1,44 @@
+{
+  "function_name": "plot_points_four_quadrants",
+  "description": "Plots points four quadrants for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for plot_points_four_quadrants\nresult = plot_points_four_quadrants(data)",
+  "image_path": "images/plot_points_four_quadrants_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:53.523641",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.B+1",
+      "display_name": "Axis Reflections",
+      "description": "Recognize that when two ordered pairs differ only by signs, the locations of the points are related by being reflections across one or both axes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.C+2",
+      "display_name": "Graphing Rational Points",
+      "description": "Find and position pairs of integers and other rational numbers on a coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.8+1",
+      "display_name": "Distance on the Coordinate Plane",
+      "description": "Find the distance between two points on the coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.8+2",
+      "display_name": "Directions on the Coordinate Plane",
+      "description": "Follow directions on a coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.B.8+1",
+      "display_name": "Distance Formula",
+      "description": "Apply the Pythagorean Theorem to find the distance between two points in a coordinate system where the unknown distance between the points is the hypotenuse."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:14.465557"
+}

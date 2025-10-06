@@ -1,0 +1,39 @@
+{
+  "function_name": "create_inequality_number_line",
+  "description": "Creates inequality number line for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_inequality_number_line\nresult = create_inequality_number_line(data)",
+  "image_path": "images/create_inequality_number_line_example.webp",
+  "category": "number_lines",
+  "tags": [
+    "number_lines"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:11.534545",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.EE.B.8+1",
+      "display_name": "Graphing Inequalities",
+      "description": "Graph inequalities."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.EE.B.4.B+1",
+      "display_name": "Solve One-Step Inequalities",
+      "description": "Solve one-step inequalities."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.EE.B.4.B+2",
+      "display_name": "One- Step Inequalities Word Problems",
+      "description": "Solve word problems that involve one-step inequalities."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.EE.B.4.B+3",
+      "display_name": "Two-Step Inequalities",
+      "description": "Solve two-step inequalities."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:40.798454"
+}

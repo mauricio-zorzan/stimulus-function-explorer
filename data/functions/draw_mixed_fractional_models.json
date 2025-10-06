@@ -1,0 +1,34 @@
+{
+  "function_name": "draw_mixed_fractional_models",
+  "description": "Draws mixed fractional models for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_mixed_fractional_models\nresult = draw_mixed_fractional_models(data)",
+  "image_path": "images/draw_mixed_fractional_models_example.webp",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-05T23:20:49.712258",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
+      "display_name": "Represent Fractions Using Fraction Models",
+      "description": "Represent a fraction a/b with a fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.A+1",
+      "display_name": "Multiply Unit Fractions by Whole Numbers Using Models",
+      "description": "Multiply unit fractions by whole numbers with models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+1",
+      "display_name": "Model Decimals",
+      "description": "Model tenths with decimals and mixed numbers."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:56.298855"
+}

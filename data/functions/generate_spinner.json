@@ -1,0 +1,34 @@
+{
+  "function_name": "generate_spinner",
+  "description": "Generates spinner for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_spinner\nresult = generate_spinner(data)",
+  "image_path": "images/generate_spinner_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:01.892654",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+1",
+      "display_name": "Outcomes and Likelihood",
+      "description": "Use probability and relative frequency to describe the likelihood of an event."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+3",
+      "display_name": "Making Predictions with Theoretical Probability",
+      "description": "Make predictions using theoretical proability word problem."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+2",
+      "display_name": "Sample Space Lists",
+      "description": "Create lists that represent the sample space of compound events."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:09.055285"
+}

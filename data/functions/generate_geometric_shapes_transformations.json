@@ -1,0 +1,54 @@
+{
+  "function_name": "generate_geometric_shapes_transformations",
+  "description": "Generates geometric shapes transformations for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_geometric_shapes_transformations\nresult = generate_geometric_shapes_transformations(data)",
+  "image_path": "images/generate_geometric_shapes_transformations_example.webp",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:49.070388",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.2+1",
+      "display_name": "Transformations",
+      "description": "Identify geometric transformations on a coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.2+2",
+      "display_name": "Sequences of Transformations",
+      "description": "Given two congruent figures, describe a sequence of rotations, reflections, and translations that exhibits the congruence between them."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.3+2",
+      "display_name": "Reflections",
+      "description": "Identify the reflection of a geomtetric figure."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.3+3",
+      "display_name": "Rotations",
+      "description": "Identify the rotation of a geomtetric figure."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.3+4",
+      "display_name": "Translations",
+      "description": "Identify the translation of a geomtetric figure."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.4+1",
+      "display_name": null,
+      "description": "Understand that a two-dimensional figure is similar to another if the second can be obtained from the first by a sequence of rotations, reflections, translations, and dilations."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.4+2",
+      "display_name": null,
+      "description": "Given two similar two-dimensional figures, describe a sequence of rotations, reflections, translations, and dilations that exhibits the similarity between them."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:05.570972"
+}

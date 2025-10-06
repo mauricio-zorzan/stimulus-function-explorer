@@ -1,0 +1,99 @@
+{
+  "function_name": "generate_rect_with_side_len",
+  "description": "Generates rect with side len for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for generate_rect_with_side_len\nresult = generate_rect_with_side_len(data)",
+  "image_path": "images/generate_rect_with_side_len_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:05.040953",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+1",
+      "display_name": "Areas of Rectangles",
+      "description": "Multiply side lengths to find areas of rectangles with whole-number side lengths for solving mathematical problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+2",
+      "display_name": "Areas of Rectangles Word Problems",
+      "description": "Solve real-world word problems involving areas of rectangles with whole-number side lengths"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+1",
+      "display_name": "Perimeter",
+      "description": "Solve mathematical problems involving perimeters of polygons."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+2",
+      "display_name": "Perimeter Word Problems",
+      "description": "Solve word problems involving perimeters of polygons."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+3",
+      "display_name": "Perimeter Problems: Finding the Missing Side",
+      "description": "Solve perimeter problems in which the perimeter is given but a side length is missing."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+5",
+      "display_name": "Area and Perimeter",
+      "description": "Solve problems with rectangles with the same perimeter and different areas or with the same area and different perimeters."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+2",
+      "display_name": "Measuring Objects in Inches",
+      "description": "Use rulers to measure objects in inches."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+1",
+      "display_name": "Finding the Area of Rectangles",
+      "description": "Solve problems involving area."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+2",
+      "display_name": "Finding the Perimeter of Rectangles",
+      "description": "Find the perimeter of rectangles using formulas."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+3",
+      "display_name": null,
+      "description": "Find the area and perimeter of rectangles using formulas. "
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+4",
+      "display_name": null,
+      "description": "Find the area or perimeter of a rectangle when given another rectangle that has the same area or perimeter."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+1",
+      "display_name": "Multiplying Numbers by Breaking Them into Parts",
+      "description": "Use the distributive property to break a one-digit \u00d7 two-digit product into two simpler products [e.g., 7 \u00d7 26 = (7 \u00d7 20) + (7 \u00d7 6)] and add to find the result."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+2",
+      "display_name": "Setting Up Multiplication with Area Models",
+      "description": "Represent a multi-digit multiplication as the area of a rectangle partitioned into smaller rectangles; label each partial area and add to obtain the full area (partial-products model)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.6+1",
+      "display_name": "Division with Area Models",
+      "description": "Divide 2-digit numbers by 1-digit numbers using area models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.7+1",
+      "display_name": "Comparing Decimals",
+      "description": "Compare two decimals to the hundredths place."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.B+2",
+      "display_name": "Area",
+      "description": "Multiply fractional side lengths to find areas of rectangles."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:07.488686"
+}

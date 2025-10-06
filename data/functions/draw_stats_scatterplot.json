@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_stats_scatterplot",
+  "description": "Draws stats scatterplot for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_stats_scatterplot\nresult = draw_stats_scatterplot(data)",
+  "image_path": "images/draw_stats_scatterplot_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:05.329713",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.3+1",
+      "display_name": "Solving and Interpreting Linear Models",
+      "description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data. Interpret the significance of the slope and intercept in the context of the problem."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:03.171594"
+}

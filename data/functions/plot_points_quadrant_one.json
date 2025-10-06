@@ -1,0 +1,59 @@
+{
+  "function_name": "plot_points_quadrant_one",
+  "description": "Plots points quadrant one for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for plot_points_quadrant_one\nresult = plot_points_quadrant_one(data)",
+  "image_path": "images/plot_points_quadrant_one_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:08.625601",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.A.1+1",
+      "display_name": "The Coordinate Plane",
+      "description": "Identify and describe the components of the coordinate plane, including the x-axis, y-axis, origin, quadrants, and the conventions for plotting and naming points using ordered pairs."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.A.2+1",
+      "display_name": "Coordinates of Points",
+      "description": "Identify the coordinates for points on a coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.A.2+2",
+      "display_name": "Graphing Real World Problems",
+      "description": "Given a point, identify which coordinate is a set number of units up and right from it."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.A.2+4",
+      "display_name": "Analyze Graphed Relationships",
+      "description": "Analyze real world graphs."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+1",
+      "display_name": "Generating Patterns",
+      "description": "Generate two numerical patterns based on the given rules and starting number."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+3",
+      "display_name": "Relationships in Patterns",
+      "description": "Identify the relationship between corresponding terms of the two patterns."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
+      "display_name": "Finding Quantitative Measures from Charts and Graphs",
+      "description": "Interpret charts and graphs to find mean, median, mode, and range."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.D+1",
+      "display_name": "Interpreting Points",
+      "description": "Interpreting coordinate points on graphs."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:15.411618"
+}

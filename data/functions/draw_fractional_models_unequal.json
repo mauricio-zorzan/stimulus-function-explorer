@@ -1,0 +1,24 @@
+{
+  "function_name": "draw_fractional_models_unequal",
+  "description": "Draws fractional models unequal for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_fractional_models_unequal\nresult = draw_fractional_models_unequal(data)",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-05T22:48:48.935374",
+  "test_data": "Generated using virtual environment and Poetry",
+  "image_path": "images/draw_fractional_models_unequal_example.webp",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+1",
+      "display_name": "Fractions as Equal Parts",
+      "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:52.181657"
+}

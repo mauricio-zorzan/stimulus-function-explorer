@@ -1,0 +1,69 @@
+{
+  "function_name": "plot_points",
+  "description": "Plots points for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for plot_points\nresult = plot_points(data)",
+  "image_path": "images/plot_points_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:02:38.780780",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.1+1",
+      "display_name": "Acute, Obtuse and Right Angles",
+      "description": "Identify right angles, obtuse angles, acute angles"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+1",
+      "display_name": "Independent and Dependent Variables",
+      "description": "Identify independent and dependent variables in situations."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.3+2",
+      "display_name": "Area and Perimeter on the Coordinate Plane",
+      "description": "Solve area and perimeter problems on the coordinate plane."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": "Statistical Question Recognition",
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": null,
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": null,
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": null,
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": null,
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
+      "display_name": null,
+      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+1",
+      "display_name": "Identifying Functions",
+      "description": "Identify whether or not a mathematical relation is a function."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:12:14.121896"
+}

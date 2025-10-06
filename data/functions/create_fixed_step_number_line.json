@@ -1,0 +1,29 @@
+{
+  "function_name": "create_fixed_step_number_line",
+  "description": "Creates fixed step number line for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_fixed_step_number_line\nresult = create_fixed_step_number_line(data)",
+  "image_path": "images/create_fixed_step_number_line_example.webp",
+  "category": "number_lines",
+  "tags": [
+    "number_lines"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-05T23:21:22.181868",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NBT.A.1+1",
+      "display_name": "Rounding using the Number Line",
+      "description": "Round to the nearest 10 or 100 using the number line."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+8",
+      "display_name": null,
+      "description": "Graph a fraction or mixed number on a number line that is labelled with decimals to the tenths place."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:39.841045"
+}

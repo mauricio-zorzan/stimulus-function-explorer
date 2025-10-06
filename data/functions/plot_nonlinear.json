@@ -1,0 +1,16 @@
+{
+  "function_name": "plot_nonlinear",
+  "description": "Plots nonlinear for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for plot_nonlinear\nresult = plot_nonlinear(data)",
+  "image_path": "images/plot_nonlinear_example.webp",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:03:30.956199",
+  "test_data": "Generated from GitHub Actions workflow"
+}

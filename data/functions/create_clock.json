@@ -1,0 +1,54 @@
+{
+  "function_name": "create_clock",
+  "description": "Creates clock for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for create_clock\nresult = create_clock(data)",
+  "image_path": "images/create_clock_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:20.584669",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.MD.B.3+1",
+      "display_name": null,
+      "description": "Tell and write time in hours using analog clocks."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.MD.B.3+2",
+      "display_name": null,
+      "description": "Tell and write time in half-hours using analog clocks."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.MD.B.3+4",
+      "display_name": null,
+      "description": "Tell and write time in half-hours using digital clocks."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.C.7+1",
+      "display_name": null,
+      "description": "Tell and write time from analog clocks to the nearest five minutes, using a.m. and p.m."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.C.7+2",
+      "display_name": null,
+      "description": "Tell and write time from digital clocks to the nearest five minutes, using a.m. and p.m."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+1",
+      "display_name": "Understanding Clock Hands",
+      "description": "Distinguish between hour and minute hands on analog clocks, demonstrate accurate minute reading using multiplication by fives and individual tick mark counting, and analyze hour hand positioning relative to elapsed time within each hour."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+1",
+      "display_name": "Reading 24-Hour Time",
+      "description": "Convert between 12-hour (a.m./p.m.) and 24-hour (military) time and solve elapsed-time word problems that use either format."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:38.055814"
+}

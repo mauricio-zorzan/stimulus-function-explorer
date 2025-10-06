@@ -1,0 +1,159 @@
+{
+  "function_name": "draw_fractional_models",
+  "description": "Draws fractional models for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_fractional_models\nresult = draw_fractional_models(data)",
+  "image_path": "images/draw_fractional_models_example.webp",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:05:00.615791",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.G.A.3+1",
+      "display_name": null,
+      "description": "Partition circles into two, three, or four equal shares."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.G.A.3+5",
+      "display_name": null,
+      "description": "Recognize that equal shares of identical wholes need not have the same shape."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+1",
+      "display_name": "Fractions as Equal Parts",
+      "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+2",
+      "display_name": "Unit Fraction Models",
+      "description": "Identify visual models that represent unit fractions (1/n)."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+2",
+      "display_name": null,
+      "description": "Understand a fraction a/b as the quantity formed by a parts of size 1/b."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
+      "display_name": "Represent Fractions Using Fraction Models",
+      "description": "Represent a fraction a/b with a fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+3",
+      "display_name": "Modeling Real World Fractions",
+      "description": "Determine the fraction of a whole described in a word problem and select the visual model that correctly represents that fraction (denominators \u2264 12).\n"
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+3",
+      "display_name": null,
+      "description": "Understand that the endpoint of an interval representing a fraction a/b on a number line locates the number a/b on the number line."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.B+1",
+      "display_name": "Recognizing Equivalent Fractions",
+      "description": "Recognize and generate simple equivalent fractions, explaining why the fractions are equivalent."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.D+1",
+      "display_name": "Compare Unit Fractions",
+      "description": "Compare two unit fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+2",
+      "display_name": "Measuring Objects in Inches",
+      "description": "Use rulers to measure objects in inches."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+1",
+      "display_name": "Equivalent Fractions",
+      "description": "Create equivalent fractions by multiplying the numerator and denominator by the same number."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+2",
+      "display_name": "Simplifying Fraction to Lowest Terms",
+      "description": "Simplify fraction to lowest terms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+4",
+      "display_name": null,
+      "description": "Find equivalent fractions using area models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.A+1",
+      "display_name": "Decomposing Fractions Less than One",
+      "description": "Decompose proper fractions into a sum of fractions in multiple ways."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.A+2",
+      "display_name": null,
+      "description": "Understand subtraction of fractions as separating parts referring to the same whole."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.B+2",
+      "display_name": null,
+      "description": "Justify decompositions of a fraction into a sum of fractions with the same denominator by using a visual fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.D+2",
+      "display_name": null,
+      "description": "Add and subtract fractions with like denominators in recipes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3+1",
+      "display_name": null,
+      "description": "Decompose fractions into unit fractions using models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.A+2",
+      "display_name": null,
+      "description": "Complete multiplication sentences that multiply unit fractions by whole numbers without models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.B+1",
+      "display_name": null,
+      "description": "Solve mathematical problems involving multiplying whole numbers and fractions with models and repeated addition."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.5+1",
+      "display_name": "Denominators of 10 and 100",
+      "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+1",
+      "display_name": "Model Decimals",
+      "description": "Model tenths with decimals and mixed numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+2",
+      "display_name": "Decimal Place Value",
+      "description": "Identify place value of digits in decimal numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.A.2+3",
+      "display_name": "Fraction Subtraction Word Problems",
+      "description": "Solve word problems involving subtraction of fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.A.2+7",
+      "display_name": null,
+      "description": "Solve word problems involving addition and subtraction of fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.3+1",
+      "display_name": "Fractions as Division",
+      "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b) and solve word problems involving division of whole numbers resulting in fractional answers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.B.3+2",
+      "display_name": "Writing Remainders as Fractions",
+      "description": "Fluently divide multi-digit numbers using the standard algorithm, resulting in fractions."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:51.516253"
+}

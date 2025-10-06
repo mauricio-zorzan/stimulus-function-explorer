@@ -1,0 +1,29 @@
+{
+  "function_name": "draw_parallel_lines_cut_by_transversal",
+  "description": "Draws parallel lines cut by transversal for educational visualization.",
+  "parameters": {
+    "data": "Input data for the function"
+  },
+  "example_usage": "# Example usage for draw_parallel_lines_cut_by_transversal\nresult = draw_parallel_lines_cut_by_transversal(data)",
+  "image_path": "images/draw_parallel_lines_cut_by_transversal_example.webp",
+  "category": "general",
+  "tags": [
+    "general"
+  ],
+  "status": "working",
+  "last_updated": "2025-10-06T00:04:00.642085",
+  "test_data": "Generated from GitHub Actions workflow",
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+4",
+      "display_name": "Transversal Angle Relationships",
+      "description": "Identify parts of two parallel lines cut by a transversal including vertical angle, alternate interior angles, alternate exterior angles."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+5",
+      "display_name": "Problem Solving with Transversals",
+      "description": "Solve problems involving relationships between the angles created by parallel lines cut by a transversal."
+    }
+  ],
+  "standards_last_updated": "2025-10-06T10:11:57.388090"
+}
