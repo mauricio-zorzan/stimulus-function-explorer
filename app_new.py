@@ -159,7 +159,7 @@ def display_function_image(image_path: str) -> bool:
     try:
         full_path = Path("data") / image_path
         if full_path.exists():
-            st.image(str(full_path), use_container_width=True)
+            st.image(str(full_path), width="stretch")
             return True
         else:
             st.warning(f"Image not found: {image_path}")
@@ -219,7 +219,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
             if image_path:
                 full_path = Path("data") / image_path
                 if full_path.exists():
-                    st.image(str(full_path), use_container_width=True)
+                    st.image(str(full_path), width="stretch")
                 else:
                     st.warning(f"Image not found: {image_path}")
 
@@ -237,6 +237,8 @@ def display_image_carousel(images: List[Dict], function_name: str):
                 st.session_state[carousel_key] = (current_index + 1) % num_images
                 st.rerun()
 
+        st.markdown("</div>", unsafe_allow_html=True)
+
         # Image counter and navigation dots below
         st.markdown(
             f"<div style='text-align: center; margin-top: 10px; color: #666; font-size: 0.9em;'>"
@@ -249,7 +251,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
         # Show dots for reasonable number of images, or dropdown for many images
         if num_images > 1:
             st.write("")
-
+            
             if num_images <= 40:  # Show dots for up to 40 images
                 # Create clickable dot buttons - all use primary type for consistent circle styling
                 dot_cols = st.columns(num_images)
@@ -294,7 +296,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
         if image_path:
             full_path = Path("data") / image_path
             if full_path.exists():
-                st.image(str(full_path), use_container_width=True)
+                st.image(str(full_path), width="stretch")
             else:
                 st.warning(f"Image not found: {image_path}")
 
@@ -352,7 +354,7 @@ def display_search_results(functions: List[Dict], search_type: str):
                 if image_path:
                     full_path = Path("data") / image_path
                     if full_path.exists():
-                        st.image(str(full_path), use_container_width=True)
+                        st.image(str(full_path), width="stretch")
                     else:
                         st.caption("⚠️ Image not found")
                 else:
