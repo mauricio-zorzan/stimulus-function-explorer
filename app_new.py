@@ -17,6 +17,20 @@ load_dotenv()
 # Default is ~89MP, setting to 200MP to handle stimulus images
 Image.MAX_IMAGE_PIXELS = 200_000_000
 
+# Helper function to display images with version compatibility
+def display_image_compat(image_path: str, **kwargs):
+    """Display image with automatic version compatibility handling."""
+    try:
+        # Try new width parameter first (Streamlit >= 1.40.0)
+        st.image(image_path, width="stretch", **kwargs)
+    except TypeError:
+        try:
+            # Fallback to old parameter (Streamlit < 1.40.0)
+            st.image(image_path, use_container_width=True, **kwargs)
+        except TypeError:
+            # Last resort - no width parameter
+            st.image(image_path, **kwargs)
+
 # Import AI search functionality
 try:
     from src.ai_search import AISearchEngine
@@ -164,7 +178,7 @@ def display_function_image(image_path: str) -> bool:
     try:
         full_path = Path("data") / image_path
         if full_path.exists():
-            st.image(str(full_path), use_container_width=True)
+            display_image_compat(str(full_path))
             return True
         else:
             st.warning(f"Image not found: {image_path}")
@@ -224,7 +238,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
             if image_path:
                 full_path = Path("data") / image_path
                 if full_path.exists():
-                    st.image(str(full_path), use_container_width=True)
+                    display_image_compat(str(full_path))
                 else:
                     st.warning(f"Image not found: {image_path}")
 
@@ -256,7 +270,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
         # Show dots for reasonable number of images, or dropdown for many images
         if num_images > 1:
             st.write("")
-            
+
             if num_images <= 40:  # Show dots for up to 40 images
                 # Create clickable dot buttons - all use primary type for consistent circle styling
                 dot_cols = st.columns(num_images)
@@ -301,7 +315,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
         if image_path:
             full_path = Path("data") / image_path
             if full_path.exists():
-                st.image(str(full_path), use_container_width=True)
+                display_image_compat(str(full_path))
             else:
                 st.warning(f"Image not found: {image_path}")
 
@@ -359,7 +373,7 @@ def display_search_results(functions: List[Dict], search_type: str):
                 if image_path:
                     full_path = Path("data") / image_path
                     if full_path.exists():
-                        st.image(str(full_path), use_container_width=True)
+                        display_image_compat(str(full_path))
                     else:
                         st.caption("⚠️ Image not found")
                 else:

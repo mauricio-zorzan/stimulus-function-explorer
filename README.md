@@ -4,7 +4,7 @@ A comprehensive web application for exploring and discovering educational stimul
 
 ## 🚀 Live Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stimulus-function-explorer.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stimfunc.streamlit.app/)
 
 ## 📋 Features
 
