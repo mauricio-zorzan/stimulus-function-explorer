@@ -30,13 +30,11 @@ def display_image_compat(image_path: str, use_column_width: bool = True, **kwarg
     if use_column_width:
         try:
             # Try new width parameter first (Streamlit >= 1.40.0)
-            st.image(image_path, width="stretch", **kwargs)
+            st.image(image_path, width="content", **kwargs)
         except TypeError:
             try:
-                # Fallback to old parameter (Streamlit < 1.40.0)
-                st.image(image_path, use_container_width=True, **kwargs)
+                st.image(image_path, width="stretch", **kwargs)
             except TypeError:
-                # Last resort - no width parameter
                 st.image(image_path, **kwargs)
     else:
         # For gallery/thumbnails - use default sizing
