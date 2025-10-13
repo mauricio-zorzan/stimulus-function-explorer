@@ -17,19 +17,25 @@ load_dotenv()
 # Default is ~89MP, setting to 200MP to handle stimulus images
 Image.MAX_IMAGE_PIXELS = 200_000_000
 
+
 # Helper function to display images with version compatibility
-def display_image_compat(image_path: str, **kwargs):
+def display_image_compat(image_path: str, use_column_width: bool = True, **kwargs):
     """Display image with automatic version compatibility handling."""
-    try:
-        # Try new width parameter first (Streamlit >= 1.40.0)
-        st.image(image_path, width="stretch", **kwargs)
-    except TypeError:
+    if use_column_width:
         try:
-            # Fallback to old parameter (Streamlit < 1.40.0)
-            st.image(image_path, use_container_width=True, **kwargs)
+            # Try new width parameter first (Streamlit >= 1.40.0)
+            st.image(image_path, width="stretch", **kwargs)
         except TypeError:
-            # Last resort - no width parameter
-            st.image(image_path, **kwargs)
+            try:
+                # Fallback to old parameter (Streamlit < 1.40.0)
+                st.image(image_path, use_container_width=True, **kwargs)
+            except TypeError:
+                # Last resort - no width parameter
+                st.image(image_path, **kwargs)
+    else:
+        # For gallery/thumbnails - use default sizing
+        st.image(image_path, **kwargs)
+
 
 # Import AI search functionality
 try:
@@ -256,8 +262,6 @@ def display_image_carousel(images: List[Dict], function_name: str):
                 st.session_state[carousel_key] = (current_index + 1) % num_images
                 st.rerun()
 
-        st.markdown("</div>", unsafe_allow_html=True)
-
         # Image counter and navigation dots below
         st.markdown(
             f"<div style='text-align: center; margin-top: 10px; color: #666; font-size: 0.9em;'>"
@@ -373,7 +377,8 @@ def display_search_results(functions: List[Dict], search_type: str):
                 if image_path:
                     full_path = Path("data") / image_path
                     if full_path.exists():
-                        display_image_compat(str(full_path))
+                        # Use column width for gallery thumbnails
+                        display_image_compat(str(full_path), use_column_width=True)
                     else:
                         st.caption("⚠️ Image not found")
                 else:
