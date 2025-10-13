@@ -76,7 +76,7 @@ generated_images/
 temp_images/
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 .env
 
 run_with_github_token.sh

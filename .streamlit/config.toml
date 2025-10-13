@@ -1,0 +1,15 @@
+[server]
+# Disable file watcher for directories with many files
+fileWatcherType = "none"
+
+[runner]
+# Faster re-runs without watching all files
+fastReruns = true
+
+[client]
+# Show error details in production
+showErrorDetails = true
+
+[browser]
+# Disable server address in console
+gatherUsageStats = false
