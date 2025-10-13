@@ -18,6 +18,12 @@ load_dotenv()
 Image.MAX_IMAGE_PIXELS = 200_000_000
 
 
+# Configure Streamlit page FIRST (must be before any other Streamlit commands)
+st.set_page_config(
+    page_title="Stimulus Function Explorer", page_icon="🎯", layout="wide"
+)
+
+
 # Helper function to display images with version compatibility
 def display_image_compat(image_path: str, use_column_width: bool = True, **kwargs):
     """Display image with automatic version compatibility handling."""
@@ -37,23 +43,15 @@ def display_image_compat(image_path: str, use_column_width: bool = True, **kwarg
         st.image(image_path, **kwargs)
 
 
-# Import AI search functionality
+# Import AI search functionality (after page config)
 try:
     from src.ai_search import AISearchEngine
 
     AI_SEARCH_AVAILABLE = True
 except ImportError:
     AI_SEARCH_AVAILABLE = False
-    st.warning(
-        "AI search not available. Install OpenAI package and set OPENAI_API_KEY to enable AI search."
-    )
 
 # Note: Standards are now loaded from function data files, not live database queries
-
-# Configure Streamlit page
-st.set_page_config(
-    page_title="Stimulus Function Explorer", page_icon="🎯", layout="wide"
-)
 
 
 class FunctionDataManager:
@@ -65,13 +63,14 @@ class FunctionDataManager:
         self.images_dir = self.data_dir / "images"
         self.index_file = self.data_dir / "index.json"
 
-    def load_index(self) -> Dict:
-        """Load the master index file."""
-        if not self.index_file.exists():
+    @st.cache_data(ttl=3600)  # Cache for 1 hour
+    def load_index(_self) -> Dict:
+        """Load the master index file with caching."""
+        if not _self.index_file.exists():
             return {"metadata": {"total_functions": 0}, "functions": []}
 
         try:
-            with open(self.index_file, "r") as f:
+            with open(_self.index_file, "r") as f:
                 return json.load(f)
         except json.JSONDecodeError as e:
             st.error(f"Error loading index.json: {e}")
@@ -880,14 +879,17 @@ def main():
     st.subheader("🎨 Function Gallery")
     st.write("Browse all available functions:")
 
-    # Get all functions for the gallery
-    index_data = data_manager.load_index()
+    # Reuse already-loaded index data
     all_functions = index_data.get("functions", [])
 
     if all_functions:
         display_search_results(all_functions, "gallery")
     else:
         st.info("No functions available in the gallery.")
+    
+    # Show AI search availability message at bottom if not available
+    if not AI_SEARCH_AVAILABLE:
+        st.info("💡 AI-powered search is not available. To enable it, install OpenAI package and set OPENAI_API_KEY environment variable.")
 
 
 if __name__ == "__main__":
