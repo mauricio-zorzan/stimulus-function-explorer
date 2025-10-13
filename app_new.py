@@ -8,9 +8,14 @@ from typing import Dict, List, Optional
 
 import streamlit as st
 from dotenv import load_dotenv
+from PIL import Image
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Increase PIL decompression bomb limit for large educational images
+# Default is ~89MP, setting to 200MP to handle stimulus images
+Image.MAX_IMAGE_PIXELS = 200_000_000
 
 # Import AI search functionality
 try:
