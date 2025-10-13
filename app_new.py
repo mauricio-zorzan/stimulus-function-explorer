@@ -376,7 +376,7 @@ def display_search_results(functions: List[Dict], search_type: str):
                 if image_path:
                     full_path = Path("data") / image_path
                     if full_path.exists():
-                        # Use column width for gallery thumbnails
+                        # Use the compatibility function for consistent rendering
                         display_image_compat(str(full_path), use_column_width=True)
                     else:
                         st.caption("⚠️ Image not found")
@@ -886,10 +886,12 @@ def main():
         display_search_results(all_functions, "gallery")
     else:
         st.info("No functions available in the gallery.")
-    
+
     # Show AI search availability message at bottom if not available
     if not AI_SEARCH_AVAILABLE:
-        st.info("💡 AI-powered search is not available. To enable it, install OpenAI package and set OPENAI_API_KEY environment variable.")
+        st.info(
+            "💡 AI-powered search is not available. To enable it, install OpenAI package and set OPENAI_API_KEY environment variable."
+        )
 
 
 if __name__ == "__main__":
