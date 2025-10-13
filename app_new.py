@@ -3,6 +3,7 @@ New Streamlit app using file-based function data for instant loading.
 """
 
 import json
+import io
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -412,7 +413,7 @@ def display_educational_standards(function_data: Dict):
                 st.caption(
                     f"Standards last updated: {last_updated.strftime('%Y-%m-%d %H:%M:%S')}"
                 )
-            except:
+            except (ValueError, AttributeError):
                 st.caption(f"Standards last updated: {standards_last_updated}")
 
         # Create collapsible section for standards
@@ -522,9 +523,6 @@ def display_function_details(function_data: Dict):
 
         # Create collapsible section for stimulus type specification
         with st.expander("📋 Stimulus Type Specification", expanded=False):
-            # Generate the complete specification text
-            spec_text = generate_plain_text_specification(stimulus_spec)
-
             # Display the formatted specification
             title = stimulus_spec.get("title", "")
             if title:
@@ -792,24 +790,68 @@ def main():
     else:  # AI-powered search
         st.subheader("🤖 AI-Powered Search")
 
-        col3, col4 = st.columns([3, 1])
-        with col3:
-            ai_search_query = st.text_input(
-                "Describe what you're looking for:",
-                placeholder="e.g., functions that draw rectangles, mathematical graphs, geometric shapes...",
-                key="ai_search_input",
+        # Add tabs for text search and image search
+        search_mode = st.radio(
+            "Search mode:",
+            ["📝 Text Description", "🖼️ Image Upload"],
+            horizontal=True,
+            key="ai_search_mode",
+        )
+
+        if search_mode == "📝 Text Description":
+            col3, col4 = st.columns([3, 1])
+            with col3:
+                ai_search_query = st.text_input(
+                    "Describe what you're looking for:",
+                    placeholder="e.g., functions that draw rectangles, mathematical graphs, geometric shapes...",
+                    key="ai_search_input",
+                )
+
+            with col4:
+                ai_search_clicked = st.button("🤖 AI Search", key="ai_search_btn")
+        else:  # Image Upload mode
+            st.write("**Upload or drop an image to find similar stimulus functions:**")
+
+            uploaded_file = st.file_uploader(
+                "Choose an image file",
+                type=["png", "jpg", "jpeg", "webp"],
+                key="image_upload",
+                help="Upload an image of a stimulus (graph, diagram, etc.) to find similar functions",
             )
 
-        with col4:
-            ai_search_clicked = st.button("🤖 AI Search", key="ai_search_btn")
+            col5, col6 = st.columns([3, 1])
+            with col5:
+                if uploaded_file is not None:
+                    # Display the uploaded image
+                    st.image(
+                        uploaded_file, caption="Uploaded Image", use_column_width=True
+                    )
+
+            with col6:
+                st.write("")  # Spacer
+                st.write("")
+                image_search_clicked = st.button(
+                    "🔍 Search by Image",
+                    key="image_search_btn",
+                    disabled=(uploaded_file is None),
+                    use_container_width=True,
+                )
+
+            # Set defaults for text search
+            ai_search_query = ""
+            ai_search_clicked = False
 
         # Initialize session state for AI search
         if "ai_search_results" not in st.session_state:
             st.session_state.ai_search_results = None
         if "ai_search_last_query" not in st.session_state:
             st.session_state.ai_search_last_query = ""
+        if "image_search_results" not in st.session_state:
+            st.session_state.image_search_results = None
+        if "last_uploaded_file_name" not in st.session_state:
+            st.session_state.last_uploaded_file_name = ""
 
-        # Run AI search only when button is clicked or query changes
+        # Handle text-based AI search
         should_search = ai_search_clicked or (
             ai_search_query and ai_search_query != st.session_state.ai_search_last_query
         )
@@ -817,19 +859,23 @@ def main():
         if should_search and ai_search_query:
             if AI_SEARCH_AVAILABLE:
                 try:
-                    ai_engine = AISearchEngine()
-                    ai_function_names = ai_engine.search_functions(ai_search_query)
+                    with st.spinner("🤖 AI is analyzing your query..."):
+                        ai_engine = AISearchEngine()
+                        ai_function_names = ai_engine.search_functions(ai_search_query)
 
-                    # Convert function names to full function data
-                    functions = []
-                    for func_name in ai_function_names:
-                        func_data = data_manager.load_function_data(func_name)
-                        if func_data:
-                            functions.append(func_data)
+                        # Convert function names to full function data
+                        functions = []
+                        for func_name in ai_function_names:
+                            func_data = data_manager.load_function_data(func_name)
+                            if func_data:
+                                functions.append(func_data)
 
-                    # Store results in session state
-                    st.session_state.ai_search_results = functions
-                    st.session_state.ai_search_last_query = ai_search_query
+                        # Store results in session state
+                        st.session_state.ai_search_results = functions
+                        st.session_state.ai_search_last_query = ai_search_query
+                        st.session_state.image_search_results = (
+                            None  # Clear image results
+                        )
 
                 except Exception as e:
                     st.error(f"AI search error: {e}")
@@ -841,7 +887,82 @@ def main():
                 )
                 st.session_state.ai_search_results = None
 
-        # Display cached AI search results
+        # Handle image-based search
+        if search_mode == "🖼️ Image Upload" and uploaded_file is not None:
+            current_file_name = uploaded_file.name
+
+            # Check if search button was clicked or file changed
+            if (
+                image_search_clicked
+                or current_file_name != st.session_state.last_uploaded_file_name
+            ):
+                if AI_SEARCH_AVAILABLE:
+                    try:
+                        with st.spinner(
+                            "🤖 AI is analyzing your image... This may take 30-60 seconds."
+                        ):
+                            ai_engine = AISearchEngine()
+
+                            # Read the uploaded file as bytes
+                            image_bytes = uploaded_file.read()
+                            uploaded_file.seek(0)  # Reset file pointer
+
+                            # Open with PIL to validate and potentially convert
+                            from PIL import Image as PILImage
+
+                            pil_image = PILImage.open(io.BytesIO(image_bytes))
+
+                            # Search by image
+                            image_search_results = ai_engine.search_by_image(
+                                pil_image,
+                                max_candidates=10,
+                                max_results=5,
+                                similarity_threshold=40,
+                            )
+
+                            # Convert to function data format
+                            functions = []
+                            for result in image_search_results:
+                                func_data = data_manager.load_function_data(
+                                    result["function_name"]
+                                )
+                                if func_data:
+                                    # Add similarity info to function data
+                                    func_data["_similarity_score"] = result[
+                                        "similarity_score"
+                                    ]
+                                    func_data["_similarity_reasoning"] = result[
+                                        "reasoning"
+                                    ]
+                                    functions.append(func_data)
+
+                            # Store results in session state
+                            st.session_state.image_search_results = {
+                                "functions": functions,
+                                "detailed_results": image_search_results,
+                                "file_name": current_file_name,
+                            }
+                            st.session_state.last_uploaded_file_name = current_file_name
+                            st.session_state.ai_search_results = (
+                                None  # Clear text results
+                            )
+
+                    except Exception as e:
+                        st.error(f"Image search error: {e}")
+                        import traceback
+
+                        st.error(f"Details: {traceback.format_exc()}")
+                        st.info(
+                            "Please check your OpenAI API key and image format, then try again."
+                        )
+                        st.session_state.image_search_results = None
+                else:
+                    st.error(
+                        "AI search is not available. Please set OPENAI_API_KEY environment variable."
+                    )
+                    st.session_state.image_search_results = None
+
+        # Display text search results
         if ai_search_query and st.session_state.ai_search_results is not None:
             functions = st.session_state.ai_search_results
             if functions:
@@ -857,6 +978,45 @@ def main():
             st.error(
                 "AI search is not available. Please set OPENAI_API_KEY environment variable."
             )
+
+        # Display image search results
+        if (
+            search_mode == "🖼️ Image Upload"
+            and st.session_state.image_search_results is not None
+        ):
+            results_data = st.session_state.image_search_results
+            functions = results_data.get("functions", [])
+            detailed_results = results_data.get("detailed_results", [])
+
+            if functions:
+                st.success(
+                    f"🤖 AI found {len(functions)} similar functions based on your image!"
+                )
+
+                # Show detailed similarity information
+                with st.expander("📊 View Similarity Scores", expanded=True):
+                    for result in detailed_results:
+                        col_a, col_b = st.columns([2, 3])
+                        with col_a:
+                            st.metric(
+                                "Similarity Score",
+                                f"{result['similarity_score']}%",
+                                help="Higher is better (0-100 scale)",
+                            )
+                        with col_b:
+                            st.write(f"**{result['function_name']}**")
+                            st.caption(result["reasoning"])
+                        st.divider()
+
+                display_search_results(functions, "image_search")
+            else:
+                st.warning("🤖 No similar functions found for your image.")
+                st.info("""
+                **Tips for better results:**
+                - Make sure the image is clear and well-lit
+                - Try images that show mathematical concepts, graphs, or diagrams
+                - Educational stimulus images work best
+                """)
 
     # Display selected function details (only if a function is selected)
     if "selected_function" in st.session_state:
