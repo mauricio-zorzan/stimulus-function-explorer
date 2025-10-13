@@ -159,7 +159,7 @@ def display_function_image(image_path: str) -> bool:
     try:
         full_path = Path("data") / image_path
         if full_path.exists():
-            st.image(str(full_path), width="stretch")
+            st.image(str(full_path), use_container_width=True)
             return True
         else:
             st.warning(f"Image not found: {image_path}")
@@ -219,7 +219,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
             if image_path:
                 full_path = Path("data") / image_path
                 if full_path.exists():
-                    st.image(str(full_path), width="stretch")
+                    st.image(str(full_path), use_container_width=True)
                 else:
                     st.warning(f"Image not found: {image_path}")
 
@@ -296,7 +296,7 @@ def display_image_carousel(images: List[Dict], function_name: str):
         if image_path:
             full_path = Path("data") / image_path
             if full_path.exists():
-                st.image(str(full_path), width="stretch")
+                st.image(str(full_path), use_container_width=True)
             else:
                 st.warning(f"Image not found: {image_path}")
 
@@ -354,7 +354,7 @@ def display_search_results(functions: List[Dict], search_type: str):
                 if image_path:
                     full_path = Path("data") / image_path
                     if full_path.exists():
-                        st.image(str(full_path), width="stretch")
+                        st.image(str(full_path), use_container_width=True)
                     else:
                         st.caption("⚠️ Image not found")
                 else:
