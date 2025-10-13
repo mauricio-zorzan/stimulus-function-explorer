@@ -1,0 +1,720 @@
+{
+  "function_name": "generate_angles",
+  "description": "The 'generate_angles' function draws a triangle with labeled vertices and angles. It is designed to aid in the teaching and learning of geometry, specifically the understanding of angles within a triangle.",
+  "category": "geometry",
+  "tags": [
+    "angles",
+    "triangles",
+    "geometry",
+    "visualization",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/generate_angles_1_20251011_190400.webp",
+      "filename": "generate_angles_1_20251011_190400.webp",
+      "index": 1,
+      "size": 98370
+    },
+    {
+      "path": "images/generate_angles_2_20251011_190400.webp",
+      "filename": "generate_angles_2_20251011_190400.webp",
+      "index": 2,
+      "size": 18010
+    },
+    {
+      "path": "images/generate_angles_3_20251011_190400.webp",
+      "filename": "generate_angles_3_20251011_190400.webp",
+      "index": 3,
+      "size": 95816
+    },
+    {
+      "path": "images/generate_angles_4_20251011_190400.webp",
+      "filename": "generate_angles_4_20251011_190400.webp",
+      "index": 4,
+      "size": 151654
+    },
+    {
+      "path": "images/generate_angles_5_20251011_190400.webp",
+      "filename": "generate_angles_5_20251011_190400.webp",
+      "index": 5,
+      "size": 99430
+    },
+    {
+      "path": "images/generate_angles_6_20251011_190400.webp",
+      "filename": "generate_angles_6_20251011_190400.webp",
+      "index": 6,
+      "size": 101962
+    },
+    {
+      "path": "images/generate_angles_7_20251011_190400.webp",
+      "filename": "generate_angles_7_20251011_190400.webp",
+      "index": 7,
+      "size": 36766
+    },
+    {
+      "path": "images/generate_angles_8_20251011_190400.webp",
+      "filename": "generate_angles_8_20251011_190400.webp",
+      "index": 8,
+      "size": 88464
+    },
+    {
+      "path": "images/generate_angles_9_20251011_190400.webp",
+      "filename": "generate_angles_9_20251011_190400.webp",
+      "index": 9,
+      "size": 36536
+    },
+    {
+      "path": "images/generate_angles_10_20251011_190400.webp",
+      "filename": "generate_angles_10_20251011_190400.webp",
+      "index": 10,
+      "size": 137546
+    },
+    {
+      "path": "images/generate_angles_11_20251011_190400.webp",
+      "filename": "generate_angles_11_20251011_190400.webp",
+      "index": 11,
+      "size": 44448
+    },
+    {
+      "path": "images/generate_angles_12_20251011_190400.webp",
+      "filename": "generate_angles_12_20251011_190400.webp",
+      "index": 12,
+      "size": 101794
+    },
+    {
+      "path": "images/generate_angles_13_20251011_190400.webp",
+      "filename": "generate_angles_13_20251011_190400.webp",
+      "index": 13,
+      "size": 37888
+    },
+    {
+      "path": "images/generate_angles_14_20251011_190400.webp",
+      "filename": "generate_angles_14_20251011_190400.webp",
+      "index": 14,
+      "size": 36976
+    },
+    {
+      "path": "images/generate_angles_15_20251011_190400.webp",
+      "filename": "generate_angles_15_20251011_190400.webp",
+      "index": 15,
+      "size": 70896
+    },
+    {
+      "path": "images/generate_angles_16_20251011_190400.webp",
+      "filename": "generate_angles_16_20251011_190400.webp",
+      "index": 16,
+      "size": 76060
+    },
+    {
+      "path": "images/generate_angles_17_20251011_190400.webp",
+      "filename": "generate_angles_17_20251011_190400.webp",
+      "index": 17,
+      "size": 61436
+    },
+    {
+      "path": "images/generate_angles_18_20251011_190400.webp",
+      "filename": "generate_angles_18_20251011_190400.webp",
+      "index": 18,
+      "size": 97576
+    },
+    {
+      "path": "images/generate_angles_19_20251011_190400.webp",
+      "filename": "generate_angles_19_20251011_190400.webp",
+      "index": 19,
+      "size": 16980
+    },
+    {
+      "path": "images/generate_angles_20_20251011_190400.webp",
+      "filename": "generate_angles_20_20251011_190400.webp",
+      "index": 20,
+      "size": 233440
+    },
+    {
+      "path": "images/generate_angles_21_20251011_190400.webp",
+      "filename": "generate_angles_21_20251011_190400.webp",
+      "index": 21,
+      "size": 35298
+    },
+    {
+      "path": "images/generate_angles_22_20251011_190400.webp",
+      "filename": "generate_angles_22_20251011_190400.webp",
+      "index": 22,
+      "size": 61436
+    },
+    {
+      "path": "images/generate_angles_23_20251011_190400.webp",
+      "filename": "generate_angles_23_20251011_190400.webp",
+      "index": 23,
+      "size": 104836
+    },
+    {
+      "path": "images/generate_angles_24_20251011_190400.webp",
+      "filename": "generate_angles_24_20251011_190400.webp",
+      "index": 24,
+      "size": 89754
+    },
+    {
+      "path": "images/generate_angles_25_20251011_190400.webp",
+      "filename": "generate_angles_25_20251011_190400.webp",
+      "index": 25,
+      "size": 101458
+    },
+    {
+      "path": "images/generate_angles_26_20251011_190400.webp",
+      "filename": "generate_angles_26_20251011_190400.webp",
+      "index": 26,
+      "size": 17568
+    },
+    {
+      "path": "images/generate_angles_27_20251011_190400.webp",
+      "filename": "generate_angles_27_20251011_190400.webp",
+      "index": 27,
+      "size": 140674
+    },
+    {
+      "path": "images/generate_angles_28_20251011_190400.webp",
+      "filename": "generate_angles_28_20251011_190400.webp",
+      "index": 28,
+      "size": 18332
+    },
+    {
+      "path": "images/generate_angles_29_20251011_190400.webp",
+      "filename": "generate_angles_29_20251011_190400.webp",
+      "index": 29,
+      "size": 100610
+    },
+    {
+      "path": "images/generate_angles_30_20251011_190147.webp",
+      "filename": "generate_angles_30_20251011_190147.webp",
+      "index": 30,
+      "size": 60800
+    },
+    {
+      "path": "images/generate_angles_31_20251011_190147.webp",
+      "filename": "generate_angles_31_20251011_190147.webp",
+      "index": 31,
+      "size": 90018
+    },
+    {
+      "path": "images/generate_angles_32_20251011_190147.webp",
+      "filename": "generate_angles_32_20251011_190147.webp",
+      "index": 32,
+      "size": 4964
+    },
+    {
+      "path": "images/generate_angles_33_20251011_190147.webp",
+      "filename": "generate_angles_33_20251011_190147.webp",
+      "index": 33,
+      "size": 36536
+    },
+    {
+      "path": "images/generate_angles_34_20251011_190147.webp",
+      "filename": "generate_angles_34_20251011_190147.webp",
+      "index": 34,
+      "size": 137546
+    },
+    {
+      "path": "images/generate_angles_35_20251011_190147.webp",
+      "filename": "generate_angles_35_20251011_190147.webp",
+      "index": 35,
+      "size": 44448
+    },
+    {
+      "path": "images/generate_angles_36_20251011_190147.webp",
+      "filename": "generate_angles_36_20251011_190147.webp",
+      "index": 36,
+      "size": 101794
+    },
+    {
+      "path": "images/generate_angles_37_20251011_190147.webp",
+      "filename": "generate_angles_37_20251011_190147.webp",
+      "index": 37,
+      "size": 64972
+    },
+    {
+      "path": "images/generate_angles_38_20251011_190147.webp",
+      "filename": "generate_angles_38_20251011_190147.webp",
+      "index": 38,
+      "size": 54016
+    },
+    {
+      "path": "images/generate_angles_39_20251011_190147.webp",
+      "filename": "generate_angles_39_20251011_190147.webp",
+      "index": 39,
+      "size": 60248
+    },
+    {
+      "path": "images/generate_angles_40_20251011_190147.webp",
+      "filename": "generate_angles_40_20251011_190147.webp",
+      "index": 40,
+      "size": 59330
+    },
+    {
+      "path": "images/generate_angles_41_20251011_190147.webp",
+      "filename": "generate_angles_41_20251011_190147.webp",
+      "index": 41,
+      "size": 52414
+    },
+    {
+      "path": "images/generate_angles_42_20251011_190147.webp",
+      "filename": "generate_angles_42_20251011_190147.webp",
+      "index": 42,
+      "size": 37888
+    },
+    {
+      "path": "images/generate_angles_43_20251011_190147.webp",
+      "filename": "generate_angles_43_20251011_190147.webp",
+      "index": 43,
+      "size": 36976
+    },
+    {
+      "path": "images/generate_angles_44_20251011_190147.webp",
+      "filename": "generate_angles_44_20251011_190147.webp",
+      "index": 44,
+      "size": 57842
+    },
+    {
+      "path": "images/generate_angles_45_20251011_190147.webp",
+      "filename": "generate_angles_45_20251011_190147.webp",
+      "index": 45,
+      "size": 55076
+    },
+    {
+      "path": "images/generate_angles_46_20251011_190147.webp",
+      "filename": "generate_angles_46_20251011_190147.webp",
+      "index": 46,
+      "size": 58518
+    },
+    {
+      "path": "images/generate_angles_47_20251011_190147.webp",
+      "filename": "generate_angles_47_20251011_190147.webp",
+      "index": 47,
+      "size": 50794
+    },
+    {
+      "path": "images/generate_angles_48_20251011_190147.webp",
+      "filename": "generate_angles_48_20251011_190147.webp",
+      "index": 48,
+      "size": 60150
+    },
+    {
+      "path": "images/generate_angles_49_20251011_190147.webp",
+      "filename": "generate_angles_49_20251011_190147.webp",
+      "index": 49,
+      "size": 56970
+    },
+    {
+      "path": "images/generate_angles_50_20251011_190147.webp",
+      "filename": "generate_angles_50_20251011_190147.webp",
+      "index": 50,
+      "size": 47390
+    },
+    {
+      "path": "images/generate_angles_51_20251011_190147.webp",
+      "filename": "generate_angles_51_20251011_190147.webp",
+      "index": 51,
+      "size": 61944
+    },
+    {
+      "path": "images/generate_angles_52_20251011_190147.webp",
+      "filename": "generate_angles_52_20251011_190147.webp",
+      "index": 52,
+      "size": 70896
+    },
+    {
+      "path": "images/generate_angles_53_20251011_190147.webp",
+      "filename": "generate_angles_53_20251011_190147.webp",
+      "index": 53,
+      "size": 60734
+    },
+    {
+      "path": "images/generate_angles_54_20251011_190147.webp",
+      "filename": "generate_angles_54_20251011_190147.webp",
+      "index": 54,
+      "size": 76060
+    },
+    {
+      "path": "images/generate_angles_55_20251011_190147.webp",
+      "filename": "generate_angles_55_20251011_190147.webp",
+      "index": 55,
+      "size": 69540
+    },
+    {
+      "path": "images/generate_angles_56_20251011_190147.webp",
+      "filename": "generate_angles_56_20251011_190147.webp",
+      "index": 56,
+      "size": 74240
+    },
+    {
+      "path": "images/generate_angles_57_20251011_190147.webp",
+      "filename": "generate_angles_57_20251011_190147.webp",
+      "index": 57,
+      "size": 56618
+    },
+    {
+      "path": "images/generate_angles_58_20251011_190147.webp",
+      "filename": "generate_angles_58_20251011_190147.webp",
+      "index": 58,
+      "size": 54574
+    },
+    {
+      "path": "images/generate_angles_59_20251011_190147.webp",
+      "filename": "generate_angles_59_20251011_190147.webp",
+      "index": 59,
+      "size": 55328
+    },
+    {
+      "path": "images/generate_angles_60_20251011_190147.webp",
+      "filename": "generate_angles_60_20251011_190147.webp",
+      "index": 60,
+      "size": 61436
+    },
+    {
+      "path": "images/generate_angles_61_20251011_190147.webp",
+      "filename": "generate_angles_61_20251011_190147.webp",
+      "index": 61,
+      "size": 97576
+    },
+    {
+      "path": "images/generate_angles_62_20251011_190147.webp",
+      "filename": "generate_angles_62_20251011_190147.webp",
+      "index": 62,
+      "size": 65872
+    },
+    {
+      "path": "images/generate_angles_63_20251011_190147.webp",
+      "filename": "generate_angles_63_20251011_190147.webp",
+      "index": 63,
+      "size": 62840
+    },
+    {
+      "path": "images/generate_angles_64_20251011_190147.webp",
+      "filename": "generate_angles_64_20251011_190147.webp",
+      "index": 64,
+      "size": 5896
+    },
+    {
+      "path": "images/generate_angles_65_20251011_190147.webp",
+      "filename": "generate_angles_65_20251011_190147.webp",
+      "index": 65,
+      "size": 48504
+    },
+    {
+      "path": "images/generate_angles_66_20251011_190147.webp",
+      "filename": "generate_angles_66_20251011_190147.webp",
+      "index": 66,
+      "size": 60108
+    },
+    {
+      "path": "images/generate_angles_67_20251011_190147.webp",
+      "filename": "generate_angles_67_20251011_190147.webp",
+      "index": 67,
+      "size": 58782
+    },
+    {
+      "path": "images/generate_angles_68_20251011_190147.webp",
+      "filename": "generate_angles_68_20251011_190147.webp",
+      "index": 68,
+      "size": 63944
+    },
+    {
+      "path": "images/generate_angles_69_20251011_190147.webp",
+      "filename": "generate_angles_69_20251011_190147.webp",
+      "index": 69,
+      "size": 60800
+    },
+    {
+      "path": "images/generate_angles_70_20251011_190147.webp",
+      "filename": "generate_angles_70_20251011_190147.webp",
+      "index": 70,
+      "size": 56142
+    },
+    {
+      "path": "images/generate_angles_71_20251011_190147.webp",
+      "filename": "generate_angles_71_20251011_190147.webp",
+      "index": 71,
+      "size": 2122
+    },
+    {
+      "path": "images/generate_angles_72_20251011_190147.webp",
+      "filename": "generate_angles_72_20251011_190147.webp",
+      "index": 72,
+      "size": 54702
+    },
+    {
+      "path": "images/generate_angles_73_20251011_190147.webp",
+      "filename": "generate_angles_73_20251011_190147.webp",
+      "index": 73,
+      "size": 16980
+    },
+    {
+      "path": "images/generate_angles_74_20251011_190147.webp",
+      "filename": "generate_angles_74_20251011_190147.webp",
+      "index": 74,
+      "size": 49362
+    },
+    {
+      "path": "images/generate_angles_75_20251011_190147.webp",
+      "filename": "generate_angles_75_20251011_190147.webp",
+      "index": 75,
+      "size": 233440
+    },
+    {
+      "path": "images/generate_angles_76_20251011_190147.webp",
+      "filename": "generate_angles_76_20251011_190147.webp",
+      "index": 76,
+      "size": 35298
+    },
+    {
+      "path": "images/generate_angles_77_20251011_190147.webp",
+      "filename": "generate_angles_77_20251011_190147.webp",
+      "index": 77,
+      "size": 64972
+    },
+    {
+      "path": "images/generate_angles_78_20251011_190147.webp",
+      "filename": "generate_angles_78_20251011_190147.webp",
+      "index": 78,
+      "size": 61436
+    },
+    {
+      "path": "images/generate_angles_79_20251011_190147.webp",
+      "filename": "generate_angles_79_20251011_190147.webp",
+      "index": 79,
+      "size": 58518
+    },
+    {
+      "path": "images/generate_angles_80_20251011_190147.webp",
+      "filename": "generate_angles_80_20251011_190147.webp",
+      "index": 80,
+      "size": 104836
+    },
+    {
+      "path": "images/generate_angles_81_20251011_190147.webp",
+      "filename": "generate_angles_81_20251011_190147.webp",
+      "index": 81,
+      "size": 63896
+    },
+    {
+      "path": "images/generate_angles_82_20251011_190147.webp",
+      "filename": "generate_angles_82_20251011_190147.webp",
+      "index": 82,
+      "size": 50254
+    },
+    {
+      "path": "images/generate_angles_83_20251011_190147.webp",
+      "filename": "generate_angles_83_20251011_190147.webp",
+      "index": 83,
+      "size": 47336
+    },
+    {
+      "path": "images/generate_angles_84_20251011_190147.webp",
+      "filename": "generate_angles_84_20251011_190147.webp",
+      "index": 84,
+      "size": 60204
+    },
+    {
+      "path": "images/generate_angles_85_20251011_190147.webp",
+      "filename": "generate_angles_85_20251011_190147.webp",
+      "index": 85,
+      "size": 89754
+    },
+    {
+      "path": "images/generate_angles_86_20251011_190147.webp",
+      "filename": "generate_angles_86_20251011_190147.webp",
+      "index": 86,
+      "size": 51080
+    },
+    {
+      "path": "images/generate_angles_87_20251011_190147.webp",
+      "filename": "generate_angles_87_20251011_190147.webp",
+      "index": 87,
+      "size": 55528
+    },
+    {
+      "path": "images/generate_angles_88_20251011_190147.webp",
+      "filename": "generate_angles_88_20251011_190147.webp",
+      "index": 88,
+      "size": 55290
+    },
+    {
+      "path": "images/generate_angles_89_20251011_190147.webp",
+      "filename": "generate_angles_89_20251011_190147.webp",
+      "index": 89,
+      "size": 101458
+    },
+    {
+      "path": "images/generate_angles_90_20251011_190147.webp",
+      "filename": "generate_angles_90_20251011_190147.webp",
+      "index": 90,
+      "size": 54574
+    },
+    {
+      "path": "images/generate_angles_91_20251011_190147.webp",
+      "filename": "generate_angles_91_20251011_190147.webp",
+      "index": 91,
+      "size": 56892
+    },
+    {
+      "path": "images/generate_angles_92_20251011_190147.webp",
+      "filename": "generate_angles_92_20251011_190147.webp",
+      "index": 92,
+      "size": 68608
+    },
+    {
+      "path": "images/generate_angles_93_20251011_190147.webp",
+      "filename": "generate_angles_93_20251011_190147.webp",
+      "index": 93,
+      "size": 17568
+    },
+    {
+      "path": "images/generate_angles_94_20251011_190147.webp",
+      "filename": "generate_angles_94_20251011_190147.webp",
+      "index": 94,
+      "size": 57236
+    },
+    {
+      "path": "images/generate_angles_95_20251011_190147.webp",
+      "filename": "generate_angles_95_20251011_190147.webp",
+      "index": 95,
+      "size": 62570
+    },
+    {
+      "path": "images/generate_angles_96_20251011_190147.webp",
+      "filename": "generate_angles_96_20251011_190147.webp",
+      "index": 96,
+      "size": 49322
+    },
+    {
+      "path": "images/generate_angles_97_20251011_190147.webp",
+      "filename": "generate_angles_97_20251011_190147.webp",
+      "index": 97,
+      "size": 66986
+    },
+    {
+      "path": "images/generate_angles_98_20251011_190147.webp",
+      "filename": "generate_angles_98_20251011_190147.webp",
+      "index": 98,
+      "size": 54548
+    },
+    {
+      "path": "images/generate_angles_99_20251011_190147.webp",
+      "filename": "generate_angles_99_20251011_190147.webp",
+      "index": 99,
+      "size": 140674
+    },
+    {
+      "path": "images/generate_angles_100_20251011_190147.webp",
+      "filename": "generate_angles_100_20251011_190147.webp",
+      "index": 100,
+      "size": 55518
+    },
+    {
+      "path": "images/generate_angles_101_20251011_190147.webp",
+      "filename": "generate_angles_101_20251011_190147.webp",
+      "index": 101,
+      "size": 51470
+    },
+    {
+      "path": "images/generate_angles_102_20251011_190147.webp",
+      "filename": "generate_angles_102_20251011_190147.webp",
+      "index": 102,
+      "size": 59420
+    },
+    {
+      "path": "images/generate_angles_103_20251011_190147.webp",
+      "filename": "generate_angles_103_20251011_190147.webp",
+      "index": 103,
+      "size": 48504
+    },
+    {
+      "path": "images/generate_angles_104_20251011_190147.webp",
+      "filename": "generate_angles_104_20251011_190147.webp",
+      "index": 104,
+      "size": 51150
+    },
+    {
+      "path": "images/generate_angles_105_20251011_190147.webp",
+      "filename": "generate_angles_105_20251011_190147.webp",
+      "index": 105,
+      "size": 18332
+    },
+    {
+      "path": "images/generate_angles_106_20251011_190147.webp",
+      "filename": "generate_angles_106_20251011_190147.webp",
+      "index": 106,
+      "size": 85390
+    },
+    {
+      "path": "images/generate_angles_107_20251011_190147.webp",
+      "filename": "generate_angles_107_20251011_190147.webp",
+      "index": 107,
+      "size": 100610
+    },
+    {
+      "path": "images/generate_angles_108_20251011_190147.webp",
+      "filename": "generate_angles_108_20251011_190147.webp",
+      "index": 108,
+      "size": 61148
+    },
+    {
+      "path": "images/generate_angles_109_20251011_190147.webp",
+      "filename": "generate_angles_109_20251011_190147.webp",
+      "index": 109,
+      "size": 47390
+    },
+    {
+      "path": "images/generate_angles_110_20251011_190147.webp",
+      "filename": "generate_angles_110_20251011_190147.webp",
+      "index": 110,
+      "size": 5240
+    }
+  ],
+  "image_count": 434,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "angle"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+1",
+      "display_name": "Angle Sums in Triangles",
+      "description": "Identify a mising angle in a triangle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:39.131903",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Triangle with Labeled Angles",
+    "description": "The 'generate_angles' function creates a visualization of a triangle with labeled vertices and angles. It accepts an input of type 'AngleList', which contains a list of 'Angle' objects, each having a 'measure' and a 'label'. The 'measure' represents the angle in degrees, and the 'label' is a string identifier for the angle. The function has constraints on the angle measurements: they must be greater than 0 and less than or equal to 360 degrees. Additionally, each angle measurement must be less than 80, greater than 100, or exactly 90 degrees, and the difference between any two angle measurements must be at least 15 degrees. This function is useful in educational settings where understanding of angles within a triangle is being taught or reinforced.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts an 'AngleList' object as input, which contains a list of 'Angle' objects.",
+          "Each 'Angle' object has a 'measure' and a 'label'. The 'measure' represents the angle in degrees, and the 'label' is a string identifier for the angle."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'measure' of each 'Angle' must be greater than 0 and less than or equal to 360 degrees.",
+          "Each angle measurement must be less than 80, greater than 100, or exactly 90 degrees.",
+          "The difference between any two angle measurements must be at least 15 degrees."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a triangle with labeled vertices and angles.",
+          "The triangle is drawn with the vertices sorted by the length of the angle labels, and the coordinates of the vertices are fixed.",
+          "The angles are labeled with their measurements in degrees, and the labels are positioned based on the coordinates of the vertices."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

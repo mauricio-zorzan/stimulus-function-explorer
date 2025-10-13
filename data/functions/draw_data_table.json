@@ -1,0 +1,250 @@
+{
+  "function_name": "draw_data_table",
+  "description": "The 'draw_data_table' function generates a visual representation of a data table. It is designed to aid in the comprehension of tabular data by presenting it in a clear, organized, and visually appealing manner. The function is particularly useful in teaching data analysis and interpretation skills.",
+  "category": "data_visualization",
+  "tags": [
+    "data_table",
+    "visualization",
+    "data_analysis",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/draw_data_table_1_20251011_190147.webp",
+      "filename": "draw_data_table_1_20251011_190147.webp",
+      "index": 1,
+      "size": 3688
+    },
+    {
+      "path": "images/draw_data_table_2_20251011_190147.webp",
+      "filename": "draw_data_table_2_20251011_190147.webp",
+      "index": 2,
+      "size": 6634
+    }
+  ],
+  "image_count": 6,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "data"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Data Tables",
+    "description": "The 'draw_data_table' function can generate images of data tables. It accepts a DataTable object as input, which contains headers, data, title, and metadata. The function has a few key constraints, such as a maximum cell width and a specific font size. The educational purpose of this function is to provide a visual aid for understanding and interpreting tabular data, which is a critical skill in many fields, including mathematics, science, and social studies.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a DataTable object as input.",
+          "The DataTable object contains headers, data, title, and metadata.",
+          "The 'headers' field controls the column headers of the table.",
+          "The 'data' field controls the content of the table.",
+          "The 'title' field controls the title of the table. This field is optional.",
+          "The 'metadata' field contains additional information about the table. This field is optional."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The maximum width of a cell is 180 pixels.",
+          "The font size is set to 14 for the table content and 16 for the title.",
+          "The function uses the Arial font by default, but will use the system default font if Arial is not available."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates an image of a data table.",
+          "The table includes a title (if provided), column headers, and data cells.",
+          "The appearance of the table (e.g., cell width, font size) is affected by the constraints of the function."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.MD.C.4+2",
+      "display_name": null,
+      "description": "Interpret data with up to three categories."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.NBT.C.4+2",
+      "display_name": null,
+      "description": "Within 100, add a two-digit number and a multiple of 10."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+1",
+      "display_name": "Multiplication Patterns",
+      "description": "Given a rule, create numbers in a multiplication pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+2",
+      "display_name": "Patterns in Sequences",
+      "description": "Explain patterns in an arithmetic pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+3",
+      "display_name": "Identify Rules in Addition and Subtraction Patterns",
+      "description": "Identify the rule for an addition or subtraction pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+4",
+      "display_name": "Finding Missing Terms in Patterns",
+      "description": "Find missing terms in a pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+6",
+      "display_name": "Division Patterns",
+      "description": "Given a rule, create numbers in a division pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+7",
+      "display_name": "Identify Rules in Multiplication Patterns",
+      "description": "Identify the rule for a multiplication pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.OA.D.9+8",
+      "display_name": "Identify Rules in Division Patterns",
+      "description": "Identify the rule for a division pattern."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.1+1",
+      "display_name": "Measuring Time in Units",
+      "description": "Understand and convert between basic time units (seconds, minutes, hours) to solve time-related problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.1+2",
+      "display_name": "Measuring Length with Inches, Feet, Yards, and Miles",
+      "description": "Convert and solve problems involving linear measurement using inches, feet, yards and miles."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+10",
+      "display_name": null,
+      "description": "Use the four operations to solve word problems involving money, including problems involving decimals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+8",
+      "display_name": null,
+      "description": "Use the four operations to solve word problems involving liquid volumes, including problems involving decimals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+9",
+      "display_name": null,
+      "description": "Use the four operations to solve word problems involving masses of objects, including problems involving decimals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.C+1",
+      "display_name": null,
+      "description": "Solve real-world problems involving multiplying fractions by whole numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.OA.B.4+2",
+      "display_name": "Identifying Prime & Composite Numbers",
+      "description": "Determine whether a given whole number in the range 1-100 is prime or composite."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.OA.B.4+3",
+      "display_name": "Identifying Factors of Numbers",
+      "description": "Find all factors for a whole number in the range 1-100."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.2+1",
+      "display_name": "Whole Numbers Standard and Expanded Form",
+      "description": "Convert between standard, word and expanded form for multi-digit numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.3.A+3",
+      "display_name": "Writing Decimals in Expanded Form",
+      "description": "Read and write decimals to thousandths using expanded form with decimals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+1",
+      "display_name": "Generating Patterns",
+      "description": "Generate two numerical patterns based on the given rules and starting number."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+2",
+      "display_name": null,
+      "description": "Identify apparent relationships between corresponding terms in the two patterns."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+3",
+      "display_name": "Relationships in Patterns",
+      "description": "Identify the relationship between corresponding terms of the two patterns."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+1",
+      "display_name": "Independent and Dependent Variables",
+      "description": "Identify independent and dependent variables in situations."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+2",
+      "display_name": "Writing Equations from Tables",
+      "description": "Write an equation from a table."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.5+1",
+      "display_name": "Representing Quantities with Signed Numbers",
+      "description": "Use positive and negative numbers in tandem to model real-world quantities that have opposite values or directions\u2014such as temperatures above and below zero\u2014interpreting zero as the neutral reference point in each context."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.7.C+2",
+      "display_name": "Absolute Value Word Problems",
+      "description": "Interpret absolute value as magnitude for a positive or negative quantity in a real-world situation. Understand that |-a| = a."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.RP.A.2+1",
+      "display_name": "Unit Rates",
+      "description": "Understand the concept of a unit rate a/b associated with a ratio a:b with b \u2260 0, and use rate language in the context of a ratio relationship in a real world situation."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.RP.A.3.A+2",
+      "display_name": "Writing Equivalent Ratios",
+      "description": "Write equivalent ratios."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.A.3+3",
+      "display_name": null,
+      "description": "Interpret and analyze data presented in tables, charts, and graphs to solve problems involving measures of center, frequency, and percentages."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
+      "display_name": "Finding Quantitative Measures from Charts and Graphs",
+      "description": "Interpret charts and graphs to find mean, median, mode, and range."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.EE.B.6+4",
+      "display_name": "Writing Equations for Proportional Relationships",
+      "description": "Write an equation, y = mx, for a line through the origin."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.EE.C.8.B+1",
+      "display_name": "Solving Systems by Graphing",
+      "description": "Solve systems of two linear equations by graphing."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+1",
+      "display_name": "Identifying Functions",
+      "description": "Identify whether or not a mathematical relation is a function."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.A.3+2",
+      "display_name": "Linear and Non-Linear Functions",
+      "description": "Identify whether or not a function is linear."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.F.B.4+14",
+      "display_name": "Writing Equations from Tables",
+      "description": "Write an equation for a linear function from a table."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.4+1",
+      "display_name": null,
+      "description": "Interpret data on a two-way table."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:14.597429"
+}

@@ -1,0 +1,64 @@
+{
+  "function_name": "generate_double_line_plot",
+  "description": "The function 'generate_double_line_plot' creates a double line plot, which is a type of graph that displays two sets of data points on the same x-axis. The function is used for educational purposes, particularly in teaching students about data visualization and comparison of two datasets.",
+  "category": "data_visualization",
+  "tags": [
+    "data_visualization",
+    "line_plot",
+    "mathematics",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/generate_double_line_plot_1_20251011_190400.webp",
+      "filename": "generate_double_line_plot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 14616
+    },
+    {
+      "path": "images/generate_double_line_plot_2_20251011_190400.webp",
+      "filename": "generate_double_line_plot_2_20251011_190400.webp",
+      "index": 2,
+      "size": 14960
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "double_line_plot"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Double Line Plot",
+    "description": "The function 'generate_double_line_plot' can draw a double line plot, a type of graph that shows two sets of data points on the same x-axis. The input to this function is a 'DoubleLinePlot' object, which contains information about the x-axis label, the range of the x-axis, and two datasets. Each dataset contains a title and a list of data points, with each data point having a value and a frequency. The function has constraints on the frequency of data points, which should be between 0 and 8. This function is useful in teaching students about data visualization, comparison of datasets, and understanding frequency distributions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "x_axis_label: The label for the x-axis of the double line plot.",
+          "range: The range of the x-axis of the double line plot, which includes a minimum and maximum value.",
+          "datasets: Two datasets for the double line plot, each containing a title and a list of data points.",
+          "data_points: Each data point in a dataset has a value and a frequency."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The frequency of data points should be between 0 and 8.",
+          "The datasets are validated after they are created, with the data points sorted by value."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a double line plot with two sets of data points on the same x-axis.",
+          "The x-axis has a label and a range, and each data point is represented by a marker.",
+          "The position and frequency of the markers are determined by the value and frequency of the data points, respectively."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

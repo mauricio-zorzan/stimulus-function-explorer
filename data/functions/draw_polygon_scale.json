@@ -1,18 +1,63 @@
 {
   "function_name": "draw_polygon_scale",
-  "description": "Draws polygon scale for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_polygon_scale\nresult = draw_polygon_scale(data)",
-  "image_path": "images/draw_polygon_scale_example.webp",
+  "description": "The function 'draw_polygon_scale' generates a visual representation of two polygons (an original and a scaled version) side by side, each with their respective measurements and vertex labels. This is used for educational purposes, specifically for teaching scale factor determination in geometry.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "polygon",
+    "scale factor",
+    "geometry",
+    "mathematical visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:05.395391",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_polygon_scale_1_20251011_190400.webp",
+      "filename": "draw_polygon_scale_1_20251011_190400.webp",
+      "index": 1,
+      "size": 197772
+    },
+    {
+      "path": "images/draw_polygon_scale_2_20251011_190400.webp",
+      "filename": "draw_polygon_scale_2_20251011_190400.webp",
+      "index": 2,
+      "size": 176048
+    },
+    {
+      "path": "images/draw_polygon_scale_3_20251011_190400.webp",
+      "filename": "draw_polygon_scale_3_20251011_190400.webp",
+      "index": 3,
+      "size": 151258
+    },
+    {
+      "path": "images/draw_polygon_scale_4_20251011_190400.webp",
+      "filename": "draw_polygon_scale_4_20251011_190400.webp",
+      "index": 4,
+      "size": 89122
+    },
+    {
+      "path": "images/draw_polygon_scale_5_20251011_190400.webp",
+      "filename": "draw_polygon_scale_5_20251011_190400.webp",
+      "index": 5,
+      "size": 90788
+    },
+    {
+      "path": "images/draw_polygon_scale_6_20251011_190400.webp",
+      "filename": "draw_polygon_scale_6_20251011_190400.webp",
+      "index": 6,
+      "size": 208548
+    },
+    {
+      "path": "images/draw_polygon_scale_7_20251011_190400.webp",
+      "filename": "draw_polygon_scale_7_20251011_190400.webp",
+      "index": 7,
+      "size": 145514
+    }
+  ],
+  "image_count": 31,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "polygon_scale"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.7.G.A.1+2",
@@ -25,5 +70,42 @@
       "description": "Solve problems involving computing perimeter or areas from a scale drawing."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:59.157661"
+  "standards_last_updated": "2025-10-11T19:27:31.554437",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scaled Polygons",
+    "description": "The 'draw_polygon_scale' function can generate images of two polygons, an original and its scaled version, side by side. It accepts inputs such as the type of polygon, labels for the polygons and their vertices, a scale factor, and measurements for the polygons' sides. The function has constraints such as the scale factor being greater than 0 and less than or equal to 5. The visualization serves an educational purpose, being used in teaching scale factor determination in geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "polygon_type: Type of polygon to draw",
+          "original_polygon_label: Label for the original polygon",
+          "scaled_polygon_label: Label for the scaled polygon",
+          "scale_factor: The scale factor used to transform the original polygon",
+          "original_vertex_labels: Vertex labels for the original polygon",
+          "scaled_vertex_labels: Vertex labels for the scaled polygon",
+          "original_visible_sides: Names of sides whose measurements are displayed on the original polygon",
+          "scaled_visible_sides: Names of sides whose measurements are displayed on the scaled polygon"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The scale factor must be greater than 0 and less than or equal to 5",
+          "All fields are required"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two polygons (an original and a scaled version) side by side",
+          "Each polygon has its respective measurements and vertex labels",
+          "The visual output is affected by the input parameters such as the type of polygon, labels, scale factor, and measurements"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

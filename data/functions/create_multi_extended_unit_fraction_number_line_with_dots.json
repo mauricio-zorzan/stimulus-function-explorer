@@ -1,0 +1,95 @@
+{
+  "function_name": "create_multi_extended_unit_fraction_number_line_with_dots",
+  "description": "This function generates a series of number lines, each representing a unit fraction, stacked vertically. Each line is marked with colored dots at regular intervals, representing the divisions of the unit fraction. This visualization aids in understanding the concept of fractions and their divisions.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "number_lines",
+    "educational_visualization",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_dots_1_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_dots_1_20251011_190400.webp",
+      "index": 1,
+      "size": 16350
+    },
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_dots_2_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_dots_2_20251011_190400.webp",
+      "index": 2,
+      "size": 16370
+    },
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_dots_3_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_dots_3_20251011_190400.webp",
+      "index": 3,
+      "size": 7794
+    },
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_dots_4_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_dots_4_20251011_190400.webp",
+      "index": 4,
+      "size": 16406
+    },
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_dots_5_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_dots_5_20251011_190400.webp",
+      "index": 5,
+      "size": 16206
+    }
+  ],
+  "image_count": 22,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_extended_unit_fraction_number_line_with_dots"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multi Extended Unit Fraction Number Lines",
+    "description": "This function can draw multiple number lines, each representing a unit fraction. The input it accepts is a list of number line descriptions, each containing a range and the number of minor divisions. The range minimum should be 0 and the maximum should be the fraction value. The function ensures that the number lines are properly spaced and labeled. The educational purpose of this function is to provide a visual aid for understanding unit fractions and their divisions. It can be used in teaching fractions, division, and number line concepts.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "stim_desc: A list of number line descriptions. Each description contains a range and the number of minor divisions.",
+          "range: The range of values to be represented on the number line. The minimum should be 0 and the maximum should be the fraction value.",
+          "minor_divisions: The number of divisions of the unit fraction to be represented on the number line."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range minimum must be 0.",
+          "The range maximum must be the fraction value.",
+          "The number of minor divisions must be a positive integer."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws multiple number lines, each representing a unit fraction, stacked vertically.",
+          "Each line is marked with colored dots at regular intervals, representing the divisions of the unit fraction.",
+          "The number of lines, the range of each line, and the number of divisions on each line are determined by the input parameters."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+2",
+      "display_name": null,
+      "description": "Recognize that the length of the interval created by marking off a lengths 1/b on a number line has a size of a/b."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.A+1",
+      "display_name": "Identifying Equivalent Fractions on Number Lines",
+      "description": "Understand two fractions as equivalent (equal) if they are the same size, or the same point on a number line."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:02.919243"
+}

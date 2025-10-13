@@ -1,0 +1,95 @@
+{
+  "function_name": "generate_composite_rect_prism",
+  "description": "The function 'generate_composite_rect_prism' generates a 3D visualization of one or more rectangular prisms, stacked on top of each other. The prisms can have different dimensions, and the function allows for the hiding of measurements. This can be used for educational purposes, such as teaching geometry, volume, and spatial reasoning.",
+  "category": "geometry",
+  "tags": [
+    "3D visualization",
+    "geometry",
+    "volume",
+    "spatial reasoning"
+  ],
+  "images": [
+    {
+      "path": "images/generate_composite_rect_prism_1_20251011_190400.webp",
+      "filename": "generate_composite_rect_prism_1_20251011_190400.webp",
+      "index": 1,
+      "size": 124336
+    },
+    {
+      "path": "images/generate_composite_rect_prism_2_20251011_190400.webp",
+      "filename": "generate_composite_rect_prism_2_20251011_190400.webp",
+      "index": 2,
+      "size": 52688
+    },
+    {
+      "path": "images/generate_composite_rect_prism_3_20251011_190400.webp",
+      "filename": "generate_composite_rect_prism_3_20251011_190400.webp",
+      "index": 3,
+      "size": 52076
+    },
+    {
+      "path": "images/generate_composite_rect_prism_4_20251011_190400.webp",
+      "filename": "generate_composite_rect_prism_4_20251011_190400.webp",
+      "index": 4,
+      "size": 51710
+    },
+    {
+      "path": "images/generate_composite_rect_prism_5_20251011_190400.webp",
+      "filename": "generate_composite_rect_prism_5_20251011_190400.webp",
+      "index": 5,
+      "size": 64036
+    }
+  ],
+  "image_count": 21,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "composite_rect_prism"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.C+1",
+      "display_name": "Composite Volume",
+      "description": "Solve mathematicall problems for composite volume of two rectangular prisms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.C+2",
+      "display_name": "Composite Volume Word Problems",
+      "description": "Solve real-world problems for composite volume."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:39.675509",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Composite Rectangular Prisms",
+    "description": "The function 'generate_composite_rect_prism' can draw 3D visualizations of composite rectangular prisms. It accepts a list of tuples, each representing the dimensions of a prism (height, width, length), a unit of measurement, and a boolean value to hide or show measurements. The function stacks the prisms on top of each other in the order they are provided. The function is designed to help students understand the concept of volume and spatial reasoning. It can be used in a variety of educational settings, from elementary to high school, for teaching geometry and measurement.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "figures: A list of tuples, each representing the dimensions (height, width, length) of a rectangular prism",
+          "units: The unit of measurement for the dimensions of the prisms",
+          "hide_measurements: A boolean value to hide or show the measurements of the prisms"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The dimensions of the prisms must be positive values",
+          "The unit of measurement must be a non-empty string",
+          "The hide_measurements parameter must be a boolean value"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a 3D visualization of one or more rectangular prisms, stacked on top of each other",
+          "The prisms are drawn in the order they are provided in the figures parameter",
+          "The dimensions of the prisms, the unit of measurement, and the hide_measurements parameter affect the visual output"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

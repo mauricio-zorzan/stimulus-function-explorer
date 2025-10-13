@@ -1,0 +1,245 @@
+{
+  "function_name": "draw_fractional_angle_circle",
+  "description": "This function draws a circle divided into equal parts, with a shaded sector representing a fraction. It visually demonstrates how fractions relate to angle measures in a complete circle (360 degrees), providing an intuitive understanding of fractions and their relation to geometry.",
+  "category": "geometry",
+  "tags": [
+    "fractions",
+    "geometry",
+    "visualization",
+    "educational"
+  ],
+  "images": [
+    {
+      "path": "images/draw_fractional_angle_circle_1_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_1_20251011_190400.webp",
+      "index": 1,
+      "size": 46526
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_2_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_2_20251011_190400.webp",
+      "index": 2,
+      "size": 66442
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_3_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_3_20251011_190400.webp",
+      "index": 3,
+      "size": 83748
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_4_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_4_20251011_190400.webp",
+      "index": 4,
+      "size": 62628
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_5_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_5_20251011_190400.webp",
+      "index": 5,
+      "size": 46442
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_6_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_6_20251011_190400.webp",
+      "index": 6,
+      "size": 64894
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_7_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_7_20251011_190400.webp",
+      "index": 7,
+      "size": 64972
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_8_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_8_20251011_190400.webp",
+      "index": 8,
+      "size": 70294
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_9_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_9_20251011_190400.webp",
+      "index": 9,
+      "size": 83748
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_10_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_10_20251011_190400.webp",
+      "index": 10,
+      "size": 90018
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_11_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_11_20251011_190400.webp",
+      "index": 11,
+      "size": 64972
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_12_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_12_20251011_190400.webp",
+      "index": 12,
+      "size": 56970
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_13_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_13_20251011_190400.webp",
+      "index": 13,
+      "size": 47390
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_14_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_14_20251011_190400.webp",
+      "index": 14,
+      "size": 69540
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_15_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_15_20251011_190400.webp",
+      "index": 15,
+      "size": 74240
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_16_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_16_20251011_190400.webp",
+      "index": 16,
+      "size": 65872
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_17_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_17_20251011_190400.webp",
+      "index": 17,
+      "size": 48504
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_18_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_18_20251011_190400.webp",
+      "index": 18,
+      "size": 63944
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_19_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_19_20251011_190400.webp",
+      "index": 19,
+      "size": 64972
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_20_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_20_20251011_190400.webp",
+      "index": 20,
+      "size": 50254
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_21_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_21_20251011_190400.webp",
+      "index": 21,
+      "size": 47336
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_22_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_22_20251011_190400.webp",
+      "index": 22,
+      "size": 68608
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_23_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_23_20251011_190400.webp",
+      "index": 23,
+      "size": 49322
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_24_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_24_20251011_190400.webp",
+      "index": 24,
+      "size": 66986
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_25_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_25_20251011_190400.webp",
+      "index": 25,
+      "size": 51470
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_26_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_26_20251011_190400.webp",
+      "index": 26,
+      "size": 59420
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_27_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_27_20251011_190400.webp",
+      "index": 27,
+      "size": 48504
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_28_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_28_20251011_190400.webp",
+      "index": 28,
+      "size": 51150
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_29_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_29_20251011_190400.webp",
+      "index": 29,
+      "size": 85390
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_30_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_30_20251011_190400.webp",
+      "index": 30,
+      "size": 61148
+    },
+    {
+      "path": "images/draw_fractional_angle_circle_31_20251011_190400.webp",
+      "filename": "draw_fractional_angle_circle_31_20251011_190400.webp",
+      "index": 31,
+      "size": 47390
+    }
+  ],
+  "image_count": 62,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "fractional_angle"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.6+4",
+      "display_name": null,
+      "description": "Use fractions to find the measure of an angle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:18.864071",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fractional Angle Circles",
+    "description": "The draw_fractional_angle_circle function can generate images of a circle divided into equal parts, with a shaded sector representing a fraction. The function accepts a FractionalAngle object as input, which contains a numerator, a denominator, and a sector color. The numerator and denominator define the fraction that the shaded sector represents, while the sector color defines the color of the shaded sector. The function is primarily used for educational purposes, to help students understand the concept of fractions and their relation to angles in a circle.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The FractionalAngle object, which contains the numerator, denominator, and sector color.",
+          "The numerator and denominator control the fraction that the shaded sector represents.",
+          "The sector color controls the color of the shaded sector."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The numerator and denominator must be positive integers, with the numerator less than or equal to the denominator.",
+          "The sector color must be a valid color string."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a circle divided into equal parts, with a shaded sector representing a fraction.",
+          "The circle is divided into as many parts as the denominator of the fraction, and the shaded sector represents the fraction defined by the numerator and the denominator.",
+          "The color of the shaded sector is determined by the sector color input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

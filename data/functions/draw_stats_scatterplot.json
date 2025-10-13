@@ -1,18 +1,33 @@
 {
   "function_name": "draw_stats_scatterplot",
-  "description": "Draws stats scatterplot for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_stats_scatterplot\nresult = draw_stats_scatterplot(data)",
-  "image_path": "images/draw_stats_scatterplot_example.webp",
-  "category": "graphs",
+  "description": "The function 'draw_stats_scatterplot' generates a scatterplot of data points and a line of best fit. It differentiates points that lie on the line from those that do not, providing a visual representation of statistical correlation and regression analysis.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "scatterplot",
+    "statistics",
+    "data_analysis",
+    "line_of_best_fit"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:05.329713",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_stats_scatterplot_1_20251011_190400.webp",
+      "filename": "draw_stats_scatterplot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 37822
+    },
+    {
+      "path": "images/draw_stats_scatterplot_2_20251011_190400.webp",
+      "filename": "draw_stats_scatterplot_2_20251011_190400.webp",
+      "index": 2,
+      "size": 81282
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "stats_scatter_"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.8.SP.A.3+1",
@@ -20,5 +35,38 @@
       "description": "Use the equation of a linear model to solve problems in the context of bivariate measurement data. Interpret the significance of the slope and intercept in the context of the problem."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:03.171594"
+  "standards_last_updated": "2025-10-11T19:27:35.610299",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scatterplot and Line of Best Fit",
+    "description": "The function 'draw_stats_scatterplot' can draw a scatterplot of data points and a line of best fit. It accepts input of type 'StatsScatterplot', which includes a list of points and a line of best fit. Each point is defined by its x and y coordinates, while the line of best fit is defined by its slope and intercept. The function validates that all points are unique and within a specified range, and that the provided line of best fit closely matches the actual one. This visualization serves to illustrate the concept of statistical correlation and regression analysis, making it a valuable tool in the field of data science education.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'points' field accepts a list of 'Point' objects, each defined by 'x' and 'y' coordinates.",
+          "The 'line_of_best_fit' field accepts a 'LineOfBestFit' object, defined by its 'slope' and 'intercept'.",
+          "All fields are required."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'points' field must contain between 5 and 15 unique points.",
+          "All point coordinates must be within the range of -15 to 15.",
+          "The provided line of best fit must match the actual line of best fit within a tolerance of 0.5 for both slope and intercept."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a scatterplot of data points and a line of best fit.",
+          "Points that lie on the line are colored red, while those that do not are colored black.",
+          "The line of best fit is drawn in blue."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

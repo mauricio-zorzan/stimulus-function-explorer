@@ -1,18 +1,51 @@
 {
   "function_name": "generate_stimulus_with_grid",
-  "description": "Generates stimulus with grid for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_stimulus_with_grid\nresult = generate_stimulus_with_grid(data)",
-  "image_path": "images/generate_stimulus_with_grid_example.webp",
-  "category": "general",
+  "description": "This function generates a rectangular grid with optional irregularities and extra units. It is designed to help students visualize and understand concepts related to geometry, area, and irregular shapes.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "grid",
+    "area",
+    "irregular shapes"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:34.630147",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_stimulus_with_grid_1_20251011_190400.webp",
+      "filename": "generate_stimulus_with_grid_1_20251011_190400.webp",
+      "index": 1,
+      "size": 25026
+    },
+    {
+      "path": "images/generate_stimulus_with_grid_2_20251011_190400.webp",
+      "filename": "generate_stimulus_with_grid_2_20251011_190400.webp",
+      "index": 2,
+      "size": 31658
+    },
+    {
+      "path": "images/generate_stimulus_with_grid_3_20251011_190400.webp",
+      "filename": "generate_stimulus_with_grid_3_20251011_190400.webp",
+      "index": 3,
+      "size": 20630
+    },
+    {
+      "path": "images/generate_stimulus_with_grid_4_20251011_190400.webp",
+      "filename": "generate_stimulus_with_grid_4_20251011_190400.webp",
+      "index": 4,
+      "size": 79230
+    },
+    {
+      "path": "images/generate_stimulus_with_grid_5_20251011_190400.webp",
+      "filename": "generate_stimulus_with_grid_5_20251011_190400.webp",
+      "index": 5,
+      "size": 23324
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_decomp_unit"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.C.5.A+2",
@@ -35,5 +68,42 @@
       "description": "Show that the area of a rectangle found by tiling corresponds to the area found by multiplying the side lengths."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:10.115713"
+  "standards_last_updated": "2025-10-11T19:27:44.749831",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Rectangular Grids with Optional Irregularities and Extra Units",
+    "description": "This function can generate a variety of rectangular grids, with options for irregular shapes and extra unit squares. It accepts a RectangularGrid object as input, which includes parameters for length, width, unit, and optional irregularity and extra units. The function uses a random walk algorithm to create smooth irregularities in the grid, either in the rows or columns. The educational purpose of this function is to help students visualize and understand the concepts of area and irregular shapes, and how these can be represented on a grid.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "rectangle: A RectangularGrid object that specifies the length, width, unit, and optional irregularity and extra units of the grid.",
+          "length: The number of units in the length of the grid.",
+          "width: The number of units in the width of the grid.",
+          "unit: The size of each unit square in the grid.",
+          "irregular: An optional boolean that determines whether the grid should have irregularities.",
+          "extra_unit_squares: An optional integer that specifies the number of extra unit squares to add to the grid."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The length and width must be positive integers.",
+          "The unit must be a positive number.",
+          "If specified, the irregular parameter must be a boolean.",
+          "If specified, the extra_unit_squares parameter must be an integer between 1 and the maximum of the length and width."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a rectangular grid with the specified length and width.",
+          "If the irregular parameter is set to true, the grid will have irregularities in either the rows or columns, determined by a random choice.",
+          "If the extra_unit_squares parameter is specified, the grid will have the specified number of extra unit squares, distributed randomly."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,0 +1,103 @@
+{
+  "function_name": "draw_stepwise_shape_pattern",
+  "description": "This function generates a stepwise shape pattern visualization, which is a series of shapes arranged in a certain pattern. The function is designed to help students understand the concept of patterns and sequences in a visual and interactive way.",
+  "category": "geometry",
+  "tags": [
+    "patterns",
+    "sequences",
+    "shapes",
+    "visualization",
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/draw_stepwise_shape_pattern_1_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_1_20251011_190400.webp",
+      "index": 1,
+      "size": 80800
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_2_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_2_20251011_190400.webp",
+      "index": 2,
+      "size": 17384
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_3_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_3_20251011_190400.webp",
+      "index": 3,
+      "size": 53104
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_4_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_4_20251011_190400.webp",
+      "index": 4,
+      "size": 75410
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_5_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_5_20251011_190400.webp",
+      "index": 5,
+      "size": 122966
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_6_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_6_20251011_190400.webp",
+      "index": 6,
+      "size": 127936
+    },
+    {
+      "path": "images/draw_stepwise_shape_pattern_7_20251011_190400.webp",
+      "filename": "draw_stepwise_shape_pattern_7_20251011_190400.webp",
+      "index": 7,
+      "size": 26072
+    }
+  ],
+  "image_count": 31,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "stepwise_shape_pattern"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.OA.C.5+1",
+      "display_name": "Shape Patterns",
+      "description": "Generate a shape pattern that follows a given rule."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:35.941375",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Stepwise Shape Pattern",
+    "description": "The draw_stepwise_shape_pattern function can create a variety of stepwise shape patterns. It accepts a StepwiseShapePattern object as input, which includes a list of steps, each with a specific shape, number of columns, and optional label. The function validates that all steps have labels when there are more than three steps. The size of the shapes and the spacing between them can be adjusted. The function is useful in teaching concepts of patterns, sequences, and geometric shapes.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "steps: A list of Step objects, each representing a step in the pattern. Each step includes a shape, number of columns, and an optional label.",
+          "shape_size: The size of the shapes in the pattern.",
+          "spacing: The space between the shapes in the pattern."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "If there are more than three steps, each step must have a label.",
+          "The shape_size must be a positive number.",
+          "The spacing must be a positive number."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a stepwise pattern of shapes.",
+          "The shapes can be of any type, and are arranged in a specific number of columns as specified in each step.",
+          "The size of the shapes and the spacing between them can be adjusted."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

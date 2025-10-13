@@ -1,18 +1,75 @@
 {
   "function_name": "generate_geometric_shapes_transformations",
-  "description": "Generates geometric shapes transformations for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_geometric_shapes_transformations\nresult = generate_geometric_shapes_transformations(data)",
-  "image_path": "images/generate_geometric_shapes_transformations_example.webp",
+  "description": "This function generates a visual representation of geometric shapes and their transformations, specifically rotations. It is designed to help students understand the concept of geometric transformations, particularly rotation about a point.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "transformations",
+    "rotation",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:49.070388",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_geometric_shapes_transformations_1_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_1_20251011_190400.webp",
+      "index": 1,
+      "size": 79740
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_2_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_2_20251011_190400.webp",
+      "index": 2,
+      "size": 93468
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_3_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_3_20251011_190400.webp",
+      "index": 3,
+      "size": 50804
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_4_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_4_20251011_190400.webp",
+      "index": 4,
+      "size": 101898
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_5_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_5_20251011_190400.webp",
+      "index": 5,
+      "size": 140788
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_6_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_6_20251011_190400.webp",
+      "index": 6,
+      "size": 84418
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_7_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_7_20251011_190400.webp",
+      "index": 7,
+      "size": 104228
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_8_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_8_20251011_190400.webp",
+      "index": 8,
+      "size": 104122
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_9_20251011_190400.webp",
+      "filename": "generate_geometric_shapes_transformations_9_20251011_190400.webp",
+      "index": 9,
+      "size": 102832
+    }
+  ],
+  "image_count": 9,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_transformations"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.8.G.A.2+1",
@@ -50,5 +107,39 @@
       "description": "Given two similar two-dimensional figures, describe a sequence of rotations, reflections, translations, and dilations that exhibits the similarity between them."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:05.570972"
+  "standards_last_updated": "2025-10-11T19:27:40.190981",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Geometric Shape Transformations",
+    "description": "The function can draw a variety of polygons and apply specified rotations to them. It accepts a list of Polygon objects, each of which can have a specified rotation angle, rotation direction, and rotation center. The function applies the rotation to each vertex of the polygon and plots the original and transformed polygons on a coordinate grid. The function is designed to help students visualize and understand the effect of rotation transformations on geometric shapes.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "polygons: A list of Polygon objects. Each Polygon object represents a geometric shape and contains a list of Point objects representing its vertices.",
+          "rotation_angle: The angle of rotation to be applied to the polygon. This is an optional field for each Polygon object.",
+          "rotation_direction: The direction of rotation ('clockwise' or 'counterclockwise'). This is an optional field for each Polygon object.",
+          "rotation_center: The center of rotation. This is an optional field for each Polygon object. If not specified, the origin (0,0) is used as the center of rotation."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The rotation angle must be one of the following values: -270, -180, -90, 90, 180, 270. Any other values will result in no rotation being applied.",
+          "The rotation direction must be either 'clockwise' or 'counterclockwise'. Any other values will result in no rotation being applied.",
+          "The rotation center must be a Point object. If not specified, the origin (0,0) is used as the center of rotation."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws the original and transformed polygons on a coordinate grid. The grid is automatically scaled to fit all vertices of the polygons.",
+          "The function can draw multiple polygons and apply different rotations to each of them.",
+          "The visual output is affected by the input parameters in the following ways: The vertices of the polygons determine the shapes that are drawn. The rotation angle and direction determine how the shapes are transformed. The rotation center determines the point about which the shapes are rotated."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

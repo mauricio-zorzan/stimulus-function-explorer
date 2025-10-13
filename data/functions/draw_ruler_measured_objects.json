@@ -1,18 +1,76 @@
 {
   "function_name": "draw_ruler_measured_objects",
-  "description": "Draws ruler measured objects for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_ruler_measured_objects\nresult = draw_ruler_measured_objects(data)",
-  "image_path": "images/draw_ruler_measured_objects_example.webp",
-  "category": "general",
+  "description": "This function generates images of objects measured with a ruler. It is designed to help students understand the concept of measurement and length in a visual and interactive way. The function can draw multiple objects with their respective rulers, making it useful for comparing lengths and sizes.",
+  "category": "measurement",
   "tags": [
-    "general"
+    "measurement",
+    "length",
+    "ruler",
+    "comparison",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:05.285534",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_ruler_measured_objects_1_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_1_20251011_190400.webp",
+      "index": 1,
+      "size": 33548
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_2_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_2_20251011_190400.webp",
+      "index": 2,
+      "size": 123682
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_3_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_3_20251011_190400.webp",
+      "index": 3,
+      "size": 51506
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_4_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_4_20251011_190400.webp",
+      "index": 4,
+      "size": 32448
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_5_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_5_20251011_190400.webp",
+      "index": 5,
+      "size": 106730
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_6_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_6_20251011_190400.webp",
+      "index": 6,
+      "size": 118950
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_7_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_7_20251011_190400.webp",
+      "index": 7,
+      "size": 59716
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_8_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_8_20251011_190400.webp",
+      "index": 8,
+      "size": 36372
+    },
+    {
+      "path": "images/draw_ruler_measured_objects_9_20251011_190400.webp",
+      "filename": "draw_ruler_measured_objects_9_20251011_190400.webp",
+      "index": 9,
+      "size": 60110
+    }
+  ],
+  "image_count": 39,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "ruler_measured_objects"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.2.MD.A.3+1",
@@ -45,5 +103,39 @@
       "description": "Use rulers to measure objects in centimeters and millimeters."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:01.478905"
+  "standards_last_updated": "2025-10-11T19:27:33.917012",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Ruler Measured Objects",
+    "description": "The draw_ruler_measured_objects function creates visualizations of objects alongside rulers, which indicate their lengths. It accepts a RulerStimulus object as input, which contains a list of items, each with its own ruler. The rulers are drawn to scale based on the maximum length of the items in the list. The function is designed to help students understand and compare lengths of different objects. It is particularly useful in teaching measurement concepts in mathematics and science.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a single input: a RulerStimulus object",
+          "The RulerStimulus object contains a list of items, each with a ruler",
+          "Each item in the list includes a ruler object with a length_in_cm attribute",
+          "The length_in_cm attribute controls the length of the ruler drawn for each item"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The length_in_cm attribute must be a positive number",
+          "The list of items in the RulerStimulus object cannot be empty",
+          "Each item in the list must have a ruler with a valid length_in_cm attribute"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of rulers and items, each with a length indicated by its respective ruler",
+          "The rulers are drawn to scale based on the maximum length of the items in the list",
+          "The length of each ruler and item is controlled by the length_in_cm attribute of the respective item's ruler"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,18 +1,45 @@
 {
   "function_name": "plot_points",
-  "description": "Plots points for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for plot_points\nresult = plot_points(data)",
-  "image_path": "images/plot_points_example.webp",
-  "category": "graphs",
+  "description": "The 'plot_points' function generates a scatter plot of points with unique colors and markers. It is designed to provide a visual representation of data points, which can be used for teaching concepts related to data visualization, coordinate geometry, and statistics.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "scatter_plot",
+    "data_visualization",
+    "geometry",
+    "statistics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:38.780780",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/plot_points_1_20251011_190400.webp",
+      "filename": "plot_points_1_20251011_190400.webp",
+      "index": 1,
+      "size": 54650
+    },
+    {
+      "path": "images/plot_points_2_20251011_190400.webp",
+      "filename": "plot_points_2_20251011_190400.webp",
+      "index": 2,
+      "size": 46910
+    },
+    {
+      "path": "images/plot_points_3_20251011_190400.webp",
+      "filename": "plot_points_3_20251011_190400.webp",
+      "index": 3,
+      "size": 59974
+    },
+    {
+      "path": "images/plot_points_4_20251011_190400.webp",
+      "filename": "plot_points_4_20251011_190400.webp",
+      "index": 4,
+      "size": 46506
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_points"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.1+1",
@@ -33,37 +60,39 @@
       "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
       "display_name": "Statistical Question Recognition",
       "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
-      "display_name": null,
-      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
-      "display_name": null,
-      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
-      "display_name": null,
-      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
-      "display_name": null,
-      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.1+1",
-      "display_name": null,
-      "description": "Recognize a statistical question as one that anticipates variability in the data related to the question and accounts for it in the answers. Questions regarding an individual known data point would not be considered a statistical question. However, questions regarding data points about a population would be statistical in nature."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+1",
-      "display_name": "Identifying Functions",
-      "description": "Identify whether or not a mathematical relation is a function."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:14.121896"
+  "standards_last_updated": "2025-10-11T19:27:51.157046",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scatter Plots",
+    "description": "The 'plot_points' function is capable of generating scatter plots. It accepts a list of points, each having a label and x, y coordinates. The function checks for duplicate points and throws an error if found. It also checks if all points lie in the first quadrant. The function uses a variety of colors and markers to distinguish between points. The scatter plot is drawn on a grid, and the axes are labeled. This function can be used for teaching and learning data visualization, coordinate geometry, and statistics.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of points. Each point is an object with a label, x-coordinate, and y-coordinate.",
+          "The label of a point is a string that represents the name or identifier of the point.",
+          "The x and y coordinates of a point are floating point numbers that represent the position of the point on the x and y axes respectively."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function checks for duplicate points. If a point with the same x and y coordinates is found more than once, the function throws an error.",
+          "The function checks if all points lie in the first quadrant. If they do, the plot is adjusted accordingly."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a scatter plot with points represented by unique colors and markers.",
+          "The scatter plot is drawn on a grid. The right and top spines of the plot are hidden, and the left and bottom spines are positioned at zero.",
+          "The x and y axes are labeled, and a legend is displayed to the upper left of the plot."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

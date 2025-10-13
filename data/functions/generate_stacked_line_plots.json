@@ -1,18 +1,75 @@
 {
   "function_name": "generate_stacked_line_plots",
-  "description": "Generates stacked line plots for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_stacked_line_plots\nresult = generate_stacked_line_plots(data)",
-  "image_path": "images/generate_stacked_line_plots_example.webp",
-  "category": "graphs",
+  "description": "The 'generate_stacked_line_plots' function creates a series of line plots based on the provided stimuli descriptions. These plots are stacked and displayed in a grid format, providing a clear visual comparison between different data sets. This function is primarily used for educational purposes, allowing students to visually interpret and understand complex data sets.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "line_plots",
+    "data_visualization",
+    "mathematics",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:10.254409",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_stacked_line_plots_1_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_1_20251011_190400.webp",
+      "index": 1,
+      "size": 35312
+    },
+    {
+      "path": "images/generate_stacked_line_plots_2_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_2_20251011_190400.webp",
+      "index": 2,
+      "size": 26078
+    },
+    {
+      "path": "images/generate_stacked_line_plots_3_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_3_20251011_190400.webp",
+      "index": 3,
+      "size": 18250
+    },
+    {
+      "path": "images/generate_stacked_line_plots_4_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_4_20251011_190400.webp",
+      "index": 4,
+      "size": 8840
+    },
+    {
+      "path": "images/generate_stacked_line_plots_5_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_5_20251011_190400.webp",
+      "index": 5,
+      "size": 15856
+    },
+    {
+      "path": "images/generate_stacked_line_plots_6_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_6_20251011_190400.webp",
+      "index": 6,
+      "size": 16250
+    },
+    {
+      "path": "images/generate_stacked_line_plots_7_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_7_20251011_190400.webp",
+      "index": 7,
+      "size": 20738
+    },
+    {
+      "path": "images/generate_stacked_line_plots_8_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_8_20251011_190400.webp",
+      "index": 8,
+      "size": 8554
+    },
+    {
+      "path": "images/generate_stacked_line_plots_9_20251011_190400.webp",
+      "filename": "generate_stacked_line_plots_9_20251011_190400.webp",
+      "index": 9,
+      "size": 7458
+    }
+  ],
+  "image_count": 40,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "line_plot"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.2.MD.D.9+2",
@@ -60,5 +117,39 @@
       "description": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:09.769404"
+  "standards_last_updated": "2025-10-11T19:27:44.419009",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Stacked Line Plots",
+    "description": "The 'generate_stacked_line_plots' function is capable of creating a variety of line plots based on the provided stimuli descriptions. These descriptions include data points, each with a value and frequency, and details for the plot such as the title and axis labels. The function validates and adjusts the range of the line plots before generating them. It can generate multiple plots, arranging them in a grid format for easy comparison. The function is designed with educational purposes in mind, aiding in the understanding of complex data sets and mathematical concepts.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Stimuli Descriptions: A list of descriptions for the stimuli. Each description includes data points, a title, and labels for the x and y axes.",
+          "Data Points: Each data point includes a value and a frequency.",
+          "Title: The title for the plot.",
+          "X and Y Axis Labels: Labels for the x and y axes of the plot."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "Value Range: The range of values is adjusted based on the stimuli descriptions. The maximum frequency is also calculated and used to adjust the y-axis range.",
+          "Plot Count: The number of plots is determined by the number of stimuli descriptions. The function can generate a maximum of 4 plots, arranged in a 2x2 grid.",
+          "Size Constraints: The size of the plots is adjusted based on the range of values and the maximum frequency, with a padding added for clarity."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "Line Plots: The function generates line plots based on the provided stimuli descriptions.",
+          "Grid Format: If multiple plots are generated, they are arranged in a grid format for easy comparison.",
+          "Title and Labels: Each plot includes a title and labels for the x and y axes, providing context for the data."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

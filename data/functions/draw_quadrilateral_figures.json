@@ -1,24 +1,83 @@
 {
   "function_name": "draw_quadrilateral_figures",
-  "description": "Draws quadrilateral figures for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_quadrilateral_figures\nresult = draw_quadrilateral_figures(data)",
-  "image_path": "images/draw_quadrilateral_figures_example.webp",
-  "category": "general",
+  "description": "This function draws 2-4 quadrilateral figures with configurable properties, such as rhombus, parallelogram, and irregular quadrilateral shapes. It is designed for educational purposes, to help students visualize and understand the properties of different quadrilateral shapes.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "quadrilaterals",
+    "shapes",
+    "geometry",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:44.695878",
-  "test_data": "Generated from GitHub Actions workflow",
-  "educational_standards": [
+  "images": [
     {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+6",
-      "display_name": null,
-      "description": "Identify rhombuses."
+      "path": "images/draw_quadrilateral_figures_1_20251011_190400.webp",
+      "filename": "draw_quadrilateral_figures_1_20251011_190400.webp",
+      "index": 1,
+      "size": 18340
+    },
+    {
+      "path": "images/draw_quadrilateral_figures_2_20251011_190400.webp",
+      "filename": "draw_quadrilateral_figures_2_20251011_190400.webp",
+      "index": 2,
+      "size": 16624
+    },
+    {
+      "path": "images/draw_quadrilateral_figures_3_20251011_190400.webp",
+      "filename": "draw_quadrilateral_figures_3_20251011_190400.webp",
+      "index": 3,
+      "size": 32468
+    },
+    {
+      "path": "images/draw_quadrilateral_figures_4_20251011_190400.webp",
+      "filename": "draw_quadrilateral_figures_4_20251011_190400.webp",
+      "index": 4,
+      "size": 16658
+    },
+    {
+      "path": "images/draw_quadrilateral_figures_5_20251011_190400.webp",
+      "filename": "draw_quadrilateral_figures_5_20251011_190400.webp",
+      "index": 5,
+      "size": 43790
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:00.465459"
+  "image_count": 20,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "quadrilateral_figures"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Quadrilateral Figures",
+    "description": "The function 'draw_quadrilateral_figures' can draw 2-4 quadrilateral shapes, including rhombus, parallelogram, and irregular quadrilateral shapes. It accepts a list of shape types, side labels for each shape, and a boolean value to show or hide tick marks. The shapes can be rotated randomly or in standard orientation, and each shape is drawn in a random color. This function is useful in teaching geometry, specifically the properties and differences between various types of quadrilaterals.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_types: A list of shape types to draw. Each shape can be a rhombus, parallelogram, or irregular quadrilateral.",
+          "side_labels: A list of side labels for each shape. Each inner list should have 4 labels for the 4 sides of each quadrilateral.",
+          "show_ticks: A boolean value to show or hide red tick marks."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The list of shape types should contain 2-4 shapes.",
+          "The shape type names should match the enum values, and are case-insensitive.",
+          "Each shape should have 4 side labels."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws 2-4 quadrilateral shapes in a grid layout.",
+          "Each shape is drawn in a random color.",
+          "The shapes can be rotated randomly or in standard orientation.",
+          "Side labels or tick marks are displayed on each side of the shapes."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

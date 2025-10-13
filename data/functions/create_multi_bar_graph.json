@@ -1,54 +1,73 @@
 {
   "function_name": "create_multi_bar_graph",
-  "description": "Creates multi bar graph for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_multi_bar_graph\nresult = create_multi_bar_graph(data)",
-  "image_path": "images/create_multi_bar_graph_example.webp",
-  "category": "graphs",
+  "description": "This function generates a 2x2 grid of bar graphs in a single image, each representing a different set of categorical data. It is designed to facilitate comparison and analysis of different data sets, making it a useful tool for teaching data visualization and analysis in an educational setting.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "bar_graph",
+    "data_analysis",
+    "comparison",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:01:22.513135",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_multi_bar_graph_1_20251011_190400.webp",
+      "filename": "create_multi_bar_graph_1_20251011_190400.webp",
+      "index": 1,
+      "size": 838890
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_categorical_graph"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multi Bar Graphs",
+    "description": "The 'create_multi_bar_graph' function can draw a 2x2 grid of bar graphs, each representing a different set of categorical data. It accepts a MultiGraphList containing exactly 4 CategoricalGraph objects as input. Each CategoricalGraph object should contain a list of categories and their corresponding frequencies, a title, and labels for the x and y axes. The function is designed to facilitate comparison and analysis of different data sets, making it a useful tool for teaching data visualization and analysis in an educational setting. It is important to note that the function requires exactly 4 sets of data, and will raise a ValueError if this condition is not met.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "MultiGraphList: A list containing exactly 4 CategoricalGraph objects",
+          "CategoricalGraph: An object that contains a list of categories and their corresponding frequencies, a title, and labels for the x and y axes",
+          "Category: A string representing a category",
+          "Frequency: A number representing the frequency of a category",
+          "Title: A string representing the title of the graph",
+          "x_axis_label: A string representing the label for the x axis",
+          "y_axis_label: A string representing the label for the y axis"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The MultiGraphList must contain exactly 4 CategoricalGraph objects",
+          "The categories and frequencies must be lists of the same length",
+          "The title, x_axis_label, and y_axis_label must be strings",
+          "The frequencies must be numbers"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a 2x2 grid of bar graphs in a single image",
+          "Each bar graph represents a different set of categorical data",
+          "The height of each bar corresponds to the frequency of the category it represents",
+          "The title and labels for the x and y axes are displayed on each graph",
+          "The function uses smart x-axis label management to ensure that the labels are displayed clearly and legibly"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.B.3+2",
       "display_name": "Bar Graphs",
       "description": "Draw a scaled bar graph to represent a data set with several categories"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": "Interpret Dot Plots",
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:41.148820"
+  "standards_last_updated": "2025-10-11T19:27:01.543303"
 }

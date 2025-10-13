@@ -1,0 +1,57 @@
+{
+  "function_name": "draw_circle_with_arcs",
+  "description": "The 'draw_circle_with_arcs' function creates a visual representation of a circle with intersecting lines, forming arcs. It is designed to aid in the understanding of geometric concepts such as angles, arcs, and circles. The function also includes labels for the points at the arc endpoints and a dynamic position for the center of the circle.",
+  "category": "geometry",
+  "tags": [
+    "circle",
+    "arcs",
+    "geometry",
+    "mathematics",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_circle_with_arcs_1_20251011_190400.webp",
+      "filename": "draw_circle_with_arcs_1_20251011_190400.webp",
+      "index": 1,
+      "size": 70054
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "circle_with_intersecting_lines"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Circle with Intersecting Arcs",
+    "description": "The 'draw_circle_with_arcs' function is capable of generating a variety of images depicting a circle with intersecting lines that form arcs. The function accepts a CircleWithArcsDescription object as input, which contains parameters such as arc size and point labels. The arc size determines the size of the arcs formed by the intersecting lines, while the point labels provide labels for the points at the arc endpoints. The function has a constraint on the arc size, which must be a positive integer less than or equal to 360. The function is primarily used in educational settings to help students visualize and understand geometric concepts related to circles and arcs.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "arc_size: This input determines the size of the arcs formed by the intersecting lines.",
+          "point_labels: This input provides labels for the points at the arc endpoints."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "arc_size: The arc size must be a positive integer less than or equal to 360.",
+          "point_labels: The point labels must be a list of four strings."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a circle with intersecting lines that form arcs.",
+          "The function also includes labels for the points at the arc endpoints and a dynamic position for the center of the circle.",
+          "The size of the arcs and the labels for the points at the arc endpoints are determined by the input parameters."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

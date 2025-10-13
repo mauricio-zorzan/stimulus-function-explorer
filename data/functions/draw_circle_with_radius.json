@@ -1,16 +1,58 @@
 {
   "function_name": "draw_circle_with_radius",
-  "description": "Draws circle with radius for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_circle_with_radius\nresult = draw_circle_with_radius(data)",
-  "image_path": "images/draw_circle_with_radius_example.webp",
-  "category": "general",
+  "description": "The function 'draw_circle_with_radius' generates a visual representation of a circle with a specific radius. The circle is drawn in black color on a white background. This function is primarily used for educational purposes, to help students understand the concept of radius in a circle and its visual implications.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "circle",
+    "radius",
+    "geometry",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:11.746706",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/draw_circle_with_radius_1_20251011_190400.webp",
+      "filename": "draw_circle_with_radius_1_20251011_190400.webp",
+      "index": 1,
+      "size": 73012
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "circle"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Circle with Specific Radius",
+    "description": "The 'draw_circle_with_radius' function is capable of generating images of circles with a specific radius. The function accepts a single input parameter, 'data', which is an instance of the 'Circle' class. This class should contain the radius of the circle to be drawn. The function does not have any constraints or limits on the radius value. It is primarily used in educational contexts, to help students visualize the concept of radius in a circle and understand how changing the radius affects the size of the circle.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a single input parameter, 'data', which is an instance of the 'Circle' class.",
+          "The 'Circle' class should contain the radius of the circle to be drawn.",
+          "The radius is a required field."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function does not have any constraints or limits on the radius value.",
+          "There are no specific validation rules for the input parameter.",
+          "There are no special conditions or requirements for the function."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a circle with the specified radius on a white background.",
+          "The circle is drawn in black color.",
+          "The size of the circle in the output image is directly proportional to the radius value provided as input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

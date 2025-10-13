@@ -1,0 +1,328 @@
+{
+  "function_name": "draw_circle_angle_measurement",
+  "description": "The function 'draw_circle_angle_measurement' generates a circle with degree markings every 15\u00b0 and major labels at 0\u00b0, 90\u00b0, 180\u00b0, 270\u00b0. It also includes a shaded sector indicating the angle to be measured, providing a visual aid for understanding angle measurements in a circle.",
+  "category": "geometry",
+  "tags": [
+    "circle",
+    "angle_measurement",
+    "geometry",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_circle_angle_measurement_1_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_1_20251011_190400.webp",
+      "index": 1,
+      "size": 62706
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_2_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_2_20251011_190400.webp",
+      "index": 2,
+      "size": 54086
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_3_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_3_20251011_190400.webp",
+      "index": 3,
+      "size": 53512
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_4_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_4_20251011_190400.webp",
+      "index": 4,
+      "size": 52414
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_5_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_5_20251011_190400.webp",
+      "index": 5,
+      "size": 55054
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_6_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_6_20251011_190400.webp",
+      "index": 6,
+      "size": 55290
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_7_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_7_20251011_190400.webp",
+      "index": 7,
+      "size": 60038
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_8_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_8_20251011_190400.webp",
+      "index": 8,
+      "size": 60994
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_9_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_9_20251011_190400.webp",
+      "index": 9,
+      "size": 50646
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_10_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_10_20251011_190400.webp",
+      "index": 10,
+      "size": 55448
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_11_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_11_20251011_190400.webp",
+      "index": 11,
+      "size": 55528
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_12_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_12_20251011_190400.webp",
+      "index": 12,
+      "size": 60800
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_13_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_13_20251011_190400.webp",
+      "index": 13,
+      "size": 54016
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_14_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_14_20251011_190400.webp",
+      "index": 14,
+      "size": 60248
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_15_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_15_20251011_190400.webp",
+      "index": 15,
+      "size": 59330
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_16_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_16_20251011_190400.webp",
+      "index": 16,
+      "size": 52414
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_17_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_17_20251011_190400.webp",
+      "index": 17,
+      "size": 57842
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_18_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_18_20251011_190400.webp",
+      "index": 18,
+      "size": 55076
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_19_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_19_20251011_190400.webp",
+      "index": 19,
+      "size": 58518
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_20_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_20_20251011_190400.webp",
+      "index": 20,
+      "size": 50794
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_21_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_21_20251011_190400.webp",
+      "index": 21,
+      "size": 60150
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_22_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_22_20251011_190400.webp",
+      "index": 22,
+      "size": 61944
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_23_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_23_20251011_190400.webp",
+      "index": 23,
+      "size": 60734
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_24_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_24_20251011_190400.webp",
+      "index": 24,
+      "size": 56618
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_25_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_25_20251011_190400.webp",
+      "index": 25,
+      "size": 54574
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_26_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_26_20251011_190400.webp",
+      "index": 26,
+      "size": 55328
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_27_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_27_20251011_190400.webp",
+      "index": 27,
+      "size": 62840
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_28_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_28_20251011_190400.webp",
+      "index": 28,
+      "size": 60108
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_29_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_29_20251011_190400.webp",
+      "index": 29,
+      "size": 58782
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_30_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_30_20251011_190400.webp",
+      "index": 30,
+      "size": 60800
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_31_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_31_20251011_190400.webp",
+      "index": 31,
+      "size": 56142
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_32_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_32_20251011_190400.webp",
+      "index": 32,
+      "size": 54702
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_33_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_33_20251011_190400.webp",
+      "index": 33,
+      "size": 49362
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_34_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_34_20251011_190400.webp",
+      "index": 34,
+      "size": 58518
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_35_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_35_20251011_190400.webp",
+      "index": 35,
+      "size": 63896
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_36_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_36_20251011_190400.webp",
+      "index": 36,
+      "size": 60204
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_37_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_37_20251011_190400.webp",
+      "index": 37,
+      "size": 51080
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_38_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_38_20251011_190400.webp",
+      "index": 38,
+      "size": 55528
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_39_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_39_20251011_190400.webp",
+      "index": 39,
+      "size": 55290
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_40_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_40_20251011_190400.webp",
+      "index": 40,
+      "size": 54574
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_41_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_41_20251011_190400.webp",
+      "index": 41,
+      "size": 56892
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_42_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_42_20251011_190400.webp",
+      "index": 42,
+      "size": 57236
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_43_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_43_20251011_190400.webp",
+      "index": 43,
+      "size": 62570
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_44_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_44_20251011_190400.webp",
+      "index": 44,
+      "size": 54548
+    },
+    {
+      "path": "images/draw_circle_angle_measurement_45_20251011_190400.webp",
+      "filename": "draw_circle_angle_measurement_45_20251011_190400.webp",
+      "index": 45,
+      "size": 55518
+    }
+  ],
+  "image_count": 90,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "circle_angle"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Circle Angle Measurement",
+    "description": "The function can draw a circle with degree markings and a shaded sector representing the angle to be measured. It accepts an input of type 'CircleAngle', which includes the angle measure to be depicted. The function validates the angle measure to ensure it falls within the valid range of 0\u00b0 to 360\u00b0. This visualization serves as an educational tool for teaching and learning about angle measurements in a circle, particularly in the context of geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts an input of type 'CircleAngle', which includes the angle measure to be depicted.",
+          "The angle measure controls the size of the shaded sector in the circle, representing the angle to be measured."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The angle measure must fall within the range of 0\u00b0 to 360\u00b0.",
+          "The function includes a validation step to ensure the angle measure meets this requirement."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a circle with degree markings every 15\u00b0 and major labels at 0\u00b0, 90\u00b0, 180\u00b0, 270\u00b0.",
+          "It also includes a shaded sector representing the angle to be measured.",
+          "The size of the shaded sector is determined by the angle measure input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.6+3",
+      "display_name": null,
+      "description": "Measure angles on a circle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:11.308879"
+}

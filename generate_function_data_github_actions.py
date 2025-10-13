@@ -294,19 +294,26 @@ class GitHubActionsGenerator:
         cleaned = re.sub(r"_\d+$", "", name_without_ext)  # Remove trailing timestamp
         cleaned = re.sub(r"^\d+_", "", cleaned)  # Remove leading timestamp
 
-        # Load the improved mapping from function code analysis
+        # Load the complete mapping (includes both prefix_{time} and {time}_suffix patterns)
         try:
             import json
 
             with open("function_filename_mapping.json", "r") as f:
-                improved_mappings = json.load(f)
+                complete_mappings = json.load(f)
         except FileNotFoundError:
             print("⚠️ function_filename_mapping.json not found, using fallback mappings")
-            improved_mappings = {}
+            complete_mappings = {}
 
-        # Try improved mapping first (from function code analysis)
-        for pattern, function_name in improved_mappings.items():
-            if pattern in cleaned.lower():
+        # Try direct pattern match first
+        if cleaned in complete_mappings:
+            function_name = complete_mappings[cleaned]
+            if function_name in all_functions:
+                return function_name
+
+        # Try fuzzy matching with all patterns
+        for pattern, function_name in complete_mappings.items():
+            # Check if pattern matches (handles both naming conventions)
+            if pattern in cleaned or cleaned in pattern or pattern in name_without_ext:
                 # Verify the function exists
                 if function_name in all_functions:
                     return function_name

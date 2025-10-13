@@ -1,18 +1,51 @@
 {
   "function_name": "draw_single_quadrilateral_stimulus",
-  "description": "Draws single quadrilateral stimulus for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_single_quadrilateral_stimulus\nresult = draw_single_quadrilateral_stimulus(data)",
-  "image_path": "images/draw_single_quadrilateral_stimulus_example.webp",
-  "category": "general",
+  "description": "This function generates a single quadrilateral figure with optimized dimensions for web display. It is designed for educational purposes, specifically for teaching and learning about the properties of quadrilateral shapes.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "quadrilateral",
+    "geometry",
+    "visualization",
+    "educational"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:42.920948",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_single_quadrilateral_stimulus_1_20251011_190400.webp",
+      "filename": "draw_single_quadrilateral_stimulus_1_20251011_190400.webp",
+      "index": 1,
+      "size": 1098
+    },
+    {
+      "path": "images/draw_single_quadrilateral_stimulus_2_20251011_190400.webp",
+      "filename": "draw_single_quadrilateral_stimulus_2_20251011_190400.webp",
+      "index": 2,
+      "size": 1468
+    },
+    {
+      "path": "images/draw_single_quadrilateral_stimulus_3_20251011_190400.webp",
+      "filename": "draw_single_quadrilateral_stimulus_3_20251011_190400.webp",
+      "index": 3,
+      "size": 1900
+    },
+    {
+      "path": "images/draw_single_quadrilateral_stimulus_4_20251011_190400.webp",
+      "filename": "draw_single_quadrilateral_stimulus_4_20251011_190400.webp",
+      "index": 4,
+      "size": 2442
+    },
+    {
+      "path": "images/draw_single_quadrilateral_stimulus_5_20251011_190400.webp",
+      "filename": "draw_single_quadrilateral_stimulus_5_20251011_190400.webp",
+      "index": 5,
+      "size": 1876
+    }
+  ],
+  "image_count": 22,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "single_quadrilateral"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.G.A.1+1",
@@ -25,5 +58,38 @@
       "description": "Identify rhombuses."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:02.841184"
+  "standards_last_updated": "2025-10-11T19:27:35.280264",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Single Quadrilateral Figures",
+    "description": "The draw_single_quadrilateral_stimulus function can generate images of single quadrilateral figures. It accepts inputs based on the QuadrilateralFigures class, which includes the type of the shape, side labels, whether to show ticks or not, and the rotation of the shape. The function requires exactly one shape and it does not include figure labels. This function is ideal for educational purposes, especially in teaching students about the properties of different quadrilateral shapes, their rotations, and side labels.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_types: This input determines the type of the quadrilateral shape to be drawn.",
+          "side_labels: This input controls the labels of the sides of the quadrilateral.",
+          "show_ticks: This input determines whether to show ticks on the sides of the quadrilateral or not.",
+          "rotation: This input controls the rotation of the quadrilateral shape."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function requires exactly one shape. If more than one shape is provided, a ValueError will be raised.",
+          "The function does not include figure labels, as it is designed for single quadrilateral figures."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a single quadrilateral figure with side labels and optional ticks.",
+          "The color of the quadrilateral is randomly selected internally.",
+          "The rotation of the quadrilateral can be controlled by the 'rotation' input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

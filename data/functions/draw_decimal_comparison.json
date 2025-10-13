@@ -1,0 +1,102 @@
+{
+  "function_name": "draw_decimal_comparison",
+  "description": "The 'draw_decimal_comparison' function generates a series of visual models for comparing decimal numbers. It is designed to aid in the understanding of decimal comparison, following the Common Core State Standards for Mathematics (CCSS.MATH.CONTENT.4.NF.C.7+3).",
+  "category": "arithmetic",
+  "tags": [
+    "decimals",
+    "comparison",
+    "visualization",
+    "CCSS"
+  ],
+  "images": [
+    {
+      "path": "images/draw_decimal_comparison_1_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_1_20251011_190400.webp",
+      "index": 1,
+      "size": 32420
+    },
+    {
+      "path": "images/draw_decimal_comparison_2_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_2_20251011_190400.webp",
+      "index": 2,
+      "size": 19444
+    },
+    {
+      "path": "images/draw_decimal_comparison_3_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_3_20251011_190400.webp",
+      "index": 3,
+      "size": 19552
+    },
+    {
+      "path": "images/draw_decimal_comparison_4_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_4_20251011_190400.webp",
+      "index": 4,
+      "size": 68580
+    },
+    {
+      "path": "images/draw_decimal_comparison_5_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_5_20251011_190400.webp",
+      "index": 5,
+      "size": 19422
+    },
+    {
+      "path": "images/draw_decimal_comparison_6_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_6_20251011_190400.webp",
+      "index": 6,
+      "size": 34682
+    },
+    {
+      "path": "images/draw_decimal_comparison_7_20251011_190400.webp",
+      "filename": "draw_decimal_comparison_7_20251011_190400.webp",
+      "index": 7,
+      "size": 31886
+    }
+  ],
+  "image_count": 31,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "decimal_comparison"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Decimal Comparison Visual Models",
+    "description": "The 'draw_decimal_comparison' function creates visual models for comparing decimal numbers. It accepts a list of decimal comparisons as input, each of which is represented as a pair of decimal numbers. The function generates a separate visualization for each comparison in the list, with each visualization consisting of a pair of side-by-side grids representing the two decimal numbers. The visualizations are designed to help students understand the concept of decimal comparison and are aligned with the CCSS.MATH.CONTENT.4.NF.C.7+3 standards. The function saves each visualization as an image file and returns the file name.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a single input parameter: 'stimulus'. This is an instance of the DecimalComparisonList class, which contains a list of decimal comparisons.",
+          "Each decimal comparison is represented as a pair of decimal numbers.",
+          "The function generates a separate visualization for each comparison in the list."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function assumes that the input parameter 'stimulus' is an instance of the DecimalComparisonList class.",
+          "Each decimal comparison in the list should be a pair of decimal numbers.",
+          "The function does not impose any specific constraints on the decimal numbers, but they should be valid decimal numbers in order to generate meaningful visualizations."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a separate visualization for each decimal comparison in the input list.",
+          "Each visualization consists of a pair of side-by-side grids representing the two decimal numbers.",
+          "The visualizations are designed to help students understand the concept of decimal comparison."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.7+3",
+      "display_name": null,
+      "description": "Compare two decimals to the hundredths place using models."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:15.931322"
+}

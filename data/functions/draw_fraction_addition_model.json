@@ -1,0 +1,112 @@
+{
+  "function_name": "draw_fraction_addition_model",
+  "description": "The function 'draw_fraction_addition_model' generates a visual representation of the addition of two fractions. It can display the fractions either stacked vertically or side-by-side horizontally. The function is designed to aid in the understanding of fraction addition by providing a visual model of the process.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "addition",
+    "visualization",
+    "educational"
+  ],
+  "images": [
+    {
+      "path": "images/draw_fraction_addition_model_1_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_1_20251011_190400.webp",
+      "index": 1,
+      "size": 17034
+    },
+    {
+      "path": "images/draw_fraction_addition_model_2_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_2_20251011_190400.webp",
+      "index": 2,
+      "size": 26622
+    },
+    {
+      "path": "images/draw_fraction_addition_model_3_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_3_20251011_190400.webp",
+      "index": 3,
+      "size": 27064
+    },
+    {
+      "path": "images/draw_fraction_addition_model_4_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_4_20251011_190400.webp",
+      "index": 4,
+      "size": 42104
+    },
+    {
+      "path": "images/draw_fraction_addition_model_5_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_5_20251011_190400.webp",
+      "index": 5,
+      "size": 27360
+    },
+    {
+      "path": "images/draw_fraction_addition_model_6_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_6_20251011_190400.webp",
+      "index": 6,
+      "size": 47614
+    },
+    {
+      "path": "images/draw_fraction_addition_model_7_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_7_20251011_190400.webp",
+      "index": 7,
+      "size": 27656
+    },
+    {
+      "path": "images/draw_fraction_addition_model_8_20251011_190400.webp",
+      "filename": "draw_fraction_addition_model_8_20251011_190400.webp",
+      "index": 8,
+      "size": 29016
+    }
+  ],
+  "image_count": 36,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "fraction_addition_model"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NF.A.1+2",
+      "display_name": "Adding Fractions",
+      "description": "Add fractions less than one with unlike denominators."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:18.529322",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fraction Addition Models",
+    "description": "The 'draw_fraction_addition_model' function is capable of generating images that visually represent the addition of two fractions. It accepts inputs in the form of a FractionAdditionModel, which contains two fractions, layout preference (vertical or horizontal), and options to show a plus sign and a divider line. The function is designed to help students understand the concept of fraction addition by providing a visual representation of the process. The generated images can be used in various educational settings, including classroom instruction, homework assignments, and online learning platforms.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: FractionAdditionModel - This input contains two fractions, layout preference, and options to show a plus sign and a divider line.",
+          "fraction1: Fraction - The first fraction to be added.",
+          "fraction2: Fraction - The second fraction to be added.",
+          "layout: str - Layout preference ('vertical' or 'horizontal').",
+          "show_plus_sign: bool - Option to display a plus sign between the fractions.",
+          "show_divider_line: bool - Option to display a divider line below the fractions."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The fractions must be valid fractions.",
+          "The layout must be either 'vertical' or 'horizontal'.",
+          "The show_plus_sign and show_divider_line fields must be boolean values."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two fraction bars representing the fractions to be added.",
+          "If the layout is 'vertical', the fractions are stacked vertically; if 'horizontal', they are displayed side-by-side.",
+          "If show_plus_sign is True, a plus sign is displayed between the fractions; if False, no plus sign is displayed.",
+          "If show_divider_line is True, a divider line is drawn below the fractions; if False, no divider line is drawn."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

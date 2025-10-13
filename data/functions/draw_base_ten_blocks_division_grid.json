@@ -1,0 +1,84 @@
+{
+  "function_name": "draw_base_ten_blocks_division_grid",
+  "description": "This function generates a visual representation of division using base ten blocks. It creates a grid where rows represent the divisor and columns represent the quotient. The function can also generate incorrect tilings for use in multiple choice questions, providing an educational tool for teaching division concepts and error analysis.",
+  "category": "arithmetic",
+  "tags": [
+    "division",
+    "base_ten_blocks",
+    "visualization",
+    "error_analysis"
+  ],
+  "images": [
+    {
+      "path": "images/draw_base_ten_blocks_division_grid_1_20251011_190400.webp",
+      "filename": "draw_base_ten_blocks_division_grid_1_20251011_190400.webp",
+      "index": 1,
+      "size": 69540
+    },
+    {
+      "path": "images/draw_base_ten_blocks_division_grid_2_20251011_190400.webp",
+      "filename": "draw_base_ten_blocks_division_grid_2_20251011_190400.webp",
+      "index": 2,
+      "size": 42592
+    },
+    {
+      "path": "images/draw_base_ten_blocks_division_grid_3_20251011_190400.webp",
+      "filename": "draw_base_ten_blocks_division_grid_3_20251011_190400.webp",
+      "index": 3,
+      "size": 53850
+    },
+    {
+      "path": "images/draw_base_ten_blocks_division_grid_4_20251011_190400.webp",
+      "filename": "draw_base_ten_blocks_division_grid_4_20251011_190400.webp",
+      "index": 4,
+      "size": 78062
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "base_ten_blocks_division_grid_"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Base Ten Blocks Division Grid",
+    "description": "This function can draw a grid visualization of division using base ten blocks. It accepts a stimulus object of the BaseTenBlockDivisionStimulus class, which includes a dividend and divisor. The grid is drawn based on the divisor (rows) and quotient (columns). The function also has a feature to generate incorrect tilings, which can be used for creating multiple choice questions. This visualization aids in understanding the concept of division and the structure of base ten blocks.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a stimulus object of the BaseTenBlockDivisionStimulus class.",
+          "The stimulus object includes a dividend and divisor, which control the structure of the grid.",
+          "The stimulus object may also include an 'incorrect_tiling' attribute, which, if set to true, triggers the function to generate an incorrect tiling."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The divisor must be in the range 11 to 19.",
+          "The dividend must be in the range 100 to 199.",
+          "The dividend must be divisible by the divisor with no remainder."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a grid with rows representing the divisor and columns representing the quotient.",
+          "The grid uses base ten blocks, with a 10x10 hundred block, horizontal tens, and vertical tens and ones.",
+          "If 'incorrect_tiling' is set to true, the function generates a different but valid division, useful for multiple choice questions."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.NBT.B.6+1",
+      "display_name": "Division with Two Digit Divisors",
+      "description": "Divide numbers by two digit divisors using models"
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:09.216952"
+}

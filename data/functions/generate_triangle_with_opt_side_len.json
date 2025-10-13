@@ -1,0 +1,177 @@
+{
+  "function_name": "generate_triangle_with_opt_side_len",
+  "description": "This function draws a triangle with optional side lengths, primarily for teaching and practicing the Pythagorean theorem. It can calculate missing sides, selectively label sides based on exercise type, and rotate the triangle. It also supports the display of the Pythagorean theorem calculation and a right-angle marker.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "pythagorean_theorem",
+    "visualization",
+    "triangle"
+  ],
+  "images": [
+    {
+      "path": "images/generate_triangle_with_opt_side_len_1_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_1_20251011_190400.webp",
+      "index": 1,
+      "size": 59840
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_2_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_2_20251011_190400.webp",
+      "index": 2,
+      "size": 62030
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_3_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_3_20251011_190400.webp",
+      "index": 3,
+      "size": 41106
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_4_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_4_20251011_190400.webp",
+      "index": 4,
+      "size": 65662
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_5_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_5_20251011_190400.webp",
+      "index": 5,
+      "size": 44650
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_6_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_6_20251011_190400.webp",
+      "index": 6,
+      "size": 53698
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_7_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_7_20251011_190400.webp",
+      "index": 7,
+      "size": 63660
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_8_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_8_20251011_190400.webp",
+      "index": 8,
+      "size": 46756
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_9_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_9_20251011_190400.webp",
+      "index": 9,
+      "size": 63250
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_10_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_10_20251011_190400.webp",
+      "index": 10,
+      "size": 31846
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_11_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_11_20251011_190400.webp",
+      "index": 11,
+      "size": 56612
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_12_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_12_20251011_190400.webp",
+      "index": 12,
+      "size": 40732
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_13_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_13_20251011_190400.webp",
+      "index": 13,
+      "size": 56392
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_14_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_14_20251011_190400.webp",
+      "index": 14,
+      "size": 63176
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_15_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_15_20251011_190400.webp",
+      "index": 15,
+      "size": 54994
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_16_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_16_20251011_190400.webp",
+      "index": 16,
+      "size": 46444
+    },
+    {
+      "path": "images/generate_triangle_with_opt_side_len_17_20251011_190400.webp",
+      "filename": "generate_triangle_with_opt_side_len_17_20251011_190400.webp",
+      "index": 17,
+      "size": 50778
+    }
+  ],
+  "image_count": 17,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "triangle_opt_side_len"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+2",
+      "display_name": "Classifying Triangles by Angles",
+      "description": "Classify triangles as right, acute, or obtuse."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.B.6+1",
+      "display_name": "Pythagorean Theorem 2D ",
+      "description": "Use the Pythagorean Theorem and its converse."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.B.7+1",
+      "display_name": "Pythagorean Theorem 2D Applications",
+      "description": "Solve real-world problems using the Pythagorean Theorem in two dimensions."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:48.519617",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Triangles with Optional Side Lengths",
+    "description": "This function can draw right triangles with optional side lengths, making it ideal for exercises involving the Pythagorean theorem. It accepts side lengths, rotation angle, and parameters to control the display of labels, right-angle symbol, and Pythagorean theorem calculation. The function scales the triangle to ensure proper display, with the longest side not exceeding 10 units. It can calculate missing side lengths when only two are provided, supporting exercises to find the hypotenuse, a leg, or verify if a triangle is right-angled. The function also supports rotation of the triangle by 0, 90, 180, or 270 degrees.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Side lengths (side1, side2, side3): These control the lengths of the triangle's sides. At least two must be provided.",
+          "Rotation angle: This controls the rotation of the triangle. It can be 0, 90, 180, or 270 degrees.",
+          "Label sides parameter: This controls whether the sides are labeled.",
+          "Show right-angle symbol: This controls the display of the right-angle marker.",
+          "Exercise type: This can be 'find_hypotenuse', 'find_leg', or 'verify_right_triangle', and it affects how the triangle is drawn and labeled."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "At least two side lengths must be provided.",
+          "The longest side length will be scaled to not exceed 10 units.",
+          "The rotation angle must be 0, 90, 180, or 270 degrees.",
+          "The exercise type must be 'find_hypotenuse', 'find_leg', or 'verify_right_triangle'."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a triangle with the provided or calculated side lengths.",
+          "The triangle can be rotated based on the rotation angle input.",
+          "Sides can be labeled or not, based on the label sides parameter.",
+          "A right-angle symbol can be displayed or not, based on the show right-angle symbol parameter.",
+          "The Pythagorean theorem calculation can be displayed or not, depending on the exercise type."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

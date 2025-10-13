@@ -1,34 +1,71 @@
 {
   "function_name": "draw_geometric_shapes_with_rotation",
-  "description": "Draws geometric shapes with rotation for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_geometric_shapes_with_rotation\nresult = draw_geometric_shapes_with_rotation(data)",
-  "image_path": "images/draw_geometric_shapes_with_rotation_example.webp",
+  "description": "The function 'draw_geometric_shapes_with_rotation' is designed to generate visualizations of various geometric shapes with the ability to rotate them. It is primarily used for educational purposes, to help students understand the properties of different geometric shapes and the concept of rotation in geometry.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "shapes",
+    "rotation",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:06.277894",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_geometric_shapes_with_rotation_1_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_with_rotation_1_20251011_190400.webp",
+      "index": 1,
+      "size": 33128
+    },
+    {
+      "path": "images/draw_geometric_shapes_with_rotation_2_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_with_rotation_2_20251011_190400.webp",
+      "index": 2,
+      "size": 44174
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_basic_with_rotation"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.G.A.1+2",
       "display_name": "Sorting Quadrilaterals",
       "description": "Compare quadrilaterals to determine how shared attributes group them into larger or overlapping categories (e.g., explaining why every square is both a rectangle and a rhombus)."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+2",
-      "display_name": "Name for Quadrilaterals",
-      "description": "Select all names for a quadrilateral."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+3",
-      "display_name": null,
-      "description": "Describe relationships among quadrilaterals."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:53.553111"
+  "standards_last_updated": "2025-10-11T19:27:22.489080",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Rotatable Geometric Shapes",
+    "description": "The function 'draw_geometric_shapes_with_rotation' can draw a variety of geometric shapes including rectangles, rhombuses, parallelograms, circles, and regular quadrilaterals. It accepts a list of geometric shapes with their respective properties such as color and label, and rotation value. The function is designed to handle a varying number of shapes, adjusting the size and layout of the shapes based on the total number. It also maintains the aspect ratio of the shapes, ensuring that the shapes are not distorted during rotation. This function is particularly useful in teaching geometry, where students can visually understand the properties of different shapes and the effects of rotation.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_list: A list of geometric shapes with their respective properties and rotation values. Each shape in the list should have a label, color, and rotation value.",
+          "rotation: The rotation value for each shape. This controls the angle at which the shape is rotated."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The total number of shapes should not exceed the maximum limit for the total width of the visualization.",
+          "The rotation value should be within the valid range for rotation angles.",
+          "Each shape in the list should be a valid geometric shape and have a valid color."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws the specified geometric shapes in a single row layout.",
+          "The size and layout of the shapes are adjusted based on the total number of shapes.",
+          "The shapes are rotated based on the specified rotation values."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,18 +1,27 @@
 {
   "function_name": "draw_fractional_models_unequal",
-  "description": "Draws fractional models unequal for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_fractional_models_unequal\nresult = draw_fractional_models_unequal(data)",
+  "description": "The 'draw_fractional_models_unequal' function generates images of shapes, specifically rectangles, divided into segments that represent fractions. The segments may be equally or unequally divided, and each shape is fully shaded with a randomly generated color. This function is designed to aid in the teaching and understanding of fractions, particularly the concept of equal and unequal parts.",
   "category": "fractions",
   "tags": [
-    "fractions"
+    "fractions",
+    "shapes",
+    "visualization",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-05T22:48:48.935374",
-  "test_data": "Generated using virtual environment and Poetry",
-  "image_path": "images/draw_fractional_models_unequal_example.webp",
+  "images": [
+    {
+      "path": "images/draw_fractional_models_unequal_1_20251011_190400.webp",
+      "filename": "draw_fractional_models_unequal_1_20251011_190400.webp",
+      "index": 1,
+      "size": 9128
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "frac_model_unequal"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+1",
@@ -20,5 +29,40 @@
       "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:52.181657"
+  "standards_last_updated": "2025-10-11T19:27:20.785714",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fractional Models",
+    "description": "The 'draw_fractional_models_unequal' function can generate images of rectangles divided into segments, with each segment representing a fraction of the whole. The function accepts a list of dictionaries as input, with each dictionary containing the shape, number of divided parts, and whether the shape is equally divided. The function ensures that the generated colors are neither too dark nor too light by constraining the RGB values between 0.3 and 0.8. This function is particularly useful in teaching fractions, as it visually represents the concept of equal and unequal parts.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: A list of dictionaries, with each dictionary representing a shape. Each dictionary contains the following keys:",
+          "- shape: The shape to be drawn. Currently, only rectangles are supported.",
+          "- divided_parts: The number of segments into which the shape is divided.",
+          "- equally_divided: A boolean indicating whether the shape is equally divided."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The RGB values for the randomly generated colors are constrained between 0.3 and 0.8 to avoid very dark or very light colors.",
+          "The 'shape' key in the input dictionaries must be 'FractionShape.RECTANGLE'.",
+          "The 'divided_parts' key in the input dictionaries must be an integer.",
+          "The 'equally_divided' key in the input dictionaries must be a boolean."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates images of rectangles divided into segments, with each segment representing a fraction of the whole.",
+          "Each shape is fully shaded with a randomly generated color.",
+          "The number of segments and whether they are equally divided are determined by the input parameters."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

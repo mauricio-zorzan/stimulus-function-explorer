@@ -1,18 +1,66 @@
 {
   "function_name": "create_clock_number_line",
-  "description": "Creates clock number line for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_clock_number_line\nresult = create_clock_number_line(data)",
-  "image_path": "images/create_clock_number_line_example.webp",
-  "category": "number_lines",
+  "description": "The 'create_clock_number_line' function generates a number line visualization in the form of a clock, with hours, 15-minute intervals, and 5-minute intervals marked. This visualization aids in teaching time concepts and arithmetic, particularly in understanding the passage of time and calculating time intervals.",
+  "category": "measurement",
   "tags": [
-    "number_lines"
+    "time",
+    "number_line",
+    "visualization",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:01.328743",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_clock_number_line_1_20251011_190400.webp",
+      "filename": "create_clock_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 29404
+    },
+    {
+      "path": "images/create_clock_number_line_2_20251011_190400.webp",
+      "filename": "create_clock_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 29852
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "clock_number_line_"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Clock Number Line",
+    "description": "The 'create_clock_number_line' function creates a visual representation of a clock in the form of a number line. It accepts inputs based on the 'NumberLineClockStimulus' class, which includes the range of time to be displayed and the specific points to be marked. The function handles situations where the time range crosses 12 o'clock and adds a 15-minute buffer on each side of the range. The visualization is designed to aid in teaching and understanding time concepts, especially in calculating time intervals and understanding the passage of time.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'NumberLineClockStimulus' class, which includes the range of time and the specific points to be marked.",
+          "The 'range' input controls the span of time displayed on the number line.",
+          "The 'points' input determines the specific points to be marked on the number line."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'range' input must be within the limits of a 12-hour clock.",
+          "The 'points' input must be valid time points within the specified range.",
+          "The function handles situations where the time range crosses 12 o'clock."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a number line representing a clock, with hours, 15-minute intervals, and 5-minute intervals marked.",
+          "The function can handle different ranges of time and specific points to be marked.",
+          "The inputs affect the range of time displayed and the specific points marked on the number line."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+2",
@@ -30,19 +78,9 @@
       "description": "Find the elapsed time: word problems."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+4",
-      "display_name": null,
-      "description": "Solve word problems involving the subtraction of time intervals in minutes."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+5",
       "display_name": "Finding the End Times Word Problems",
       "description": "Solve word problems to find the end time."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+5",
-      "display_name": null,
-      "description": "Represent time interval problems on a number line diagram."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+12",
@@ -55,5 +93,5 @@
       "description": "Use rulers to measure objects in inches."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:38.389602"
+  "standards_last_updated": "2025-10-11T19:26:58.304043"
 }

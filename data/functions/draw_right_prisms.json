@@ -1,0 +1,214 @@
+{
+  "function_name": "draw_right_prisms",
+  "description": "The function 'draw_right_prisms' generates a grid layout of 3D visualizations of right prisms. The prisms can be of various types such as irregular, octagonal, hexagonal, pentagonal, trapezoidal, triangular, rectangular, and cube. The function is designed to aid in the understanding of geometric shapes and their properties, specifically right prisms.",
+  "category": "geometry",
+  "tags": [
+    "3D visualization",
+    "geometry",
+    "prisms",
+    "educational technology"
+  ],
+  "images": [
+    {
+      "path": "images/draw_right_prisms_1_20251011_190400.webp",
+      "filename": "draw_right_prisms_1_20251011_190400.webp",
+      "index": 1,
+      "size": 438636
+    },
+    {
+      "path": "images/draw_right_prisms_2_20251011_190400.webp",
+      "filename": "draw_right_prisms_2_20251011_190400.webp",
+      "index": 2,
+      "size": 113026
+    },
+    {
+      "path": "images/draw_right_prisms_3_20251011_190400.webp",
+      "filename": "draw_right_prisms_3_20251011_190400.webp",
+      "index": 3,
+      "size": 118254
+    },
+    {
+      "path": "images/draw_right_prisms_4_20251011_190400.webp",
+      "filename": "draw_right_prisms_4_20251011_190400.webp",
+      "index": 4,
+      "size": 121664
+    },
+    {
+      "path": "images/draw_right_prisms_5_20251011_190400.webp",
+      "filename": "draw_right_prisms_5_20251011_190400.webp",
+      "index": 5,
+      "size": 145682
+    },
+    {
+      "path": "images/draw_right_prisms_6_20251011_190400.webp",
+      "filename": "draw_right_prisms_6_20251011_190400.webp",
+      "index": 6,
+      "size": 110838
+    },
+    {
+      "path": "images/draw_right_prisms_7_20251011_190400.webp",
+      "filename": "draw_right_prisms_7_20251011_190400.webp",
+      "index": 7,
+      "size": 105070
+    },
+    {
+      "path": "images/draw_right_prisms_8_20251011_190400.webp",
+      "filename": "draw_right_prisms_8_20251011_190400.webp",
+      "index": 8,
+      "size": 111222
+    },
+    {
+      "path": "images/draw_right_prisms_9_20251011_190400.webp",
+      "filename": "draw_right_prisms_9_20251011_190400.webp",
+      "index": 9,
+      "size": 110498
+    },
+    {
+      "path": "images/draw_right_prisms_10_20251011_190400.webp",
+      "filename": "draw_right_prisms_10_20251011_190400.webp",
+      "index": 10,
+      "size": 110248
+    },
+    {
+      "path": "images/draw_right_prisms_11_20251011_190400.webp",
+      "filename": "draw_right_prisms_11_20251011_190400.webp",
+      "index": 11,
+      "size": 115352
+    },
+    {
+      "path": "images/draw_right_prisms_12_20251011_190400.webp",
+      "filename": "draw_right_prisms_12_20251011_190400.webp",
+      "index": 12,
+      "size": 1008638
+    },
+    {
+      "path": "images/draw_right_prisms_13_20251011_190400.webp",
+      "filename": "draw_right_prisms_13_20251011_190400.webp",
+      "index": 13,
+      "size": 119040
+    },
+    {
+      "path": "images/draw_right_prisms_14_20251011_190400.webp",
+      "filename": "draw_right_prisms_14_20251011_190400.webp",
+      "index": 14,
+      "size": 120088
+    },
+    {
+      "path": "images/draw_right_prisms_15_20251011_190400.webp",
+      "filename": "draw_right_prisms_15_20251011_190400.webp",
+      "index": 15,
+      "size": 110052
+    },
+    {
+      "path": "images/draw_right_prisms_16_20251011_190400.webp",
+      "filename": "draw_right_prisms_16_20251011_190400.webp",
+      "index": 16,
+      "size": 121934
+    },
+    {
+      "path": "images/draw_right_prisms_17_20251011_190400.webp",
+      "filename": "draw_right_prisms_17_20251011_190400.webp",
+      "index": 17,
+      "size": 110444
+    },
+    {
+      "path": "images/draw_right_prisms_18_20251011_190400.webp",
+      "filename": "draw_right_prisms_18_20251011_190400.webp",
+      "index": 18,
+      "size": 131878
+    },
+    {
+      "path": "images/draw_right_prisms_19_20251011_190400.webp",
+      "filename": "draw_right_prisms_19_20251011_190400.webp",
+      "index": 19,
+      "size": 129094
+    },
+    {
+      "path": "images/draw_right_prisms_20_20251011_190400.webp",
+      "filename": "draw_right_prisms_20_20251011_190400.webp",
+      "index": 20,
+      "size": 108520
+    },
+    {
+      "path": "images/draw_right_prisms_21_20251011_190400.webp",
+      "filename": "draw_right_prisms_21_20251011_190400.webp",
+      "index": 21,
+      "size": 107642
+    }
+  ],
+  "image_count": 95,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "right_prisms"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.B+1",
+      "display_name": "Right Rectangular Prism Volumes with Side Lengths",
+      "description": "Calculate the volume of cubes and rectangular prisms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.4+3",
+      "display_name": "Surface Area of Triangular Prisms",
+      "description": "Calculate the surface area of triangular prisms."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.6+2",
+      "display_name": "Surface Area",
+      "description": "Solve mathematical problems involving the surface area of three-dimensional objects."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.6+3",
+      "display_name": "Surface Area Word Problems",
+      "description": "Solve real-world problems involving the surface area of three-dimensional objects."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.6+4",
+      "display_name": "Volume",
+      "description": "Solve mathematical problems related to the volume of three-dimensional objects."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.6+5",
+      "display_name": "Volume Word Problems",
+      "description": "Solve real-world problems related to the volume of three-dimensional objects."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:33.588704",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: 3D Right Prisms",
+    "description": "The 'draw_right_prisms' function can draw a variety of right prisms in 3D. It accepts a list of prism objects, each of which specifies the type of prism, its label, and its dimensions. The types of prisms that can be drawn include irregular, octagonal, hexagonal, pentagonal, trapezoidal, triangular, rectangular, and cube. The function is designed to provide a visual aid for understanding the properties of these geometric shapes. The generated images can be used in a variety of educational contexts, from elementary geometry lessons to advanced studies in mathematics and engineering.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of prism objects. Each prism object must specify the type of prism, its label, and its dimensions.",
+          "The 'shape' field determines the type of prism. It must be one of the following: 'irregular prism', 'octagonal prism', 'hexagonal prism', 'pentagonal prism', 'trapezoidal prism', 'triangular prism', 'rectangular prism', 'cube'.",
+          "The 'label' field is a string that serves as the label for the prism.",
+          "The 'height' field specifies the height of the prism. It must be a float between 1 and 40.",
+          "For irregular prisms, the 'base_vertices' field must be provided. It is a list of [x, y] coordinates for the irregular base vertices.",
+          "For regular prisms (octagonal, hexagonal, pentagonal), the 'side_length' field must be provided. It specifies the side length of the regular base. It must be a float between 2 and 8."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'height' field must be a float between 1 and 40.",
+          "The 'side_length' field, if present, must be a float between 2 and 8.",
+          "The 'base_vertices' field, if present, must be a list of [x, y] coordinates. The list must contain at least 3 coordinates."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a grid layout of 3D visualizations of right prisms.",
+          "Each prism is drawn in its own subplot, with its label displayed above it.",
+          "The dimensions of each prism are determined by the input parameters."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

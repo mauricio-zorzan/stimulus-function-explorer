@@ -1,0 +1,225 @@
+{
+  "function_name": "generate_symmetry_identification_task",
+  "description": "This function generates a visual task for identifying symmetry in a given shape. It currently supports the creation of a flower shape with symmetrical petals radiating from a center point. The function is designed to help students understand the concept of symmetry in geometry.",
+  "category": "geometry",
+  "tags": [
+    "symmetry",
+    "shapes",
+    "geometry",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/generate_symmetry_identification_task_1_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_1_20251011_190400.webp",
+      "index": 1,
+      "size": 66186
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_2_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_2_20251011_190400.webp",
+      "index": 2,
+      "size": 24338
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_3_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_3_20251011_190400.webp",
+      "index": 3,
+      "size": 25996
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_4_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_4_20251011_190400.webp",
+      "index": 4,
+      "size": 81458
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_5_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_5_20251011_190400.webp",
+      "index": 5,
+      "size": 23002
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_6_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_6_20251011_190400.webp",
+      "index": 6,
+      "size": 38024
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_7_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_7_20251011_190400.webp",
+      "index": 7,
+      "size": 81352
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_8_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_8_20251011_190400.webp",
+      "index": 8,
+      "size": 40248
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_9_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_9_20251011_190400.webp",
+      "index": 9,
+      "size": 87914
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_10_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_10_20251011_190400.webp",
+      "index": 10,
+      "size": 17088
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_11_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_11_20251011_190400.webp",
+      "index": 11,
+      "size": 77110
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_12_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_12_20251011_190400.webp",
+      "index": 12,
+      "size": 38024
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_13_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_13_20251011_190400.webp",
+      "index": 13,
+      "size": 17382
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_14_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_14_20251011_190400.webp",
+      "index": 14,
+      "size": 39098
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_15_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_15_20251011_190400.webp",
+      "index": 15,
+      "size": 18754
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_16_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_16_20251011_190400.webp",
+      "index": 16,
+      "size": 37228
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_17_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_17_20251011_190400.webp",
+      "index": 17,
+      "size": 32362
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_18_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_18_20251011_190400.webp",
+      "index": 18,
+      "size": 25060
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_19_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_19_20251011_190400.webp",
+      "index": 19,
+      "size": 35900
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_20_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_20_20251011_190400.webp",
+      "index": 20,
+      "size": 25996
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_21_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_21_20251011_190400.webp",
+      "index": 21,
+      "size": 19250
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_22_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_22_20251011_190400.webp",
+      "index": 22,
+      "size": 75834
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_23_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_23_20251011_190400.webp",
+      "index": 23,
+      "size": 11128
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_24_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_24_20251011_190400.webp",
+      "index": 24,
+      "size": 78922
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_25_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_25_20251011_190400.webp",
+      "index": 25,
+      "size": 39098
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_26_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_26_20251011_190400.webp",
+      "index": 26,
+      "size": 37696
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_27_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_27_20251011_190400.webp",
+      "index": 27,
+      "size": 19250
+    },
+    {
+      "path": "images/generate_symmetry_identification_task_28_20251011_190400.webp",
+      "filename": "generate_symmetry_identification_task_28_20251011_190400.webp",
+      "index": 28,
+      "size": 33790
+    }
+  ],
+  "image_count": 125,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "symmetry_identification"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.G.A.3+2",
+      "display_name": null,
+      "description": "Identify whether a dotted line across a shape is a line of symmetry."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:45.925314",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Symmetry Identification Tasks",
+    "description": "The function can draw a symmetrical flower shape with a specified number of petals. The shape is drawn with matplotlib patches, with each petal represented as an elongated ellipse radiating from the center of the flower. The function accepts a stimulus description object that specifies the type of shape to be drawn. Currently, the only supported shape type is 'flower'. The function is designed to be used in educational settings, where students are asked to identify lines of symmetry in the generated shape.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_type: This input controls the type of shape to be drawn. Currently, the only supported value is 'flower'."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The shape_type field must be a string and must be 'flower'.",
+          "The function does not currently support any other shape types."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a symmetrical flower shape with eight petals radiating from a center point.",
+          "The petals are drawn as elongated ellipses, and the center of the flower is drawn as a circle.",
+          "The shape is drawn on a matplotlib figure with a white background."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

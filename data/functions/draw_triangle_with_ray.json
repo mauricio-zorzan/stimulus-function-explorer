@@ -1,0 +1,69 @@
+{
+  "function_name": "draw_triangle_with_ray",
+  "description": "This function generates a 2D visualization of a right triangle with a ray originating from one of the vertices. The ray's angle is adjustable, and the function checks for intersections between the ray and the triangle's sides. This can be used for educational purposes such as teaching geometry, angle measurement, and the concept of rays.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "right triangle",
+    "ray",
+    "angle measurement",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_triangle_with_ray_1_20251011_190400.webp",
+      "filename": "draw_triangle_with_ray_1_20251011_190400.webp",
+      "index": 1,
+      "size": 51292
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "angle_rays"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+2",
+      "display_name": "Exterior Angles",
+      "description": "Intentify an angle exterior to a triangle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:36.938230",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Right Triangle with Ray",
+    "description": "This function can draw a right triangle with a ray extending from one of its vertices. It accepts a RightTriangleWithRay object as input, which contains the triangle's points, angles, and rays. The function identifies the right angle vertex and plots the triangle and ray accordingly. The ray's angle is adjustable, and the function checks for intersections between the ray and the triangle's sides. This visualization can be used to teach concepts such as right triangles, rays, and angle measurements.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "RightTriangleWithRay object: This is the main input for the function. It contains the triangle's points, angles, and rays.",
+          "Points: These are the vertices of the triangle. Each point has a label and a coordinate.",
+          "Angles: These are the angles of the triangle. Each angle has a vertex and a measure.",
+          "Rays: These are the rays extending from the triangle's vertices. Each ray has a start label and a measure."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The RightTriangleWithRay object must contain three points and three angles to form a valid triangle.",
+          "The measure of one angle must be 90 degrees to form a right triangle.",
+          "The ray's measure must be a valid angle measure (0-360 degrees).",
+          "The ray's start label must correspond to one of the triangle's vertices."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a right triangle using the provided points and angles.",
+          "A ray is drawn from one of the triangle's vertices. The direction of the ray is determined by the provided measure.",
+          "The function checks for intersections between the ray and the triangle's sides and plots these intersections if they exist."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

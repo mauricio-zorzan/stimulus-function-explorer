@@ -1,18 +1,76 @@
 {
   "function_name": "create_scatterplot",
-  "description": "Creates scatterplot for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_scatterplot\nresult = create_scatterplot(data)",
-  "image_path": "images/create_scatterplot_example.webp",
-  "category": "graphs",
+  "description": "The function 'create_scatterplot' generates a scatter plot image, which is a graphical representation of a set of data points plotted on a Cartesian coordinate system. It is primarily used in data visualization for identifying trends, distributions, and patterns in the data.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "scatterplot",
+    "data_visualization",
+    "graph",
+    "plot",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:40.378208",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_scatterplot_1_20251011_190400.webp",
+      "filename": "create_scatterplot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 96466
+    },
+    {
+      "path": "images/create_scatterplot_2_20251011_190400.webp",
+      "filename": "create_scatterplot_2_20251011_190400.webp",
+      "index": 2,
+      "size": 97778
+    },
+    {
+      "path": "images/create_scatterplot_3_20251011_190400.webp",
+      "filename": "create_scatterplot_3_20251011_190400.webp",
+      "index": 3,
+      "size": 114030
+    }
+  ],
+  "image_count": 3,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_scatterplot"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scatter Plot",
+    "description": "The 'create_scatterplot' function can generate scatter plot images. It accepts an instance of the ScatterPlot class as input, which includes properties such as title, x-axis label, y-axis label, and data points. The data points are a list of Point instances, each with x and y values. The function sets the limits for the axes based on the minimum and maximum values provided in the ScatterPlot instance. The scatter plot is saved as an image file in a specified destination folder. This function is useful in educational settings for teaching students about data visualization, correlation, and trend analysis.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "title: The title of the scatter plot",
+          "x_axis.label: The label for the x-axis",
+          "y_axis.label: The label for the y-axis",
+          "points: A list of Point instances, each with x and y values",
+          "x_axis.min_value, x_axis.max_value: The minimum and maximum values for the x-axis",
+          "y_axis.min_value, y_axis.max_value: The minimum and maximum values for the y-axis"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "All fields are required",
+          "The x and y values of the points should be numeric",
+          "The minimum value for both axes should be less than the maximum value"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a scatter plot with the data points plotted on a Cartesian coordinate system",
+          "The scatter plot includes a title, labels for both axes, and grid lines for better visualization",
+          "The position of the data points on the scatter plot is determined by the x and y values of each point"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+3",
@@ -40,5 +98,5 @@
       "description": "For scatter plots of bivariate measurement data, identify whether there exists a positive, negative or no association, and whether there is a linear or nonlinear association."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:42.750303"
+  "standards_last_updated": "2025-10-11T19:27:06.958542"
 }

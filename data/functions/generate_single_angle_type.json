@@ -1,0 +1,106 @@
+{
+  "function_name": "generate_single_angle_type",
+  "description": "The function 'generate_single_angle_type' creates a visual representation of a single angle using rays. It is designed to aid in the understanding of angles in geometry, particularly their measurement and representation. The function draws two rays with a common vertex, and marks the angle between them, with special notation for right angles.",
+  "category": "geometry",
+  "tags": [
+    "angles",
+    "geometry",
+    "visualization",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/generate_single_angle_type_1_20251011_190400.webp",
+      "filename": "generate_single_angle_type_1_20251011_190400.webp",
+      "index": 1,
+      "size": 43104
+    },
+    {
+      "path": "images/generate_single_angle_type_2_20251011_190400.webp",
+      "filename": "generate_single_angle_type_2_20251011_190400.webp",
+      "index": 2,
+      "size": 33200
+    },
+    {
+      "path": "images/generate_single_angle_type_3_20251011_190400.webp",
+      "filename": "generate_single_angle_type_3_20251011_190400.webp",
+      "index": 3,
+      "size": 18864
+    },
+    {
+      "path": "images/generate_single_angle_type_4_20251011_190400.webp",
+      "filename": "generate_single_angle_type_4_20251011_190400.webp",
+      "index": 4,
+      "size": 24204
+    },
+    {
+      "path": "images/generate_single_angle_type_5_20251011_190400.webp",
+      "filename": "generate_single_angle_type_5_20251011_190400.webp",
+      "index": 5,
+      "size": 43440
+    },
+    {
+      "path": "images/generate_single_angle_type_6_20251011_190400.webp",
+      "filename": "generate_single_angle_type_6_20251011_190400.webp",
+      "index": 6,
+      "size": 52696
+    },
+    {
+      "path": "images/generate_single_angle_type_7_20251011_190400.webp",
+      "filename": "generate_single_angle_type_7_20251011_190400.webp",
+      "index": 7,
+      "size": 49428
+    },
+    {
+      "path": "images/generate_single_angle_type_8_20251011_190400.webp",
+      "filename": "generate_single_angle_type_8_20251011_190400.webp",
+      "index": 8,
+      "size": 33442
+    }
+  ],
+  "image_count": 35,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "single_angle"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+4",
+      "display_name": "Right Angles",
+      "description": "Determine if an angle is greater than, equal to, or less than a right angle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:42.907412",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Single Angle Visualization",
+    "description": "The 'generate_single_angle_type' function can draw a visual representation of a single angle. It accepts a single input, an instance of the SingleAngle class, which contains the measure of the angle in degrees. The function draws two rays with a common vertex, representing the angle, and marks the angle between them. If the angle is a right angle (90 degrees), it is marked with a square; otherwise, it is marked with an arc. This function is useful in teaching and learning about angles, their measurements, and their visual representations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "single_angle: An instance of the SingleAngle class, which contains the measure of the angle in degrees.",
+          "The single_angle input controls the angle that is drawn between the two rays."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The angle measure must be a valid number, typically between 0 and 360 degrees, inclusive.",
+          "The function validates the input by checking that it is an instance of the SingleAngle class."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two rays with a common vertex, representing the angle.",
+          "The angle between the rays is marked with an arc, or a square if it is a right angle.",
+          "The size and orientation of the angle are controlled by the single_angle input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

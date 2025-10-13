@@ -1,16 +1,77 @@
 {
   "function_name": "create_probability_diagram",
-  "description": "Creates probability diagram for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_probability_diagram\nresult = create_probability_diagram(data)",
-  "image_path": "images/create_probability_diagram_example.webp",
-  "category": "general",
+  "description": "This function creates a probability diagram in the form of a table, using the provided data. It is designed to help students understand the concept of probability in a visual and interactive manner.",
+  "category": "data_visualization",
   "tags": [
-    "general"
+    "probability",
+    "data_visualization",
+    "table",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:09.342244",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/create_probability_diagram_1_20251011_190400.webp",
+      "filename": "create_probability_diagram_1_20251011_190400.webp",
+      "index": 1,
+      "size": 10724
+    },
+    {
+      "path": "images/create_probability_diagram_2_20251011_190400.webp",
+      "filename": "create_probability_diagram_2_20251011_190400.webp",
+      "index": 2,
+      "size": 9760
+    },
+    {
+      "path": "images/create_probability_diagram_3_20251011_190400.webp",
+      "filename": "create_probability_diagram_3_20251011_190400.webp",
+      "index": 3,
+      "size": 8726
+    },
+    {
+      "path": "images/create_probability_diagram_4_20251011_190400.webp",
+      "filename": "create_probability_diagram_4_20251011_190400.webp",
+      "index": 4,
+      "size": 8946
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "prob_diagram"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Probability Diagrams",
+    "description": "The 'create_probability_diagram' function generates a table-based probability diagram. It accepts input in the form of a ProbabilityDiagram object, which includes row and column titles, and data. The data should be a list of dictionaries, where each dictionary represents a row in the table. The keys of the dictionary should match the column titles. The function does not have explicit constraints or validation rules, but the data should be formatted correctly to avoid errors. The educational purpose of this function is to help students visualize probability distributions and understand the concept of probability in a more tangible way.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'stimulus_description' object, which should be an instance of the ProbabilityDiagram class. This object should include 'rows_title', 'columns_title', and 'data'.",
+          "The 'rows_title' is a list of dictionaries, each containing a single key-value pair representing the title of a row.",
+          "The 'columns_title' is a similar list of dictionaries, each representing the title of a column.",
+          "The 'data' is a list of dictionaries, where each dictionary represents a row in the table. The keys of the dictionary should match the column titles."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "There are no explicit value limits or ranges.",
+          "There are no explicit validation rules. However, the data should be formatted correctly to avoid errors. Specifically, the keys in each dictionary in the 'data' list should match the column titles.",
+          "The 'rows_title', 'columns_title', and 'data' fields are all required."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a table-based probability diagram. The table includes row and column labels, and the cell values represent probabilities.",
+          "There are no variations or options available. The table is always drawn in the same way.",
+          "The inputs directly control the content of the table. The 'rows_title' and 'columns_title' inputs determine the labels of the rows and columns, respectively, and the 'data' input determines the cell values."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

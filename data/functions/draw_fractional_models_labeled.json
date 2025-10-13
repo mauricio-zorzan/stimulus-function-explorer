@@ -1,0 +1,72 @@
+{
+  "function_name": "draw_fractional_models_labeled",
+  "description": "The function 'draw_fractional_models_labeled' generates visual representations of fractions in the form of either rectangles or circles. Each fraction is represented as a shape divided into segments, with the fraction's numerator determining the number of filled segments. This visualization aids in understanding the concept of fractions and their representation.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "visualization",
+    "educational",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/draw_fractional_models_labeled_1_20251011_190400.webp",
+      "filename": "draw_fractional_models_labeled_1_20251011_190400.webp",
+      "index": 1,
+      "size": 3810
+    },
+    {
+      "path": "images/draw_fractional_models_labeled_2_20251011_190400.webp",
+      "filename": "draw_fractional_models_labeled_2_20251011_190400.webp",
+      "index": 2,
+      "size": 3200
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "frac_model_labeled"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.D+1",
+      "display_name": "Compare Unit Fractions",
+      "description": "Compare two unit fractions."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:20.126753",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fractional Models",
+    "description": "The function can draw two types of visualizations: rectangles and circles, each representing a fraction. The input it accepts is a list of dictionaries, each containing a shape (rectangle or circle) and a fraction in the form of a string (e.g., '1/2'). The function generates a random color for each fraction's filled segments, ensuring that the color is neither too dark nor too light. The educational purpose of this function is to provide a visual understanding of fractions, which can be particularly useful in teaching environments.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: A list of dictionaries. Each dictionary represents a fractional model and contains two keys: 'shape' and 'fraction'.",
+          "shape: A string that specifies the shape of the model. It can be either 'RECTANGLE' or 'CIRCLE'.",
+          "fraction: A string that represents the fraction to be visualized. It is in the format 'numerator/denominator'."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'shape' field must be either 'RECTANGLE' or 'CIRCLE'.",
+          "The 'fraction' field must be a string in the format 'numerator/denominator', where both the numerator and denominator are integers.",
+          "The denominator must be greater than 0."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws either rectangles or circles, divided into segments based on the denominator of the fraction.",
+          "The number of filled segments is determined by the numerator of the fraction.",
+          "The filled segments are colored with a randomly generated color, while the unfilled segments are left blank."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

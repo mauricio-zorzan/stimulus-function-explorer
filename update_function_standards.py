@@ -106,6 +106,7 @@ def debug_single_function(function_name: str = "generate_table"):
         query = """
         SELECT external_id FROM content_gen_extended_attributes 
         WHERE type_id = 'e87ba42e-89ed-11ef-ae50-0eb28d3c3f3f'
+        AND use_in_content_generation = '1'
         AND properties LIKE %s
         LIMIT 5
         """

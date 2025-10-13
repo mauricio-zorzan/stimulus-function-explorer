@@ -1,18 +1,127 @@
 {
   "function_name": "create_polygon",
-  "description": "Creates polygon for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_polygon\nresult = create_polygon(data)",
-  "image_path": "images/create_polygon_example.webp",
+  "description": "The 'create_polygon' function is designed to generate a polygon on a coordinate grid. The polygon is drawn based on the input parameters, which include the axes ranges and the points of the polygon. This function can be used for educational purposes such as teaching geometry, understanding the concept of polygons, and visualizing mathematical problems.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "polygon",
+    "geometry",
+    "visualization",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:07.195923",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_polygon_1_20251011_190400.webp",
+      "filename": "create_polygon_1_20251011_190400.webp",
+      "index": 1,
+      "size": 23506
+    },
+    {
+      "path": "images/create_polygon_2_20251011_190400.webp",
+      "filename": "create_polygon_2_20251011_190400.webp",
+      "index": 2,
+      "size": 82582
+    },
+    {
+      "path": "images/create_polygon_3_20251011_190400.webp",
+      "filename": "create_polygon_3_20251011_190400.webp",
+      "index": 3,
+      "size": 53850
+    },
+    {
+      "path": "images/create_polygon_4_20251011_190400.webp",
+      "filename": "create_polygon_4_20251011_190400.webp",
+      "index": 4,
+      "size": 59680
+    },
+    {
+      "path": "images/create_polygon_5_20251011_190400.webp",
+      "filename": "create_polygon_5_20251011_190400.webp",
+      "index": 5,
+      "size": 58694
+    },
+    {
+      "path": "images/create_polygon_6_20251011_190400.webp",
+      "filename": "create_polygon_6_20251011_190400.webp",
+      "index": 6,
+      "size": 54646
+    },
+    {
+      "path": "images/create_polygon_7_20251011_190400.webp",
+      "filename": "create_polygon_7_20251011_190400.webp",
+      "index": 7,
+      "size": 59680
+    },
+    {
+      "path": "images/create_polygon_8_20251011_190400.webp",
+      "filename": "create_polygon_8_20251011_190400.webp",
+      "index": 8,
+      "size": 27192
+    },
+    {
+      "path": "images/create_polygon_9_20251011_190400.webp",
+      "filename": "create_polygon_9_20251011_190400.webp",
+      "index": 9,
+      "size": 69474
+    },
+    {
+      "path": "images/create_polygon_10_20251011_190400.webp",
+      "filename": "create_polygon_10_20251011_190400.webp",
+      "index": 10,
+      "size": 68530
+    },
+    {
+      "path": "images/create_polygon_11_20251011_190400.webp",
+      "filename": "create_polygon_11_20251011_190400.webp",
+      "index": 11,
+      "size": 71698
+    },
+    {
+      "path": "images/create_polygon_12_20251011_190400.webp",
+      "filename": "create_polygon_12_20251011_190400.webp",
+      "index": 12,
+      "size": 68066
+    }
+  ],
+  "image_count": 12,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_polygon"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Polygons on Coordinate Grid",
+    "description": "The 'create_polygon' function can draw various types of polygons on a coordinate grid. It accepts inputs such as the ranges of the x and y axes and the points of the polygon. The function also allows for customization of the figure size, unit scale, and padding fraction. The function is designed to maintain the proportional appearance of the polygon and prevent extreme aspect ratios. The function can be used for teaching and learning geometry, specifically the concept of polygons, their properties, and their visualization on a coordinate grid.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Axes ranges (x_range, y_range): These inputs control the range of the x and y axes on the coordinate grid.",
+          "Points (points): This input controls the points of the polygon that is to be drawn.",
+          "Strict bounds (strict_bounds): This optional input, if set to True, prevents padding from being added to the axes ranges."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The ranges of the x and y axes must be non-zero. If a zero range is provided, it is replaced with a very small number (1e-9).",
+          "The points of the polygon must be provided in order to draw the polygon.",
+          "The figure size is constrained to be between a minimum and maximum size (4.5 and 8.5 respectively).",
+          "The aspect ratio of the figure is constrained to prevent the figure from becoming too wide or too tall."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a polygon on a coordinate grid.",
+          "The appearance of the polygon can vary based on the input parameters.",
+          "The input parameters control the size, aspect ratio, and position of the polygon on the coordinate grid."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.3+1",
@@ -35,5 +144,5 @@
       "description": "Solve area and perimeter problems on the coordinate plane."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:42.223301"
+  "standards_last_updated": "2025-10-11T19:27:04.949333"
 }

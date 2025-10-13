@@ -1,0 +1,101 @@
+{
+  "function_name": "create_vertical_number_line",
+  "description": "The function 'create_vertical_number_line' generates a vertical number line for educational visualization. It is designed to help students understand the concept of number lines, ranges, and intervals. The function dynamically adjusts the number line based on the given range, making it a versatile tool for teaching various mathematical concepts.",
+  "category": "arithmetic",
+  "tags": [
+    "number_line",
+    "range",
+    "intervals",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/create_vertical_number_line_1_20251011_190400.webp",
+      "filename": "create_vertical_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 68864
+    },
+    {
+      "path": "images/create_vertical_number_line_2_20251011_190400.webp",
+      "filename": "create_vertical_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 63826
+    },
+    {
+      "path": "images/create_vertical_number_line_3_20251011_190400.webp",
+      "filename": "create_vertical_number_line_3_20251011_190400.webp",
+      "index": 3,
+      "size": 54698
+    },
+    {
+      "path": "images/create_vertical_number_line_4_20251011_190400.webp",
+      "filename": "create_vertical_number_line_4_20251011_190400.webp",
+      "index": 4,
+      "size": 54206
+    },
+    {
+      "path": "images/create_vertical_number_line_5_20251011_190400.webp",
+      "filename": "create_vertical_number_line_5_20251011_190400.webp",
+      "index": 5,
+      "size": 40310
+    },
+    {
+      "path": "images/create_vertical_number_line_6_20251011_190400.webp",
+      "filename": "create_vertical_number_line_6_20251011_190400.webp",
+      "index": 6,
+      "size": 61542
+    },
+    {
+      "path": "images/create_vertical_number_line_7_20251011_190400.webp",
+      "filename": "create_vertical_number_line_7_20251011_190400.webp",
+      "index": 7,
+      "size": 44092
+    },
+    {
+      "path": "images/create_vertical_number_line_8_20251011_190400.webp",
+      "filename": "create_vertical_number_line_8_20251011_190400.webp",
+      "index": 8,
+      "size": 48678
+    }
+  ],
+  "image_count": 35,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "vertical_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Vertical Number Line",
+    "description": "The 'create_vertical_number_line' function can generate a vertical number line with major and minor divisions based on the provided range. The function accepts a 'NumberLine' object as input, which includes properties such as 'range' and 'minor_divisions'. The range of the number line is dynamically adjusted with a 10% buffer to ensure all points are visible. The function is designed for educational purposes, specifically for teaching concepts related to number lines, ranges, and intervals.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The key input for this function is a 'NumberLine' object",
+          "The 'NumberLine' object contains properties such as 'range' and 'minor_divisions'",
+          "The 'range' property controls the range of the number line",
+          "The 'minor_divisions' property controls the number of minor divisions in the number line"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range of the number line should be a valid range with a minimum and maximum value",
+          "The 'minor_divisions' property should be a positive integer",
+          "The function validates the range and minor divisions before generating the number line"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a vertical number line with major and minor divisions",
+          "The range of the number line is dynamically adjusted based on the input range",
+          "The number of minor divisions is controlled by the 'minor_divisions' property of the 'NumberLine' object"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

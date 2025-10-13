@@ -1,24 +1,70 @@
 {
   "function_name": "draw_mixed_fractional_models",
-  "description": "Draws mixed fractional models for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_mixed_fractional_models\nresult = draw_mixed_fractional_models(data)",
-  "image_path": "images/draw_mixed_fractional_models_example.webp",
+  "description": "The function 'draw_mixed_fractional_models' generates visual models of mixed numbers and improper fractions. It can display up to four fractional models in a 2x2 grid, with additional shapes added to represent the whole number part of fractions greater than one. This aids in the understanding of fractions in a visual and interactive way.",
   "category": "fractions",
   "tags": [
-    "fractions"
+    "fractions",
+    "visualization",
+    "education",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-05T23:20:49.712258",
-  "test_data": "Generated from GitHub Actions workflow",
-  "educational_standards": [
+  "images": [
     {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
-      "display_name": "Represent Fractions Using Fraction Models",
-      "description": "Represent a fraction a/b with a fraction model."
+      "path": "images/draw_mixed_fractional_models_1_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_1_20251011_190400.webp",
+      "index": 1,
+      "size": 63150
     },
+    {
+      "path": "images/draw_mixed_fractional_models_2_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_2_20251011_190400.webp",
+      "index": 2,
+      "size": 147988
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_3_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_3_20251011_190400.webp",
+      "index": 3,
+      "size": 55180
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_4_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_4_20251011_190400.webp",
+      "index": 4,
+      "size": 108736
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_5_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_5_20251011_190400.webp",
+      "index": 5,
+      "size": 64238
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_6_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_6_20251011_190400.webp",
+      "index": 6,
+      "size": 50138
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_7_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_7_20251011_190400.webp",
+      "index": 7,
+      "size": 101942
+    },
+    {
+      "path": "images/draw_mixed_fractional_models_8_20251011_190400.webp",
+      "filename": "draw_mixed_fractional_models_8_20251011_190400.webp",
+      "index": 8,
+      "size": 57040
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "mixed_frac_model"
+  ],
+  "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.A+1",
       "display_name": "Multiply Unit Fractions by Whole Numbers Using Models",
@@ -30,5 +76,39 @@
       "description": "Model tenths with decimals and mixed numbers."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:56.298855"
+  "standards_last_updated": "2025-10-11T19:27:28.810894",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Mixed Fractional Models",
+    "description": "The 'draw_mixed_fractional_models' function can draw visual models of mixed numbers and improper fractions. It accepts a list of mixed fractions as input, with each fraction represented as a numerator and denominator. The function can display up to four fractional models in a 2x2 grid, with additional shapes added to represent the whole number part of fractions greater than one. The function is designed to aid in the understanding of fractions, making it an effective educational tool for teaching this concept in a visual and interactive way.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: A list of mixed fractions, each represented as a numerator and denominator.",
+          "shape: The shape to be used for the visual representation of the fraction.",
+          "spacing: The space between each shape in the visual model.",
+          "margin: The margin around the visual model."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function can display up to four fractional models in a 2x2 grid.",
+          "The fraction must be represented as a numerator and denominator.",
+          "The shape used for the visual representation of the fraction must be a valid shape."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a visual model of the input fraction, using shapes to represent the fraction.",
+          "The function can display up to four fractional models in a 2x2 grid.",
+          "Additional shapes are added to represent the whole number part of fractions greater than one."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

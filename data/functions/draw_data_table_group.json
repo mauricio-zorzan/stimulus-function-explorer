@@ -1,0 +1,67 @@
+{
+  "function_name": "draw_data_table_group",
+  "description": "The 'draw_data_table_group' function generates a group of data tables arranged in a grid layout. It is designed to create visual representations of data sets for educational purposes, aiding in the understanding of data analysis and interpretation.",
+  "category": "data_visualization",
+  "tags": [
+    "data_tables",
+    "grid_layout",
+    "data_visualization",
+    "educational_technology"
+  ],
+  "images": [
+    {
+      "path": "images/draw_data_table_group_1_20251011_190400.webp",
+      "filename": "draw_data_table_group_1_20251011_190400.webp",
+      "index": 1,
+      "size": 5522
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "data_table_group"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Data Table Groups",
+    "description": "The 'draw_data_table_group' function can create a collection of data tables, arranged either horizontally, vertically, or in an auto layout which calculates the optimal grid layout. It accepts a DataTableGroup object as input, which contains the data tables to be visualized, the desired layout, and an optional group title. The function has constraints on the number of data tables it can handle, determined by the processing power and memory of the system. Its primary educational purpose is to help students understand complex data sets by visualizing them in a structured and organized manner.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "table_group_data: A DataTableGroup object containing the data tables to be visualized, the desired layout, and an optional group title",
+          "table_group_data.tables: The data tables to be visualized",
+          "table_group_data.layout: The desired layout for the data tables. Can be 'horizontal', 'vertical', or 'auto'",
+          "table_group_data.group_title: An optional title for the group of data tables"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The number of data tables is limited by the processing power and memory of the system",
+          "The layout must be either 'horizontal', 'vertical', or 'auto'",
+          "The group title is optional and, if present, must be a string"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a group of data tables arranged in a grid layout",
+          "The layout of the data tables can be either horizontal, vertical, or auto",
+          "The visual output includes the data tables, the layout, and an optional group title"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.RP.A.3.A+5",
+      "display_name": "Graphs from Ratios",
+      "description": "Create graphs from ratios."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:15.596075"
+}

@@ -1,18 +1,45 @@
 {
   "function_name": "draw_polygon_with_string_sides",
-  "description": "Draws polygon with string sides for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_polygon_with_string_sides\nresult = draw_polygon_with_string_sides(data)",
-  "image_path": "images/draw_polygon_with_string_sides_example.webp",
+  "description": "The function 'draw_polygon_with_string_sides' generates an image of a polygon with sides of specified lengths. The lengths are represented as strings and can be labeled with optional side labels. The function is designed to aid in the understanding of polygonal shapes and their properties in geometry.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "polygons",
+    "visualization",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:10.672518",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_polygon_with_string_sides_1_20251011_190400.webp",
+      "filename": "draw_polygon_with_string_sides_1_20251011_190400.webp",
+      "index": 1,
+      "size": 88458
+    },
+    {
+      "path": "images/draw_polygon_with_string_sides_2_20251011_190400.webp",
+      "filename": "draw_polygon_with_string_sides_2_20251011_190400.webp",
+      "index": 2,
+      "size": 79912
+    },
+    {
+      "path": "images/draw_polygon_with_string_sides_3_20251011_190400.webp",
+      "filename": "draw_polygon_with_string_sides_3_20251011_190400.webp",
+      "index": 3,
+      "size": 51328
+    },
+    {
+      "path": "images/draw_polygon_with_string_sides_4_20251011_190400.webp",
+      "filename": "draw_polygon_with_string_sides_4_20251011_190400.webp",
+      "index": 4,
+      "size": 66550
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "polygon_string_sides"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
@@ -20,15 +47,43 @@
       "description": "Exhibit rectangles with the same area and different perimeters."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
-      "display_name": "Area, Perimeter and Side Length Word Problems",
-      "description": "Solve word problems involving area, perimeter, and side length."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.7.EE.A.1+2",
       "display_name": "Adding Linear Expressions",
       "description": "Add linear expressions."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:59.490202"
+  "standards_last_updated": "2025-10-11T19:27:31.886449",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Polygon with String Sides",
+    "description": "The function can draw various types of polygons based on the number of side lengths provided. The side lengths are represented as strings and can optionally be labeled. The unit of measurement can also be specified. The function is useful in teaching and learning about polygons, their properties, and the relationship between their sides. It accepts a dictionary with keys 'side_lengths', 'side_labels', and 'unit'. The 'side_lengths' key is required while 'side_labels' and 'unit' are optional. The function validates the inputs and generates a polygon with the specified side lengths.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "'side_lengths': A list of strings representing the lengths of the sides of the polygon. This is a required field.",
+          "'side_labels': An optional list of strings representing labels for the sides of the polygon. If not provided, the side lengths are used as labels.",
+          "'unit': An optional string representing the unit of measurement for the side lengths."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'side_lengths' list must contain at least 3 items to form a valid polygon.",
+          "The 'side_labels' list, if provided, must contain the same number of items as the 'side_lengths' list.",
+          "The 'unit', if provided, must be a valid unit of measurement."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a polygon with the specified side lengths and labels.",
+          "The color of the polygon is randomly selected for visual variety.",
+          "The side lengths, labels, and unit of measurement affect the appearance and labeling of the polygon."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,18 +1,39 @@
 {
   "function_name": "draw_regular_irregular_polygons",
-  "description": "Draws regular irregular polygons for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_regular_irregular_polygons\nresult = draw_regular_irregular_polygons(data)",
-  "image_path": "images/draw_regular_irregular_polygons_example.webp",
+  "description": "This function generates educational visualizations of regular and irregular polygons. It can display polygons with varying side lengths and angles, and optionally show side lengths, angle markings, and tick marks. This function is useful in teaching geometry, specifically in understanding the properties of different types of polygons.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "polygons",
+    "geometry",
+    "visualization",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:12.672011",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_regular_irregular_polygons_1_20251011_190400.webp",
+      "filename": "draw_regular_irregular_polygons_1_20251011_190400.webp",
+      "index": 1,
+      "size": 18310
+    },
+    {
+      "path": "images/draw_regular_irregular_polygons_2_20251011_190400.webp",
+      "filename": "draw_regular_irregular_polygons_2_20251011_190400.webp",
+      "index": 2,
+      "size": 61932
+    },
+    {
+      "path": "images/draw_regular_irregular_polygons_3_20251011_190400.webp",
+      "filename": "draw_regular_irregular_polygons_3_20251011_190400.webp",
+      "index": 3,
+      "size": 40458
+    }
+  ],
+  "image_count": 13,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "regular_irregular_polygons"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.5.G.B.3+4",
@@ -20,5 +41,39 @@
       "description": "Classify polygons as regular or irregular."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:01.147312"
+  "standards_last_updated": "2025-10-11T19:27:32.852935",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Regular and Irregular Polygons",
+    "description": "This function can draw both regular and irregular polygons based on the input parameters. It accepts a list of polygons, each defined by its number of sides, side lengths, and angles. Additionally, it can be specified whether to show side lengths, angle markings, and tick marks. The function is constrained by the number of polygons that can be displayed at once, and the side lengths and angles must be valid for a polygon of the given number of sides. This function serves as an educational tool for teaching and visualizing the properties of regular and irregular polygons.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "payload: A list of polygons to draw. Each polygon is defined by its number of sides, side lengths, and angles.",
+          "show_side_lengths: A Boolean value indicating whether to display the side lengths of the polygons.",
+          "show_angle_markings: A Boolean value indicating whether to display the angle markings of the polygons.",
+          "show_tick_marks: A Boolean value indicating whether to display tick marks on the polygons."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The number of polygons that can be displayed at once is limited by the size of the output image.",
+          "The side lengths and angles must be valid for a polygon of the given number of sides. For example, a triangle cannot have side lengths of [1, 2, 3] as it violates the triangle inequality theorem.",
+          "The side lengths and angles must be positive numbers."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws the specified polygons with the given side lengths and angles.",
+          "If specified, the function can display the side lengths, angle markings, and tick marks on the polygons.",
+          "The visual output is affected by the input parameters. Changing the side lengths and angles changes the shape of the polygons, and toggling the display of side lengths, angle markings, and tick marks changes the information displayed on the polygons."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

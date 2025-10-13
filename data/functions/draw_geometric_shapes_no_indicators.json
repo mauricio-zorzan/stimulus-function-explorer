@@ -1,44 +1,72 @@
 {
   "function_name": "draw_geometric_shapes_no_indicators",
-  "description": "Draws geometric shapes no indicators for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_geometric_shapes_no_indicators\nresult = draw_geometric_shapes_no_indicators(data)",
-  "image_path": "images/draw_geometric_shapes_no_indicators_example.webp",
+  "description": "This function draws a series of geometric shapes without side length indicators. It is designed to help students visualize different geometric shapes and their properties, without the distraction of side length indicators. The function can draw a variety of shapes including rectangles, rhombuses, parallelograms, circles, regular quadrilaterals, and scalene triangles.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "shapes",
+    "visualization",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-05T23:17:45.138715",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_geometric_shapes_no_indicators_1_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_no_indicators_1_20251011_190400.webp",
+      "index": 1,
+      "size": 30746
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_basic_no_indicators"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.G.A.1+1",
       "display_name": "Classifying Quadrilaterals",
       "description": "Identify quadrilaterals \u2014including rhombuses, rectangles, squares, and parallelograms\u2014by analyzing visible attributes such as number of sides, right angles, and equal-length sides."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
-      "display_name": "Parallel Sides",
-      "description": "Recognize and describe basic geometric features: edges, vertices, parallel sides, and right angles."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
-      "display_name": null,
-      "description": "Draw examples of quadrilaterals that do not fit into the subcategories of rhombuses, rectangles, or squares."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+5",
-      "display_name": "Identifying Parallelograms",
-      "description": "Identify parallelograms."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+2",
-      "display_name": "Name for Quadrilaterals",
-      "description": "Select all names for a quadrilateral."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:53.213109"
+  "standards_last_updated": "2025-10-11T19:27:21.451948",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Geometric Shapes without Indicators",
+    "description": "This function can draw a variety of geometric shapes without side length indicators. It accepts a list of geometric shapes as input, each of which includes a label and a color. The function adjusts the size and layout of the shapes based on the number of shapes to be drawn. It can draw shapes in a single row layout, with the size per shape adjusted based on the number of shapes. The function includes a random rotation for parallelograms. This function is useful for teaching students about the properties of different geometric shapes, without the distraction of side length indicators.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_list: A list of geometric shapes to be drawn. Each shape includes a label and a color.",
+          "num_shapes: The number of shapes to be drawn. This is calculated from the length of the shape_list.",
+          "num_cols: The number of columns in the layout. This is set to be equal to num_shapes.",
+          "num_rows: The number of rows in the layout. This is always set to 1.",
+          "size_per_shape: The size of each shape. This is adjusted based on the number of shapes.",
+          "total_width: The total width of the layout. This is calculated based on the size_per_shape and num_cols, but is capped at a maximum of 30.",
+          "height: The height of the layout. This is set to be equal to size_per_shape."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The number of shapes must be a positive integer.",
+          "Each shape must be a valid geometric shape, as defined by the ValidGeometricShape enumeration.",
+          "The color of each shape must be a valid color.",
+          "The total width of the layout cannot exceed 30."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of geometric shapes without side length indicators.",
+          "The shapes are drawn in a single row layout.",
+          "The size and layout of the shapes are adjusted based on the number of shapes.",
+          "The function includes a random rotation for parallelograms."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

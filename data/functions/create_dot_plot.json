@@ -1,54 +1,132 @@
 {
   "function_name": "create_dot_plot",
-  "description": "Creates dot for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_dot_plot\nresult = create_dot_plot(data)",
-  "image_path": "images/create_dot_plot_example.webp",
-  "category": "graphs",
+  "description": "The 'create_dot_plot' function generates a dot plot, which is a statistical graphic that displays the frequency of different categories of data. The function uses enhanced visual appeal, such as a variety of colors, dot sizes, and transparency levels, to make the plot more engaging for educational purposes.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "dot_plot",
+    "statistics",
+    "data_visualization",
+    "educational_technology"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:10.067687",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_dot_plot_1_20251011_190400.webp",
+      "filename": "create_dot_plot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 31264
+    },
+    {
+      "path": "images/create_dot_plot_2_20251011_190400.webp",
+      "filename": "create_dot_plot_2_20251011_190400.webp",
+      "index": 2,
+      "size": 34104
+    },
+    {
+      "path": "images/create_dot_plot_3_20251011_190400.webp",
+      "filename": "create_dot_plot_3_20251011_190400.webp",
+      "index": 3,
+      "size": 34066
+    },
+    {
+      "path": "images/create_dot_plot_4_20251011_190400.webp",
+      "filename": "create_dot_plot_4_20251011_190400.webp",
+      "index": 4,
+      "size": 23914
+    },
+    {
+      "path": "images/create_dot_plot_5_20251011_190400.webp",
+      "filename": "create_dot_plot_5_20251011_190400.webp",
+      "index": 5,
+      "size": 19582
+    },
+    {
+      "path": "images/create_dot_plot_6_20251011_190400.webp",
+      "filename": "create_dot_plot_6_20251011_190400.webp",
+      "index": 6,
+      "size": 21256
+    },
+    {
+      "path": "images/create_dot_plot_7_20251011_190400.webp",
+      "filename": "create_dot_plot_7_20251011_190400.webp",
+      "index": 7,
+      "size": 26350
+    },
+    {
+      "path": "images/create_dot_plot_8_20251011_190400.webp",
+      "filename": "create_dot_plot_8_20251011_190400.webp",
+      "index": 8,
+      "size": 25498
+    },
+    {
+      "path": "images/create_dot_plot_9_20251011_190400.webp",
+      "filename": "create_dot_plot_9_20251011_190400.webp",
+      "index": 9,
+      "size": 20964
+    },
+    {
+      "path": "images/create_dot_plot_10_20251011_190400.webp",
+      "filename": "create_dot_plot_10_20251011_190400.webp",
+      "index": 10,
+      "size": 17154
+    },
+    {
+      "path": "images/create_dot_plot_11_20251011_190400.webp",
+      "filename": "create_dot_plot_11_20251011_190400.webp",
+      "index": 11,
+      "size": 26924
+    },
+    {
+      "path": "images/create_dot_plot_12_20251011_190400.webp",
+      "filename": "create_dot_plot_12_20251011_190400.webp",
+      "index": 12,
+      "size": 23576
+    },
+    {
+      "path": "images/create_dot_plot_13_20251011_190400.webp",
+      "filename": "create_dot_plot_13_20251011_190400.webp",
+      "index": 13,
+      "size": 24690
+    }
+  ],
+  "image_count": 55,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "dot_plot"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Dot Plots",
+    "description": "The 'create_dot_plot' function can draw dot plots based on the input data. It accepts an instance of the 'StatsLinePlot' class as input, which contains the data and title for the plot. The function has been designed to handle a varying number of unique values in the data, adjusting the figure size, dot size, and vertical spacing of the dots accordingly. The color of the dots is randomly selected from a predefined list of colors. This function is particularly useful in educational settings where data visualization is being taught, as it provides a clear and visually appealing representation of data frequency.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'stimulus_description' input is an instance of the 'StatsLinePlot' class, which includes 'data' and 'title' fields.",
+          "The 'data' field controls the values and frequencies that will be represented in the dot plot.",
+          "The 'title' field provides a title for the plot."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'data' field should be a list of numerical values.",
+          "The 'title' field should be a string."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a dot plot, with each dot representing a data point from the input data.",
+          "The size and vertical spacing of the dots vary depending on the number of unique values in the data.",
+          "The color of the dots is randomly selected for each plot generation, adding a level of visual variation to the output."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.B.2+1",
-      "display_name": "Line Plot of Fractional Measurements",
-      "description": "Make a line plot to display a data set of measurements in fractions of a unit.  "
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": "Representative, Random, and Biased Samples",
-      "description": "Identify samples that are representative, random or biased."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
     {
       "external_id": "CCSS.MATH.CONTENT.6.SP.B.4+1",
       "display_name": "Dot Plots",
@@ -60,35 +138,10 @@
       "description": "Report the number of observations of data from a math problem."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
       "display_name": "Finding Quantitative Measures from Charts and Graphs",
       "description": "Interpret charts and graphs to find mean, median, mode, and range."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:39.091762"
+  "standards_last_updated": "2025-10-11T19:26:59.194122"
 }

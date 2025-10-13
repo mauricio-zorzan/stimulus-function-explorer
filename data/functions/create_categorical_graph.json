@@ -1,18 +1,162 @@
 {
   "function_name": "create_categorical_graph",
-  "description": "Creates categorical graph for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_categorical_graph\nresult = create_categorical_graph(data)",
-  "image_path": "images/create_categorical_graph_example.webp",
-  "category": "graphs",
+  "description": "The function 'create_categorical_graph' generates educational stimulus images in the form of bar graphs, histograms, or picture graphs. These visualizations are designed to represent categorical data, aiding in the understanding of frequency distribution, data comparison, and data interpretation.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "data_visualization",
+    "bar_graph",
+    "histogram",
+    "picture_graph",
+    "categorical_data"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:08.365750",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_categorical_graph_1_20251011_190400.webp",
+      "filename": "create_categorical_graph_1_20251011_190400.webp",
+      "index": 1,
+      "size": 141222
+    },
+    {
+      "path": "images/create_categorical_graph_2_20251011_190400.webp",
+      "filename": "create_categorical_graph_2_20251011_190400.webp",
+      "index": 2,
+      "size": 483206
+    },
+    {
+      "path": "images/create_categorical_graph_3_20251011_190400.webp",
+      "filename": "create_categorical_graph_3_20251011_190400.webp",
+      "index": 3,
+      "size": 168132
+    },
+    {
+      "path": "images/create_categorical_graph_4_20251011_190400.webp",
+      "filename": "create_categorical_graph_4_20251011_190400.webp",
+      "index": 4,
+      "size": 547538
+    },
+    {
+      "path": "images/create_categorical_graph_5_20251011_190400.webp",
+      "filename": "create_categorical_graph_5_20251011_190400.webp",
+      "index": 5,
+      "size": 218040
+    },
+    {
+      "path": "images/create_categorical_graph_6_20251011_190400.webp",
+      "filename": "create_categorical_graph_6_20251011_190400.webp",
+      "index": 6,
+      "size": 547538
+    },
+    {
+      "path": "images/create_categorical_graph_7_20251011_190400.webp",
+      "filename": "create_categorical_graph_7_20251011_190400.webp",
+      "index": 7,
+      "size": 392778
+    },
+    {
+      "path": "images/create_categorical_graph_8_20251011_190400.webp",
+      "filename": "create_categorical_graph_8_20251011_190400.webp",
+      "index": 8,
+      "size": 125510
+    },
+    {
+      "path": "images/create_categorical_graph_9_20251011_190400.webp",
+      "filename": "create_categorical_graph_9_20251011_190400.webp",
+      "index": 9,
+      "size": 1557790
+    },
+    {
+      "path": "images/create_categorical_graph_10_20251011_190400.webp",
+      "filename": "create_categorical_graph_10_20251011_190400.webp",
+      "index": 10,
+      "size": 95808
+    },
+    {
+      "path": "images/create_categorical_graph_11_20251011_190400.webp",
+      "filename": "create_categorical_graph_11_20251011_190400.webp",
+      "index": 11,
+      "size": 306090
+    },
+    {
+      "path": "images/create_categorical_graph_12_20251011_190400.webp",
+      "filename": "create_categorical_graph_12_20251011_190400.webp",
+      "index": 12,
+      "size": 153198
+    },
+    {
+      "path": "images/create_categorical_graph_13_20251011_190400.webp",
+      "filename": "create_categorical_graph_13_20251011_190400.webp",
+      "index": 13,
+      "size": 149514
+    },
+    {
+      "path": "images/create_categorical_graph_14_20251011_190400.webp",
+      "filename": "create_categorical_graph_14_20251011_190400.webp",
+      "index": 14,
+      "size": 373408
+    },
+    {
+      "path": "images/create_categorical_graph_15_20251011_190400.webp",
+      "filename": "create_categorical_graph_15_20251011_190400.webp",
+      "index": 15,
+      "size": 951222
+    },
+    {
+      "path": "images/create_categorical_graph_16_20251011_190400.webp",
+      "filename": "create_categorical_graph_16_20251011_190400.webp",
+      "index": 16,
+      "size": 210626
+    },
+    {
+      "path": "images/create_categorical_graph_17_20251011_190400.webp",
+      "filename": "create_categorical_graph_17_20251011_190400.webp",
+      "index": 17,
+      "size": 97306
+    }
+  ],
+  "image_count": 60,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "categorical_graph_"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Categorical Graphs",
+    "description": "The 'create_categorical_graph' function can draw three types of visualizations: bar graphs, histograms, and picture graphs. It accepts input in the form of a 'CategoricalGraphList', which includes information about the graph type, title, x and y axis labels, and data points. Each data point consists of a category and a frequency. For picture graphs, additional configuration parameters such as star value, star unit, and whether to show half star values can be provided. The function validates the frequency values to ensure they are non-negative and either whole numbers or half values. These visualizations serve the educational purpose of teaching students about data representation and interpretation, frequency distribution, and comparison of different categories.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "graph_type: Determines the type of graph to be drawn (bar graph, histogram, or picture graph)",
+          "title: The title of the graph",
+          "x_axis_label: The label for the x-axis",
+          "y_axis_label: The label for the y-axis",
+          "data: A list of data points, each consisting of a category and a frequency",
+          "star_value: (Optional for picture graphs) The value that each star represents",
+          "star_unit: (Optional for picture graphs) The unit for what each star represents",
+          "show_half_star_value: (Optional for picture graphs) Whether to show an additional legend for half star values"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "Frequency values must be non-negative",
+          "Frequency values must be either whole numbers or half values",
+          "For picture graphs, star value must be greater than 0"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "Draws bar graphs, histograms, or picture graphs based on the input parameters",
+          "The x-axis represents categories and the y-axis represents frequencies",
+          "For picture graphs, stars are used to represent frequencies, with the option to display half star values"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.1.MD.C.4+2",
@@ -90,31 +234,6 @@
       "description": "Identify samples that are representative, random or biased."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.A.2+1",
-      "display_name": null,
-      "description": "Understand that a set of data collected to answer a statistical question has a data distribution which can be described by its center, spread, and overall shape."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.6.SP.A.3+1",
       "display_name": "Measures of Center",
       "description": "Recognize that a measure of center for a numerical data set summarizes all of its values with a single number."
@@ -125,43 +244,8 @@
       "description": "Interpret and analyze data presented in tables, charts, and graphs to solve problems involving measures of center, frequency, and percentages."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.4+2",
-      "display_name": "Creating Histograms",
-      "description": "Display numerical data on histograms."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.4+4",
-      "display_name": "Interpreting Histograms",
-      "description": "Interpret numerical data on histograms."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
       "display_name": "Interpret Dot Plots",
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": null,
       "description": "Report the number of observations of data from a math problem."
     },
     {
@@ -170,5 +254,5 @@
       "description": "Interpret charts and graphs to find mean, median, mode, and range."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:37.724449"
+  "standards_last_updated": "2025-10-11T19:26:57.545665"
 }

@@ -1,18 +1,75 @@
 {
   "function_name": "draw_parallelogram_with_height",
-  "description": "Draws parallelogram with height for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_parallelogram_with_height\nresult = draw_parallelogram_with_height(data)",
-  "image_path": "images/draw_parallelogram_with_height_example.webp",
-  "category": "general",
+  "description": "The function 'draw_parallelogram_with_height' generates a visual representation of a parallelogram with a specified height. It is designed to aid in the understanding of geometry, specifically the properties and characteristics of parallelograms.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "parallelogram",
+    "geometry",
+    "visualization",
+    "matplotlib"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:54.004289",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_parallelogram_with_height_1_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_1_20251011_190400.webp",
+      "index": 1,
+      "size": 32536
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_2_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_2_20251011_190400.webp",
+      "index": 2,
+      "size": 34724
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_3_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_3_20251011_190400.webp",
+      "index": 3,
+      "size": 45502
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_4_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_4_20251011_190400.webp",
+      "index": 4,
+      "size": 37238
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_5_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_5_20251011_190400.webp",
+      "index": 5,
+      "size": 33842
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_6_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_6_20251011_190400.webp",
+      "index": 6,
+      "size": 24008
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_7_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_7_20251011_190400.webp",
+      "index": 7,
+      "size": 35242
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_8_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_8_20251011_190400.webp",
+      "index": 8,
+      "size": 34234
+    },
+    {
+      "path": "images/draw_parallelogram_with_height_9_20251011_190400.webp",
+      "filename": "draw_parallelogram_with_height_9_20251011_190400.webp",
+      "index": 9,
+      "size": 40588
+    }
+  ],
+  "image_count": 43,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "parallelogram"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.G.A.1+1",
@@ -20,5 +77,38 @@
       "description": "Find the area of parallelograms."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:57.784683"
+  "standards_last_updated": "2025-10-11T19:27:31.036072",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Parallelogram with Height",
+    "description": "The 'draw_parallelogram_with_height' function is capable of generating a variety of parallelogram images with specified heights. The function accepts input from the 'ParallelogramWithHeight' class, which includes parameters such as the base, sides, and height of the parallelogram. The function is constrained by the properties of a parallelogram, meaning the input values must be able to form a valid parallelogram. The primary educational purpose of this function is to provide a visual aid for understanding the properties of parallelograms, such as how the base, sides, and height relate to each other.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'ParallelogramWithHeight' class, which includes parameters for the base, sides, and height of the parallelogram",
+          "Each parameter controls the corresponding aspect of the parallelogram",
+          "All fields are required for the function to draw a valid parallelogram"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The input values must be able to form a valid parallelogram",
+          "The function validates the input by checking if the base, sides, and height can form a parallelogram",
+          "There are no specific value limits or ranges, but the values must be positive"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a parallelogram with a specified height",
+          "There are no variations or options available",
+          "The size and shape of the parallelogram are determined by the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,0 +1,73 @@
+{
+  "function_name": "create_triangle_decomposition_decimal_only",
+  "description": "This function generates a visual representation of a triangle, with the longest side serving as the base. It labels the base and height with decimal values and can be used in different modes to compute the base, height, or area of the triangle.",
+  "category": "geometry",
+  "tags": [
+    "triangle",
+    "geometry",
+    "visualization",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/create_triangle_decomposition_decimal_only_1_20251011_190400.webp",
+      "filename": "create_triangle_decomposition_decimal_only_1_20251011_190400.webp",
+      "index": 1,
+      "size": 6416
+    },
+    {
+      "path": "images/create_triangle_decomposition_decimal_only_2_20251011_190400.webp",
+      "filename": "create_triangle_decomposition_decimal_only_2_20251011_190400.webp",
+      "index": 2,
+      "size": 7892
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "triangle_decomp"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Triangle Decomposition with Decimal Measurements",
+    "description": "The function can draw a triangle with its base and height labeled in decimal values. It accepts a TriangleDecomposition object as input, which includes the vertices of the triangle and optional parameters for shading, gridlines, and computation mode. The function always expects exactly 3 vertices. The mode parameter can be set to 'draw_only', 'compute_height', or 'compute_base' to control which measurements are displayed. This function can be used to teach students about triangle properties, measurements, and computations in geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Vertices: The coordinates of the three vertices of the triangle.",
+          "Shading: Optional parameter to fill the triangle with gray color.",
+          "Gridlines: Optional parameter to draw a grid in the background.",
+          "Mode: Controls which measurements are displayed. Can be 'draw_only', 'compute_height', or 'compute_base'."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function expects exactly 3 vertices.",
+          "The vertices must be numeric values.",
+          "The mode parameter must be one of the following: 'draw_only', 'compute_height', or 'compute_base'."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a triangle with the longest side as the base.",
+          "The base and height of the triangle are labeled with decimal values.",
+          "The triangle can be shaded and a grid can be drawn in the background."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.1+2",
+      "display_name": "Area of Triangles",
+      "description": "Find the area of triangles."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:07.987768"
+}

@@ -1,51 +1,172 @@
 {
   "function_name": "generate_table",
-  "description": "The Python function 'generate_table' creates a visual representation of data in a table format. It is designed to aid in the understanding of data organization, interpretation, and analysis. The function can generate both vertical and horizontal tables based on the input data.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_table\nresult = generate_table(data)",
-  "image_path": "images/generate_table_example.webp",
+  "description": "This function generates a table visualization for educational purposes. It creates a table with specified columns and rows, wrapping text as necessary for readability. The generated table can be used to present data in a structured format, facilitating comprehension and analysis.",
   "category": "data_visualization",
   "tags": [
-    "data",
     "tables",
-    "visualization",
-    "analysis"
+    "data_presentation",
+    "text_wrapping",
+    "educational_visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-01-06T00:00:00.000000",
-  "test_data": "Generated from GitHub Actions workflow",
-  "educational_level": "Middle/High School/College",
-  "mathematical_concepts": [
-    "data representation",
-    "data analysis",
-    "statistics"
-  ],
-  "stimulus_type_specification": {
-    "title": "Available Images: Data Tables",
-    "description": "The images produced by the 'generate_table' function are visual representations of data in a table format. These tables can be either vertical or horizontal, depending on the input data. The tables are generated using the matplotlib library and are saved as image files. The purpose of these images is to provide a clear and concise way to represent and analyze data. They can be used in a variety of educational settings, from teaching basic data representation in middle school to more advanced data analysis in college.",
-    "specifications": [
-      {
-        "section": "Table Generation",
-        "details": [
-          "The function takes as input a 'Table' object, which contains the data to be represented in the table.",
-          "The data is then extracted and wrapped using the 'extract_and_wrap_data' method of the 'Table' object.",
-          "The maximum cell dimensions are calculated using the 'calculate_max_cell_dimensions' method of the 'Table' object.",
-          "A table is then generated using the matplotlib library, with the cell text set to the values of the data and the row labels set to the index of the data.",
-          "The table is styled and saved as an image file."
-        ]
-      }
-    ],
-    "educational_purpose": "The 'generate_table' function aids in learning by providing a visual representation of data. By seeing data organized in a table format, students can more easily understand and analyze the data. This can help in teaching a variety of mathematical concepts, including data representation, data analysis, and statistics. Furthermore, by generating the tables as images, the function allows for easy integration of the tables into a variety of educational materials, such as worksheets, presentations, and online learning platforms."
-  },
-  "ai_generated": true,
-  "educational_standards": [
+  "images": [
     {
-      "external_id": "CCSS.MATH.CONTENT.5.G.A.2+2",
-      "display_name": "Graphing Real World Problems",
-      "description": "Given a point, identify which coordinate is a set number of units up and right from it."
+      "path": "images/generate_table_1_20251011_190400.webp",
+      "filename": "generate_table_1_20251011_190400.webp",
+      "index": 1,
+      "size": 33596
     },
+    {
+      "path": "images/generate_table_2_20251011_190400.webp",
+      "filename": "generate_table_2_20251011_190400.webp",
+      "index": 2,
+      "size": 67416
+    },
+    {
+      "path": "images/generate_table_3_20251011_190400.webp",
+      "filename": "generate_table_3_20251011_190400.webp",
+      "index": 3,
+      "size": 158006
+    },
+    {
+      "path": "images/generate_table_4_20251011_190400.webp",
+      "filename": "generate_table_4_20251011_190400.webp",
+      "index": 4,
+      "size": 68716
+    },
+    {
+      "path": "images/generate_table_5_20251011_190400.webp",
+      "filename": "generate_table_5_20251011_190400.webp",
+      "index": 5,
+      "size": 46060
+    },
+    {
+      "path": "images/generate_table_6_20251011_190400.webp",
+      "filename": "generate_table_6_20251011_190400.webp",
+      "index": 6,
+      "size": 82654
+    },
+    {
+      "path": "images/generate_table_7_20251011_190400.webp",
+      "filename": "generate_table_7_20251011_190400.webp",
+      "index": 7,
+      "size": 46000
+    },
+    {
+      "path": "images/generate_table_8_20251011_190400.webp",
+      "filename": "generate_table_8_20251011_190400.webp",
+      "index": 8,
+      "size": 46000
+    },
+    {
+      "path": "images/generate_table_9_20251011_190400.webp",
+      "filename": "generate_table_9_20251011_190400.webp",
+      "index": 9,
+      "size": 43200
+    },
+    {
+      "path": "images/generate_table_10_20251011_190400.webp",
+      "filename": "generate_table_10_20251011_190400.webp",
+      "index": 10,
+      "size": 46000
+    },
+    {
+      "path": "images/generate_table_11_20251011_190400.webp",
+      "filename": "generate_table_11_20251011_190400.webp",
+      "index": 11,
+      "size": 127006
+    },
+    {
+      "path": "images/generate_table_12_20251011_190400.webp",
+      "filename": "generate_table_12_20251011_190400.webp",
+      "index": 12,
+      "size": 3688
+    },
+    {
+      "path": "images/generate_table_13_20251011_190400.webp",
+      "filename": "generate_table_13_20251011_190400.webp",
+      "index": 13,
+      "size": 42878
+    },
+    {
+      "path": "images/generate_table_14_20251011_190400.webp",
+      "filename": "generate_table_14_20251011_190400.webp",
+      "index": 14,
+      "size": 46432
+    },
+    {
+      "path": "images/generate_table_15_20251011_190400.webp",
+      "filename": "generate_table_15_20251011_190400.webp",
+      "index": 15,
+      "size": 59130
+    },
+    {
+      "path": "images/generate_table_16_20251011_190400.webp",
+      "filename": "generate_table_16_20251011_190400.webp",
+      "index": 16,
+      "size": 198340
+    },
+    {
+      "path": "images/generate_table_17_20251011_190400.webp",
+      "filename": "generate_table_17_20251011_190400.webp",
+      "index": 17,
+      "size": 46060
+    },
+    {
+      "path": "images/generate_table_18_20251011_190400.webp",
+      "filename": "generate_table_18_20251011_190400.webp",
+      "index": 18,
+      "size": 77752
+    },
+    {
+      "path": "images/generate_table_19_20251011_190400.webp",
+      "filename": "generate_table_19_20251011_190400.webp",
+      "index": 19,
+      "size": 109704
+    },
+    {
+      "path": "images/generate_table_20_20251011_190400.webp",
+      "filename": "generate_table_20_20251011_190400.webp",
+      "index": 20,
+      "size": 46060
+    },
+    {
+      "path": "images/generate_table_21_20251011_190400.webp",
+      "filename": "generate_table_21_20251011_190400.webp",
+      "index": 21,
+      "size": 6634
+    },
+    {
+      "path": "images/generate_table_22_20251011_190400.webp",
+      "filename": "generate_table_22_20251011_190400.webp",
+      "index": 22,
+      "size": 191274
+    },
+    {
+      "path": "images/generate_table_23_20251011_190400.webp",
+      "filename": "generate_table_23_20251011_190400.webp",
+      "index": 23,
+      "size": 46358
+    },
+    {
+      "path": "images/generate_table_24_20251011_190400.webp",
+      "filename": "generate_table_24_20251011_190400.webp",
+      "index": 24,
+      "size": 75876
+    },
+    {
+      "path": "images/generate_table_25_20251011_190400.webp",
+      "filename": "generate_table_25_20251011_190400.webp",
+      "index": 25,
+      "size": 46060
+    }
+  ],
+  "image_count": 107,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "table"
+  ],
+  "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.5.MD.A.1+2",
       "display_name": "Customary Conversions: Weight",
@@ -117,16 +238,6 @@
       "description": ""
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
-      "display_name": null,
-      "description": ""
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
-      "display_name": "Theoretical vs Experimental Probability",
-      "description": "Differentiate between experimental and theoretical probability."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+3",
       "display_name": "Theoretical Probability",
       "description": "Find theoretical probability."
@@ -155,17 +266,40 @@
       "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+3",
       "display_name": "Sample Space Tables",
       "description": "Create tables to systematically organize and represent sample spaces for compound events, clearly displaying all possible outcomes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+1",
-      "display_name": "Identifying Functions",
-      "description": "Identify whether or not a mathematical relation is a function."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.A.3+2",
-      "display_name": "Linear and Non-Linear Functions",
-      "description": "Identify whether or not a function is linear."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:11.115950"
+  "standards_last_updated": "2025-10-11T19:27:46.334612",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Data Table Visualization",
+    "description": "This function generates a table visualization based on the provided data. It accepts input in the form of a `Table` object, which includes a list of `TableColumn` objects for the column labels and a list of `TableRow` objects for the row data. The function wraps text for both columns and rows to ensure readability. The maximum number of rows is limited to 15. This function is useful for presenting structured data in a clear and concise manner, aiding in data analysis and comprehension in educational settings.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "columns: A list of `TableColumn` objects, each containing a `label` field which specifies the label for a column in the table.",
+          "rows: A list of `TableRow` objects, each containing `field_1` and `field_2` fields which specify the data for a row in the table.",
+          "All fields are required."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The maximum number of rows is limited to 15.",
+          "All fields are required and must be strings. Numbers are coerced to strings.",
+          "The `alias` and `validation_alias` fields in `TableRow` allow for alternative names for the fields."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a table with the specified columns and rows.",
+          "Text in both columns and rows is wrapped for readability.",
+          "The size of the table adjusts based on the maximum cell dimensions, ensuring all data is visible and readable."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

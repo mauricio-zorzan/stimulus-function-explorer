@@ -1,18 +1,68 @@
 {
   "function_name": "create_clock",
-  "description": "Creates clock for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_clock\nresult = create_clock(data)",
-  "image_path": "images/create_clock_example.webp",
-  "category": "general",
+  "description": "The 'create_clock' function generates educational stimulus images of clocks, either in analog or digital format. The purpose of this function is to provide visual aids for teaching time-telling skills, which is a fundamental concept in early mathematics education.",
+  "category": "measurement",
   "tags": [
-    "general"
+    "time",
+    "clock",
+    "analog",
+    "digital",
+    "educational visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:20.584669",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_clock_1_20251011_190400.webp",
+      "filename": "create_clock_1_20251011_190400.webp",
+      "index": 1,
+      "size": 10810
+    },
+    {
+      "path": "images/create_clock_2_20251011_190400.webp",
+      "filename": "create_clock_2_20251011_190400.webp",
+      "index": 2,
+      "size": 73566
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "clock_"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Analog and Digital Clocks",
+    "description": "The 'create_clock' function can generate two types of visualizations: analog clocks and digital clocks. It accepts inputs based on the 'Clock' stimulus description class, which specifies the type of clock ('analog' or 'digital') and the time to be displayed (in hours and minutes). The function is designed to create visual aids for teaching time-telling skills, making it a valuable tool for early mathematics education. The generated clocks can be used in various educational scenarios, such as quizzes, worksheets, or interactive learning modules.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'type' field determines the type of clock to be created, either 'analog' or 'digital'.",
+          "The 'hour' field controls the hour to be displayed on the clock.",
+          "The 'minute' field controls the minute to be displayed on the clock.",
+          "All fields are required."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'type' field must be either 'analog' or 'digital'.",
+          "The 'hour' field must be an integer between 0 and 23, inclusive.",
+          "The 'minute' field must be an integer between 0 and 59, inclusive."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates an image of a clock, either in analog or digital format.",
+          "The generated clock displays the time specified by the 'hour' and 'minute' fields.",
+          "The appearance of the clock depends on the 'type' field: an 'analog' clock will have an hour hand and a minute hand, while a 'digital' clock will display the time in numerical format."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.1.MD.B.3+1",
@@ -50,5 +100,5 @@
       "description": "Convert between 12-hour (a.m./p.m.) and 24-hour (military) time and solve elapsed-time word problems that use either format."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:38.055814"
+  "standards_last_updated": "2025-10-11T19:26:57.970120"
 }

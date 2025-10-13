@@ -1,18 +1,35 @@
 {
   "function_name": "draw_lines_rays_and_segments",
-  "description": "Draws lines rays and segments for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_lines_rays_and_segments\nresult = draw_lines_rays_and_segments(data)",
-  "image_path": "images/draw_lines_rays_and_segments_example.webp",
-  "category": "general",
+  "description": "The function 'draw_lines_rays_and_segments' generates a 2D plot of points, lines, rays, and segments based on the input data. It is designed to help students visualize and understand the basic concepts of geometry, particularly the differences between lines, rays, and segments.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "lines",
+    "rays",
+    "segments",
+    "points",
+    "2D geometry",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:58.838170",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_lines_rays_and_segments_1_20251011_190400.webp",
+      "filename": "draw_lines_rays_and_segments_1_20251011_190400.webp",
+      "index": 1,
+      "size": 66336
+    },
+    {
+      "path": "images/draw_lines_rays_and_segments_2_20251011_190400.webp",
+      "filename": "draw_lines_rays_and_segments_2_20251011_190400.webp",
+      "index": 2,
+      "size": 57608
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "lines_rays_and_segments"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.1+10",
@@ -50,5 +67,40 @@
       "description": "Recognize, name, and use the properties of lines, rays, and angles to analyze and solve geometric problems."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:55.290577"
+  "standards_last_updated": "2025-10-11T19:27:26.494668",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Lines, Rays, and Segments Visualization",
+    "description": "The function can draw points, lines, rays, and segments on a 2D plane. It accepts input data in the form of a list of points (with labels and coordinates) and a list of lines (with start and end labels, and type). The type of line can be 'line', 'ray', or 'segment'. The function validates the input data to ensure that the labels and coordinates are valid and that the line type is recognized. This visualization can be used in geometry lessons to help students understand and differentiate between lines, rays, and segments.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Points: A list of points, each with a label and coordinates",
+          "Lines: A list of lines, each with start and end labels, and a type ('line', 'ray', or 'segment')",
+          "The labels in the lines should correspond to the labels of the points"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The coordinates should be valid numbers",
+          "The labels should be unique for each point",
+          "The line type should be either 'line', 'ray', or 'segment'",
+          "The start and end labels of a line should correspond to the labels of the points"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws points as dots on a 2D plane",
+          "Lines, rays, and segments are drawn between the points based on the input data",
+          "Lines are drawn as arrows extending in both directions, rays as arrows extending in one direction, and segments as lines with no arrows",
+          "The points and lines are labeled for easy identification"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

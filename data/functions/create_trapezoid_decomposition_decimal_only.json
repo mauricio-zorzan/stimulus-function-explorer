@@ -1,0 +1,72 @@
+{
+  "function_name": "create_trapezoid_decomposition_decimal_only",
+  "description": "This function draws a trapezoid with decimal-only labels and a pastel fill. It is designed for educational purposes, specifically to help students understand the concept of trapezoid decomposition and measurement in a visually engaging manner.",
+  "category": "geometry",
+  "tags": [
+    "trapezoid",
+    "decomposition",
+    "geometry",
+    "math_visualization"
+  ],
+  "images": [
+    {
+      "path": "images/create_trapezoid_decomposition_decimal_only_1_20251011_190400.webp",
+      "filename": "create_trapezoid_decomposition_decimal_only_1_20251011_190400.webp",
+      "index": 1,
+      "size": 5890
+    },
+    {
+      "path": "images/create_trapezoid_decomposition_decimal_only_2_20251011_190400.webp",
+      "filename": "create_trapezoid_decomposition_decimal_only_2_20251011_190400.webp",
+      "index": 2,
+      "size": 10956
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "trapezoid_decomp"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Trapezoid Decomposition with Decimal Labels",
+    "description": "This function can draw a trapezoid with vertices defined by the user. The trapezoid is filled with a color chosen randomly from a pastel palette. The lengths of the top and bottom bases are labeled with decimal values. The function accepts inputs in the form of a TrapezoidDecomposition object, which includes vertices, units, and mode. The vertices define the shape of the trapezoid, the units define the measurement unit, and the mode can be used to hide the label of the bottom base, prompting students to compute it. This visualization can be used in various educational scenarios, such as teaching geometry, understanding the concept of area, or practicing decimal arithmetic.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "vertices: A list of four tuples, each representing the coordinates of a vertex of the trapezoid. They control the shape and size of the trapezoid.",
+          "units: A string representing the unit of measurement. It is used in the labels of the bases.",
+          "mode: An optional parameter that can be set to 'COMPUTE_BASE' to hide the label of the bottom base."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The vertices must be a list of four tuples, each containing two float values.",
+          "The units must be a string.",
+          "The mode, if provided, must be 'COMPUTE_BASE'."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a trapezoid with vertices defined by the user. The trapezoid is filled with a pastel color.",
+          "The lengths of the top and bottom bases are labeled with decimal values, unless the mode is set to 'COMPUTE_BASE', in which case the bottom base label is replaced with a question mark.",
+          "The function does not draw any titles or gridlines."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.G.A.1+4",
+      "display_name": "Area of Trapezoids",
+      "description": "Find the area of a trapezoid."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:07.656335"
+}

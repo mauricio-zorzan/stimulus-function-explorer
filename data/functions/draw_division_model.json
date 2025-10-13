@@ -1,18 +1,40 @@
 {
   "function_name": "draw_division_model",
-  "description": "Draws division model for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_division_model\nresult = draw_division_model(data)",
-  "image_path": "images/draw_division_model_example.webp",
-  "category": "general",
+  "description": "The function 'draw_division_model' generates a visual representation of a division operation using fraction bar models. It can illustrate both whole numbers and fractions, providing an intuitive understanding of division as partitioning or sharing. This function is particularly useful in teaching the concept of fractions and division to students in a visually engaging manner.",
+  "category": "fractions",
   "tags": [
-    "general"
+    "division",
+    "fractions",
+    "bar_model",
+    "educational_visualization",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:06.607181",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_division_model_1_20251011_190400.webp",
+      "filename": "draw_division_model_1_20251011_190400.webp",
+      "index": 1,
+      "size": 6176
+    },
+    {
+      "path": "images/draw_division_model_2_20251011_190400.webp",
+      "filename": "draw_division_model_2_20251011_190400.webp",
+      "index": 2,
+      "size": 3862
+    },
+    {
+      "path": "images/draw_division_model_3_20251011_190400.webp",
+      "filename": "draw_division_model_3_20251011_190400.webp",
+      "index": 3,
+      "size": 8784
+    }
+  ],
+  "image_count": 12,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "division_model"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.NS.A.1+6",
@@ -20,5 +42,38 @@
       "description": "Divide proper fractions and whole numbers using models."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:51.168597"
+  "standards_last_updated": "2025-10-11T19:27:17.963478",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Division Models",
+    "description": "The 'draw_division_model' function can create visualizations of division operations using fraction bar models. It accepts a Pydantic model as input, which contains the dividend and divisor information. The dividend and divisor can be either whole numbers or fractions. The function dynamically calculates the size of the matplotlib figure based on the input. The function has been designed to aid in teaching and learning of division and fractions, making it easier for students to grasp these concepts through visual aids.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function takes a 'DivisionModel' as input, which contains the 'dividend' and 'divisor'.",
+          "The 'dividend' and 'divisor' can be either whole numbers or fractions.",
+          "The 'figsize' parameter is optional and determines the size of the matplotlib figure. If not provided, the size is calculated dynamically."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'dividend' and 'divisor' must be either integers or instances of the 'FractionNumber' class.",
+          "The 'FractionNumber' class must contain a 'numerator' and a 'denominator', both of which must be integers.",
+          "The 'figsize' parameter, if provided, must be a tuple."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of fraction bars to represent the division operation.",
+          "The number of bars, the number of equal pieces in each bar, and the number of shaded pieces are determined based on the 'dividend' and 'divisor'.",
+          "The color scheme of the bars varies depending on whether the 'dividend' is a whole number or a fraction."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

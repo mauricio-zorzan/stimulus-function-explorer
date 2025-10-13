@@ -1,0 +1,262 @@
+{
+  "function_name": "draw_unit_cube_figure",
+  "description": "The 'draw_unit_cube_figure' function generates 3D visualizations of unit cubes. It can render either a right rectangular prism or an irregular set of unit cubes. The function is designed to aid in the understanding of three-dimensional shapes and spatial reasoning in geometry.",
+  "category": "geometry",
+  "tags": [
+    "3D_visualization",
+    "unit_cubes",
+    "geometry",
+    "spatial_reasoning"
+  ],
+  "images": [
+    {
+      "path": "images/draw_unit_cube_figure_1_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_1_20251011_190400.webp",
+      "index": 1,
+      "size": 5576
+    },
+    {
+      "path": "images/draw_unit_cube_figure_2_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_2_20251011_190400.webp",
+      "index": 2,
+      "size": 13478
+    },
+    {
+      "path": "images/draw_unit_cube_figure_3_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_3_20251011_190400.webp",
+      "index": 3,
+      "size": 7412
+    },
+    {
+      "path": "images/draw_unit_cube_figure_4_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_4_20251011_190400.webp",
+      "index": 4,
+      "size": 5564
+    },
+    {
+      "path": "images/draw_unit_cube_figure_5_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_5_20251011_190400.webp",
+      "index": 5,
+      "size": 12794
+    },
+    {
+      "path": "images/draw_unit_cube_figure_6_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_6_20251011_190400.webp",
+      "index": 6,
+      "size": 6588
+    },
+    {
+      "path": "images/draw_unit_cube_figure_7_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_7_20251011_190400.webp",
+      "index": 7,
+      "size": 11078
+    },
+    {
+      "path": "images/draw_unit_cube_figure_8_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_8_20251011_190400.webp",
+      "index": 8,
+      "size": 16936
+    },
+    {
+      "path": "images/draw_unit_cube_figure_9_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_9_20251011_190400.webp",
+      "index": 9,
+      "size": 17592
+    },
+    {
+      "path": "images/draw_unit_cube_figure_10_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_10_20251011_190400.webp",
+      "index": 10,
+      "size": 6772
+    },
+    {
+      "path": "images/draw_unit_cube_figure_11_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_11_20251011_190400.webp",
+      "index": 11,
+      "size": 8938
+    },
+    {
+      "path": "images/draw_unit_cube_figure_12_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_12_20251011_190400.webp",
+      "index": 12,
+      "size": 13218
+    },
+    {
+      "path": "images/draw_unit_cube_figure_13_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_13_20251011_190400.webp",
+      "index": 13,
+      "size": 4196
+    },
+    {
+      "path": "images/draw_unit_cube_figure_14_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_14_20251011_190400.webp",
+      "index": 14,
+      "size": 5726
+    },
+    {
+      "path": "images/draw_unit_cube_figure_15_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_15_20251011_190400.webp",
+      "index": 15,
+      "size": 12184
+    },
+    {
+      "path": "images/draw_unit_cube_figure_16_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_16_20251011_190400.webp",
+      "index": 16,
+      "size": 12368
+    },
+    {
+      "path": "images/draw_unit_cube_figure_17_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_17_20251011_190400.webp",
+      "index": 17,
+      "size": 6744
+    },
+    {
+      "path": "images/draw_unit_cube_figure_18_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_18_20251011_190400.webp",
+      "index": 18,
+      "size": 11492
+    },
+    {
+      "path": "images/draw_unit_cube_figure_19_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_19_20251011_190400.webp",
+      "index": 19,
+      "size": 3894
+    },
+    {
+      "path": "images/draw_unit_cube_figure_20_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_20_20251011_190400.webp",
+      "index": 20,
+      "size": 11492
+    },
+    {
+      "path": "images/draw_unit_cube_figure_21_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_21_20251011_190400.webp",
+      "index": 21,
+      "size": 5416
+    },
+    {
+      "path": "images/draw_unit_cube_figure_22_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_22_20251011_190400.webp",
+      "index": 22,
+      "size": 6772
+    },
+    {
+      "path": "images/draw_unit_cube_figure_23_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_23_20251011_190400.webp",
+      "index": 23,
+      "size": 18264
+    },
+    {
+      "path": "images/draw_unit_cube_figure_24_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_24_20251011_190400.webp",
+      "index": 24,
+      "size": 7104
+    },
+    {
+      "path": "images/draw_unit_cube_figure_25_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_25_20251011_190400.webp",
+      "index": 25,
+      "size": 27314
+    },
+    {
+      "path": "images/draw_unit_cube_figure_26_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_26_20251011_190400.webp",
+      "index": 26,
+      "size": 5548
+    },
+    {
+      "path": "images/draw_unit_cube_figure_27_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_27_20251011_190400.webp",
+      "index": 27,
+      "size": 3322
+    },
+    {
+      "path": "images/draw_unit_cube_figure_28_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_28_20251011_190400.webp",
+      "index": 28,
+      "size": 22722
+    },
+    {
+      "path": "images/draw_unit_cube_figure_29_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_29_20251011_190400.webp",
+      "index": 29,
+      "size": 15098
+    },
+    {
+      "path": "images/draw_unit_cube_figure_30_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_30_20251011_190400.webp",
+      "index": 30,
+      "size": 2688
+    },
+    {
+      "path": "images/draw_unit_cube_figure_31_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_31_20251011_190400.webp",
+      "index": 31,
+      "size": 9970
+    },
+    {
+      "path": "images/draw_unit_cube_figure_32_20251011_190400.webp",
+      "filename": "draw_unit_cube_figure_32_20251011_190400.webp",
+      "index": 32,
+      "size": 13744
+    }
+  ],
+  "image_count": 32,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "rectangular_prism"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.3.B+1",
+      "display_name": null,
+      "description": "Determine the volume of rectangular prisms made of unit cubes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.3.B+2",
+      "display_name": null,
+      "description": "Calculate the volume of rectangular prisms made of unit cubes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.4+1",
+      "display_name": "Volume with Unit Cubes",
+      "description": "Measure volumes by counting unit cubes, using cubic cm, cubic in, cubic ft, and improvised units."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:37.832857",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: 3D Unit Cube Visualizations",
+    "description": "The 'draw_unit_cube_figure' function can generate 3D visualizations of right rectangular prisms or irregular sets of unit cubes. It accepts an instance of the 'UnitCubeFigure' class as input, which specifies the kind of figure ('rectangular' or 'custom') and the dimensions or set of cubes to render. For 'rectangular' figures, the length, width, and height are required. For 'custom' figures, a list of cubes with x, y, and z coordinates is required. The function is designed to help students visualize and understand three-dimensional shapes and their properties.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "figure.shape.kind: Specifies the kind of figure to draw ('rectangular' or 'custom')",
+          "figure.shape.length, figure.shape.width, figure.shape.height: Specifies the dimensions of a 'rectangular' figure",
+          "figure.shape.cubes: Specifies a list of cubes with x, y, and z coordinates for a 'custom' figure"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The figure.shape.kind field must be either 'rectangular' or 'custom'",
+          "For 'rectangular' figures, the length, width, and height must be positive integers",
+          "For 'custom' figures, the list of cubes must contain at least one cube, and each cube must have x, y, and z coordinates that are non-negative integers"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a 3D visualization of unit cubes, either as a right rectangular prism or an irregular set",
+          "Each cube is rendered with a pleasant violet gradient for the three visible faces, and black edges",
+          "The size and shape of the visualization depend on the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

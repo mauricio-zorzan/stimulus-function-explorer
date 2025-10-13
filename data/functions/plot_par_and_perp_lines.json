@@ -1,18 +1,88 @@
 {
   "function_name": "plot_par_and_perp_lines",
-  "description": "Plots par and perp lines for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for plot_par_and_perp_lines\nresult = plot_par_and_perp_lines(data)",
-  "image_path": "images/plot_par_and_perp_lines_example.webp",
-  "category": "graphs",
+  "description": "This function generates a visual representation of a set of lines, defined by their slopes and y-intercepts, on a 2D plane. It is designed for educational purposes, particularly for teaching and learning about the concepts of parallel and perpendicular lines in geometry.",
+  "category": "geometry",
   "tags": [
-    "graphs"
+    "lines",
+    "geometry",
+    "parallel",
+    "perpendicular",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:51.162075",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/plot_par_and_perp_lines_1_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_1_20251011_190400.webp",
+      "index": 1,
+      "size": 44650
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_2_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_2_20251011_190400.webp",
+      "index": 2,
+      "size": 62456
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_3_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_3_20251011_190400.webp",
+      "index": 3,
+      "size": 60614
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_4_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_4_20251011_190400.webp",
+      "index": 4,
+      "size": 160958
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_5_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_5_20251011_190400.webp",
+      "index": 5,
+      "size": 96776
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_6_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_6_20251011_190400.webp",
+      "index": 6,
+      "size": 77230
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_7_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_7_20251011_190400.webp",
+      "index": 7,
+      "size": 65096
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_8_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_8_20251011_190400.webp",
+      "index": 8,
+      "size": 85726
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_9_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_9_20251011_190400.webp",
+      "index": 9,
+      "size": 89574
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_10_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_10_20251011_190400.webp",
+      "index": 10,
+      "size": 118626
+    },
+    {
+      "path": "images/plot_par_and_perp_lines_11_20251011_190400.webp",
+      "filename": "plot_par_and_perp_lines_11_20251011_190400.webp",
+      "index": 11,
+      "size": 161352
+    }
+  ],
+  "image_count": 11,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_lines"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.1+2",
@@ -20,5 +90,38 @@
       "description": "Identify parallel and perpendicular lines."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:13.349405"
+  "standards_last_updated": "2025-10-11T19:27:50.828386",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Parallel and Perpendicular Lines",
+    "description": "This function can draw a variety of lines on a 2D plane, defined by their slopes and y-intercepts. It accepts a list of line objects as input, each of which includes a label (a string of exactly two uppercase letters), a slope, and a y-intercept. The function validates the label of each line, ensuring that it consists of exactly two uppercase letters. The lines are drawn within a range of x values from -6 to 6. This function is particularly useful for visualizing the concepts of parallel and perpendicular lines in geometry, as it allows for the clear comparison of different lines' slopes and positions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "line_list: A list of line objects, each of which includes a label, a slope, and a y-intercept",
+          "label: A string of exactly two uppercase letters representing the line",
+          "slope: A numerical value representing the slope of the line",
+          "y_intercept: A numerical value representing the y-intercept of the line"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The label of each line must consist of exactly two uppercase letters",
+          "The lines are drawn within a range of x values from -6 to 6"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a 2D plot of the input lines",
+          "Each line is represented by a straight line segment extending from x = -6 to x = 6",
+          "The slope and position of each line are determined by the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

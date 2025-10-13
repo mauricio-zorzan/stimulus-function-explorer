@@ -1,28 +1,38 @@
 {
   "function_name": "plot_line",
-  "description": "Plots line for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for plot_line\nresult = plot_line(data)",
-  "image_path": "images/plot_line_example.webp",
-  "category": "graphs",
+  "description": "This function draws a line on a 2D plane, with optional points along the line. It is useful for teaching geometry and algebra, and for visualizing mathematical equations.",
+  "category": "geometry",
   "tags": [
-    "graphs"
+    "line",
+    "2D",
+    "geometry",
+    "algebra"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:49.279021",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/plot_line_1_20251011_190400.webp",
+      "filename": "plot_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 339118
+    },
+    {
+      "path": "images/plot_line_2_20251011_190400.webp",
+      "filename": "plot_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 334796
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_line"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+1",
       "display_name": "Independent and Dependent Variables",
       "description": "Identify independent and dependent variables in situations."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+5",
-      "display_name": "Graphing Equations",
-      "description": "Graph a two-variable equation."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+7",
@@ -33,21 +43,6 @@
       "external_id": "CCSS.MATH.CONTENT.6.RP.A.3.A+5",
       "display_name": "Graphs from Ratios",
       "description": "Create graphs from ratios."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
-      "display_name": "Finding Quantitative Measures from Charts and Graphs",
-      "description": "Interpret charts and graphs to find mean, median, mode, and range."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.C+1",
-      "display_name": "Proportional Relationship Equations",
-      "description": "Represent proportional relationships by equations. For example, if total cost t is proportional to the number n of items purchased at a constant price p, the relationship between the total cost and the number of items can be expressed as t = pn."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.5+1",
-      "display_name": "Constant of Proportionality",
-      "description": "Find the constant of proportionality."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.8.EE.B.5+2",
@@ -90,5 +85,38 @@
       "description": "Write an equation in slope-intercept from (y = mx + b) for a graph of a line intercepting the vertical axis at b."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:12.356452"
+  "standards_last_updated": "2025-10-11T19:27:50.118552",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Line on a 2D Plane",
+    "description": "This function draws a line on a 2D plane, optionally with points along the line. The line is defined by its slope and y-intercept, and the points are defined by their x and y coordinates. The line and points are drawn on a 2D plane with a specified x and y range. This function is useful for teaching geometry and algebra, and for visualizing mathematical equations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Axis: Defines the x and y range of the 2D plane",
+          "Line: Defines the slope and y-intercept of the line",
+          "Point: Optional, defines the x and y coordinates of points along the line"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "Axis: Both x and y range are required",
+          "Line: Both slope and y-intercept are required",
+          "Point: Both x and y coordinates are required if a point is specified"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "Draws a line on a 2D plane, with optional points along the line",
+          "The line is defined by its slope and y-intercept",
+          "The points are defined by their x and y coordinates"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

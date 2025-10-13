@@ -1,0 +1,179 @@
+{
+  "function_name": "draw_multiple_3d_objects",
+  "description": "This function generates a series of 3D visualizations of geometric shapes, which can be used in teaching and learning geometry, spatial reasoning, and mathematical modeling. The function is designed to handle multiple shapes at once, arranging them in a grid for easy comparison and analysis.",
+  "category": "geometry",
+  "tags": [
+    "3d_visualization",
+    "geometry",
+    "mathematics",
+    "educational_technology"
+  ],
+  "images": [
+    {
+      "path": "images/draw_multiple_3d_objects_1_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_1_20251011_190400.webp",
+      "index": 1,
+      "size": 278952
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_2_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_2_20251011_190400.webp",
+      "index": 2,
+      "size": 123928
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_3_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_3_20251011_190400.webp",
+      "index": 3,
+      "size": 192398
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_4_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_4_20251011_190400.webp",
+      "index": 4,
+      "size": 143604
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_5_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_5_20251011_190400.webp",
+      "index": 5,
+      "size": 141278
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_6_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_6_20251011_190400.webp",
+      "index": 6,
+      "size": 299294
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_7_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_7_20251011_190400.webp",
+      "index": 7,
+      "size": 144932
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_8_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_8_20251011_190400.webp",
+      "index": 8,
+      "size": 136008
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_9_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_9_20251011_190400.webp",
+      "index": 9,
+      "size": 458384
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_10_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_10_20251011_190400.webp",
+      "index": 10,
+      "size": 1018944
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_11_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_11_20251011_190400.webp",
+      "index": 11,
+      "size": 296478
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_12_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_12_20251011_190400.webp",
+      "index": 12,
+      "size": 761498
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_13_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_13_20251011_190400.webp",
+      "index": 13,
+      "size": 302626
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_14_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_14_20251011_190400.webp",
+      "index": 14,
+      "size": 97556
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_15_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_15_20251011_190400.webp",
+      "index": 15,
+      "size": 118242
+    },
+    {
+      "path": "images/draw_multiple_3d_objects_16_20251011_190400.webp",
+      "filename": "draw_multiple_3d_objects_16_20251011_190400.webp",
+      "index": 16,
+      "size": 319174
+    }
+  ],
+  "image_count": 16,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_shapes_3d"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+2",
+      "display_name": null,
+      "description": "Recognize 3D shapes having specified attributes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+8",
+      "display_name": null,
+      "description": "Identify cubes."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.B.7+2",
+      "display_name": "Pythagorean Theorem 3D",
+      "description": "Use the Pythagorean Theorem to find the hypotenuse of one of the legs of a right triangle in a three dimensional shape."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.B.7+3",
+      "display_name": "Pythagorean Theorem 3D Applications",
+      "description": "Solve real-world problems using the Pythagorean Theorem in three dimensions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.C.9+1",
+      "display_name": "Volume",
+      "description": "Apply the formulas for the volume of 3D shapes to solve mathematical problems."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.C.9+2",
+      "display_name": "Volume Word Problems",
+      "description": "Apply the formulas for the volume of 3D shapes to solve real-world problems."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:29.172073",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: 3D Geometric Shapes",
+    "description": "The function can draw a variety of 3D geometric shapes, such as prisms, pyramids, and spheres. It accepts a list of shapes, each with its own label and dimensions. The function automatically calculates the best layout for the shapes, ensuring that each one is clearly visible and comparable to the others. This function is particularly useful in teaching geometry, as it allows students to visualize and compare different shapes in a 3D space. It can also be used in more advanced mathematical modeling and engineering education, where understanding the properties of 3D shapes is crucial.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shapes: A list of 3D geometric shapes to be drawn. Each shape is represented by a ThreeDimensionalObjectsList object, which includes the shape's label and dimensions.",
+          "Each shape in the list controls a separate subplot in the final figure. The order of the shapes in the list determines the order in which they are drawn."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function assumes that all shapes in the list are valid 3D objects. It does not perform any validation on the shapes themselves.",
+          "The function can handle any number of shapes, but the layout may become less clear if too many shapes are included."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a grid of 3D subplots, each containing one of the input shapes.",
+          "The size and layout of the grid is determined by the number of shapes. The function tries to make the grid as square as possible, but if the number of shapes is not a perfect square, the grid will have more columns than rows.",
+          "Each subplot includes the shape's label and dimensions, making it easy to identify and compare the shapes."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

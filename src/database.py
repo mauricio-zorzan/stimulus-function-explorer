@@ -145,6 +145,7 @@ def get_standards_for_function(connection, function_name: str) -> List[Dict[str,
         query = """
         SELECT external_id FROM content_gen_extended_attributes 
         WHERE type_id = 'e87ba42e-89ed-11ef-ae50-0eb28d3c3f3f'
+        AND use_in_content_generation = '1'
         AND properties LIKE %s
         """
         # Use exact function name match in JSON
@@ -162,7 +163,12 @@ def get_standards_for_function(connection, function_name: str) -> List[Dict[str,
 
         cursor.close()
 
-        print(f"Found {len(external_ids)} external_ids for function {function_name}")
+        # Remove duplicate external_ids to prevent duplicate standards
+        external_ids = list(set(external_ids))
+
+        print(
+            f"Found {len(external_ids)} unique external_ids for function {function_name}"
+        )
 
         # Step 2: Get standards for each external_id (only if we have IDs)
         if external_ids:
@@ -174,17 +180,23 @@ def get_standards_for_function(connection, function_name: str) -> List[Dict[str,
             """
             cursor.execute(query, external_ids)
 
+            # Use a dict to deduplicate by external_id
+            standards_dict = {}
             for row in cursor:
-                standards.append(
-                    {
-                        "external_id": row["external_id"],
+                external_id = row["external_id"]
+                # Only add if not already seen (prevents duplicates)
+                if external_id not in standards_dict:
+                    standards_dict[external_id] = {
+                        "external_id": external_id,
                         "display_name": row["display_name"],
                         "description": row["description"],
                     }
-                )
-                print(f"  ✓ Found standard: {row['display_name']}")
+                    print(f"  ✓ Found standard: {row['display_name']}")
 
             cursor.close()
+
+            # Convert dict back to list
+            standards = list(standards_dict.values())
 
         return standards
 

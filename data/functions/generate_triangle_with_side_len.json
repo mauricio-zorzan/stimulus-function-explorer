@@ -1,18 +1,75 @@
 {
   "function_name": "generate_triangle_with_side_len",
-  "description": "Generates triangle with side len for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_triangle_with_side_len\nresult = generate_triangle_with_side_len(data)",
-  "image_path": "images/generate_triangle_with_side_len_example.webp",
+  "description": "This function generates a visual representation of a triangle with labeled sides and interior angles. It is designed to aid in the understanding of geometric principles, specifically the properties of triangles, including the relationship between side lengths and angles.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "triangles",
+    "visualization",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:11.050932",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_triangle_with_side_len_1_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_1_20251011_190147.webp",
+      "index": 1,
+      "size": 47656
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_2_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_2_20251011_190147.webp",
+      "index": 2,
+      "size": 70154
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_3_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_3_20251011_190147.webp",
+      "index": 3,
+      "size": 25026
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_4_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_4_20251011_190147.webp",
+      "index": 4,
+      "size": 31658
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_5_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_5_20251011_190147.webp",
+      "index": 5,
+      "size": 20630
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_6_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_6_20251011_190147.webp",
+      "index": 6,
+      "size": 79230
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_7_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_7_20251011_190147.webp",
+      "index": 7,
+      "size": 23324
+    },
+    {
+      "path": "images/generate_triangle_with_side_len_8_20251011_190147.webp",
+      "filename": "generate_triangle_with_side_len_8_20251011_190147.webp",
+      "index": 8,
+      "size": 36680
+    },
+    {
+      "path": "images/generate_geometric_shapes_transformations_9_20251011_190147.webp",
+      "filename": "generate_geometric_shapes_transformations_9_20251011_190147.webp",
+      "index": 9,
+      "size": 102832
+    }
+  ],
+  "image_count": 62,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.2+4",
@@ -23,12 +80,40 @@
       "external_id": "CCSS.MATH.CONTENT.5.G.B.4+1",
       "display_name": "Triangles",
       "description": "Classify triangles as equilateral, isosceles, scalene."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+3",
-      "display_name": "Similar Triangles",
-      "description": "Understand the angle-angle criterion for similarity of triangles."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:11.448962"
+  "standards_last_updated": "2025-10-11T19:27:49.429184",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Labeled Triangles",
+    "description": "This function can draw a single triangle with side lengths and interior angles labeled, except for the right angle, which is marked with a right-angle symbol. It accepts inputs of side lengths and units from the TriangularGrid class. The function scales the longest side to be less than or equal to 10 units, and uses the law of cosines to calculate the apex of the triangle. It is useful for teaching and reinforcing concepts related to triangles, such as the Pythagorean theorem, the law of cosines, and the properties of right-angled triangles.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "side1, side2, side3: These inputs control the lengths of the sides of the triangle. They are required fields.",
+          "unit: This input specifies the unit of measurement for the side lengths. It is a required field."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The side lengths must be positive numbers.",
+          "The unit of measurement must be a valid unit from the predefined list in the TriangularGrid class.",
+          "The sum of the lengths of any two sides of the triangle must be greater than the length of the third side (triangle inequality)."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a triangle with the specified side lengths.",
+          "The side lengths are labeled outside the triangle, and the interior angles are labeled inside, except for the right angle.",
+          "The right angle is marked with a right-angle symbol, correctly aligned with the vertices of the triangle.",
+          "The function uses matplotlib to create the visual output, which can be displayed in a Jupyter notebook or saved to an image file."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

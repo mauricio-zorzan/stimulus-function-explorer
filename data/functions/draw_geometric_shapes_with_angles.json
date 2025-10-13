@@ -1,0 +1,80 @@
+{
+  "function_name": "draw_geometric_shapes_with_angles",
+  "description": "This Python function draws a variety of geometric shapes with specified angle markings. It's designed to help students visualize and understand different types of angles and geometric shapes, making it a valuable tool in teaching geometry.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "angles",
+    "shapes",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_geometric_shapes_with_angles_1_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_with_angles_1_20251011_190400.webp",
+      "index": 1,
+      "size": 13512
+    },
+    {
+      "path": "images/draw_geometric_shapes_with_angles_2_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_with_angles_2_20251011_190400.webp",
+      "index": 2,
+      "size": 29098
+    },
+    {
+      "path": "images/draw_geometric_shapes_with_angles_3_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_with_angles_3_20251011_190400.webp",
+      "index": 3,
+      "size": 37194
+    }
+  ],
+  "image_count": 3,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_shapes_with_angles"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+4",
+      "display_name": "Right Angles",
+      "description": "Determine if an angle is greater than, equal to, or less than a right angle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:22.144153",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Geometric Shapes with Angles",
+    "description": "The function can draw several types of geometric shapes including rectangles, squares, right triangles, obtuse triangles, acute triangles, isosceles triangles, and trapezoids. Each shape is drawn with specified angle markings, which are represented as arcs for acute and obtuse angles, and squares for right angles. The function accepts a list of geometric shapes with their corresponding angles as input. The number of shapes drawn is determined by the length of the input list. The function has a constraint on the total width of the images, which is capped at a reasonable maximum to ensure the images are clear and easy to understand. This function is particularly useful in teaching and learning geometry, as it allows students to visualize different geometric shapes and their corresponding angles.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_list: A list of geometric shapes with their corresponding angles. Each item in the list should be an instance of the GeometricShapeWithAngle class, which includes the type of the shape and the angles to be marked.",
+          "shape_type: The type of the geometric shape to be drawn. This is a required field and should be one of the following: rectangle, square, right triangle, obtuse triangle, acute triangle, isosceles triangle, trapezoid.",
+          "ax: The matplotlib axes object on which the shape will be drawn.",
+          "label: A label for the shape. This is an optional field.",
+          "color: The color of the shape. This is an optional field."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The total width of the images is capped at a maximum of 30 units to ensure the images are clear and easy to understand.",
+          "The type of the shape must be one of the predefined types.",
+          "The angles to be marked must be valid angles for the specified shape."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws the specified geometric shapes with the corresponding angle markings.",
+          "The shapes are drawn in a single row layout, with the number of columns equal to the number of shapes.",
+          "The size of each shape is adjusted based on the number of shapes, and the height is adjusted to maintain the aspect ratio."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

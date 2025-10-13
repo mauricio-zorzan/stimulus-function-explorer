@@ -1,0 +1,69 @@
+{
+  "function_name": "generate_single_line_plot",
+  "description": "The 'generate_single_line_plot' function creates a single line plot visualization based on the provided data points. It is designed for educational purposes, allowing students to visualize and understand the relationship between different data points in a dataset. The function also includes various customization options such as title and axis labels, providing a flexible tool for educators to create meaningful visualizations.",
+  "category": "data_visualization",
+  "tags": [
+    "line_plot",
+    "data_visualization",
+    "mathematics",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/generate_single_line_plot_1_20251011_190400.webp",
+      "filename": "generate_single_line_plot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 8466
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "single_line_plot"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
+      "display_name": "Interpret Dot Plots",
+      "description": "Report the number of observations of data from a math problem."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:43.257238",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Single Line Plot",
+    "description": "The 'generate_single_line_plot' function is capable of creating single line plot visualizations. It accepts a SingleLinePlot object as input, which contains information about the data points to be plotted, the title of the plot, and labels for the x-axis. The function is designed with flexibility in mind, allowing for a wide range of data types and scales. It also includes validation rules to ensure the input data is suitable for a line plot. The function is ideal for visualizing and teaching concepts related to data analysis, trends, and correlations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a SingleLinePlot object as input. This object contains the following fields: 'data_points', 'title', and 'x_axis_label'.",
+          "The 'data_points' field is a list of DataPoint objects, each of which represents a point on the line plot. Each DataPoint object contains a 'value' field (the x-coordinate of the point), a 'frequency' field (the y-coordinate of the point), a 'value_parsed' field (a parsed version of the 'value' field), and a 'value_label' field (a label for the x-coordinate).",
+          "The 'title' field is a string that specifies the title of the plot.",
+          "The 'x_axis_label' field is a string that specifies the label for the x-axis."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'data_points' field must contain at least one DataPoint object.",
+          "The 'value' and 'frequency' fields of each DataPoint object must be numbers.",
+          "The 'value_parsed' field of each DataPoint object must be a number and is calculated based on the 'value' field.",
+          "The 'value_label' field of each DataPoint object is optional and defaults to the string representation of the 'value' field if not provided."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a single line plot with the specified data points.",
+          "The plot includes a title and an x-axis label, both of which can be customized.",
+          "The y-axis is not labeled and the plot includes a horizontal line at y=0.",
+          "The function calculates the size of the plot based on the number and values of the data points, ensuring that all data points are visible and appropriately spaced."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

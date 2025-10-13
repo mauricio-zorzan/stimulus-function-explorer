@@ -1,0 +1,79 @@
+{
+  "function_name": "create_multi_extended_unit_fraction_number_line_with_bar",
+  "description": "This function generates a series of extended unit fraction number lines, each labeled with integers and stacked vertically. It is designed to help students visualize and understand the concept of fractions and their relationship to whole numbers.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "number_line",
+    "visualization",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_bar_1_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_bar_1_20251011_190400.webp",
+      "index": 1,
+      "size": 6770
+    },
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_bar_2_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_bar_2_20251011_190400.webp",
+      "index": 2,
+      "size": 6508
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_extended_unit_fraction_number_line_with_bar"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Extended Unit Fraction Number Lines",
+    "description": "This function can draw one or more extended unit fraction number lines, each with a range that extends from zero to a specified fraction value. It accepts a list of number line descriptions, each of which includes a range with minimum and maximum values. The function ensures that the minimum value is greater than or equal to zero and the maximum value is the fraction to be represented. The number lines are drawn with a buffer of 10% of the total range on either side for clarity. This visualization tool can be used in a variety of educational contexts, from introducing the concept of fractions to exploring equivalent fractions and fraction operations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The key input field from the stimulus description class is 'number_lines', which is a list of number line descriptions.",
+          "Each number line description includes a 'range' with 'min' and 'max' values.",
+          "The 'min' value controls the starting point of the number line, and should be greater than or equal to zero.",
+          "The 'max' value controls the ending point of the number line, and should be the fraction value to be represented."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'min' value must be greater than or equal to zero.",
+          "The 'max' value must be a fraction value to be represented on the number line.",
+          "The function validates that the 'min' and 'max' values form a valid range for a number line."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws one or more number lines, each extending from zero to a specified fraction value.",
+          "Each number line is labeled with integers and has a bar to represent the fraction value.",
+          "The number lines are stacked vertically for easy comparison.",
+          "The 'min' and 'max' values control the range of each number line, and thus directly affect the visual output."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.A+1",
+      "display_name": "Fractions of Number Lines: Unit Fractions",
+      "description": "Plot given unit fractions (1/n) on a number line that is partitioned into n equal intervals."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+4",
+      "display_name": "Fractions of Number Lines ",
+      "description": "Identify the fraction that represents the length of a highlighted segment on a number line partitioned into equal intervals (denominators \u2264 12)."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:02.390199"
+}

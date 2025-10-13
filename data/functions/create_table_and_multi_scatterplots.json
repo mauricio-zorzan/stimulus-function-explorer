@@ -1,0 +1,145 @@
+{
+  "function_name": "create_table_and_multi_scatterplots",
+  "description": "This function generates a combined visualization with a table and multiple scatterplots. It supports both correct and incorrect scatterplot options for assessment purposes, making it a valuable tool for teaching and testing data interpretation skills.",
+  "category": "data_visualization",
+  "tags": [
+    "scatterplots",
+    "tables",
+    "data_visualization",
+    "assessment"
+  ],
+  "images": [
+    {
+      "path": "images/create_table_and_multi_scatterplots_1_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_1_20251011_190400.webp",
+      "index": 1,
+      "size": 259554
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_2_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_2_20251011_190400.webp",
+      "index": 2,
+      "size": 281878
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_3_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_3_20251011_190400.webp",
+      "index": 3,
+      "size": 256026
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_4_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_4_20251011_190400.webp",
+      "index": 4,
+      "size": 272396
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_5_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_5_20251011_190400.webp",
+      "index": 5,
+      "size": 260516
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_6_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_6_20251011_190400.webp",
+      "index": 6,
+      "size": 251502
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_7_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_7_20251011_190400.webp",
+      "index": 7,
+      "size": 411340
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_8_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_8_20251011_190400.webp",
+      "index": 8,
+      "size": 249980
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_9_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_9_20251011_190400.webp",
+      "index": 9,
+      "size": 273322
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_10_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_10_20251011_190400.webp",
+      "index": 10,
+      "size": 260044
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_11_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_11_20251011_190400.webp",
+      "index": 11,
+      "size": 277756
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_12_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_12_20251011_190400.webp",
+      "index": 12,
+      "size": 539458
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_13_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_13_20251011_190400.webp",
+      "index": 13,
+      "size": 245630
+    },
+    {
+      "path": "images/create_table_and_multi_scatterplots_14_20251011_190400.webp",
+      "filename": "create_table_and_multi_scatterplots_14_20251011_190400.webp",
+      "index": 14,
+      "size": 248668
+    }
+  ],
+  "image_count": 65,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "table_and_multi_scatterplots"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Table and Multi Scatterplots",
+    "description": "This function can draw a combined visualization that includes a table and one or more scatterplots. The table and scatterplots are arranged either horizontally or vertically. The scatterplots can either correctly or incorrectly represent the data in the table, with the type of error specified. The function accepts input in the form of a `TableAndMultiScatterplots` object, which includes configurations for the table and each scatterplot. The table configuration includes headers and rows of data, while each scatterplot configuration includes a title, axis labels, axis ranges, data points, and information about whether it is correct and the type of error if it is not.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Table configuration: headers (list of strings), rows (list of lists of strings)",
+          "Scatterplot configuration: title (string), x_label (string), y_label (string), x_min (float), x_max (float), y_min (float), y_max (float), data_points (list of `DataPoint` objects), is_correct (boolean), error_type (string, optional)",
+          "DataPoint: x (float), y (float)"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "Table headers: 2-5 elements",
+          "Table rows: each row should have the same number of elements as headers",
+          "Scatterplot data points: 1-20 elements",
+          "Error types: 'swapped_coordinates', 'missing_points', 'extra_points', 'shifted_points'"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "Draws a table and one or more scatterplots",
+          "Scatterplots can be arranged horizontally (next to the table) or vertically (below the table)",
+          "Scatterplots can either correctly or incorrectly represent the data in the table"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.1+1",
+      "display_name": "Scatter Plots",
+      "description": "Create scatter plots"
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:07.295698"
+}

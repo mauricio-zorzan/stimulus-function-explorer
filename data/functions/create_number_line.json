@@ -1,0 +1,272 @@
+{
+  "function_name": "create_number_line",
+  "description": "The 'create_number_line' function generates a number line visualization with a specified range of values. It is designed for educational purposes, aiding in the understanding of numerical concepts such as fractions, decimals, and whole numbers. The function also allows for the marking of specific points on the number line.",
+  "category": "arithmetic",
+  "tags": [
+    "number_line",
+    "visualization",
+    "arithmetic",
+    "fractions",
+    "decimals",
+    "whole_numbers"
+  ],
+  "images": [
+    {
+      "path": "images/create_number_line_1_20251011_190400.webp",
+      "filename": "create_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 62768
+    },
+    {
+      "path": "images/create_number_line_2_20251011_190400.webp",
+      "filename": "create_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 39752
+    },
+    {
+      "path": "images/create_number_line_3_20251011_190400.webp",
+      "filename": "create_number_line_3_20251011_190400.webp",
+      "index": 3,
+      "size": 54116
+    },
+    {
+      "path": "images/create_number_line_4_20251011_190400.webp",
+      "filename": "create_number_line_4_20251011_190400.webp",
+      "index": 4,
+      "size": 62102
+    },
+    {
+      "path": "images/create_number_line_5_20251011_190400.webp",
+      "filename": "create_number_line_5_20251011_190400.webp",
+      "index": 5,
+      "size": 44102
+    },
+    {
+      "path": "images/create_number_line_6_20251011_190400.webp",
+      "filename": "create_number_line_6_20251011_190400.webp",
+      "index": 6,
+      "size": 40030
+    },
+    {
+      "path": "images/create_number_line_7_20251011_190400.webp",
+      "filename": "create_number_line_7_20251011_190400.webp",
+      "index": 7,
+      "size": 25430
+    },
+    {
+      "path": "images/create_number_line_8_20251011_190400.webp",
+      "filename": "create_number_line_8_20251011_190400.webp",
+      "index": 8,
+      "size": 38454
+    },
+    {
+      "path": "images/create_number_line_9_20251011_190400.webp",
+      "filename": "create_number_line_9_20251011_190400.webp",
+      "index": 9,
+      "size": 55620
+    },
+    {
+      "path": "images/create_number_line_10_20251011_190400.webp",
+      "filename": "create_number_line_10_20251011_190400.webp",
+      "index": 10,
+      "size": 39998
+    },
+    {
+      "path": "images/create_number_line_11_20251011_190400.webp",
+      "filename": "create_number_line_11_20251011_190400.webp",
+      "index": 11,
+      "size": 25432
+    },
+    {
+      "path": "images/create_number_line_12_20251011_190400.webp",
+      "filename": "create_number_line_12_20251011_190400.webp",
+      "index": 12,
+      "size": 68486
+    },
+    {
+      "path": "images/create_number_line_13_20251011_190400.webp",
+      "filename": "create_number_line_13_20251011_190400.webp",
+      "index": 13,
+      "size": 48554
+    },
+    {
+      "path": "images/create_number_line_14_20251011_190400.webp",
+      "filename": "create_number_line_14_20251011_190400.webp",
+      "index": 14,
+      "size": 41644
+    }
+  ],
+  "image_count": 61,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Number Line Visualizations",
+    "description": "The 'create_number_line' function can generate number line visualizations with a specified range of values. The function accepts inputs of type 'Range' which defines the minimum and maximum values on the number line. It also accepts a list of 'Point' objects, each of which has a label and a value, allowing for the marking of specific points on the number line. The function is designed to handle a variety of range sizes and automatically determines the optimal step size for the number line based on the range. This function is particularly useful in educational settings, aiding in the understanding of numerical concepts such as fractions, decimals, and whole numbers.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "'Range' object with 'min' and 'max' fields: Defines the minimum and maximum values on the number line.",
+          "'Point' object with 'label' and 'value' fields: Allows for the marking of specific points on the number line. The 'label' field can be a letter, a number, a decimal, or a fraction.",
+          "'minor_divisions' field: Optional field that specifies the number of minor divisions on the number line."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'min' and 'max' fields of the 'Range' object must be integers.",
+          "The 'value' field of the 'Point' object must be a float.",
+          "The 'label' field of the 'Point' object must match a specific pattern, allowing for a variety of numerical and alphabetical labels.",
+          "The 'minor_divisions' field, if provided, must be an integer."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "Draws a number line with a specified range of values.",
+          "Marks specific points on the number line, if provided.",
+          "The visual output varies based on the input parameters. The range of values, the marked points, and the number of minor divisions can all be customized."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.NBT.A.1+1",
+      "display_name": null,
+      "description": "Count to 120, starting at any number less than 120."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.NBT.C.5+3",
+      "display_name": null,
+      "description": "Relate the process for finding 10 more than or less than a number to place value."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.1.OA.C.6+2",
+      "display_name": null,
+      "description": "Identify ten pairs."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.B.6+1",
+      "display_name": null,
+      "description": "Represent whole numbers as lengths from 0 on a number line diagram with equally spaced points corresponding to the numbers 0, 1, 2, ...."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.MD.B.6+2",
+      "display_name": null,
+      "description": "Represent whole-number sums within 100 on a number line diagram."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.NBT.B.7+2",
+      "display_name": null,
+      "description": "Add within 1000, using strategies based on place value."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.NBT.B.8+1",
+      "display_name": null,
+      "description": "Mentally add 10 to a given number between 100 and 900."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.2.OA.B.2+2",
+      "display_name": null,
+      "description": "Fluently subtract within 20 using mental strategies."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.MD.A.1+5",
+      "display_name": "Finding the End Times Word Problems",
+      "description": "Solve word problems to find the end time."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NBT.A.1+2",
+      "display_name": "Rounding",
+      "description": "Round to the nearest 10 or 100."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
+      "display_name": "Represent Fractions Using Fraction Models",
+      "description": "Represent a fraction a/b with a fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+15",
+      "display_name": null,
+      "description": "Use the four operations to solve word problems involving money, including problems that require expressing measurements given in a larger unit in terms of a smaller unit."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.A.2+1",
+      "display_name": "Fraction Comparison",
+      "description": "Determine >, <, or = for the two fractions provided using equivalent fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.A.2+6",
+      "display_name": null,
+      "description": "Justify the conclusions of comparisons of two fractions with different numerators and different denominators by using a visual fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.B+2",
+      "display_name": null,
+      "description": "Justify decompositions of a fraction into a sum of fractions with the same denominator by using a visual fraction model."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.C+1",
+      "display_name": "Fraction and Mixed Number Subtraction without Regrouping",
+      "description": "Subtract a mixed number minus a fraction, without regrouping."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+1",
+      "display_name": "Model Decimals",
+      "description": "Model tenths with decimals and mixed numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+2",
+      "display_name": "Decimal Place Value",
+      "description": "Identify place value of digits in decimal numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.OA.B.4+3",
+      "display_name": "Identifying Factors of Numbers",
+      "description": "Find all factors for a whole number in the range 1-100."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.EE.B.8+3",
+      "display_name": "Writing Inequalities from Number Lines",
+      "description": "Write an inequality of the form x > c or x < c to represent a constraint or condition from a number line."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.A+1",
+      "display_name": "Opposite Signs on the Number Line",
+      "description": "Recognize opposite signs of numbers as indicating locations on opposite sides of 0 on the number line."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.C+1",
+      "display_name": "Number Line Positioning",
+      "description": "Find and position integers and other rational numbers on a horizontal or vertical number line diagram."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.7.A+1",
+      "display_name": "Compare Rational Numbers",
+      "description": "Compare rational numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.NS.C.7.C+1",
+      "display_name": "Absolute Value on the Number Line",
+      "description": "Understand the absolute value of a rational number as its distance from 0 on the number line."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.NS.A.1.D+1",
+      "display_name": "Adding Integers",
+      "description": "Solve mathematical problems that involve adding integers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.NS.A.1.D+3",
+      "display_name": "Subtracting Integers",
+      "description": "Solve mathematical problems that involve subtracting integers."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:04.291771"
+}

@@ -1,18 +1,87 @@
 {
   "function_name": "create_multi_picture_graph",
-  "description": "Creates multi picture graph for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_multi_picture_graph\nresult = create_multi_picture_graph(data)",
-  "image_path": "images/create_multi_picture_graph_example.webp",
-  "category": "graphs",
+  "description": "The function 'create_multi_picture_graph' generates a 2x2 grid of picture graphs in a single image. Each graph represents categorical data with star symbols, where the number of stars corresponds to the frequency of each category. This function is useful for educational purposes, helping students visualize and understand the distribution of categorical data.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "data_visualization",
+    "categorical_data",
+    "graphing",
+    "picture_graph"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:07.386978",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_multi_picture_graph_1_20251011_190400.webp",
+      "filename": "create_multi_picture_graph_1_20251011_190400.webp",
+      "index": 1,
+      "size": 510492
+    },
+    {
+      "path": "images/create_multi_picture_graph_2_20251011_190400.webp",
+      "filename": "create_multi_picture_graph_2_20251011_190400.webp",
+      "index": 2,
+      "size": 222588
+    },
+    {
+      "path": "images/create_multi_picture_graph_3_20251011_190400.webp",
+      "filename": "create_multi_picture_graph_3_20251011_190400.webp",
+      "index": 3,
+      "size": 413434
+    },
+    {
+      "path": "images/create_multi_picture_graph_4_20251011_190400.webp",
+      "filename": "create_multi_picture_graph_4_20251011_190400.webp",
+      "index": 4,
+      "size": 349856
+    },
+    {
+      "path": "images/create_multi_picture_graph_5_20251011_190400.webp",
+      "filename": "create_multi_picture_graph_5_20251011_190400.webp",
+      "index": 5,
+      "size": 315604
+    }
+  ],
+  "image_count": 21,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_picture_graph"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multi Picture Graphs",
+    "description": "The 'create_multi_picture_graph' function can draw a 2x2 grid of picture graphs, each representing categorical data. It accepts a MultiGraphList as input, which should contain exactly four CategoricalGraph objects. Each CategoricalGraph object includes the data (category and frequency), title, and picture configuration (star value, star unit, and show half star value). The function validates the input data, ensuring that there are exactly four sets of data. The function is designed for educational purposes, allowing students to visualize and compare the distribution of different categorical datasets.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "MultiGraphList: A list containing exactly four CategoricalGraph objects",
+          "CategoricalGraph: An object that includes the data (category and frequency), title, and picture configuration",
+          "Data: A list of objects, each containing a category and its frequency",
+          "Title: The title of the graph",
+          "Picture Configuration: An object containing the star value, star unit, and show half star value"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The MultiGraphList must contain exactly four CategoricalGraph objects",
+          "Each CategoricalGraph object must include the data (category and frequency), title, and picture configuration",
+          "The data should be a list of objects, each containing a category and its frequency",
+          "The frequencies in the data should be integers"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a 2x2 grid of picture graphs in a single image",
+          "Each graph represents categorical data with star symbols, where the number of stars corresponds to the frequency of each category",
+          "The title of each graph is displayed at the top"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.B.3+1",
@@ -20,5 +89,5 @@
       "description": "Draw a scaled picture graph to represent a data set with several categories."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:41.510185"
+  "standards_last_updated": "2025-10-11T19:27:03.962630"
 }

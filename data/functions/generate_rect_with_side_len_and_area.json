@@ -1,44 +1,78 @@
 {
   "function_name": "generate_rect_with_side_len_and_area",
-  "description": "Generates rect with side len and area for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_rect_with_side_len_and_area\nresult = generate_rect_with_side_len_and_area(data)",
-  "image_path": "images/generate_rect_with_side_len_and_area_example.webp",
-  "category": "general",
+  "description": "This function generates a visual representation of a rectangle with one side length displayed, the other labeled as '?', and the area of the rectangle displayed inside. It is designed to help students visualize and understand the concept of area in geometry, and how it relates to the dimensions of a shape.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "area",
+    "rectangle",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:01:47.864206",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_rect_with_side_len_and_area_1_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_and_area_1_20251011_190400.webp",
+      "index": 1,
+      "size": 34714
+    },
+    {
+      "path": "images/generate_rect_with_side_len_and_area_2_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_and_area_2_20251011_190400.webp",
+      "index": 2,
+      "size": 41632
+    },
+    {
+      "path": "images/generate_rect_with_side_len_and_area_3_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_and_area_3_20251011_190400.webp",
+      "index": 3,
+      "size": 29892
+    }
+  ],
+  "image_count": 3,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "rectangle_with_area"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
       "display_name": "Area Problems: Missing Side Length",
       "description": "Given the area and a side, find the missing side length."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
-      "display_name": null,
-      "description": "Represent whole-number products as rectangular areas in mathematical reasoning."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
-      "display_name": null,
-      "description": "Exhibit rectangles with the same area and different perimeters."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
-      "display_name": "Area, Perimeter and Side Length Word Problems",
-      "description": "Solve word problems involving area, perimeter, and side length."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+1",
-      "display_name": "Finding the Area of Rectangles",
-      "description": "Solve problems involving area."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:08.056252"
+  "standards_last_updated": "2025-10-11T19:27:41.739104",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Rectangles with Side Length and Area",
+    "description": "This function can generate images of rectangles with one side length displayed, the other side length hidden, and the area of the rectangle displayed inside. It accepts inputs of length, width, and units for the rectangle. The function scales the rectangle to fit well in the figure, with a target maximum dimension of 8 units. The educational purpose of this function is to help students understand the concept of area in geometry, and how it is calculated from the dimensions of a shape. It can be used in lessons on geometry, area calculation, and understanding dimensions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "length: The length of the rectangle",
+          "width: The width of the rectangle",
+          "unit: The units for the dimensions of the rectangle"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The length and width must be positive numbers",
+          "The unit must be a valid unit of measurement",
+          "The maximum dimension of the rectangle is 8 units"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a rectangle with one side length displayed, the other side length hidden, and the area of the rectangle displayed inside",
+          "The rectangle is drawn to scale, with a target maximum dimension of 8 units",
+          "The dimensions and area are displayed in the appropriate units"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

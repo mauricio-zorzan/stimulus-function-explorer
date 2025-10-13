@@ -1,0 +1,245 @@
+{
+  "function_name": "draw_combo_points_table_graph",
+  "description": "The function 'draw_combo_points_table_graph' generates a combined visualization of a table and a graph, dynamically adjusting the layout based on the size of the table. It is designed to support function identification, proportional relationship comparison, and function property comparison for 8th grade standards.",
+  "category": "data_visualization",
+  "tags": [
+    "data_visualization",
+    "mathematics",
+    "education",
+    "graphing"
+  ],
+  "images": [
+    {
+      "path": "images/draw_combo_points_table_graph_1_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_1_20251011_190400.webp",
+      "index": 1,
+      "size": 299498
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_2_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_2_20251011_190400.webp",
+      "index": 2,
+      "size": 316186
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_3_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_3_20251011_190400.webp",
+      "index": 3,
+      "size": 220902
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_4_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_4_20251011_190400.webp",
+      "index": 4,
+      "size": 250546
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_5_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_5_20251011_190400.webp",
+      "index": 5,
+      "size": 310080
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_6_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_6_20251011_190400.webp",
+      "index": 6,
+      "size": 291646
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_7_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_7_20251011_190400.webp",
+      "index": 7,
+      "size": 227514
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_8_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_8_20251011_190400.webp",
+      "index": 8,
+      "size": 289068
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_9_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_9_20251011_190400.webp",
+      "index": 9,
+      "size": 114446
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_10_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_10_20251011_190400.webp",
+      "index": 10,
+      "size": 306696
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_11_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_11_20251011_190400.webp",
+      "index": 11,
+      "size": 324686
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_12_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_12_20251011_190400.webp",
+      "index": 12,
+      "size": 298358
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_13_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_13_20251011_190400.webp",
+      "index": 13,
+      "size": 256968
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_14_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_14_20251011_190400.webp",
+      "index": 14,
+      "size": 244810
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_15_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_15_20251011_190400.webp",
+      "index": 15,
+      "size": 170762
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_16_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_16_20251011_190400.webp",
+      "index": 16,
+      "size": 136692
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_17_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_17_20251011_190400.webp",
+      "index": 17,
+      "size": 229906
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_18_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_18_20251011_190400.webp",
+      "index": 18,
+      "size": 283040
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_19_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_19_20251011_190400.webp",
+      "index": 19,
+      "size": 152886
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_20_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_20_20251011_190400.webp",
+      "index": 20,
+      "size": 245556
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_21_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_21_20251011_190400.webp",
+      "index": 21,
+      "size": 210230
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_22_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_22_20251011_190400.webp",
+      "index": 22,
+      "size": 263274
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_23_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_23_20251011_190400.webp",
+      "index": 23,
+      "size": 207434
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_24_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_24_20251011_190400.webp",
+      "index": 24,
+      "size": 112304
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_25_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_25_20251011_190400.webp",
+      "index": 25,
+      "size": 178730
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_26_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_26_20251011_190400.webp",
+      "index": 26,
+      "size": 233002
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_27_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_27_20251011_190400.webp",
+      "index": 27,
+      "size": 118762
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_28_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_28_20251011_190400.webp",
+      "index": 28,
+      "size": 306824
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_29_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_29_20251011_190400.webp",
+      "index": 29,
+      "size": 155868
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_30_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_30_20251011_190400.webp",
+      "index": 30,
+      "size": 215892
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_31_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_31_20251011_190400.webp",
+      "index": 31,
+      "size": 292554
+    },
+    {
+      "path": "images/draw_combo_points_table_graph_32_20251011_190400.webp",
+      "filename": "draw_combo_points_table_graph_32_20251011_190400.webp",
+      "index": 32,
+      "size": 260768
+    }
+  ],
+  "image_count": 139,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "combo_points_table_graph"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Combined Table and Graph Visualizations",
+    "description": "The 'draw_combo_points_table_graph' function can generate a variety of visualizations, including line, curve, scatter, circle, sideways parabola, hyperbola, ellipse, quadratic, cubic, sqrt, and rational graphs. It accepts input in the form of a 'ComboPointsTableGraph' object, which includes specifications for the table and the graph. The table specifications include headers, rows of data, and an optional title. The graph specifications include the type of graph, an optional equation, slope and y-intercept for line graphs, points for scatter plots, color, label, line style, and line width. The function is designed to support 8th grade mathematics standards, focusing on function identification, proportional relationship comparison, and function property comparison.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'ComboPointsTableGraph' object includes specifications for both the table and the graph.",
+          "The table specifications include 'headers' (column headers), 'rows' (data), and an optional 'title'.",
+          "The graph specifications include 'type' (type of graph), 'equation' (optional equation of the line/curve), 'slope' and 'y-intercept' (for line graphs), 'points' (for scatter plots), 'color', 'label', 'line_style', and 'line_width'."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'type' field must be one of the following: 'line', 'curve', 'scatter', 'circle', 'sideways_parabola', 'hyperbola', 'ellipse', 'quadratic', 'cubic', 'sqrt', 'rational'.",
+          "The 'color' field defaults to 'blue' if not specified.",
+          "The 'line_style' field defaults to '-' if not specified, but can also be '--', '-.', or ':'.",
+          "The 'line_width' field defaults to 2.0 if not specified."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a combined visualization of a table and a graph.",
+          "The layout of the visualization is dynamically adjusted based on the size of the table. Small tables are placed beside the graph, while large tables are placed above the graph.",
+          "The graph can be of various types, including line, curve, scatter, circle, sideways parabola, hyperbola, ellipse, quadratic, cubic, sqrt, and rational, depending on the 'type' field in the graph specifications."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

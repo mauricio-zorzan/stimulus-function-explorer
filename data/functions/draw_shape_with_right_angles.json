@@ -1,0 +1,82 @@
+{
+  "function_name": "draw_shape_with_right_angles",
+  "description": "The function 'draw_shape_with_right_angles' generates a variety of shapes with a specified number of interior right angles. It serves as an educational tool for teaching geometry, particularly the concept of right angles. The function also introduces randomness by rotating the shapes, adding variety to the learning experience.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "right angles",
+    "shapes",
+    "educational visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_shape_with_right_angles_1_20251011_190400.webp",
+      "filename": "draw_shape_with_right_angles_1_20251011_190400.webp",
+      "index": 1,
+      "size": 8762
+    },
+    {
+      "path": "images/draw_shape_with_right_angles_2_20251011_190400.webp",
+      "filename": "draw_shape_with_right_angles_2_20251011_190400.webp",
+      "index": 2,
+      "size": 4964
+    },
+    {
+      "path": "images/draw_shape_with_right_angles_3_20251011_190400.webp",
+      "filename": "draw_shape_with_right_angles_3_20251011_190400.webp",
+      "index": 3,
+      "size": 5896
+    },
+    {
+      "path": "images/draw_shape_with_right_angles_4_20251011_190400.webp",
+      "filename": "draw_shape_with_right_angles_4_20251011_190400.webp",
+      "index": 4,
+      "size": 2122
+    },
+    {
+      "path": "images/draw_shape_with_right_angles_5_20251011_190400.webp",
+      "filename": "draw_shape_with_right_angles_5_20251011_190400.webp",
+      "index": 5,
+      "size": 5240
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "random_shape_right_angles"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Shapes with Right Angles",
+    "description": "The function 'draw_shape_with_right_angles' can draw a wide variety of shapes based on the number of interior right angles specified. It accepts an input of a ShapeWithRightAngles object, which contains the number of right angles desired. The function then generates a shape that fits the criteria, with the shape being randomly rotated for added variety. The shapes supported include circles, equilateral triangles, pentagons, hexagons, quadrilaterals, right triangles, kites, trapezoids, file icon shapes, rectangles, and squares. This function serves as a valuable tool for teaching the concept of right angles in geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The key input field from the stimulus description class is 'num_right_angles'.",
+          "This input controls the number of right angles that the generated shape will have.",
+          "This is a required field."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'num_right_angles' input must be a non-negative integer.",
+          "The function will generate a shape that has exactly the number of right angles specified, if such a shape exists.",
+          "For a circle, which has no right angles, the 'num_right_angles' input should be 0."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a shape with the specified number of right angles.",
+          "The shape is randomly rotated by 0\u00b0, 90\u00b0, 180\u00b0, or 270\u00b0.",
+          "The color of the shape is also randomly generated."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

@@ -1,16 +1,70 @@
 {
   "function_name": "draw_labeled_transversal_angle",
-  "description": "Draws labeled transversal angle for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_labeled_transversal_angle\nresult = draw_labeled_transversal_angle(data)",
-  "image_path": "images/draw_labeled_transversal_angle_example.webp",
-  "category": "angles",
+  "description": "This function draws a diagram of two parallel lines intersected by a transversal line, creating eight angles. It labels a given angle and a variable angle 'x' at positions specified by the user. This visualization is used in geometry to help students understand the concept of transversal angles and their properties.",
+  "category": "geometry",
   "tags": [
-    "angles"
+    "geometry",
+    "transversal",
+    "angles",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:59.786479",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/draw_labeled_transversal_angle_1_20251011_190400.webp",
+      "filename": "draw_labeled_transversal_angle_1_20251011_190400.webp",
+      "index": 1,
+      "size": 48274
+    },
+    {
+      "path": "images/draw_labeled_transversal_angle_2_20251011_190400.webp",
+      "filename": "draw_labeled_transversal_angle_2_20251011_190400.webp",
+      "index": 2,
+      "size": 48048
+    },
+    {
+      "path": "images/draw_labeled_transversal_angle_3_20251011_190400.webp",
+      "filename": "draw_labeled_transversal_angle_3_20251011_190400.webp",
+      "index": 3,
+      "size": 48098
+    }
+  ],
+  "image_count": 12,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "transversal"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Transversal Angle Diagrams",
+    "description": "The function 'draw_labeled_transversal_angle' generates diagrams of two parallel lines intersected by a transversal, creating eight angles. It accepts an instance of TransversalAngleParams as input, which includes the given angle and the positions for the given angle and the variable angle 'x'. The function validates the positions to ensure they are within the range of 1 to 8, corresponding to the eight possible positions around the transversal. These diagrams are used in geometry lessons to illustrate the properties of transversal angles, such as corresponding angles, alternate interior angles, and alternate exterior angles.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "given_angle: The value of the given angle in degrees",
+          "given_angle_position: The position of the given angle, ranging from 1 to 8",
+          "x_angle_position: The position of the variable angle 'x', ranging from 1 to 8"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The positions for the given angle and the variable angle 'x' must be integers between 1 and 8",
+          "The function validates the positions using the 'validate_positions' method of the TransversalAngleParams class"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two parallel lines labeled 'm' and 'n', and a transversal line labeled 'l'",
+          "Eight angles are formed around the transversal",
+          "The given angle and the variable angle 'x' are labeled at the specified positions",
+          "A note indicating that the figure is not drawn to scale is included at the bottom of the diagram"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,0 +1,84 @@
+{
+  "function_name": "draw_circle_diagram",
+  "description": "The 'draw_circle_diagram' function generates a comprehensive circle diagram that can include a radius, a diameter, or a chord element. This function is useful in teaching geometry, specifically in understanding the properties and elements of a circle.",
+  "category": "geometry",
+  "tags": [
+    "circle",
+    "geometry",
+    "visualization",
+    "mathematics"
+  ],
+  "images": [
+    {
+      "path": "images/draw_circle_diagram_1_20251011_190400.webp",
+      "filename": "draw_circle_diagram_1_20251011_190400.webp",
+      "index": 1,
+      "size": 163636
+    },
+    {
+      "path": "images/draw_circle_diagram_2_20251011_190400.webp",
+      "filename": "draw_circle_diagram_2_20251011_190400.webp",
+      "index": 2,
+      "size": 150034
+    },
+    {
+      "path": "images/draw_circle_diagram_3_20251011_190400.webp",
+      "filename": "draw_circle_diagram_3_20251011_190400.webp",
+      "index": 3,
+      "size": 167052
+    },
+    {
+      "path": "images/draw_circle_diagram_4_20251011_190400.webp",
+      "filename": "draw_circle_diagram_4_20251011_190400.webp",
+      "index": 4,
+      "size": 150186
+    }
+  ],
+  "image_count": 18,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "circle_diagram"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Circle Diagrams",
+    "description": "The 'draw_circle_diagram' function can draw a circle with a specified radius. It can also include a radius, diameter, or chord element, which is drawn at a random angle. The function accepts an instance of the 'CircleDiagram' class as input, which includes the radius of the circle and an optional 'CircleElement' instance. The 'CircleElement' instance specifies the type of element (radius, diameter, or chord) and labels for the endpoints of the element. The function is useful in teaching the properties of circles and their elements, and can be used in a variety of educational contexts.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'CircleDiagram' class includes the following key input fields: 'radius' and 'element'.",
+          "The 'radius' input controls the size of the circle.",
+          "The 'element' input is optional and controls the type of element (radius, diameter, or chord) that is drawn on the circle. It also specifies labels for the endpoints of the element."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'radius' must be a positive number.",
+          "If the 'element' input is provided, it must be an instance of the 'CircleElement' class.",
+          "The 'CircleElement' class includes the following fields: 'element_type' and 'endpoint_labels'. The 'element_type' must be one of the following: 'RADIUS', 'DIAMETER', or 'CHORD'. The 'endpoint_labels' must be a list of strings with at least two elements."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a circle with a specified radius. If the 'element' input is provided, it also draws the specified element (radius, diameter, or chord) at a random angle.",
+          "The function can draw three types of elements: a radius, a diameter, or a chord.",
+          "The size of the circle is controlled by the 'radius' input. The type of element and its labels are controlled by the 'element' input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.B.4+1",
+      "display_name": "Circles",
+      "description": "Identify the parts of a circle."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:11.639923"
+}

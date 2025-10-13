@@ -1,18 +1,27 @@
 {
   "function_name": "draw_similar_right_triangles",
-  "description": "Draws similar right triangles for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_similar_right_triangles\nresult = draw_similar_right_triangles(data)",
-  "image_path": "images/draw_similar_right_triangles_example.webp",
+  "description": "The function 'draw_similar_right_triangles' generates a visual representation of two similar right triangles, one larger than the other. It is designed to aid in the understanding of the concept of similarity in geometry, specifically in the context of right triangles.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "geometry",
+    "right_triangles",
+    "similarity",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:12.178219",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_similar_right_triangles_1_20251011_190400.webp",
+      "filename": "draw_similar_right_triangles_1_20251011_190400.webp",
+      "index": 1,
+      "size": 48560
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "similar_right_triangles"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.8.G.A.5+3",
@@ -20,5 +29,38 @@
       "description": "Understand the angle-angle criterion for similarity of triangles."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:01.809849"
+  "standards_last_updated": "2025-10-11T19:27:34.933355",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Similar Right Triangles",
+    "description": "The function 'draw_similar_right_triangles' is capable of drawing two similar right triangles, with the ability to label the angles of the triangles. The function accepts an instance of the 'SimilarRightTriangles' class as input, which includes the labels for the angles of the triangles. The triangles are drawn with fixed coordinates, and the function does not currently support scaling or rotation of the triangles. This function is intended for use in educational settings to aid in the teaching of the concept of similarity in right triangles.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts an instance of the 'SimilarRightTriangles' class as input.",
+          "The 'SimilarRightTriangles' class includes a single field 'angle_labels' which is a list of six strings representing the labels for the angles of the triangles.",
+          "The 'angle_labels' field is required and must contain exactly six elements."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'angle_labels' field must contain exactly six elements.",
+          "Each element of 'angle_labels' must be a string.",
+          "There are no specific constraints on the content of the strings in 'angle_labels'."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two right triangles, one larger than the other, and labels the angles with the provided labels.",
+          "The triangles are drawn with fixed coordinates and are not scaled or rotated based on the input.",
+          "The function also draws right-angle markers on the triangles and includes a note indicating that the figures are not drawn to scale."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

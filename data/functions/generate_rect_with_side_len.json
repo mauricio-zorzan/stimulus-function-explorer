@@ -1,18 +1,40 @@
 {
   "function_name": "generate_rect_with_side_len",
-  "description": "Generates rect with side len for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_rect_with_side_len\nresult = generate_rect_with_side_len(data)",
-  "image_path": "images/generate_rect_with_side_len_example.webp",
-  "category": "general",
+  "description": "The function 'generate_rect_with_side_len' generates a series of rectangles with varying lengths and widths, scaled to a target area. The rectangles are visually represented in a plot, with each rectangle's dimensions labeled. This function is useful for teaching concepts related to area, scale, and proportion in a visual and interactive manner.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "area",
+    "scale",
+    "proportion",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:05.040953",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_rect_with_side_len_1_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_1_20251011_190400.webp",
+      "index": 1,
+      "size": 62656
+    },
+    {
+      "path": "images/generate_rect_with_side_len_2_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_2_20251011_190400.webp",
+      "index": 2,
+      "size": 105432
+    },
+    {
+      "path": "images/generate_rect_with_side_len_3_20251011_190400.webp",
+      "filename": "generate_rect_with_side_len_3_20251011_190400.webp",
+      "index": 3,
+      "size": 61062
+    }
+  ],
+  "image_count": 3,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_rect"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+1",
@@ -40,16 +62,6 @@
       "description": "Solve perimeter problems in which the perimeter is given but a side length is missing."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+5",
-      "display_name": "Area and Perimeter",
-      "description": "Solve problems with rectangles with the same perimeter and different areas or with the same area and different perimeters."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+2",
-      "display_name": "Measuring Objects in Inches",
-      "description": "Use rulers to measure objects in inches."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+1",
       "display_name": "Finding the Area of Rectangles",
       "description": "Solve problems involving area."
@@ -70,16 +82,6 @@
       "description": "Find the area or perimeter of a rectangle when given another rectangle that has the same area or perimeter."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+1",
-      "display_name": "Multiplying Numbers by Breaking Them into Parts",
-      "description": "Use the distributive property to break a one-digit \u00d7 two-digit product into two simpler products [e.g., 7 \u00d7 26 = (7 \u00d7 20) + (7 \u00d7 6)] and add to find the result."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+2",
-      "display_name": "Setting Up Multiplication with Area Models",
-      "description": "Represent a multi-digit multiplication as the area of a rectangle partitioned into smaller rectangles; label each partial area and add to obtain the full area (partial-products model)."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.4.NBT.B.6+1",
       "display_name": "Division with Area Models",
       "description": "Divide 2-digit numbers by 1-digit numbers using area models."
@@ -95,5 +97,38 @@
       "description": "Multiply fractional side lengths to find areas of rectangles."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:07.488686"
+  "standards_last_updated": "2025-10-11T19:27:41.405412",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scaled Rectangles",
+    "description": "The 'generate_rect_with_side_len' function can draw a series of rectangles with varying lengths and widths, scaled to a target area of 25 units. The function accepts a list of rectangle objects, each with a length and width. The function scales each rectangle's dimensions to the target area, while maintaining the original aspect ratio. The rectangles are then plotted on a grid, with each rectangle's dimensions labeled. The function is designed to help students visualize and understand the concepts of area, scale, and proportion. It can be used in a variety of educational settings, including classroom instruction, homework assignments, and online learning modules.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of rectangle objects as input. Each rectangle object should have a 'length' and 'width' attribute.",
+          "The 'length' attribute controls the length of the rectangle, while the 'width' attribute controls the width.",
+          "All input fields are required."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The length and width of each rectangle must be non-negative. If either dimension is zero, the rectangle is scaled to a unit square.",
+          "The function scales all rectangles to a target area of 25 units. The scaling factor is calculated as the square root of the target area divided by the original area of the rectangle.",
+          "The function caps the total width of the plot at 30 inches and the total height at 15 inches."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a plot of scaled rectangles. Each rectangle is labeled with its scaled dimensions.",
+          "The rectangles are drawn with a fixed spacing between them. The spacing can be adjusted by changing the 'spacing' variable in the function.",
+          "The size and shape of each rectangle in the plot is determined by the input parameters and the scaling factor."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

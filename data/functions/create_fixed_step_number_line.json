@@ -1,18 +1,79 @@
 {
   "function_name": "create_fixed_step_number_line",
-  "description": "Creates fixed step number line for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_fixed_step_number_line\nresult = create_fixed_step_number_line(data)",
-  "image_path": "images/create_fixed_step_number_line_example.webp",
-  "category": "number_lines",
+  "description": "The function 'create_fixed_step_number_line' generates a number line with a fixed step size. It is designed to provide a visual aid for understanding concepts related to number lines, intervals, and divisions. The function allows for customization of the number line's range, step size, and minor divisions, making it a versatile tool for teaching various mathematical concepts.",
+  "category": "arithmetic",
   "tags": [
-    "number_lines"
+    "number_line",
+    "intervals",
+    "divisions",
+    "arithmetic",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-05T23:21:22.181868",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_fixed_step_number_line_1_20251011_190400.webp",
+      "filename": "create_fixed_step_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 51978
+    },
+    {
+      "path": "images/create_fixed_step_number_line_2_20251011_190400.webp",
+      "filename": "create_fixed_step_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 58306
+    },
+    {
+      "path": "images/create_fixed_step_number_line_3_20251011_190400.webp",
+      "filename": "create_fixed_step_number_line_3_20251011_190400.webp",
+      "index": 3,
+      "size": 58760
+    },
+    {
+      "path": "images/create_fixed_step_number_line_4_20251011_190400.webp",
+      "filename": "create_fixed_step_number_line_4_20251011_190400.webp",
+      "index": 4,
+      "size": 56884
+    }
+  ],
+  "image_count": 17,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "fixed_step_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fixed Step Number Line",
+    "description": "The function 'create_fixed_step_number_line' can draw a number line with specified range, step size, and minor divisions. It accepts inputs based on the stimulus description class 'FixedStepNumberLine', which includes the range of the number line, the step size for major ticks, and the number of minor divisions between major ticks. The function ensures that the number line includes a buffer of 10% of the total range on both ends. The educational purpose of this function is to provide a visual representation of number lines, which can be used to teach concepts such as intervals, fractions, and divisions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "range: Defines the minimum and maximum values of the number line",
+          "step_size: Specifies the distance between major ticks on the number line",
+          "minor_divisions: Determines the number of minor divisions between major ticks"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range must be defined with a minimum and maximum value",
+          "The step size must be a positive number",
+          "The number of minor divisions must be a positive integer"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a number line with major and minor ticks",
+          "The number line includes a buffer of 10% of the total range on both ends",
+          "The position and number of ticks are determined by the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.NBT.A.1+1",
@@ -25,5 +86,5 @@
       "description": "Graph a fraction or mixed number on a number line that is labelled with decimals to the tenths place."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:39.841045"
+  "standards_last_updated": "2025-10-11T19:27:00.719054"
 }

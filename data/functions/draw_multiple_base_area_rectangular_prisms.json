@@ -1,0 +1,78 @@
+{
+  "function_name": "draw_multiple_base_area_rectangular_prisms",
+  "description": "The function 'draw_multiple_base_area_rectangular_prisms' generates a grid of 3D visualizations of rectangular prisms, each with a specified base area and height. The grid is designed to facilitate comparison between different prisms, aiding in the understanding of geometric concepts such as volume, base area, and height.",
+  "category": "geometry",
+  "tags": [
+    "3D_visualization",
+    "rectangular_prisms",
+    "base_area",
+    "height",
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/draw_multiple_base_area_rectangular_prisms_1_20251011_190400.webp",
+      "filename": "draw_multiple_base_area_rectangular_prisms_1_20251011_190400.webp",
+      "index": 1,
+      "size": 5176
+    },
+    {
+      "path": "images/draw_multiple_base_area_rectangular_prisms_2_20251011_190400.webp",
+      "filename": "draw_multiple_base_area_rectangular_prisms_2_20251011_190400.webp",
+      "index": 2,
+      "size": 18136
+    },
+    {
+      "path": "images/draw_multiple_base_area_rectangular_prisms_3_20251011_190400.webp",
+      "filename": "draw_multiple_base_area_rectangular_prisms_3_20251011_190400.webp",
+      "index": 3,
+      "size": 23226
+    }
+  ],
+  "image_count": 15,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "base_area_rectangular_prism"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.MD.C.5.B+2",
+      "display_name": "Right Rectangular Prism Volumes with Base Area",
+      "description": "Apply the formula V = b \u00d7 h for rectangular prisms to find volumes of right rectangular prisms with whole-number edge lengths in mathematical problems."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:29.503883",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: 3D Rectangular Prisms",
+    "description": "The function can draw multiple 3D rectangular prisms, each with a specified base area and height. It accepts a list of 'BaseAreaRectangularPrism' objects, each of which includes the base area and height of a prism. The function calculates the maximum dimensions across all prisms to ensure consistent scaling and visualization. The resulting grid of prisms aids in understanding geometric concepts and comparisons. The function is particularly useful in educational settings where visual aids can enhance comprehension of abstract mathematical concepts.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of 'BaseAreaRectangularPrism' objects. Each object must include a 'base_area' and 'height'.",
+          "The 'base_area' controls the size of the base of the rectangular prism.",
+          "The 'height' controls the height of the rectangular prism."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'base_area' and 'height' must be positive numbers.",
+          "The number of prisms is limited by the computational resources available, as each prism is drawn in a separate subplot."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a grid of 3D rectangular prisms. Each prism is drawn in a separate subplot.",
+          "The size of each prism is determined by its 'base_area' and 'height'.",
+          "The grid layout facilitates comparison between different prisms."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

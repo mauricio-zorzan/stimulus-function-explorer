@@ -1,0 +1,58 @@
+{
+  "function_name": "create_multi_extended_unit_fraction_number_line_with_bar_v2",
+  "description": "This function generates multiple extended unit fraction number lines with bars stacked vertically. It is designed to aid in the visualization and understanding of fractions, particularly unit fractions, by providing a clear, visual representation of the fractions on a number line.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "number_line",
+    "visualization",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/create_multi_extended_unit_fraction_number_line_with_bar_v2_1_20251011_190400.webp",
+      "filename": "create_multi_extended_unit_fraction_number_line_with_bar_v2_1_20251011_190400.webp",
+      "index": 1,
+      "size": 5250
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_extended_unit_fraction_number_line_with_bar_v2"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multiple Extended Unit Fraction Number Lines",
+    "description": "The function can draw multiple extended unit fraction number lines with bars stacked vertically. It accepts a stimulus description object as an input, which contains the details of the number lines to be drawn. The function expects the input range to be from 0 to 2 and always labels the numbers 0, 1, and 2. The number lines are labeled with numbers 1, 2, 3, etc., except when there's only one line. The function is designed for educational purposes, to help students visualize and understand fractions, particularly unit fractions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "stim_desc: A MultiExtendedUnitFractionNumberLine object that contains the details of the number lines to be drawn.",
+          "Each number line in the stim_desc object should have a range with a minimum and maximum value.",
+          "The function expects the range to be from 0 to 2."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function expects the input range to be from 0 to 2.",
+          "The number of number lines to be drawn is determined by the length of the number_lines list in the stim_desc object.",
+          "The function throws an error if the range is not from 0 to 2."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws multiple extended unit fraction number lines with bars stacked vertically.",
+          "Each number line is labeled with numbers 1, 2, 3, etc., except when there's only one line.",
+          "The visual output is affected by the details of the number lines in the stim_desc object. The number of number lines drawn, their ranges, and their labels are determined by the stim_desc object."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

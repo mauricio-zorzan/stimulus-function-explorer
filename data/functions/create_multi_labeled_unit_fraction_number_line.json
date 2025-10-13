@@ -1,0 +1,73 @@
+{
+  "function_name": "create_multi_labeled_unit_fraction_number_line",
+  "description": "The function 'create_multi_labeled_unit_fraction_number_line' generates multiple labeled unit fraction number lines stacked vertically. Each line labels all minor divisions as fractions, providing a visual representation of fractions on a number line. It is primarily used for teaching and understanding fractions in a clear, visual manner.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "number lines",
+    "visualization",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/create_multi_labeled_unit_fraction_number_line_1_20251011_190400.webp",
+      "filename": "create_multi_labeled_unit_fraction_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 6578
+    },
+    {
+      "path": "images/create_multi_labeled_unit_fraction_number_line_2_20251011_190400.webp",
+      "filename": "create_multi_labeled_unit_fraction_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 8236
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_labeled_unit_fraction_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multi Labeled Unit Fraction Number Lines",
+    "description": "The function 'create_multi_labeled_unit_fraction_number_line' can draw multiple unit fraction number lines, each labeled with fractions. It accepts inputs based on the stimulus description class, which includes the number of lines, the range of each line, and the number of minor divisions. The function validates these inputs, ensuring that the range minimum is 0 and the range maximum is the fraction value. It is particularly useful in educational settings where students are learning about fractions and their representation on number lines.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "num_lines: The number of number lines to be drawn",
+          "range_min: The minimum value for the range of each line, which should be 0",
+          "range_max: The maximum value for the range of each line, which should be the fraction value",
+          "minor_divisions: The number of minor divisions on each line"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range minimum must be 0",
+          "The range maximum must be the fraction value",
+          "The number of minor divisions must be a positive integer"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws multiple number lines, each labeled with fractions",
+          "Each line represents a unit fraction number line with minor divisions",
+          "The number of lines, the range of each line, and the number of minor divisions are controlled by the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.A+2",
+      "display_name": "Finding Equivalent Fractions on Number Lines",
+      "description": "Given multiple number lines with different fractions, identify two equivalent fractions."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:03.586603"
+}

@@ -1,29 +1,82 @@
 {
   "function_name": "create_parallel_quadrilateral",
-  "description": "Creates parallel quadrilateral for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_parallel_quadrilateral\nresult = create_parallel_quadrilateral(data)",
-  "image_path": "images/create_parallel_quadrilateral_example.webp",
-  "category": "general",
+  "description": "This function generates a quadrilateral with a specified number of parallel sides (0, 1, or 2 pairs) and applies a random rotation if requested. The visual output is a colorful, potentially rotated quadrilateral, which can be used to help students visualize and understand different types of quadrilaterals and their properties.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "quadrilaterals",
+    "parallel sides",
+    "rotation",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:21.561711",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_parallel_quadrilateral_1_20251011_190400.webp",
+      "filename": "create_parallel_quadrilateral_1_20251011_190400.webp",
+      "index": 1,
+      "size": 154306
+    },
+    {
+      "path": "images/create_parallel_quadrilateral_2_20251011_190400.webp",
+      "filename": "create_parallel_quadrilateral_2_20251011_190400.webp",
+      "index": 2,
+      "size": 105886
+    },
+    {
+      "path": "images/create_parallel_quadrilateral_3_20251011_190400.webp",
+      "filename": "create_parallel_quadrilateral_3_20251011_190400.webp",
+      "index": 3,
+      "size": 106738
+    },
+    {
+      "path": "images/create_parallel_quadrilateral_4_20251011_190400.webp",
+      "filename": "create_parallel_quadrilateral_4_20251011_190400.webp",
+      "index": 4,
+      "size": 125436
+    }
+  ],
+  "image_count": 18,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "parallel_quadrilateral"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Quadrilaterals with Specified Parallel Sides",
+    "description": "This function can draw three types of quadrilaterals: irregular quadrilaterals with no parallel sides, trapezoids with one pair of parallel sides, and parallelograms (including squares and rectangles) with two pairs of parallel sides. It accepts a ParallelQuadrilateral object as input, which specifies the number of parallel sides and whether to apply a random rotation. The function generates the appropriate quadrilateral, applies the rotation if requested, and then plots the quadrilateral with a random color. This function is useful for teaching students about the properties of different types of quadrilaterals and the concept of rotation.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "num_parallel_sides: The number of pairs of parallel sides in the quadrilateral (0, 1, or 2).",
+          "rotate: A boolean value indicating whether to apply a random rotation to the quadrilateral."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The num_parallel_sides value must be 0, 1, or 2. Any other values will not generate a valid quadrilateral.",
+          "The rotate value must be a boolean. If it is not specified, no rotation will be applied."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a quadrilateral with the specified number of parallel sides. The quadrilateral is filled with a random color and outlined with the same color.",
+          "If the rotate parameter is true, the quadrilateral is randomly rotated.",
+          "If the quadrilateral is a square or rectangle, right angle markers are added."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
       "display_name": "Parallel Sides",
       "description": "Recognize and describe basic geometric features: edges, vertices, parallel sides, and right angles."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
-      "display_name": null,
-      "description": "Draw examples of quadrilaterals that do not fit into the subcategories of rhombuses, rectangles, or squares."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:41.843835"
+  "standards_last_updated": "2025-10-11T19:27:04.619728"
 }

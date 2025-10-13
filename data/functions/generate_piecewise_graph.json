@@ -1,16 +1,59 @@
 {
   "function_name": "generate_piecewise_graph",
-  "description": "Generates piecewise graph for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_piecewise_graph\nresult = generate_piecewise_graph(data)",
-  "image_path": "images/generate_piecewise_graph_example.webp",
-  "category": "graphs",
+  "description": "The 'generate_piecewise_graph' function is designed to create piecewise graphs, which are graphs defined by multiple sub-functions, each applying to a certain interval of the independent variable. The function is intended for educational purposes, allowing students to visualize complex mathematical concepts in a simple, intuitive manner.",
+  "category": "algebra",
   "tags": [
-    "graphs"
+    "piecewise_function",
+    "graph",
+    "visualization",
+    "mathematics",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:06.866862",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/generate_piecewise_graph_1_20251011_190400.webp",
+      "filename": "generate_piecewise_graph_1_20251011_190400.webp",
+      "index": 1,
+      "size": 9958
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "piecewise_graph"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Piecewise Graphs",
+    "description": "The 'generate_piecewise_graph' function can draw piecewise graphs, which are defined by multiple sub-functions. Each sub-function corresponds to a segment in the graph. The function accepts a 'GraphingPiecewise' object as input, which contains information about the segments of the graph, as well as optional labels for the x and y axes. The graph can contain both linear and non-linear segments, with the curve direction for non-linear segments being randomly chosen. The educational purpose of this function is to help students understand the concept of piecewise functions, and how different functions can apply to different intervals of the same variable.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'GraphingPiecewise' object, which contains information about the segments of the graph and optional labels for the axes.",
+          "Each segment is defined by its start and end coordinates, and whether it is linear or not.",
+          "The x and y axis labels are optional, and if provided, will be displayed on the graph."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The start and end coordinates of each segment must be valid numbers.",
+          "The 'linear' field of each segment must be a boolean value.",
+          "The x and y axis labels, if provided, must be strings."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a piecewise graph, with each segment represented as a line or a curve.",
+          "The graph is displayed on a set of axes, with optional labels.",
+          "The appearance of each segment depends on its start and end coordinates, and whether it is linear or not."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

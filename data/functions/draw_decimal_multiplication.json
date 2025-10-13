@@ -1,29 +1,71 @@
 {
   "function_name": "draw_decimal_multiplication",
-  "description": "Draws decimal multiplication for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_decimal_multiplication\nresult = draw_decimal_multiplication(data)",
-  "image_path": "images/draw_decimal_multiplication_example.webp",
-  "category": "general",
+  "description": "This function draws a visual representation of decimal multiplication in the form of a grid. The grid represents the decimal factors being multiplied, with shading and diagonal lines used to represent the factors. This visualization helps students understand the concept of decimal multiplication in a more intuitive and visual way.",
+  "category": "arithmetic",
   "tags": [
-    "general"
+    "mathematics",
+    "arithmetic",
+    "decimal multiplication",
+    "visualization",
+    "educational technology"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:09.290241",
-  "test_data": "Generated from GitHub Actions workflow",
-  "educational_standards": [
+  "images": [
     {
-      "external_id": "CCSS.MATH.CONTENT.5.NBT.B.5+5",
-      "display_name": null,
-      "description": "Multiply decimals using models."
+      "path": "images/draw_decimal_multiplication_1_20251011_190400.webp",
+      "filename": "draw_decimal_multiplication_1_20251011_190400.webp",
+      "index": 1,
+      "size": 468686
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.5.A+4",
-      "display_name": null,
-      "description": "Multiply a unit fraction by a non-unit fraction using visual models."
+      "path": "images/draw_decimal_multiplication_2_20251011_190400.webp",
+      "filename": "draw_decimal_multiplication_2_20251011_190400.webp",
+      "index": 2,
+      "size": 159270
+    },
+    {
+      "path": "images/draw_decimal_multiplication_3_20251011_190400.webp",
+      "filename": "draw_decimal_multiplication_3_20251011_190400.webp",
+      "index": 3,
+      "size": 223324
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:48.195327"
+  "image_count": 13,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "decimal_multiplication"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Decimal Multiplication Grids",
+    "description": "The draw_decimal_multiplication function generates grid-based visualizations of decimal multiplication. It accepts two decimal factors as input, represented as 0.a and 0.b or 0.a and 1.b. The function then creates a grid (or two grids) where the second factor is represented by shading columns and the first factor is represented by adding diagonal lines to rows of the shaded area. The function is designed to help students understand the process of decimal multiplication by visualizing the factors and their product on a grid. The function can be used in a variety of educational settings, from classroom instruction to self-study and homework assignments.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts two decimal factors as input, represented as 0.a and 0.b or 0.a and 1.b.",
+          "The first factor (0.a) determines the number of rows that will receive a diagonal pattern in the grid.",
+          "The second factor (0.b or 1.b) determines the number of columns that will be shaded in the grid."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The decimal factors must be in the range of 0 to 2, with one decimal place.",
+          "The function validates the input factors and converts them to appropriate values for visualization.",
+          "The function requires that the first factor is less than 1, and the second factor can be less than or equal to 1."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a grid (or two grids) with rows and columns representing the decimal factors.",
+          "The second factor is represented by shading columns in the grid, and the first factor is represented by adding diagonal lines to rows of the shaded area.",
+          "The visual output is a clear and intuitive representation of decimal multiplication, helping students understand the concept in a visual way."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

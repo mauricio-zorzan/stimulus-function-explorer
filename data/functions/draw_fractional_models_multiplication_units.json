@@ -1,18 +1,33 @@
 {
   "function_name": "draw_fractional_models_multiplication_units",
-  "description": "Draws fractional models multiplication units for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_fractional_models_multiplication_units\nresult = draw_fractional_models_multiplication_units(data)",
-  "image_path": "images/draw_fractional_models_multiplication_units_example.webp",
+  "description": "This function draws a visual representation of fractional multiplication, using shaded and unshaded rectangles to depict the fractions being multiplied. It is designed to aid in the understanding of fractional multiplication by providing a visual, tangible representation of the concept.",
   "category": "fractions",
   "tags": [
-    "fractions"
+    "fractions",
+    "multiplication",
+    "visualization",
+    "educational"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:15.656889",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_fractional_models_multiplication_units_1_20251011_190400.webp",
+      "filename": "draw_fractional_models_multiplication_units_1_20251011_190400.webp",
+      "index": 1,
+      "size": 8790
+    },
+    {
+      "path": "images/draw_fractional_models_multiplication_units_2_20251011_190400.webp",
+      "filename": "draw_fractional_models_multiplication_units_2_20251011_190400.webp",
+      "index": 2,
+      "size": 4570
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "frac_model_multi"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+5",
@@ -38,12 +53,38 @@
       "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+3",
       "display_name": "Multiply Two Fractions: Word Problems",
       "description": "Solve real world problems involving multiplication of two fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.RP.A.1+1",
-      "display_name": "Writing Ratios",
-      "description": "Understand the concept of a ratio and use ratio language to describe a ratio relationship between two quantities."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:51.849270"
+  "standards_last_updated": "2025-10-11T19:27:20.456050",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fractional Multiplication Models",
+    "description": "This function can draw visualizations of fractional multiplication. It accepts two fractions as input, represented as strings in the format 'numerator/denominator'. The function then draws a rectangle divided into a grid, with the number of cells in the grid corresponding to the denominators of the fractions. A portion of the grid is shaded, representing the product of the two fractions. This visualization can be used in educational settings to help students understand the concept of fractional multiplication.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: A FractionSet object containing two fractions represented as strings in the format 'numerator/denominator'.",
+          "The first fraction determines the length and shaded length of the rectangle, while the second fraction determines the width and shaded width."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The fractions must be valid, i.e., the numerator must be less than or equal to the denominator, and the denominator must not be zero.",
+          "The fractions are split into numerator and denominator using the '/' character, so this character must be present in the input strings."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a rectangle divided into a grid, with the number of cells in the grid corresponding to the denominators of the fractions.",
+          "A portion of the grid is shaded, representing the product of the two fractions.",
+          "The size and position of the shaded area change based on the input fractions."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

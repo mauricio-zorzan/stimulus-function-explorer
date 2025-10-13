@@ -1,0 +1,73 @@
+{
+  "function_name": "create_extended_unit_fraction_number_line",
+  "description": "This function generates a number line visualization that extends beyond the unit fraction. It is designed to aid in the understanding of fractions and their placement on a number line. The function only labels 0 and the fraction endpoint, with minor divisions for counting, which helps students to visualize and understand the concept of fractions.",
+  "category": "fractions",
+  "tags": [
+    "number_line",
+    "fractions",
+    "visualization",
+    "education"
+  ],
+  "images": [
+    {
+      "path": "images/create_extended_unit_fraction_number_line_1_20251011_190400.webp",
+      "filename": "create_extended_unit_fraction_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 2428
+    },
+    {
+      "path": "images/create_extended_unit_fraction_number_line_2_20251011_190400.webp",
+      "filename": "create_extended_unit_fraction_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 2710
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "extended_unit_fraction_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Extended Unit Fraction Number Line",
+    "description": "The function creates a number line that extends beyond the unit fraction. It takes as input an instance of the ExtendedUnitFractionNumberLine class, which includes parameters such as the range of the number line, the number of minor divisions, whether to show all tick labels, and the labeled fraction. The function is constrained by the range of the number line, which should start at 0 and end at the fraction value. It is designed to aid in the teaching and learning of fractions, particularly in understanding their placement on a number line.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "range: The range of the number line, starting at 0 and ending at the fraction value.",
+          "minor_divisions: The number of minor divisions on the number line.",
+          "show_all_tick_labels: A boolean value indicating whether to show all tick labels.",
+          "labeled_fraction: The fraction to be labeled on the number line."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range of the number line should start at 0 and end at the fraction value.",
+          "The number of minor divisions should be a positive integer.",
+          "The labeled fraction should be a valid fraction and within the range of the number line."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a number line with minor divisions for counting.",
+          "The number line labels only 0 and the fraction endpoint, unless the show_all_tick_labels parameter is set to True.",
+          "The labeled fraction, if provided, is also labeled on the number line."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.A+2",
+      "display_name": null,
+      "description": "Recognize that each part has size 1/b and that the endpoint of the part based at 0 locates the number 1/b on the number line."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:00.380092"
+}

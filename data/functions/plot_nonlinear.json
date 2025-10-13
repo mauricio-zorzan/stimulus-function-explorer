@@ -1,16 +1,76 @@
 {
   "function_name": "plot_nonlinear",
-  "description": "Plots nonlinear for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for plot_nonlinear\nresult = plot_nonlinear(data)",
-  "image_path": "images/plot_nonlinear_example.webp",
-  "category": "graphs",
+  "description": "The function 'plot_nonlinear' generates a 2D plot of a nonlinear equation, specifically quadratic, cubic, quartic, or quintic equations. It is designed to help students visualize the shape and behavior of these types of equations, aiding in their understanding of higher-level algebra and calculus.",
+  "category": "algebra",
   "tags": [
-    "graphs"
+    "nonlinear",
+    "equations",
+    "algebra",
+    "visualization",
+    "plot"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:30.956199",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/plot_nonlinear_1_20251011_190400.webp",
+      "filename": "plot_nonlinear_1_20251011_190400.webp",
+      "index": 1,
+      "size": 94298
+    },
+    {
+      "path": "images/plot_nonlinear_2_20251011_190400.webp",
+      "filename": "plot_nonlinear_2_20251011_190400.webp",
+      "index": 2,
+      "size": 93918
+    },
+    {
+      "path": "images/plot_nonlinear_3_20251011_190400.webp",
+      "filename": "plot_nonlinear_3_20251011_190400.webp",
+      "index": 3,
+      "size": 92736
+    },
+    {
+      "path": "images/plot_nonlinear_4_20251011_190400.webp",
+      "filename": "plot_nonlinear_4_20251011_190400.webp",
+      "index": 4,
+      "size": 90384
+    }
+  ],
+  "image_count": 17,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "plot_nonlinear"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Nonlinear Equation Plots",
+    "description": "The 'plot_nonlinear' function can generate 2D plots of four types of nonlinear equations: quadratic, cubic, quartic, and quintic. It accepts a 'NonlinearGraph' object as input, which specifies the type of equation and its coefficients. The function creates a range of x values from -10 to 10 and calculates the corresponding y values based on the specified equation. The plot is then saved as an image file. This function is useful in educational settings where students are learning about the properties and behaviors of different types of nonlinear equations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "equation_type: The type of equation to plot. Options are 'quadratic', 'cubic', 'quartic', and 'quintic'.",
+          "parameters: An object containing the coefficients of the equation. The number of coefficients depends on the equation type."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The x values are fixed to range from -10 to 10.",
+          "The equation type must be one of the four specified options.",
+          "The coefficients are optional and default to 0 if not provided."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a 2D plot with the x and y axes crossing at the center.",
+          "The plot displays the curve of the specified nonlinear equation.",
+          "The shape of the curve depends on the equation type and its coefficients."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

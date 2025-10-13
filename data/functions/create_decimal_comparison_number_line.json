@@ -1,18 +1,96 @@
 {
   "function_name": "create_decimal_comparison_number_line",
-  "description": "Creates decimal comparison number line for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_decimal_comparison_number_line\nresult = create_decimal_comparison_number_line(data)",
-  "image_path": "images/create_decimal_comparison_number_line_example.webp",
-  "category": "number_lines",
+  "description": "This function generates a number line visualization for comparing decimal values. It is designed to support either 0.1 or 0.01 increments based on the range span, providing a visual aid for understanding decimal numbers and their relationships. The function is particularly useful in teaching concepts of decimal number comparison and arithmetic.",
+  "category": "arithmetic",
   "tags": [
-    "number_lines"
+    "number_line",
+    "decimals",
+    "comparison",
+    "arithmetic"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:08.106760",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_decimal_comparison_number_line_1_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 45300
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_2_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 42086
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_3_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_3_20251011_190400.webp",
+      "index": 3,
+      "size": 54566
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_4_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_4_20251011_190400.webp",
+      "index": 4,
+      "size": 52772
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_5_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_5_20251011_190400.webp",
+      "index": 5,
+      "size": 29600
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_6_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_6_20251011_190400.webp",
+      "index": 6,
+      "size": 48906
+    },
+    {
+      "path": "images/create_decimal_comparison_number_line_7_20251011_190400.webp",
+      "filename": "create_decimal_comparison_number_line_7_20251011_190400.webp",
+      "index": 7,
+      "size": 38992
+    }
+  ],
+  "image_count": 32,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "decimal_comparison_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Decimal Comparison Number Line",
+    "description": "This function can draw a number line with either 0.1 or 0.01 increments, depending on the range span. It accepts a range of decimal values as input, based on the DecimalComparisonNumberLine stimulus description class. The function ensures that the range span is either 1.0 or 0.1 and adjusts the increment and label formatting accordingly. The number line visualization is a powerful tool for teaching and learning decimal number comparison, understanding the concept of decimal increments, and practicing decimal arithmetic.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "range_min: The minimum value of the range to be displayed on the number line",
+          "range_max: The maximum value of the range to be displayed on the number line",
+          "label_interval: The interval at which labels should be placed on the number line"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The range span must be either 1.0 or 0.1",
+          "The label interval must be a positive integer",
+          "The range_min must be less than range_max"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a horizontal number line with tick marks at regular intervals",
+          "Labels are placed at specified intervals, formatted to either 1 or 2 decimal places depending on the increment",
+          "The number line is extended slightly beyond the range for display purposes"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.5.NBT.A.3.B+2",
@@ -20,5 +98,5 @@
       "description": "Compare decimals to the thousandths on the number line."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:38.755077"
+  "standards_last_updated": "2025-10-11T19:26:58.640320"
 }

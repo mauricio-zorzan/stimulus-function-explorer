@@ -1,18 +1,51 @@
 {
   "function_name": "draw_whole_fractional_models",
-  "description": "Draws whole fractional models for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_whole_fractional_models\nresult = draw_whole_fractional_models(data)",
-  "image_path": "images/draw_whole_fractional_models_example.webp",
+  "description": "The function 'draw_whole_fractional_models' generates visual representations of whole fractions using fully shaded shapes, either circles or rectangles. The shapes are divided into equal parts based on the common denominator, and are arranged in a single row without labels. This visualization aids in understanding the concept of whole fractions in a more intuitive and engaging way.",
   "category": "fractions",
   "tags": [
-    "fractions"
+    "fractions",
+    "visualization",
+    "shapes",
+    "mathematics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-05T23:19:06.565604",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_whole_fractional_models_1_20251011_190400.webp",
+      "filename": "draw_whole_fractional_models_1_20251011_190400.webp",
+      "index": 1,
+      "size": 99528
+    },
+    {
+      "path": "images/draw_whole_fractional_models_2_20251011_190400.webp",
+      "filename": "draw_whole_fractional_models_2_20251011_190400.webp",
+      "index": 2,
+      "size": 22834
+    },
+    {
+      "path": "images/draw_whole_fractional_models_3_20251011_190400.webp",
+      "filename": "draw_whole_fractional_models_3_20251011_190400.webp",
+      "index": 3,
+      "size": 310340
+    },
+    {
+      "path": "images/draw_whole_fractional_models_4_20251011_190400.webp",
+      "filename": "draw_whole_fractional_models_4_20251011_190400.webp",
+      "index": 4,
+      "size": 51414
+    },
+    {
+      "path": "images/draw_whole_fractional_models_5_20251011_190400.webp",
+      "filename": "draw_whole_fractional_models_5_20251011_190400.webp",
+      "index": 5,
+      "size": 518162
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "whole_frac_model"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.C+2",
@@ -20,5 +53,38 @@
       "description": "Select fractions equivalent to whole numbers using models"
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:03.839036"
+  "standards_last_updated": "2025-10-11T19:27:38.295417",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Whole Fractional Models",
+    "description": "The 'draw_whole_fractional_models' function can draw either circles or rectangles, divided into equal parts, to represent whole fractions. It accepts inputs from the 'WholeFractionalShapes' class, which includes the count of shapes, the type of shape, and the number of divisions. The function is constrained to draw 1-5 shapes, each divided into the same number of parts. It is primarily used for teaching and understanding the concept of whole fractions in a visual and interactive manner.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data.count: Controls the number of shapes to be drawn.",
+          "model_data.shape: Determines the type of shape to be drawn, either a circle or a rectangle.",
+          "model_data.divisions: Specifies the number of equal parts each shape is divided into."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The count of shapes must be between 1 and 5.",
+          "The shape must be either a circle or a rectangle.",
+          "The number of divisions must be a positive integer."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws either circles or rectangles, divided into equal parts.",
+          "Each shape is fully shaded to represent a whole fraction.",
+          "The number of shapes drawn, their type, and the number of divisions are determined by the input parameters."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

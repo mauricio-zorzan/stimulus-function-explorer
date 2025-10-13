@@ -1,18 +1,29 @@
 {
   "function_name": "generate_single_rect_with_side_len_stimulus",
-  "description": "Generates single rect with side len stimulus for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_single_rect_with_side_len_stimulus\nresult = generate_single_rect_with_side_len_stimulus(data)",
-  "image_path": "images/generate_single_rect_with_side_len_stimulus_example.webp",
-  "category": "general",
+  "description": "This function generates a single rectangle with labeled side lengths, optimized for small, consistent image size. It is useful for teaching concepts related to geometry, particularly the understanding of length, width, aspect ratio, and the area of rectangles.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "rectangle",
+    "geometry",
+    "length",
+    "width",
+    "aspect ratio",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:01:14.894729",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_single_rect_with_side_len_stimulus_1_20251011_190400.webp",
+      "filename": "generate_single_rect_with_side_len_stimulus_1_20251011_190400.webp",
+      "index": 1,
+      "size": 1802
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "single_rect"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+5",
@@ -20,5 +31,38 @@
       "description": "Solve problems with rectangles with the same perimeter and different areas or with the same area and different perimeters."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:08.725727"
+  "standards_last_updated": "2025-10-11T19:27:43.633353",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Single Rectangle with Labeled Side Lengths",
+    "description": "The function generates a visualization of a single rectangle with labeled side lengths. It accepts a list of rectangular grid data as input, but requires exactly one rectangle. The rectangle's length, width, and unit are used to draw and label the rectangle. The aspect ratio of the rectangle is calculated and capped at 5:1 to prevent extreme distortions. The rectangle is then scaled to fit within a fixed area while maintaining the capped aspect ratio, and centered in the figure. This function is useful for teaching students about the properties of rectangles and the concept of aspect ratio.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of rectangular grid data, but requires exactly one rectangle.",
+          "The rectangle's length, width, and unit are used to draw and label the rectangle.",
+          "The rectangle data is not optional and must be provided."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function requires exactly one rectangle in the input list.",
+          "The rectangle's length and width must be positive values.",
+          "The aspect ratio of the rectangle is capped at 5:1 to prevent extreme distortions."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a single rectangle with labeled side lengths.",
+          "The rectangle is scaled to fit within a fixed area while maintaining a capped aspect ratio, and centered in the figure.",
+          "The visual output is a square image, regardless of the rectangle's aspect ratio."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

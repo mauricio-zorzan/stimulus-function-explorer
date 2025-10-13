@@ -1,18 +1,33 @@
 {
   "function_name": "generate_lines_of_symmetry",
-  "description": "Generates lines of symmetry for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_lines_of_symmetry\nresult = generate_lines_of_symmetry(data)",
-  "image_path": "images/generate_lines_of_symmetry_example.webp",
-  "category": "general",
+  "description": "The 'generate_lines_of_symmetry' function creates a visual representation of a shape and its lines of symmetry. It is designed to help students understand the concept of symmetry in geometry by visually demonstrating how a shape can be divided into identical parts.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "symmetry",
+    "visualization",
+    "shapes"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:09.564920",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_lines_of_symmetry_1_20251011_190400.webp",
+      "filename": "generate_lines_of_symmetry_1_20251011_190400.webp",
+      "index": 1,
+      "size": 26904
+    },
+    {
+      "path": "images/generate_lines_of_symmetry_2_20251011_190400.webp",
+      "filename": "generate_lines_of_symmetry_2_20251011_190400.webp",
+      "index": 2,
+      "size": 13450
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "lines_of_symmetry"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.4.G.A.3+1",
@@ -20,5 +35,38 @@
       "description": "Identify now many lines of symmetries an image, shape or letter has."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:06.601341"
+  "standards_last_updated": "2025-10-11T19:27:40.517846",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Lines of Symmetry in Shapes",
+    "description": "The function can draw a variety of shapes based on the provided coordinates and illustrate their lines of symmetry. The input is an instance of the 'LinesOfSymmetry' class, which includes the coordinates of the shape's vertices and the lines of symmetry. Each line of symmetry is defined by its slope and intercept. The function cycles through a list of colors to distinguish between different lines of symmetry. The output is a plot with the shape and its lines of symmetry, with a legend indicating which line corresponds to which color. This function is particularly useful in teaching geometry, specifically in demonstrating and exploring the concept of symmetry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_coordinates: A list of tuples, each representing the x and y coordinates of a vertex of the shape.",
+          "lines: A list of 'Line' objects, each representing a line of symmetry. Each 'Line' object has a 'slope', 'intercept', and 'label'.",
+          "The 'slope' and 'intercept' define the line of symmetry, while the 'label' provides a name for the line."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'shape_coordinates' must be a list of at least three tuples, as a shape must have at least three vertices.",
+          "Each 'Line' object in the 'lines' list must have a 'slope' and 'intercept'. If the 'slope' is None, the line is vertical.",
+          "The 'label' of a 'Line' object is optional. If not provided, the line will not have a corresponding entry in the legend."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws the shape defined by the 'shape_coordinates' and its lines of symmetry.",
+          "The lines of symmetry are drawn in different colors for distinction, and a legend is provided to identify each line.",
+          "The shape and lines of symmetry are drawn on a white background, and the axes are removed for a clean, focused visualization."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

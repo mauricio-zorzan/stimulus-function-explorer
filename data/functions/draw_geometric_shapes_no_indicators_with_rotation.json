@@ -1,0 +1,75 @@
+{
+  "function_name": "draw_geometric_shapes_no_indicators_with_rotation",
+  "description": "This function draws a series of geometric shapes without side length indicators, with the ability to apply random rotation to all shapes. It is designed to aid in the teaching of geometric concepts, particularly the recognition of shapes regardless of orientation.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "shapes",
+    "rotation",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_geometric_shapes_no_indicators_with_rotation_1_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_no_indicators_with_rotation_1_20251011_190400.webp",
+      "index": 1,
+      "size": 29742
+    },
+    {
+      "path": "images/draw_geometric_shapes_no_indicators_with_rotation_2_20251011_190400.webp",
+      "filename": "draw_geometric_shapes_no_indicators_with_rotation_2_20251011_190400.webp",
+      "index": 2,
+      "size": 27298
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_basic_no_indicators_with_rotation"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+5",
+      "display_name": "Identifying Parallelograms",
+      "description": "Identify parallelograms."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:21.797848",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Rotated Geometric Shapes",
+    "description": "This function can draw a variety of geometric shapes, including rectangles, rhombuses, parallelograms, circles, and regular quadrilaterals. It accepts a list of geometric shapes with rotation as input, each item in the list specifying the type of shape, its color, and its label. The function adjusts the size and layout of the shapes based on the number of shapes to be drawn. The primary educational purpose of this function is to help students learn to recognize shapes regardless of their orientation, a key skill in geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "shape_list: A list of geometric shapes with rotation. Each item in the list specifies the type of shape, its color, and its label.",
+          "Each shape in the list has a 'type' field that determines the type of shape to be drawn.",
+          "Each shape in the list has a 'color' field that determines the color of the shape.",
+          "Each shape in the list has a 'label' field that determines the label of the shape, which is displayed next to the shape unless there is only one shape to be drawn."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The number of shapes in the list cannot exceed the maximum width of the plot, which is capped at 30 units.",
+          "The 'type' field of each shape must be a valid geometric shape, as defined by the ValidGeometricShape enum.",
+          "The 'color' field of each shape must be a valid color string.",
+          "The 'label' field of each shape must be a string."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of geometric shapes in a single row layout.",
+          "The size and layout of the shapes are adjusted based on the number of shapes to be drawn.",
+          "Each shape is drawn without side length indicators and is randomly rotated if specified in the input.",
+          "The color and label of each shape are determined by the corresponding fields in the input."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

@@ -1,0 +1,108 @@
+{
+  "function_name": "generate_trapezoid_with_side_len",
+  "description": "This function generates a trapezoid with labeled dimensions for area calculation problems. It can produce different types of trapezoids (regular, isosceles, right, left) and scales the dimensions to fit well in the figure. The generated trapezoid can be used for teaching and learning geometry, specifically the calculation of areas of trapezoids.",
+  "category": "geometry",
+  "tags": [
+    "trapezoid",
+    "area",
+    "geometry",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/generate_trapezoid_with_side_len_1_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_1_20251011_190400.webp",
+      "index": 1,
+      "size": 38654
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_2_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_2_20251011_190400.webp",
+      "index": 2,
+      "size": 45360
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_3_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_3_20251011_190400.webp",
+      "index": 3,
+      "size": 45108
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_4_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_4_20251011_190400.webp",
+      "index": 4,
+      "size": 33456
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_5_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_5_20251011_190400.webp",
+      "index": 5,
+      "size": 45108
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_6_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_6_20251011_190400.webp",
+      "index": 6,
+      "size": 50580
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_7_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_7_20251011_190400.webp",
+      "index": 7,
+      "size": 50452
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_8_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_8_20251011_190400.webp",
+      "index": 8,
+      "size": 27126
+    },
+    {
+      "path": "images/generate_trapezoid_with_side_len_9_20251011_190400.webp",
+      "filename": "generate_trapezoid_with_side_len_9_20251011_190400.webp",
+      "index": 9,
+      "size": 37920
+    }
+  ],
+  "image_count": 9,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "trapezoid_with_dimensions"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Trapezoid with Labeled Dimensions",
+    "description": "This function can draw different types of trapezoids (regular, isosceles, right, left) with labeled dimensions. It accepts inputs for the base, top length, height, unit, and type of the trapezoid. The function scales the dimensions to ensure the trapezoid fits well in the figure. This visualization can be used for teaching and learning the calculation of areas of trapezoids.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "base: The length of the base of the trapezoid",
+          "top_length: The length of the top of the trapezoid",
+          "height: The height of the trapezoid",
+          "unit: The unit of measurement for the dimensions",
+          "trapezoid_type: The type of the trapezoid (regular, isosceles, right, left)"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "All dimensions must be positive numbers",
+          "The unit must be a valid unit of measurement",
+          "The type of the trapezoid must be one of the specified types (regular, isosceles, right, left)"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a trapezoid with labeled dimensions",
+          "The trapezoid can be of different types (regular, isosceles, right, left)",
+          "The dimensions of the trapezoid are scaled to fit well in the figure"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

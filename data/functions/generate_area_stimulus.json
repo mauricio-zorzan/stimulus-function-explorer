@@ -1,16 +1,71 @@
 {
   "function_name": "generate_area_stimulus",
-  "description": "Generates area stimulus for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_area_stimulus\nresult = generate_area_stimulus(data)",
-  "image_path": "images/generate_area_stimulus_example.webp",
-  "category": "general",
+  "description": "The function 'generate_area_stimulus' is designed to create educational stimulus images of geometric shapes, specifically right triangles and rectangles. The generated images can be used to teach and visualize concepts related to area calculation in geometry.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "area",
+    "visualization",
+    "educational_stimulus"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:51.105740",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/generate_area_stimulus_1_20251011_190400.webp",
+      "filename": "generate_area_stimulus_1_20251011_190400.webp",
+      "index": 1,
+      "size": 42142
+    },
+    {
+      "path": "images/generate_area_stimulus_2_20251011_190400.webp",
+      "filename": "generate_area_stimulus_2_20251011_190400.webp",
+      "index": 2,
+      "size": 31876
+    },
+    {
+      "path": "images/generate_area_stimulus_3_20251011_190400.webp",
+      "filename": "generate_area_stimulus_3_20251011_190400.webp",
+      "index": 3,
+      "size": 42252
+    }
+  ],
+  "image_count": 14,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "area_stimulus"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Geometric Shapes (Right Triangles and Rectangles)",
+    "description": "The function 'generate_area_stimulus' can generate two types of geometric shapes: right triangles and rectangles. The images are not drawn to scale and are primarily intended for conceptual understanding rather than precise measurement. The function accepts inputs such as the base and height of the shape, the type of shape, and a note indicating that the figure is not drawn to scale. The base and height must be integers greater than or equal to 1. The shape must be either 'right_triangle' or 'rectangle'. The note is optional and defaults to 'Figure not drawn to scale.'",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "base: The base of the shape. Controls the width of the shape in the visualization.",
+          "height: The height of the shape. Controls the height of the shape in the visualization.",
+          "shape: The type of shape to draw. Can be either 'right_triangle' or 'rectangle'.",
+          "not_to_scale_note: An optional note indicating that the figure is not drawn to scale. Defaults to 'Figure not drawn to scale.'"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The base and height must be integers greater than or equal to 1.",
+          "The shape must be either 'right_triangle' or 'rectangle'.",
+          "The not_to_scale_note is optional and defaults to 'Figure not drawn to scale.'"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws either a right triangle or a rectangle, depending on the input parameters.",
+          "The base and height of the shape are controlled by the input parameters.",
+          "A right-angle marker is added to the shape to indicate the right angle."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

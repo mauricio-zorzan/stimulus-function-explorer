@@ -1,18 +1,75 @@
 {
   "function_name": "draw_fractional_models",
-  "description": "Draws fractional models for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_fractional_models\nresult = draw_fractional_models(data)",
-  "image_path": "images/draw_fractional_models_example.webp",
+  "description": "The function 'draw_fractional_models' generates images of fractional models in the form of circles or rectangles. Each model is divided into segments according to the fractions provided, with each segment represented visually by a unique color. This function is intended to aid in the understanding of fractions in an educational setting.",
   "category": "fractions",
   "tags": [
-    "fractions"
+    "fractions",
+    "geometry",
+    "visualization",
+    "education"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:00.615791",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_fractional_models_1_20251011_190400.webp",
+      "filename": "draw_fractional_models_1_20251011_190400.webp",
+      "index": 1,
+      "size": 3800
+    },
+    {
+      "path": "images/draw_fractional_models_2_20251011_190400.webp",
+      "filename": "draw_fractional_models_2_20251011_190400.webp",
+      "index": 2,
+      "size": 4812
+    },
+    {
+      "path": "images/draw_fractional_models_3_20251011_190400.webp",
+      "filename": "draw_fractional_models_3_20251011_190400.webp",
+      "index": 3,
+      "size": 84984
+    },
+    {
+      "path": "images/draw_fractional_models_4_20251011_190400.webp",
+      "filename": "draw_fractional_models_4_20251011_190400.webp",
+      "index": 4,
+      "size": 456106
+    },
+    {
+      "path": "images/draw_fractional_models_5_20251011_190400.webp",
+      "filename": "draw_fractional_models_5_20251011_190400.webp",
+      "index": 5,
+      "size": 448648
+    },
+    {
+      "path": "images/draw_fractional_models_6_20251011_190400.webp",
+      "filename": "draw_fractional_models_6_20251011_190400.webp",
+      "index": 6,
+      "size": 456106
+    },
+    {
+      "path": "images/draw_fractional_models_7_20251011_190400.webp",
+      "filename": "draw_fractional_models_7_20251011_190400.webp",
+      "index": 7,
+      "size": 21886
+    },
+    {
+      "path": "images/draw_fractional_models_8_20251011_190400.webp",
+      "filename": "draw_fractional_models_8_20251011_190400.webp",
+      "index": 8,
+      "size": 15160
+    },
+    {
+      "path": "images/draw_fractional_models_9_20251011_190400.webp",
+      "filename": "draw_fractional_models_9_20251011_190400.webp",
+      "index": 9,
+      "size": 95928
+    }
+  ],
+  "image_count": 9,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "frac_model"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.2.G.A.3+1",
@@ -35,11 +92,6 @@
       "description": "Identify visual models that represent unit fractions (1/n)."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+2",
-      "display_name": null,
-      "description": "Understand a fraction a/b as the quantity formed by a parts of size 1/b."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
       "display_name": "Represent Fractions Using Fraction Models",
       "description": "Represent a fraction a/b with a fraction model."
@@ -50,11 +102,6 @@
       "description": "Determine the fraction of a whole described in a word problem and select the visual model that correctly represents that fraction (denominators \u2264 12).\n"
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+3",
-      "display_name": null,
-      "description": "Understand that the endpoint of an interval representing a fraction a/b on a number line locates the number a/b on the number line."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.B+1",
       "display_name": "Recognizing Equivalent Fractions",
       "description": "Recognize and generate simple equivalent fractions, explaining why the fractions are equivalent."
@@ -63,11 +110,6 @@
       "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.D+1",
       "display_name": "Compare Unit Fractions",
       "description": "Compare two unit fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+2",
-      "display_name": "Measuring Objects in Inches",
-      "description": "Use rulers to measure objects in inches."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+1",
@@ -102,12 +144,7 @@
     {
       "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.D+2",
       "display_name": null,
-      "description": "Add and subtract fractions with like denominators in recipes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3+1",
-      "display_name": null,
-      "description": "Decompose fractions into unit fractions using models."
+      "description": "Add and subtract fractions in recipes with like denominators."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.A+2",
@@ -125,19 +162,9 @@
       "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+1",
-      "display_name": "Model Decimals",
-      "description": "Model tenths with decimals and mixed numbers."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+2",
       "display_name": "Decimal Place Value",
       "description": "Identify place value of digits in decimal numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.A.2+3",
-      "display_name": "Fraction Subtraction Word Problems",
-      "description": "Solve word problems involving subtraction of fractions."
     },
     {
       "external_id": "CCSS.MATH.CONTENT.5.NF.A.2+7",
@@ -155,5 +182,38 @@
       "description": "Fluently divide multi-digit numbers using the standard algorithm, resulting in fractions."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:51.516253"
+  "standards_last_updated": "2025-10-11T19:27:19.193616",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Fractional Models",
+    "description": "The 'draw_fractional_models' function can generate visualizations of fractional models in the form of circles or rectangles. It accepts a list of fractions and their corresponding shapes as input, based on the stimulus description class. Each fraction is represented as a shape divided into segments, with the number of segments corresponding to the denominator of the fraction. The function randomly assigns a color to each segment, creating a visually distinct representation of each fraction. This function is designed to aid in the understanding of fractions, and can be used in an educational setting to visually demonstrate the concept of fractions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_data: A list of fractions and their corresponding shapes. Each fraction is represented as a string, and the shape is represented as an instance of the FractionShape class.",
+          "Each fraction controls the number of segments into which the corresponding shape is divided.",
+          "The shape of each fraction is required, but the color of each segment is randomly assigned by the function."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The denominator of each fraction must be a positive integer, and the numerator must be a non-negative integer less than or equal to the denominator.",
+          "Each shape must be an instance of the FractionShape class.",
+          "The function generates a random color for each segment, with RGB values between 0.3 and 0.8 to avoid very dark or very light colors."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of shapes, each divided into segments according to the corresponding fraction.",
+          "The function can draw two types of shapes: circles and rectangles.",
+          "The number of segments in each shape is determined by the denominator of the corresponding fraction, and the color of each segment is randomly assigned by the function."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

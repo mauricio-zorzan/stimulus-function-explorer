@@ -1,18 +1,126 @@
 {
   "function_name": "create_dual_dot_plot",
-  "description": "Creates dual dot for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for create_dual_dot_plot\nresult = create_dual_dot_plot(data)",
-  "image_path": "images/create_dual_dot_plot_example.webp",
-  "category": "graphs",
+  "description": "The function 'create_dual_dot_plot' generates two dot plots side by side, each representing a unique dataset. The plots are color-coded with a randomly selected pair of colors from a predefined list, enhancing visual appeal. This function is designed to facilitate the comparison of two datasets in an educational context.",
+  "category": "data_visualization",
   "tags": [
-    "graphs"
+    "data_visualization",
+    "dot_plot",
+    "comparison",
+    "statistics"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:37.992236",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/create_dual_dot_plot_1_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_1_20251011_190400.webp",
+      "index": 1,
+      "size": 52642
+    },
+    {
+      "path": "images/create_dual_dot_plot_2_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_2_20251011_190400.webp",
+      "index": 2,
+      "size": 57222
+    },
+    {
+      "path": "images/create_dual_dot_plot_3_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_3_20251011_190400.webp",
+      "index": 3,
+      "size": 49186
+    },
+    {
+      "path": "images/create_dual_dot_plot_4_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_4_20251011_190400.webp",
+      "index": 4,
+      "size": 55574
+    },
+    {
+      "path": "images/create_dual_dot_plot_5_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_5_20251011_190400.webp",
+      "index": 5,
+      "size": 50388
+    },
+    {
+      "path": "images/create_dual_dot_plot_6_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_6_20251011_190400.webp",
+      "index": 6,
+      "size": 42634
+    },
+    {
+      "path": "images/create_dual_dot_plot_7_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_7_20251011_190400.webp",
+      "index": 7,
+      "size": 79782
+    },
+    {
+      "path": "images/create_dual_dot_plot_8_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_8_20251011_190400.webp",
+      "index": 8,
+      "size": 38794
+    },
+    {
+      "path": "images/create_dual_dot_plot_9_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_9_20251011_190400.webp",
+      "index": 9,
+      "size": 50976
+    },
+    {
+      "path": "images/create_dual_dot_plot_10_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_10_20251011_190400.webp",
+      "index": 10,
+      "size": 49528
+    },
+    {
+      "path": "images/create_dual_dot_plot_11_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_11_20251011_190400.webp",
+      "index": 11,
+      "size": 58870
+    },
+    {
+      "path": "images/create_dual_dot_plot_12_20251011_190400.webp",
+      "filename": "create_dual_dot_plot_12_20251011_190400.webp",
+      "index": 12,
+      "size": 49550
+    }
+  ],
+  "image_count": 53,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "dual_dot_plot"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Dual Dot Plots",
+    "description": "The 'create_dual_dot_plot' function can draw two dot plots side by side, each representing a unique dataset. The function accepts an instance of the 'DualStatsLinePlot' class as input, which includes two data arrays ('top_data' and 'bottom_data') and two titles. The function is designed to handle up to 10 unique values per dataset. If a dataset includes more than 10 unique values, the function will truncate the data to the first 10 unique values. The function also ensures consistent x-axis range across both plots by considering the overall minimum and maximum values from both datasets. This function is particularly useful in educational settings where students are learning about data visualization, comparison of datasets, or basic statistics.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "top_data: An array of data to be represented in the top dot plot",
+          "bottom_data: An array of data to be represented in the bottom dot plot",
+          "top_title: The title for the top dot plot",
+          "bottom_title: The title for the bottom dot plot"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The function can handle up to 10 unique values per dataset. If a dataset includes more than 10 unique values, the function will truncate the data to the first 10 unique values",
+          "The function ensures a consistent x-axis range across both plots by considering the overall minimum and maximum values from both datasets"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates two dot plots side by side, each representing a unique dataset",
+          "The plots are color-coded with a randomly selected pair of colors from a predefined list",
+          "The visual output is influenced by the input data arrays and the selected color pair"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.SP.B.4+1",
@@ -30,5 +138,5 @@
       "description": "Use measures of center and measures of variability for numerical data from random samples to draw informal comparative inferences about two populations."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:39.432253"
+  "standards_last_updated": "2025-10-11T19:26:59.727879"
 }

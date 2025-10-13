@@ -1,18 +1,87 @@
 {
   "function_name": "generate_spinner",
-  "description": "Generates spinner for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_spinner\nresult = generate_spinner(data)",
-  "image_path": "images/generate_spinner_example.webp",
-  "category": "general",
+  "description": "The 'generate_spinner' function creates a pie chart that resembles a carnival spinner. The spinner is divided into equal sections, each representing a category. The function is designed to visually represent probability distributions, making it an effective educational tool for teaching probability concepts.",
+  "category": "data_visualization",
   "tags": [
-    "general"
+    "probability",
+    "data_visualization",
+    "pie_chart",
+    "spinner"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:01.892654",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_spinner_1_20251011_190400.webp",
+      "filename": "generate_spinner_1_20251011_190400.webp",
+      "index": 1,
+      "size": 10010
+    },
+    {
+      "path": "images/generate_spinner_2_20251011_190400.webp",
+      "filename": "generate_spinner_2_20251011_190400.webp",
+      "index": 2,
+      "size": 8458
+    },
+    {
+      "path": "images/generate_spinner_3_20251011_190400.webp",
+      "filename": "generate_spinner_3_20251011_190400.webp",
+      "index": 3,
+      "size": 12028
+    },
+    {
+      "path": "images/generate_spinner_4_20251011_190400.webp",
+      "filename": "generate_spinner_4_20251011_190400.webp",
+      "index": 4,
+      "size": 8002
+    },
+    {
+      "path": "images/generate_spinner_5_20251011_190400.webp",
+      "filename": "generate_spinner_5_20251011_190400.webp",
+      "index": 5,
+      "size": 15748
+    },
+    {
+      "path": "images/generate_spinner_6_20251011_190400.webp",
+      "filename": "generate_spinner_6_20251011_190400.webp",
+      "index": 6,
+      "size": 12218
+    },
+    {
+      "path": "images/generate_spinner_7_20251011_190400.webp",
+      "filename": "generate_spinner_7_20251011_190400.webp",
+      "index": 7,
+      "size": 8052
+    },
+    {
+      "path": "images/generate_spinner_8_20251011_190400.webp",
+      "filename": "generate_spinner_8_20251011_190400.webp",
+      "index": 8,
+      "size": 9702
+    },
+    {
+      "path": "images/generate_spinner_9_20251011_190400.webp",
+      "filename": "generate_spinner_9_20251011_190400.webp",
+      "index": 9,
+      "size": 14544
+    },
+    {
+      "path": "images/generate_spinner_10_20251011_190400.webp",
+      "filename": "generate_spinner_10_20251011_190400.webp",
+      "index": 10,
+      "size": 17036
+    },
+    {
+      "path": "images/generate_spinner_11_20251011_190400.webp",
+      "filename": "generate_spinner_11_20251011_190400.webp",
+      "index": 11,
+      "size": 19552
+    }
+  ],
+  "image_count": 46,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "spinner"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+1",
@@ -30,5 +99,38 @@
       "description": "Create lists that represent the sample space of compound events."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:09.055285"
+  "standards_last_updated": "2025-10-11T19:27:44.082376",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: [Carnival Spinner]",
+    "description": "The 'generate_spinner' function draws a pie chart that mimics a carnival spinner. The spinner is divided into equal sections, each representing a category. The function accepts a 'Spinner' object as input, which contains a title and a list of section labels. The function assigns a unique color to each section if the label matches a known color. The function is designed to visually represent probability distributions, making it an effective educational tool for teaching probability concepts. The spinner can have up to 10 sections if color names or words with less than 7 letters are used as labels, otherwise, it can have up to 8 sections. The minimum number of sections is 4.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Title: A clear title that relates to the content or purpose of the spinner.",
+          "Sections: Each section of the spinner is represented by a label of a category. The order of the sections in the array determines the order of the items on the spinner in a clockwise direction."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "At least one category label should represent 2 or more distinct sections.",
+          "The maximum number of categories is 5.",
+          "The spinner can have up to 10 sections if color names or words with less than 7 letters are used as labels, otherwise, it can have up to 8 sections.",
+          "The minimum number of sections is 4."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a pie chart that resembles a carnival spinner, divided into equal sections.",
+          "Each section is assigned a unique color if the label matches a known color. If not, the section is colorless.",
+          "The inputs control the number of sections on the spinner, the labels of the sections, and the colors of the sections."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

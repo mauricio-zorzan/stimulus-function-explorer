@@ -1,0 +1,75 @@
+{
+  "function_name": "draw_bar_model_stimulus",
+  "description": "This function generates a bar model stimulus, a type of visual representation often used in mathematics education, particularly in teaching concepts of fractions, ratios, and proportions. The function can create either a single bar or comparison bars, with each section of the bar(s) customizable in terms of value, label, color, pattern, and emphasis.",
+  "category": "fractions",
+  "tags": [
+    "bar_model",
+    "math_education",
+    "fractions",
+    "ratios",
+    "proportions"
+  ],
+  "images": [
+    {
+      "path": "images/draw_bar_model_stimulus_1_20251011_190400.webp",
+      "filename": "draw_bar_model_stimulus_1_20251011_190400.webp",
+      "index": 1,
+      "size": 4994
+    },
+    {
+      "path": "images/draw_bar_model_stimulus_2_20251011_190400.webp",
+      "filename": "draw_bar_model_stimulus_2_20251011_190400.webp",
+      "index": 2,
+      "size": 51150
+    },
+    {
+      "path": "images/draw_bar_model_stimulus_3_20251011_190400.webp",
+      "filename": "draw_bar_model_stimulus_3_20251011_190400.webp",
+      "index": 3,
+      "size": 7838
+    }
+  ],
+  "image_count": 13,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "bar_model"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Bar Model Stimulus",
+    "description": "The function can draw two types of bar models: a single bar or comparison bars. The bar model is defined by a list of sections, each with its own value, label, color, pattern, and emphasis. The total value and label of the bar model can also be specified. The function accepts inputs based on the `BarModelStimulusList` class, which includes constraints such as the minimum and maximum number of sections in a bar model (1 to 8). This function is useful in creating visual aids for teaching mathematical concepts such as fractions, ratios, and proportions.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "model_type: Determines the type of bar model to be drawn (single bar or comparison bars).",
+          "single_bar: If the model type is 'single_bar', this field contains the details of the bar to be drawn.",
+          "comparison_bars: If the model type is 'comparison_bars', this field contains the details of the bars to be drawn.",
+          "not_to_scale_note: A note indicating that the bar model is not to scale.",
+          "BarModel: A class representing a bar model with fields such as title, total_value, total_label, sections, and orientation.",
+          "BarSection: A class representing a section of a bar model with fields such as value, label, color, pattern, and highlighted."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The sections field in the BarModel class must contain at least 1 item and at most 8 items.",
+          "The value field in the BarSection class can be a number or a variable like 'x'.",
+          "The pattern field in the BarSection class can be 'solid', 'hatched', or 'dotted'.",
+          "The orientation field in the BarModel class can be 'horizontal' or 'vertical'."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates an image of a bar model, which can be a single bar or comparison bars.",
+          "Each section of the bar(s) can have a different color and pattern, and can be highlighted for emphasis.",
+          "The bar model can have a title, and each section can have a label."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

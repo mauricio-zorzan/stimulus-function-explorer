@@ -26,6 +26,11 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Virtual environments
 venv/
 env/
@@ -55,6 +60,16 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+progress.json
+
+# Status and report files
+*_STATUS.txt
+*_REPORT.txt
+mapping_conflicts.json
+
+# Backup directories
+*_backup_*/
+*backup*/
 
 # Generated images (if stored locally)
 generated_images/
@@ -63,3 +78,6 @@ temp_images/
 # Streamlit
 .streamlit/
 .env
+
+run_with_github_token.sh
+setup_images.sh

@@ -1,0 +1,99 @@
+{
+  "function_name": "draw_table_two_way",
+  "description": "The function 'draw_table_two_way' generates a two-way table visualization from given data. The table includes a title, row titles, column titles, and data entries, with the ability to adjust the cell dimensions based on the maximum width and height of the data. This function serves an educational purpose by providing a clear, visual representation of data relationships and comparisons.",
+  "category": "data_visualization",
+  "tags": [
+    "data_visualization",
+    "tables",
+    "statistics",
+    "python",
+    "matplotlib"
+  ],
+  "images": [
+    {
+      "path": "images/draw_table_two_way_1_20251011_190400.webp",
+      "filename": "draw_table_two_way_1_20251011_190400.webp",
+      "index": 1,
+      "size": 261808
+    },
+    {
+      "path": "images/draw_table_two_way_2_20251011_190400.webp",
+      "filename": "draw_table_two_way_2_20251011_190400.webp",
+      "index": 2,
+      "size": 75976
+    }
+  ],
+  "image_count": 9,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "table_two_way"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+6",
+      "display_name": "Multiplying 2-Digit Numbers by 2-Digit Numbers Using Area Models",
+      "description": "Multiply 2-digit numbers by 2-digit numbers using area models."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+7",
+      "display_name": "Multiply a 2-Digit Number by a 2-Digit Number",
+      "description": "Multiply a 2-digit number by a 2-digit number."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+2",
+      "display_name": "Decimal Place Value",
+      "description": "Identify place value of digits in decimal numbers."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.4+1",
+      "display_name": null,
+      "description": "Interpret data on a two-way table."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.4+2",
+      "display_name": "Create Two-Way Tables",
+      "description": "Create two way tables to represent data."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.SP.A.4+3",
+      "display_name": "Two-Way Table Probability Problems",
+      "description": "Interpret a two-way table to determine probability."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:36.278104",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Two-Way Table Visualization",
+    "description": "The function 'draw_table_two_way' generates two-way table visualizations. It accepts inputs such as table title, row titles, column titles, and data entries. The row and column titles must be a list of dictionaries with labels 'label_x' where x is the row or column number. The data entries must be a list of dictionaries with keys 'x' where x is the column number. The function has constraints on the minimum and maximum length of the row and column titles, which should be between 2 and 5. The function is useful in educational settings for teaching concepts related to data analysis, statistics, and probability.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "table_title: The title of the table.",
+          "rows_title: List of row titles with labels 'label_x' where x is the row number.",
+          "columns_title: List of column titles with labels 'label_x' where x is the column number.",
+          "data: List of data entries with keys 'x' where x is the column number."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The row and column titles must be a list of dictionaries with labels 'label_x' where x is the row or column number.",
+          "The data entries must be a list of dictionaries with keys 'x' where x is the column number.",
+          "The minimum and maximum length of the row and column titles should be between 2 and 5."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a two-way table visualization with a title, row titles, column titles, and data entries.",
+          "The cell dimensions are adjusted based on the maximum width and height of the data.",
+          "The inputs such as table title, row titles, column titles, and data entries directly affect the output of the table."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

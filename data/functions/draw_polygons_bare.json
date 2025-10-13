@@ -1,16 +1,66 @@
 {
   "function_name": "draw_polygons_bare",
-  "description": "Draws polygons bare for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_polygons_bare\nresult = draw_polygons_bare(data)",
-  "image_path": "images/draw_polygons_bare_example.webp",
+  "description": "The 'draw_polygons_bare' function is designed to generate images of polygons, both regular and irregular, for educational purposes. It is particularly useful in teaching geometry, as it provides visual aids for understanding the properties and structures of different polygons.",
   "category": "geometry",
   "tags": [
-    "geometry"
+    "polygons",
+    "geometry",
+    "visualization",
+    "educational technology"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:01.928792",
-  "test_data": "Generated from GitHub Actions workflow"
+  "images": [
+    {
+      "path": "images/draw_polygons_bare_1_20251011_190400.webp",
+      "filename": "draw_polygons_bare_1_20251011_190400.webp",
+      "index": 1,
+      "size": 19682
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "polygons_bare"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+2",
+      "display_name": "Name for Quadrilaterals",
+      "description": "Select all names for a quadrilateral."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:32.223079",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Polygon Visualizations",
+    "description": "The 'draw_polygons_bare' function can draw a variety of polygons based on the input parameters. It accepts a list of polygons, each defined by either its number of sides, side lengths, and angles, or just the number of sides for regular polygons. The function then generates a plot for each polygon in the list, with the polygons drawn in the specified colors. This function is particularly useful in teaching and learning geometry, as it allows for the visualization of different types of polygons and their properties.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of polygons, each defined by its number of sides, side lengths, and angles, or just the number of sides for regular polygons.",
+          "Each polygon in the list can also have a specified color.",
+          "The function can handle both regular and irregular polygons."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The number of sides for each polygon must be a positive integer.",
+          "The side lengths and angles, if provided, must be positive real numbers.",
+          "The color, if provided, must be a valid color name or code."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a plot for each polygon in the input list.",
+          "Each polygon is drawn in the specified color, or in a default color if no color is specified.",
+          "The output is a static image file, saved in the specified format and location."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

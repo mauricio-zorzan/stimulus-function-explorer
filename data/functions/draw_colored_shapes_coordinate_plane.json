@@ -1,0 +1,106 @@
+{
+  "function_name": "draw_colored_shapes_coordinate_plane",
+  "description": "This function generates a coordinate plane in the first quadrant, with various colored shapes positioned at specific coordinates. It is designed for educational purposes, particularly for teaching students to identify coordinates of shapes or find shapes at given coordinates.",
+  "category": "geometry",
+  "tags": [
+    "coordinate_plane",
+    "shapes",
+    "visualization",
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_1_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_1_20251011_190400.webp",
+      "index": 1,
+      "size": 139892
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_2_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_2_20251011_190400.webp",
+      "index": 2,
+      "size": 119646
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_3_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_3_20251011_190400.webp",
+      "index": 3,
+      "size": 131730
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_4_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_4_20251011_190400.webp",
+      "index": 4,
+      "size": 128046
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_5_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_5_20251011_190400.webp",
+      "index": 5,
+      "size": 126424
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_6_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_6_20251011_190400.webp",
+      "index": 6,
+      "size": 123896
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_7_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_7_20251011_190400.webp",
+      "index": 7,
+      "size": 130702
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_8_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_8_20251011_190400.webp",
+      "index": 8,
+      "size": 127802
+    },
+    {
+      "path": "images/draw_colored_shapes_coordinate_plane_9_20251011_190400.webp",
+      "filename": "draw_colored_shapes_coordinate_plane_9_20251011_190400.webp",
+      "index": 9,
+      "size": 120352
+    }
+  ],
+  "image_count": 40,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "colored_shapes_coordinate_plane"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Colored Shapes on a Coordinate Plane",
+    "description": "This function can draw a variety of colored shapes on a coordinate plane, each at a specific coordinate. The inputs it accepts are based on the stimulus description class, which includes details about each shape such as its color, label, and coordinates. The function validates that all shape coordinates are within the first quadrant (0-10 range) and that no two shapes share the same coordinates. The educational purpose of this function is to help students learn about coordinates and shape identification on a coordinate plane. It can be used in a variety of geometry and algebra lessons.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The key input fields from the stimulus description class are the shapes, each of which has a color, label, and x and y coordinates.",
+          "The color and label of each shape control its appearance on the coordinate plane, while the x and y coordinates determine its position.",
+          "All fields are required."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The x and y coordinates of each shape must be within the range of 0 to 10.",
+          "The function validates that all shape coordinates are within the valid range and that no two shapes have the same coordinates.",
+          "If any of these constraints are violated, the function raises a ValueError."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a coordinate plane in the first quadrant, with various colored shapes positioned at specific coordinates.",
+          "The shapes can be of any color, and their positions are determined by the x and y coordinates provided.",
+          "The visual output is a static image, suitable for use in printed materials or digital displays."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

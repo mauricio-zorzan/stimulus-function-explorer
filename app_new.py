@@ -2,7 +2,6 @@
 New Streamlit app using file-based function data for instant loading.
 """
 
-import base64
 import json
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -54,22 +53,27 @@ class FunctionDataManager:
             st.info("Creating a fresh index...")
             return {"metadata": {"total_functions": 0}, "functions": []}
 
-    def load_function_data(self, function_name: str) -> Optional[Dict]:
+    def load_function_data(
+        self, function_name: str, show_errors: bool = True
+    ) -> Optional[Dict]:
         """Load data for a specific function."""
         function_file = self.functions_dir / f"{function_name}.json"
 
         if not function_file.exists():
-            st.error(f"Function file not found: {function_file}")
+            if show_errors:
+                st.error(f"Function file not found: {function_file}")
             return None
 
         try:
             with open(function_file, "r") as f:
                 return json.load(f)
         except json.JSONDecodeError as e:
-            st.error(f"Error parsing JSON for {function_name}: {e}")
+            if show_errors:
+                st.error(f"Error parsing JSON for {function_name}: {e}")
             return None
         except Exception:
-            st.error(f"Error loading function data for {function_name}")
+            if show_errors:
+                st.error(f"Error loading function data for {function_name}")
             return None
 
     def search_functions(self, query: str) -> List[Dict]:
@@ -117,7 +121,9 @@ class FunctionDataManager:
 
             # Search in educational standards
             if function_name:
-                function_data = self.load_function_data(function_name)
+                function_data = self.load_function_data(
+                    function_name, show_errors=False
+                )
                 if function_data:
                     standards = function_data.get("educational_standards", [])
                     for standard in standards:
@@ -163,6 +169,136 @@ def display_function_image(image_path: str) -> bool:
         return False
 
 
+def display_image_carousel(images: List[Dict], function_name: str):
+    """
+    Display multiple images with navigation arrows.
+
+    Args:
+        images: List of image dicts with 'path', 'filename', 'index' keys
+        function_name: Function name for unique session state key
+    """
+    if not images:
+        st.warning("No images available")
+        return
+
+    # Initialize session state for this function's carousel
+    carousel_key = f"carousel_{function_name}"
+    if carousel_key not in st.session_state:
+        st.session_state[carousel_key] = 0
+
+    num_images = len(images)
+    current_index = st.session_state[carousel_key]
+
+    # Ensure index is within bounds
+    current_index = max(0, min(current_index, num_images - 1))
+    st.session_state[carousel_key] = current_index
+
+    # Display current image
+    current_image = images[current_index]
+    image_path = current_image.get("path", "")
+
+    # Create carousel with side-by-side layout
+    if num_images > 1:
+        col1, col2, col3 = st.columns([1, 10, 1])
+
+        with col1:
+            st.write("")  # Spacer for vertical centering
+            st.write("")
+            st.write("")
+            st.write("")
+            if st.button(
+                "◀",
+                key=f"prev_{function_name}",
+                use_container_width=True,
+                type="secondary",
+            ):
+                st.session_state[carousel_key] = (current_index - 1) % num_images
+                st.rerun()
+
+        with col2:
+            if image_path:
+                full_path = Path("data") / image_path
+                if full_path.exists():
+                    st.image(str(full_path), use_column_width=True)
+                else:
+                    st.warning(f"Image not found: {image_path}")
+
+        with col3:
+            st.write("")  # Spacer for vertical centering
+            st.write("")
+            st.write("")
+            st.write("")
+            if st.button(
+                "▶",
+                key=f"next_{function_name}",
+                use_container_width=True,
+                type="secondary",
+            ):
+                st.session_state[carousel_key] = (current_index + 1) % num_images
+                st.rerun()
+
+        # Image counter and navigation dots below
+        st.markdown(
+            f"<div style='text-align: center; margin-top: 10px; color: #666; font-size: 0.9em;'>"
+            f"Image {current_index + 1} of {num_images}"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+
+        # Clickable dot indicators with better styling
+        # Show dots for reasonable number of images, or dropdown for many images
+        if num_images > 1:
+            st.write("")
+            
+            if num_images <= 40:  # Show dots for up to 40 images
+                # Create clickable dot buttons - all use primary type for consistent circle styling
+                dot_cols = st.columns(num_images)
+                for idx, col in enumerate(dot_cols):
+                    with col:
+                        # Use button for all dots - filled (●) when active, hollow (○) when inactive
+                        button_label = "●" if idx == current_index else "○"
+
+                        # Active dot won't trigger action, inactive dots navigate
+                        if idx != current_index:
+                            if st.button(
+                                button_label,
+                                key=f"dot_{function_name}_{idx}",
+                                type="primary",
+                                help=f"Go to image {idx + 1}",
+                            ):
+                                st.session_state[carousel_key] = idx
+                                st.rerun()
+                        else:
+                            # Show active dot as disabled button (same size, no action)
+                            st.button(
+                                button_label,
+                                key=f"dot_{function_name}_{idx}",
+                                type="primary",
+                                disabled=True,
+                                help=f"Current image {idx + 1}",
+                            )
+            else:
+                # For many images, show a dropdown selector
+                selected_index = st.selectbox(
+                    "Jump to image:",
+                    options=list(range(num_images)),
+                    index=current_index,
+                    format_func=lambda x: f"Image {x + 1}",
+                    key=f"select_{function_name}",
+                )
+                if selected_index != current_index:
+                    st.session_state[carousel_key] = selected_index
+                    st.rerun()
+    else:
+        # Single image - no navigation needed
+        if image_path:
+            full_path = Path("data") / image_path
+            if full_path.exists():
+                st.image(str(full_path), use_column_width=True)
+            else:
+                st.warning(f"Image not found: {image_path}")
+
+
 def display_search_results(functions: List[Dict], search_type: str):
     """Display search results in a grid format."""
     # Display search results in a grid with images
@@ -181,50 +317,59 @@ def display_search_results(functions: List[Dict], search_type: str):
                 .title()
             )
 
-            # Function image (standardized size)
-            image_html = ""
-            image_path = func.get("image_path", "")
-            if image_path:
-                try:
-                    full_path = Path("data") / image_path
-                    if full_path.exists():
-                        # Convert image to base64 for embedding in HTML
-                        with open(full_path, "rb") as img_file:
-                            img_data = base64.b64encode(img_file.read()).decode()
-                            image_html = f'<img src="data:image/webp;base64,{img_data}" class="function-image" alt="{display_name}">'
-                    else:
-                        image_html = '<div style="color: #999; text-align: center; padding: 20px;">Image not available</div>'
-                except Exception:
-                    image_html = '<div style="color: #999; text-align: center; padding: 20px;">Image preview unavailable</div>'
+            # Try new format first (images array)
+            images = func.get("images", [])
+            if images and len(images) > 0:
+                image_path = images[0].get("path", "")
             else:
-                image_html = '<div style="color: #999; text-align: center; padding: 20px;">No image available</div>'
+                # Fallback to old format
+                image_path = func.get("image_path", "")
 
-            # Create clickable card with everything inside
-            st.markdown(
-                f"""
-            <div class="function-card">
-                <div class="function-name">{display_name}</div>
-                <div class="function-category">{func.get("category", "Unknown category")}</div>
-                {image_html}
-            </div>
-            """,
-                unsafe_allow_html=True,
-            )
-
-            # Clickable button that covers the card
             # Create a unique key using hash of function name and search type
             import hashlib
 
             key_hash = hashlib.md5(
                 f"{search_type}_{func['function_name']}_{i}".encode()
             ).hexdigest()[:8]
-            if st.button(f"View {display_name}", key=f"btn_{key_hash}"):
-                # Force rerun by adding timestamp to ensure state change
-                import time
 
-                st.session_state["selected_function"] = func["function_name"]
-                st.session_state["function_selection_time"] = time.time()
-                st.rerun()
+            # Create a container that wraps both the card and button
+            with st.container():
+                # Show function name with badge
+                if images and len(images) > 1:
+                    st.markdown(
+                        f'<div style="text-align: center; font-weight: bold; color: #2c3e50; margin-bottom: 8px; font-size: 1.1em;">'
+                        f'{display_name} <span style="background-color: #4CAF50; color: white; padding: 2px 6px; border-radius: 10px; font-size: 0.7em;">{len(images)}</span>'
+                        f"</div>",
+                        unsafe_allow_html=True,
+                    )
+                else:
+                    st.markdown(
+                        f'<div style="text-align: center; font-weight: bold; color: #2c3e50; margin-bottom: 8px; font-size: 1.1em;">{display_name}</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                # Display image using Streamlit's native image component
+                if image_path:
+                    full_path = Path("data") / image_path
+                    if full_path.exists():
+                        st.image(str(full_path), use_column_width=True)
+                    else:
+                        st.caption("⚠️ Image not found")
+                else:
+                    st.caption("📷 No image available")
+
+                # Clickable button inside the same container
+                if st.button(
+                    f"View {display_name}",
+                    key=f"btn_{key_hash}",
+                    use_container_width=True,
+                ):
+                    # Force rerun by adding timestamp to ensure state change
+                    import time
+
+                    st.session_state["selected_function"] = func["function_name"]
+                    st.session_state["function_selection_time"] = time.time()
+                    st.rerun()
 
 
 def display_educational_standards(function_data: Dict):
@@ -378,46 +523,31 @@ def display_function_details(function_data: Dict):
                         for detail in details:
                             st.write(f"- {detail}")
 
-            educational_purpose = stimulus_spec.get("educational_purpose", "")
-            if educational_purpose:
-                st.write("**Educational Purpose:**")
-                st.write(educational_purpose)
+    # Images - support both new (multiple images) and old (single image) formats
+    st.write("---")
 
-            # Copy toggle at the bottom
-            if spec_text.strip():
-                # Use a toggle to show/hide copy content
-                copy_key = f"show_copy_{function_data['function_name']}"
-                show_copy = st.toggle(
-                    "📋 Copy Complete Specification", key=copy_key, value=False
-                )
-
-                # Show copy content if toggled
-                if show_copy:
-                    st.code(spec_text, language="text")
-
-    # Image
-    image_path = function_data.get("image_path", "")
-    if image_path:
-        st.write("---")
-        st.write("**Example Output:**")
-        display_function_image(image_path)
+    images = function_data.get("images", [])
+    if images:
+        # New format: multiple images with carousel
+        display_image_carousel(images, function_data["function_name"])
     else:
-        st.warning("No example image available")
-
-    # AI Generated indicator
-    if function_data.get("ai_generated", False):
-        st.caption("🤖 This description was generated by AI")
+        # Fallback: old single image format
+        image_path = function_data.get("image_path", "")
+        if image_path:
+            display_function_image(image_path)
+        else:
+            st.warning("No example images available")
 
 
 def main():
     st.title("🎯 Stimulus Function Explorer")
-    st.caption("Explore stimulus functions with instant loading")
 
     # Add custom CSS for function cards
     st.markdown(
         """
     <style>
-    .function-card {
+    /* Container that wraps both card and button */
+    .stContainer > div {
         border: 2px solid #e0e0e0;
         border-radius: 10px;
         padding: 15px;
@@ -425,15 +555,25 @@ def main():
         background-color: #ffffff;
         transition: all 0.3s ease;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        cursor: pointer;
         text-align: center;
     }
     
-    .function-card:hover {
+    .stContainer > div:hover {
         transform: scale(1.05);
         box-shadow: 0 8px 25px rgba(0,0,0,0.2);
         border-color: #4CAF50;
     }
+    
+    .function-card {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        box-shadow: none;
+        text-align: center;
+    }
+    
     
     .function-name {
         font-weight: bold;
@@ -464,10 +604,88 @@ def main():
         width: 100%;
     }
     
+    /* Image carousel navigation buttons - arrow buttons only */
+    /* Target arrow buttons by their content (they contain arrows) */
+    div[data-testid="column"] > div > div > button[data-testid="baseButton-secondary"] {
+        min-height: 80px !important;
+        font-size: 32px !important;
+        font-weight: bold !important;
+        background-color: rgba(240, 242, 246, 0.9) !important;
+        border: 2px solid #e0e0e0 !important;
+        border-radius: 8px !important;
+        transition: all 0.3s ease !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+        width: auto !important;
+        height: auto !important;
+    }
+    
+    div[data-testid="column"] > div > div > button[data-testid="baseButton-secondary"]:hover {
+        background-color: #4CAF50 !important;
+        color: white !important;
+        border-color: #4CAF50 !important;
+        transform: scale(1.15) !important;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    }
+    
+    /* Dot navigation buttons - all primary type, styled as circles */
+    /* Active dot (disabled) - filled green circle */
+    button[data-testid="baseButton-primary"]:disabled {
+        width: 50px !important;
+        height: 50px !important;
+        min-width: 50px !important;
+        min-height: 50px !important;
+        max-width: 50px !important;
+        max-height: 50px !important;
+        border-radius: 50% !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        font-size: 32px !important;
+        line-height: 50px !important;
+        background-color: #4CAF50 !important;
+        border: 3px solid #4CAF50 !important;
+        color: white !important;
+        opacity: 1 !important;
+        cursor: default !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    /* Inactive dots (enabled) - hollow gray circles */
+    button[data-testid="baseButton-primary"]:not(:disabled) {
+        width: 50px !important;
+        height: 50px !important;
+        min-width: 50px !important;
+        min-height: 50px !important;
+        max-width: 50px !important;
+        max-height: 50px !important;
+        border-radius: 50% !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        font-size: 32px !important;
+        line-height: 50px !important;
+        background-color: white !important;
+        border: 3px solid #ccc !important;
+        color: #ccc !important;
+        transition: all 0.2s ease !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-shadow: none !important;
+    }
+    
+    button[data-testid="baseButton-primary"]:not(:disabled):hover {
+        background-color: #4CAF50 !important;
+        border-color: #4CAF50 !important;
+        color: white !important;
+        transform: scale(1.15) !important;
+    }
+    
     /* Style the buttons to be more integrated */
     .stButton > button {
         width: 100% !important;
         margin-top: 10px !important;
+        margin-bottom: 0 !important;
         background-color: #4CAF50 !important;
         color: white !important;
         border: none !important;
@@ -560,10 +778,20 @@ def main():
             )
 
         with col4:
-            st.button("🤖 AI Search", key="ai_search_btn")
+            ai_search_clicked = st.button("🤖 AI Search", key="ai_search_btn")
 
-        # Show AI search results
-        if ai_search_query:
+        # Initialize session state for AI search
+        if "ai_search_results" not in st.session_state:
+            st.session_state.ai_search_results = None
+        if "ai_search_last_query" not in st.session_state:
+            st.session_state.ai_search_last_query = ""
+
+        # Run AI search only when button is clicked or query changes
+        should_search = ai_search_clicked or (
+            ai_search_query and ai_search_query != st.session_state.ai_search_last_query
+        )
+
+        if should_search and ai_search_query:
             if AI_SEARCH_AVAILABLE:
                 try:
                     ai_engine = AISearchEngine()
@@ -576,23 +804,36 @@ def main():
                         if func_data:
                             functions.append(func_data)
 
-                    if functions:
-                        st.success(
-                            f"🤖 AI found {len(functions)} relevant functions for: '{ai_search_query}'"
-                        )
-                        display_search_results(functions, "ai_search")
-                    else:
-                        st.info(
-                            f"🤖 AI didn't find any functions matching: '{ai_search_query}'"
-                        )
+                    # Store results in session state
+                    st.session_state.ai_search_results = functions
+                    st.session_state.ai_search_last_query = ai_search_query
 
                 except Exception as e:
                     st.error(f"AI search error: {e}")
                     st.info("Please check your OpenAI API key and try again.")
+                    st.session_state.ai_search_results = None
             else:
                 st.error(
                     "AI search is not available. Please set OPENAI_API_KEY environment variable."
                 )
+                st.session_state.ai_search_results = None
+
+        # Display cached AI search results
+        if ai_search_query and st.session_state.ai_search_results is not None:
+            functions = st.session_state.ai_search_results
+            if functions:
+                st.success(
+                    f"🤖 AI found {len(functions)} relevant functions for: '{st.session_state.ai_search_last_query}'"
+                )
+                display_search_results(functions, "ai_search")
+            else:
+                st.info(
+                    f"🤖 AI didn't find any functions matching: '{st.session_state.ai_search_last_query}'"
+                )
+        elif ai_search_query and not AI_SEARCH_AVAILABLE:
+            st.error(
+                "AI search is not available. Please set OPENAI_API_KEY environment variable."
+            )
 
     # Display selected function details (only if a function is selected)
     if "selected_function" in st.session_state:

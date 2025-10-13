@@ -1,0 +1,97 @@
+{
+  "function_name": "plot_points_quadrant_one_with_context",
+  "description": "This function generates a scatter plot of points in the first quadrant of a Cartesian plane. It is designed for educational purposes, specifically to help students understand the concept of coordinates, plotting points and interpreting scatter plots.",
+  "category": "geometry",
+  "tags": [
+    "scatter_plot",
+    "coordinates",
+    "plotting_points",
+    "quadrant_one",
+    "data_visualization"
+  ],
+  "images": [
+    {
+      "path": "images/plot_points_quadrant_one_with_context_1_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_1_20251011_190400.webp",
+      "index": 1,
+      "size": 114796
+    },
+    {
+      "path": "images/plot_points_quadrant_one_with_context_2_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_2_20251011_190400.webp",
+      "index": 2,
+      "size": 89802
+    },
+    {
+      "path": "images/plot_points_quadrant_one_with_context_3_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_3_20251011_190400.webp",
+      "index": 3,
+      "size": 97432
+    },
+    {
+      "path": "images/plot_points_quadrant_one_with_context_4_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_4_20251011_190400.webp",
+      "index": 4,
+      "size": 112018
+    },
+    {
+      "path": "images/plot_points_quadrant_one_with_context_5_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_5_20251011_190400.webp",
+      "index": 5,
+      "size": 51646
+    },
+    {
+      "path": "images/plot_points_quadrant_one_with_context_6_20251011_190400.webp",
+      "filename": "plot_points_quadrant_one_with_context_6_20251011_190400.webp",
+      "index": 6,
+      "size": 84538
+    }
+  ],
+  "image_count": 6,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_coordinate_planes"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+5",
+      "display_name": null,
+      "description": "Explain the reasons behind the observed relationships between corresponding terms in two numerical patterns, generated from given rules and organized into ordered pairs."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:51.837930",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Scatter Plots in Quadrant One",
+    "description": "The function 'plot_points_quadrant_one_with_context' is capable of generating scatter plots in the first quadrant of a Cartesian plane. It accepts a 'stimulus_description' object which includes the titles for the x and y axes and a list of points to plot. Each point has a label, and x and y coordinates. The function calculates the maximum x and y values from the points, and uses these to determine the step size for the x and y axes. The function also includes a grid for easier interpretation of the plot. The educational purpose of this function is to help students understand the concept of coordinates, how to plot points on a Cartesian plane, and how to interpret scatter plots.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "x_title: The title for the x-axis",
+          "y_title: The title for the y-axis",
+          "points: A list of points to plot. Each point includes a label, and x and y coordinates"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "All x and y coordinates must be non-negative, as the function only plots points in the first quadrant",
+          "The label for each point is required"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a scatter plot in the first quadrant of a Cartesian plane",
+          "Each point is labeled and plotted according to its x and y coordinates",
+          "The x and y axes are labeled according to the 'x_title' and 'y_title' parameters",
+          "A grid is included for easier interpretation of the plot"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

@@ -1,18 +1,40 @@
 {
   "function_name": "generate_unit_squares_unitless",
-  "description": "Generates unit squares unitless for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for generate_unit_squares_unitless\nresult = generate_unit_squares_unitless(data)",
-  "image_path": "images/generate_unit_squares_unitless_example.webp",
-  "category": "general",
+  "description": "This function generates a series of unit squares within a rectangle, scaled down by a factor of 0.5. It is used for educational purposes to visualize the concept of area and the relationship between different units of measurement.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "area",
+    "unit squares",
+    "measurement",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:32.063598",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/generate_unit_squares_unitless_1_20251011_190400.webp",
+      "filename": "generate_unit_squares_unitless_1_20251011_190400.webp",
+      "index": 1,
+      "size": 47656
+    },
+    {
+      "path": "images/generate_unit_squares_unitless_2_20251011_190400.webp",
+      "filename": "generate_unit_squares_unitless_2_20251011_190400.webp",
+      "index": 2,
+      "size": 70154
+    },
+    {
+      "path": "images/generate_unit_squares_unitless_3_20251011_190400.webp",
+      "filename": "generate_unit_squares_unitless_3_20251011_190400.webp",
+      "index": 3,
+      "size": 36680
+    }
+  ],
+  "image_count": 3,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "geo_unit_square"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.C.6+4",
@@ -23,22 +45,40 @@
       "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
       "display_name": "Area Problems: Missing Side Length",
       "description": "Given the area and a side, find the missing side length."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
-      "display_name": null,
-      "description": "Represent whole-number products as rectangular areas in mathematical reasoning."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
-      "display_name": null,
-      "description": "Exhibit rectangles with the same area and different perimeters."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+4",
-      "display_name": "Area, Perimeter and Side Length Word Problems",
-      "description": "Solve word problems involving area, perimeter, and side length."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:11.779949"
+  "standards_last_updated": "2025-10-11T19:27:49.771636",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Unit Squares within Rectangles",
+    "description": "The function can draw a series of rectangles with unit squares inside them. It accepts a list of rectangle data, each with a specified width and length. The rectangles are drawn to scale, with the maximum dimensions of the rectangles in the list determining the scale factor. The function is useful for teaching concepts such as area, scale, and the relationship between different units of measurement.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "data: A list of rectangle data, each with a specified width and length",
+          "Each rectangle data controls the dimensions of a rectangle to be drawn",
+          "All fields are required"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "Width and length of each rectangle must be positive integers",
+          "The number of rectangles (length of the data list) can be any positive integer",
+          "The scale factor is fixed at 0.5"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a series of rectangles with unit squares inside them",
+          "Each rectangle is drawn to scale, with the maximum dimensions of the rectangles in the list determining the scale factor",
+          "The dimensions of the rectangles and the number of unit squares inside them are determined by the input data"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,0 +1,169 @@
+{
+  "function_name": "draw_cross_section_question",
+  "description": "The function 'draw_cross_section_question' generates 2D images of cross-sections of 3D shapes. It is designed to help students visualize and understand the concept of cross-sections in geometry. The function can generate cross-sections of a variety of 3D shapes, including spheres, cylinders, cones, rectangular prisms, cubes, and pyramids.",
+  "category": "geometry",
+  "tags": [
+    "geometry",
+    "cross-sections",
+    "3D shapes",
+    "2D visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_cross_section_question_1_20251011_190400.webp",
+      "filename": "draw_cross_section_question_1_20251011_190400.webp",
+      "index": 1,
+      "size": 62790
+    },
+    {
+      "path": "images/draw_cross_section_question_2_20251011_190400.webp",
+      "filename": "draw_cross_section_question_2_20251011_190400.webp",
+      "index": 2,
+      "size": 45176
+    },
+    {
+      "path": "images/draw_cross_section_question_3_20251011_190400.webp",
+      "filename": "draw_cross_section_question_3_20251011_190400.webp",
+      "index": 3,
+      "size": 44868
+    },
+    {
+      "path": "images/draw_cross_section_question_4_20251011_190400.webp",
+      "filename": "draw_cross_section_question_4_20251011_190400.webp",
+      "index": 4,
+      "size": 43762
+    },
+    {
+      "path": "images/draw_cross_section_question_5_20251011_190400.webp",
+      "filename": "draw_cross_section_question_5_20251011_190400.webp",
+      "index": 5,
+      "size": 44110
+    },
+    {
+      "path": "images/draw_cross_section_question_6_20251011_190400.webp",
+      "filename": "draw_cross_section_question_6_20251011_190400.webp",
+      "index": 6,
+      "size": 46682
+    },
+    {
+      "path": "images/draw_cross_section_question_7_20251011_190400.webp",
+      "filename": "draw_cross_section_question_7_20251011_190400.webp",
+      "index": 7,
+      "size": 51912
+    },
+    {
+      "path": "images/draw_cross_section_question_8_20251011_190400.webp",
+      "filename": "draw_cross_section_question_8_20251011_190400.webp",
+      "index": 8,
+      "size": 44492
+    },
+    {
+      "path": "images/draw_cross_section_question_9_20251011_190400.webp",
+      "filename": "draw_cross_section_question_9_20251011_190400.webp",
+      "index": 9,
+      "size": 45520
+    },
+    {
+      "path": "images/draw_cross_section_question_10_20251011_190400.webp",
+      "filename": "draw_cross_section_question_10_20251011_190400.webp",
+      "index": 10,
+      "size": 42462
+    },
+    {
+      "path": "images/draw_cross_section_question_11_20251011_190400.webp",
+      "filename": "draw_cross_section_question_11_20251011_190400.webp",
+      "index": 11,
+      "size": 65126
+    },
+    {
+      "path": "images/draw_cross_section_question_12_20251011_190400.webp",
+      "filename": "draw_cross_section_question_12_20251011_190400.webp",
+      "index": 12,
+      "size": 40270
+    },
+    {
+      "path": "images/draw_cross_section_question_13_20251011_190400.webp",
+      "filename": "draw_cross_section_question_13_20251011_190400.webp",
+      "index": 13,
+      "size": 50394
+    },
+    {
+      "path": "images/draw_cross_section_question_14_20251011_190400.webp",
+      "filename": "draw_cross_section_question_14_20251011_190400.webp",
+      "index": 14,
+      "size": 64018
+    },
+    {
+      "path": "images/draw_cross_section_question_15_20251011_190400.webp",
+      "filename": "draw_cross_section_question_15_20251011_190400.webp",
+      "index": 15,
+      "size": 44098
+    },
+    {
+      "path": "images/draw_cross_section_question_16_20251011_190400.webp",
+      "filename": "draw_cross_section_question_16_20251011_190400.webp",
+      "index": 16,
+      "size": 64592
+    },
+    {
+      "path": "images/draw_cross_section_question_17_20251011_190400.webp",
+      "filename": "draw_cross_section_question_17_20251011_190400.webp",
+      "index": 17,
+      "size": 43630
+    },
+    {
+      "path": "images/draw_cross_section_question_18_20251011_190400.webp",
+      "filename": "draw_cross_section_question_18_20251011_190400.webp",
+      "index": 18,
+      "size": 62372
+    }
+  ],
+  "image_count": 18,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "crosssec"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Cross-Sections of 3D Shapes",
+    "description": "The 'draw_cross_section_question' function can generate cross-sections of six different 3D shapes: spheres, cylinders, cones, rectangular prisms, cubes, and pyramids. The cross-sections can be either horizontal or vertical, depending on the shape and the desired cross-section. The function accepts a 'CrossSectionQuestion' object as input, which contains the shape and the correct cross-section. The shape is defined by its type and dimensions (e.g., radius for a sphere, height and base for a cone). The function validates the input and determines the orientation of the cross-section based on a predefined map of valid combinations. The function is used in geometry education to help students visualize and understand cross-sections.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a 'CrossSectionQuestion' object as input.",
+          "The 'CrossSectionQuestion' object contains the shape and the correct cross-section.",
+          "The shape is defined by its type (e.g., 'sphere', 'cylinder', 'cone', 'rectangular prism', 'cube', 'pyramid') and dimensions (e.g., radius for a sphere, height and base for a cone).",
+          "The correct cross-section is a string that specifies the desired cross-section (e.g., 'circle', 'rectangle', 'triangle', 'square')."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The shape type and the correct cross-section must be valid and form a valid combination (e.g., a sphere can only have a circle cross-section, a cylinder can have a circle or rectangle cross-section).",
+          "The dimensions of the shape must be positive numbers.",
+          "The function validates the input and throws an error if the input is not valid."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a 2D image of the cross-section of the specified 3D shape.",
+          "The orientation of the cross-section (horizontal or vertical) is determined by the shape and the desired cross-section.",
+          "The size and shape of the cross-section depend on the dimensions of the 3D shape."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.G.A.3+1",
+      "display_name": "Cross Sections of Three Dimensional Figures",
+      "description": "Describe cross-sections of prisms, pyramids, cylinders and cones."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:13.728726"
+}

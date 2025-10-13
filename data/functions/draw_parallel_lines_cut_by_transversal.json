@@ -1,18 +1,64 @@
 {
   "function_name": "draw_parallel_lines_cut_by_transversal",
-  "description": "Draws parallel lines cut by transversal for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_parallel_lines_cut_by_transversal\nresult = draw_parallel_lines_cut_by_transversal(data)",
-  "image_path": "images/draw_parallel_lines_cut_by_transversal_example.webp",
-  "category": "general",
+  "description": "This function generates a visualization of two parallel lines cut by a transversal line. It is designed to help students understand the concepts of parallel lines, transversal lines, and the angles formed by them, which are fundamental concepts in geometry.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "parallel lines",
+    "transversal line",
+    "angles",
+    "geometry",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:00.642085",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_1_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_1_20251011_190400.webp",
+      "index": 1,
+      "size": 37242
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_2_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_2_20251011_190400.webp",
+      "index": 2,
+      "size": 40202
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_3_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_3_20251011_190400.webp",
+      "index": 3,
+      "size": 60710
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_4_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_4_20251011_190400.webp",
+      "index": 4,
+      "size": 63166
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_5_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_5_20251011_190400.webp",
+      "index": 5,
+      "size": 48128
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_6_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_6_20251011_190400.webp",
+      "index": 6,
+      "size": 32284
+    },
+    {
+      "path": "images/draw_parallel_lines_cut_by_transversal_7_20251011_190400.webp",
+      "filename": "draw_parallel_lines_cut_by_transversal_7_20251011_190400.webp",
+      "index": 7,
+      "size": 49754
+    }
+  ],
+  "image_count": 31,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "parallel_lines_cut_by_transversal"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.8.G.A.5+4",
@@ -25,5 +71,41 @@
       "description": "Solve problems involving relationships between the angles created by parallel lines cut by a transversal."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:57.388090"
+  "standards_last_updated": "2025-10-11T19:27:30.676992",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Parallel Lines Cut by Transversal",
+    "description": "The function 'draw_parallel_lines_cut_by_transversal' creates a visualization of two parallel lines cut by a transversal line. It accepts an input of type 'ParallelLinesTransversal' which includes the angle between the transversal and the parallel lines, and labels for the angles formed at the intersection points. The function ensures a minimum line length of 3 units and adjusts the length of the transversal line based on the provided angle. This visualization can be used in teaching geometry, specifically in understanding the properties of parallel lines and transversal lines, and the angles they form.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "angle: The angle between the transversal and the parallel lines",
+          "top_left_angle_label: Label for the top left angle formed at the intersection",
+          "bottom_left_angle_label: Label for the bottom left angle formed at the intersection",
+          "top_right_angle_label: Label for the top right angle formed at the intersection",
+          "bottom_right_angle_label: Label for the bottom right angle formed at the intersection"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The angle must be a positive number less than 180 degrees",
+          "All angle labels must be non-empty strings",
+          "The length of the transversal line is calculated based on the angle and has a minimum value of 3 units"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws two parallel lines of equal length, cut by a transversal line",
+          "The angle between the transversal and the parallel lines is determined by the 'angle' input",
+          "Labels for the angles formed at the intersection points are displayed based on the input parameters",
+          "The length and position of the lines are adjusted to ensure they are centered and fit within the visualization"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

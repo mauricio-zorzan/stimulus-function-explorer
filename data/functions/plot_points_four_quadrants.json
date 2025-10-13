@@ -1,18 +1,87 @@
 {
   "function_name": "plot_points_four_quadrants",
-  "description": "Plots points four quadrants for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for plot_points_four_quadrants\nresult = plot_points_four_quadrants(data)",
-  "image_path": "images/plot_points_four_quadrants_example.webp",
-  "category": "graphs",
+  "description": "The function 'plot_points_four_quadrants' generates a scatter plot of points in a four-quadrant coordinate plane. It is primarily used for educational purposes to help students understand the Cartesian coordinate system and the concept of plotting points in different quadrants.",
+  "category": "geometry",
   "tags": [
-    "graphs"
+    "scatter_plot",
+    "four_quadrants",
+    "plotting_points",
+    "coordinates"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:53.523641",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/plot_points_four_quadrants_1_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_1_20251011_190400.webp",
+      "index": 1,
+      "size": 47872
+    },
+    {
+      "path": "images/plot_points_four_quadrants_2_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_2_20251011_190400.webp",
+      "index": 2,
+      "size": 123102
+    },
+    {
+      "path": "images/plot_points_four_quadrants_3_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_3_20251011_190400.webp",
+      "index": 3,
+      "size": 61362
+    },
+    {
+      "path": "images/plot_points_four_quadrants_4_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_4_20251011_190400.webp",
+      "index": 4,
+      "size": 54650
+    },
+    {
+      "path": "images/plot_points_four_quadrants_5_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_5_20251011_190400.webp",
+      "index": 5,
+      "size": 63094
+    },
+    {
+      "path": "images/plot_points_four_quadrants_6_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_6_20251011_190400.webp",
+      "index": 6,
+      "size": 51558
+    },
+    {
+      "path": "images/plot_points_four_quadrants_7_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_7_20251011_190400.webp",
+      "index": 7,
+      "size": 129300
+    },
+    {
+      "path": "images/plot_points_four_quadrants_8_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_8_20251011_190400.webp",
+      "index": 8,
+      "size": 70604
+    },
+    {
+      "path": "images/plot_points_four_quadrants_9_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_9_20251011_190400.webp",
+      "index": 9,
+      "size": 59480
+    },
+    {
+      "path": "images/plot_points_four_quadrants_10_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_10_20251011_190400.webp",
+      "index": 10,
+      "size": 54846
+    },
+    {
+      "path": "images/plot_points_four_quadrants_11_20251011_190400.webp",
+      "filename": "plot_points_four_quadrants_11_20251011_190400.webp",
+      "index": 11,
+      "size": 47870
+    }
+  ],
+  "image_count": 11,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_four_coordinate_planes"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.B+1",
@@ -20,25 +89,43 @@
       "description": "Recognize that when two ordered pairs differ only by signs, the locations of the points are related by being reflections across one or both axes."
     },
     {
-      "external_id": "CCSS.MATH.CONTENT.6.NS.C.6.C+2",
-      "display_name": "Graphing Rational Points",
-      "description": "Find and position pairs of integers and other rational numbers on a coordinate plane."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.NS.C.8+1",
-      "display_name": "Distance on the Coordinate Plane",
-      "description": "Find the distance between two points on the coordinate plane."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.NS.C.8+2",
-      "display_name": "Directions on the Coordinate Plane",
-      "description": "Follow directions on a coordinate plane."
-    },
-    {
       "external_id": "CCSS.MATH.CONTENT.8.G.B.8+1",
       "display_name": "Distance Formula",
       "description": "Apply the Pythagorean Theorem to find the distance between two points in a coordinate system where the unknown distance between the points is the hypotenuse."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:14.465557"
+  "standards_last_updated": "2025-10-11T19:27:51.503537",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Four Quadrant Coordinate Plane Scatter Plot",
+    "description": "The function 'plot_points_four_quadrants' is capable of creating scatter plots in a four-quadrant coordinate plane. It accepts a list of points as input, each point being an object with properties for its x and y coordinates, and a label. The function plots these points on the coordinate plane, labels them, and saves the resulting image to a specified location. The primary educational purpose of this function is to assist in teaching the concept of the Cartesian coordinate system, specifically the plotting of points in different quadrants. It can be used in a variety of educational scenarios, such as demonstrating the concept of negative coordinates, or visualizing solutions to equations.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a list of points as input. Each point is an object with properties for its x and y coordinates, and a label.",
+          "The x and y properties control the position of the point on the coordinate plane.",
+          "The label property is used to label the point on the plot."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The x and y properties of each point must be numeric values.",
+          "The label property of each point must be a string.",
+          "There are no explicit limits on the range of x and y values, but they should be chosen to fit within the dimensions of the plot."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a scatter plot on a four-quadrant coordinate plane.",
+          "Each point is represented by a dot on the plot, and is labeled with its corresponding label.",
+          "The position of each point on the plot is determined by its x and y coordinates."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

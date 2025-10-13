@@ -1,18 +1,51 @@
 {
   "function_name": "draw_tree_diagram",
-  "description": "Draws tree diagram for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_tree_diagram\nresult = draw_tree_diagram(data)",
-  "image_path": "images/draw_tree_diagram_example.webp",
-  "category": "general",
+  "description": "The function 'draw_tree_diagram' generates a tree diagram visualization. It is designed to aid in understanding hierarchical or branching relationships, such as those found in decision trees, taxonomies, or data structures in computer science.",
+  "category": "data_visualization",
   "tags": [
-    "general"
+    "tree_diagram",
+    "hierarchy",
+    "branching_relationships",
+    "data_structures"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:03:38.133470",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_tree_diagram_1_20251011_190400.webp",
+      "filename": "draw_tree_diagram_1_20251011_190400.webp",
+      "index": 1,
+      "size": 109122
+    },
+    {
+      "path": "images/draw_tree_diagram_2_20251011_190400.webp",
+      "filename": "draw_tree_diagram_2_20251011_190400.webp",
+      "index": 2,
+      "size": 64972
+    },
+    {
+      "path": "images/draw_tree_diagram_3_20251011_190400.webp",
+      "filename": "draw_tree_diagram_3_20251011_190400.webp",
+      "index": 3,
+      "size": 41298
+    },
+    {
+      "path": "images/draw_tree_diagram_4_20251011_190400.webp",
+      "filename": "draw_tree_diagram_4_20251011_190400.webp",
+      "index": 4,
+      "size": 40424
+    },
+    {
+      "path": "images/draw_tree_diagram_5_20251011_190400.webp",
+      "filename": "draw_tree_diagram_5_20251011_190400.webp",
+      "index": 5,
+      "size": 70258
+    }
+  ],
+  "image_count": 22,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "tree_diagram"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+4",
@@ -20,5 +53,38 @@
       "description": "Use tree diagrams to visually represent the sample space of compound events, breaking down the event into component outcomes."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:03.502605"
+  "standards_last_updated": "2025-10-11T19:27:36.606583",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Tree Diagrams",
+    "description": "The 'draw_tree_diagram' function creates tree diagrams, which are graphical representations of hierarchical structures. The function accepts an instance of the 'TreeDiagram' class as input, which includes a root node of type 'TreeDiagramNode' and an optional title for the diagram. Each 'TreeDiagramNode' has a label and may have left and right child nodes. The function uses these inputs to draw a tree diagram with nodes represented by labels and edges representing parent-child relationships. The educational purpose of this function is to visually represent hierarchical structures, aiding in the understanding of concepts such as decision trees in probability, taxonomies in biology, or data structures in computer science.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The 'TreeDiagram' class includes a 'root' field, which is a 'TreeDiagramNode' representing the root node of the tree, and a 'title' field, which is an optional string for the title of the diagram.",
+          "The 'TreeDiagramNode' class includes a 'label' field, which is a string representing the label of the node, and 'left' and 'right' fields, which are optional 'TreeDiagramNode' instances representing the left and right child nodes, respectively."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'label' field of the 'TreeDiagramNode' class is required and must be a string.",
+          "The 'left' and 'right' fields of the 'TreeDiagramNode' class are optional and, if provided, must be instances of the 'TreeDiagramNode' class.",
+          "The 'root' field of the 'TreeDiagram' class is required and must be an instance of the 'TreeDiagramNode' class.",
+          "The 'title' field of the 'TreeDiagram' class is optional and, if provided, must be a string."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a tree diagram with nodes represented by labels and edges representing parent-child relationships.",
+          "The position of each node in the diagram is determined by its depth in the tree and its position relative to its siblings.",
+          "The optional title of the diagram is displayed at the top of the diagram."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,18 +1,39 @@
 {
   "function_name": "draw_measurement",
-  "description": "Draws measurement for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_measurement\nresult = draw_measurement(data)",
-  "image_path": "images/draw_measurement_example.webp",
-  "category": "general",
+  "description": "The 'draw_measurement' function generates educational stimulus images that depict measurements in either liquid volume (milliliters or liters) or weight (grams or kilograms). The images are designed to help students understand and visualize different units of measurement and their conversions.",
+  "category": "measurement",
   "tags": [
-    "general"
+    "measurement",
+    "visualization",
+    "conversion",
+    "educational"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:04:52.022141",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_measurement_1_20251011_190400.webp",
+      "filename": "draw_measurement_1_20251011_190400.webp",
+      "index": 1,
+      "size": 12712
+    },
+    {
+      "path": "images/draw_measurement_2_20251011_190400.webp",
+      "filename": "draw_measurement_2_20251011_190400.webp",
+      "index": 2,
+      "size": 10974
+    },
+    {
+      "path": "images/draw_measurement_3_20251011_190400.webp",
+      "filename": "draw_measurement_3_20251011_190400.webp",
+      "index": 3,
+      "size": 33474
+    }
+  ],
+  "image_count": 13,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "measurement"
+  ],
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+1",
@@ -45,5 +66,38 @@
       "description": "Use the four operations to solve word problems involving liquid volumes, including problems that require expressing measurements given in a larger unit in terms of a smaller unit."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:55.632105"
+  "standards_last_updated": "2025-10-11T19:27:26.872910",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Measurement Visualizations",
+    "description": "The 'draw_measurement' function can create two types of visualizations: a cup filled with liquid to represent volume measurements, and an analog scale to represent weight measurements. The function accepts inputs based on the 'Measurements' class, which includes the measurement value, units (milliliters, liters, grams, kilograms), and color for the liquid or weight. The function validates the units and converts them if necessary, and it calculates the dimensions and scale parameters for the visualization. These images can be used in educational settings to teach students about different units of measurement and how to convert between them.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "Measurement: The value to be represented in the visualization",
+          "Units: The units of the measurement, which must be milliliters, liters, grams, or kilograms",
+          "Color: The color of the liquid or weight in the visualization"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The units must be either milliliters, liters, grams, or kilograms",
+          "The measurement value must be a positive number",
+          "The color must be a valid color name or hex code"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a cup filled with liquid for volume measurements, with a scale on the side to represent the measurement value",
+          "For weight measurements, the function draws an analog scale with the measurement value",
+          "The color of the liquid or weight is determined by the 'color' input"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

@@ -1,0 +1,141 @@
+{
+  "function_name": "draw_line_graphs",
+  "description": "This function draws one or more line graphs on a given Axes object, based on the data fields of the LineGraphs model. It is designed to provide a visual representation of mathematical or statistical data, making it easier for students to understand and interpret the data.",
+  "category": "data_visualization",
+  "tags": [
+    "line_graphs",
+    "data_visualization",
+    "mathematics",
+    "statistics"
+  ],
+  "images": [
+    {
+      "path": "images/draw_line_graphs_1_20251011_190400.webp",
+      "filename": "draw_line_graphs_1_20251011_190400.webp",
+      "index": 1,
+      "size": 225180
+    },
+    {
+      "path": "images/draw_line_graphs_2_20251011_190400.webp",
+      "filename": "draw_line_graphs_2_20251011_190400.webp",
+      "index": 2,
+      "size": 167292
+    },
+    {
+      "path": "images/draw_line_graphs_3_20251011_190400.webp",
+      "filename": "draw_line_graphs_3_20251011_190400.webp",
+      "index": 3,
+      "size": 160630
+    },
+    {
+      "path": "images/draw_line_graphs_4_20251011_190400.webp",
+      "filename": "draw_line_graphs_4_20251011_190400.webp",
+      "index": 4,
+      "size": 115972
+    },
+    {
+      "path": "images/draw_line_graphs_5_20251011_190400.webp",
+      "filename": "draw_line_graphs_5_20251011_190400.webp",
+      "index": 5,
+      "size": 348230
+    },
+    {
+      "path": "images/draw_line_graphs_6_20251011_190400.webp",
+      "filename": "draw_line_graphs_6_20251011_190400.webp",
+      "index": 6,
+      "size": 121674
+    },
+    {
+      "path": "images/draw_line_graphs_7_20251011_190400.webp",
+      "filename": "draw_line_graphs_7_20251011_190400.webp",
+      "index": 7,
+      "size": 243496
+    },
+    {
+      "path": "images/draw_line_graphs_8_20251011_190400.webp",
+      "filename": "draw_line_graphs_8_20251011_190400.webp",
+      "index": 8,
+      "size": 231470
+    },
+    {
+      "path": "images/draw_line_graphs_9_20251011_190400.webp",
+      "filename": "draw_line_graphs_9_20251011_190400.webp",
+      "index": 9,
+      "size": 197556
+    },
+    {
+      "path": "images/draw_line_graphs_10_20251011_190400.webp",
+      "filename": "draw_line_graphs_10_20251011_190400.webp",
+      "index": 10,
+      "size": 191962
+    },
+    {
+      "path": "images/draw_line_graphs_11_20251011_190400.webp",
+      "filename": "draw_line_graphs_11_20251011_190400.webp",
+      "index": 11,
+      "size": 149310
+    },
+    {
+      "path": "images/draw_line_graphs_12_20251011_190400.webp",
+      "filename": "draw_line_graphs_12_20251011_190400.webp",
+      "index": 12,
+      "size": 210438
+    },
+    {
+      "path": "images/draw_line_graphs_13_20251011_190400.webp",
+      "filename": "draw_line_graphs_13_20251011_190400.webp",
+      "index": 13,
+      "size": 233862
+    }
+  ],
+  "image_count": 58,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "line_graph"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
+      "display_name": "Finding Quantitative Measures from Charts and Graphs",
+      "description": "Interpret charts and graphs to find mean, median, mode, and range."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:25.412696",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Line Graphs",
+    "description": "The draw_line_graphs function can draw one or more line graphs, with each line representing a series of data. It accepts a LineGraphs object as input, which contains the data series, titles, labels, and ranges for the x and y axes. The function also supports the use of LaTeX for mathematical typesetting in the graph title and axis labels. The colors for the lines are predefined and will cycle if there are more lines than colors. The function is designed to provide a visual representation of mathematical or statistical data, making it easier for students to understand and interpret the data.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "graph: A LineGraphs object containing the data series, titles, labels, and ranges for the x and y axes.",
+          "ax: A matplotlib Axes object on which the line graphs will be drawn."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The LineGraphs object must contain at least one data series.",
+          "Each data series must contain a list of x_values and y_values, which are the x and y coordinates of the points on the line.",
+          "Each data series can optionally contain a label and a marker style.",
+          "The LineGraphs object must contain a title for the graph, and labels for the x and y axes.",
+          "The LineGraphs object can optionally contain ranges for the x and y axes, which are used to set the limits of the axes."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws one or more line graphs on the given Axes object.",
+          "Each line represents a series of data, with the points on the line corresponding to the x and y values in the data series.",
+          "The lines are drawn in different colors, which are predefined and will cycle if there are more lines than colors.",
+          "The graph title and axis labels are displayed in bold, and can optionally be typeset using LaTeX.",
+          "If the data series contain labels, a legend is drawn on the graph."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

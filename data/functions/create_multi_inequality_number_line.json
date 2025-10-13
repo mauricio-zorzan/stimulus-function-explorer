@@ -1,0 +1,71 @@
+{
+  "function_name": "create_multi_inequality_number_line",
+  "description": "The function 'create_multi_inequality_number_line' generates a 2x2 grid of inequality number lines. These visualizations are used in teaching mathematical concepts related to inequalities, providing a visual representation of the inequality on a number line. Each subplot is labeled with a title (A, B, C, D) for easy reference.",
+  "category": "algebra",
+  "tags": [
+    "inequalities",
+    "number line",
+    "visualization",
+    "algebra"
+  ],
+  "images": [
+    {
+      "path": "images/create_multi_inequality_number_line_1_20251011_190400.webp",
+      "filename": "create_multi_inequality_number_line_1_20251011_190400.webp",
+      "index": 1,
+      "size": 121994
+    },
+    {
+      "path": "images/create_multi_inequality_number_line_2_20251011_190400.webp",
+      "filename": "create_multi_inequality_number_line_2_20251011_190400.webp",
+      "index": 2,
+      "size": 131176
+    }
+  ],
+  "image_count": 9,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "multi_inequality_number_line"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Multi Inequality Number Lines",
+    "description": "The function 'create_multi_inequality_number_line' generates a 2x2 grid of inequality number lines. It accepts a 'MultiInequalityNumberLine' object as input, which contains exactly 4 'InequalityNumberLine' objects. Each 'InequalityNumberLine' object represents a single inequality on a number line, including the range of the number line and the inequality to be displayed. The function validates the input to ensure that there are exactly 4 'InequalityNumberLine' objects. This visualization is useful in teaching and learning of algebraic inequalities, allowing students to visualize the solutions of inequalities on a number line.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The function accepts a 'MultiInequalityNumberLine' object as input.",
+          "The 'MultiInequalityNumberLine' object contains a list of 'InequalityNumberLine' objects.",
+          "Each 'InequalityNumberLine' object represents a single inequality on a number line, including the range of the number line and the inequality to be displayed."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The 'MultiInequalityNumberLine' object must contain exactly 4 'InequalityNumberLine' objects.",
+          "Each 'InequalityNumberLine' object must have a valid range and inequality."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a 2x2 grid of inequality number lines.",
+          "Each subplot is labeled with a title (A, B, C, D) for easy reference.",
+          "The range of each number line and the inequality displayed are determined by the corresponding 'InequalityNumberLine' object."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.EE.B.4.B+5",
+      "display_name": "Graphing Solutions",
+      "description": "Graph the solution sets of inequalities on a number line and interpret the graphed solution in the context of the problem."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:03.251999"
+}

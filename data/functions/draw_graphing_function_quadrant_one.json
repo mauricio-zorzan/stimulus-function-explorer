@@ -1,0 +1,109 @@
+{
+  "function_name": "draw_graphing_function_quadrant_one",
+  "description": "The function 'draw_graphing_function_quadrant_one' generates a variety of mathematical function graphs in the first quadrant (positive x and y values). It is designed to provide educational visualizations of linear, quadratic, exponential, cubic, square root, and rational functions, enhancing students' understanding of these mathematical concepts.",
+  "category": "algebra",
+  "tags": [
+    "graphs",
+    "functions",
+    "algebra",
+    "quadrant_one",
+    "visualization"
+  ],
+  "images": [
+    {
+      "path": "images/draw_graphing_function_quadrant_one_1_20251011_190400.webp",
+      "filename": "draw_graphing_function_quadrant_one_1_20251011_190400.webp",
+      "index": 1,
+      "size": 16574
+    },
+    {
+      "path": "images/draw_graphing_function_quadrant_one_2_20251011_190400.webp",
+      "filename": "draw_graphing_function_quadrant_one_2_20251011_190400.webp",
+      "index": 2,
+      "size": 12416
+    },
+    {
+      "path": "images/draw_graphing_function_quadrant_one_3_20251011_190400.webp",
+      "filename": "draw_graphing_function_quadrant_one_3_20251011_190400.webp",
+      "index": 3,
+      "size": 15750
+    },
+    {
+      "path": "images/draw_graphing_function_quadrant_one_4_20251011_190400.webp",
+      "filename": "draw_graphing_function_quadrant_one_4_20251011_190400.webp",
+      "index": 4,
+      "size": 13472
+    },
+    {
+      "path": "images/draw_graphing_function_quadrant_one_5_20251011_190400.webp",
+      "filename": "draw_graphing_function_quadrant_one_5_20251011_190400.webp",
+      "index": 5,
+      "size": 14448
+    }
+  ],
+  "image_count": 21,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "graphing_function_quadrant_one"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.1+1",
+      "display_name": "Unit Rates with Fractions",
+      "description": "Compute unit rates from ratios involving fractions."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.A+3",
+      "display_name": "Proportional Relationships in Graphs",
+      "description": "Determine if two quantities represented in a graph are in a proportional relationship."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.B+2",
+      "display_name": "Constant of Proportionality in Graphs",
+      "description": "Identify the constant of proportionality in graphs."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.C+1",
+      "display_name": "Proportional Relationship Equations",
+      "description": "Represent proportional relationships by equations. For example, if total cost t is proportional to the number n of items purchased at a constant price p, the relationship between the total cost and the number of items can be expressed as t = pn."
+    },
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.EE.B.5+1",
+      "display_name": "Constant of Proportionality",
+      "description": "Find the constant of proportionality."
+    }
+  ],
+  "standards_last_updated": "2025-10-11T19:27:24.098300",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Mathematical Function Graphs in Quadrant One",
+    "description": "This function can draw six types of mathematical function graphs: linear, quadratic, exponential, cubic, square root, and rational. It accepts inputs based on the 'GraphingFunctionQuadrantOne' class, which includes parameters for the function type and coefficients for each function. The function only plots in the first quadrant, avoiding negative x values. It also includes special handling for rational functions to avoid division by zero and to draw asymptotes for educational clarity. This function serves as a powerful tool for teaching algebra and function concepts, allowing students to visualize different types of functions and their behaviors.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "function_type: This determines the type of function to be drawn. It can be 'linear', 'quadratic', 'exponential', 'cubic', 'square_root', or 'rational'.",
+          "a, b, c, d: These are coefficients for the function. Depending on the function type, different coefficients are used. For example, a linear function uses 'a' and 'b', while a cubic function uses 'a', 'b', 'c', and 'd'."
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The x values range from 0.01 to 10, with 1000 points plotted in between. This avoids division by zero for rational functions.",
+          "The function type must be one of the six supported types. If an unsupported type is provided, the function raises a ValueError."
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function generates a 2D plot of the specified function in the first quadrant. The x-axis represents the input values, and the y-axis represents the output values of the function.",
+          "For rational functions, the function also draws dashed horizontal asymptotes for educational clarity.",
+          "The visual output varies based on the input parameters. Different function types and coefficients result in different shapes and positions of the function graph."
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
+}

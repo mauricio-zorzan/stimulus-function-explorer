@@ -1,29 +1,86 @@
 {
   "function_name": "unit_square_decomposition",
-  "description": "Creates unit square decomposition for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for unit_square_decomposition\nresult = unit_square_decomposition(data)",
-  "image_path": "images/unit_square_decomposition_example.webp",
-  "category": "general",
+  "description": "This function generates a unit square decomposition, which is a grid of squares with a certain number of them filled in to form a perfect rectangle. The dimensions of the rectangle are randomly selected from all possible factorizations of the filled_count that fit within the available space. This visualization is used for teaching mathematical concepts such as factors, area, and multiplication.",
+  "category": "arithmetic",
   "tags": [
-    "general"
+    "factors",
+    "area",
+    "multiplication",
+    "visualization"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:02:52.624561",
-  "test_data": "Generated from GitHub Actions workflow",
-  "educational_standards": [
+  "images": [
     {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.B+2",
-      "display_name": "Area",
-      "description": "Multiply fractional side lengths to find areas of rectangles."
+      "path": "images/unit_square_decomposition_1_20251011_190400.webp",
+      "filename": "unit_square_decomposition_1_20251011_190400.webp",
+      "index": 1,
+      "size": 18150
     },
+    {
+      "path": "images/unit_square_decomposition_2_20251011_190400.webp",
+      "filename": "unit_square_decomposition_2_20251011_190400.webp",
+      "index": 2,
+      "size": 15168
+    },
+    {
+      "path": "images/unit_square_decomposition_3_20251011_190400.webp",
+      "filename": "unit_square_decomposition_3_20251011_190400.webp",
+      "index": 3,
+      "size": 13050
+    },
+    {
+      "path": "images/unit_square_decomposition_4_20251011_190400.webp",
+      "filename": "unit_square_decomposition_4_20251011_190400.webp",
+      "index": 4,
+      "size": 11930
+    }
+  ],
+  "image_count": 18,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "unit_square_decomposition"
+  ],
+  "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+4",
       "display_name": "Multiply Fractions using Area Models",
       "description": "Multiply fractions using area models."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:12:16.070145"
+  "standards_last_updated": "2025-10-11T19:27:52.859485",
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Unit Square Decompositions",
+    "description": "The unit_square_decomposition function can draw a grid of unit squares with a certain number of them filled in to form a perfect rectangle. The dimensions of the rectangle are randomly selected from all possible factorizations of the filled_count that fit within the available space. The function accepts inputs such as size, filled_count, rectangle_tiles, and height. The size and filled_count are required inputs, while rectangle_tiles and height are optional. The function always leaves 2 rows at the bottom and 2 columns at the right empty. This visualization is useful for teaching mathematical concepts such as factors, area, and multiplication.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "size: The size of the grid",
+          "filled_count: The number of squares to be filled",
+          "rectangle_tiles: Optional parameter to specify the tiles of the rectangle",
+          "height: Optional parameter to specify the height of the grid"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The size and filled_count must be positive integers",
+          "The filled_count cannot exceed the area of the grid minus 2 rows and 2 columns",
+          "The rectangle_tiles and height, if provided, must be positive integers"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a grid of unit squares",
+          "A certain number of squares are filled in to form a perfect rectangle",
+          "The dimensions of the rectangle are randomly selected from all possible factorizations of the filled_count that fit within the available space",
+          "The function always leaves 2 rows at the bottom and 2 columns at the right empty"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true
 }

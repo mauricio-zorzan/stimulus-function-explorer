@@ -1,18 +1,75 @@
 {
   "function_name": "draw_composite_rectangular_triangular_grid",
-  "description": "Draws composite rectangular triangular grid for educational visualization.",
-  "parameters": {
-    "data": "Input data for the function"
-  },
-  "example_usage": "# Example usage for draw_composite_rectangular_triangular_grid\nresult = draw_composite_rectangular_triangular_grid(data)",
-  "image_path": "images/draw_composite_rectangular_triangular_grid_example.webp",
-  "category": "general",
+  "description": "This function draws a composite shape consisting of two rectangles and one triangle. It fills the shape and labels every outer edge with length labels. The function is designed to help students visualize and understand the concept of area and perimeter in geometry.",
+  "category": "geometry",
   "tags": [
-    "general"
+    "geometry",
+    "area",
+    "perimeter",
+    "visualization",
+    "shapes"
   ],
-  "status": "working",
-  "last_updated": "2025-10-06T00:05:10.852737",
-  "test_data": "Generated from GitHub Actions workflow",
+  "images": [
+    {
+      "path": "images/draw_composite_rectangular_triangular_grid_1_20251011_190400.webp",
+      "filename": "draw_composite_rectangular_triangular_grid_1_20251011_190400.webp",
+      "index": 1,
+      "size": 47508
+    },
+    {
+      "path": "images/draw_composite_rectangular_triangular_grid_2_20251011_190400.webp",
+      "filename": "draw_composite_rectangular_triangular_grid_2_20251011_190400.webp",
+      "index": 2,
+      "size": 52256
+    },
+    {
+      "path": "images/draw_composite_rectangular_triangular_grid_3_20251011_190400.webp",
+      "filename": "draw_composite_rectangular_triangular_grid_3_20251011_190400.webp",
+      "index": 3,
+      "size": 40212
+    }
+  ],
+  "image_count": 14,
+  "status": "active",
+  "last_updated": "2025-01-06T00:00:00.000000",
+  "file_patterns": [
+    "composite_rectangular_triangular_grid"
+  ],
+  "educational_level": "Elementary/Middle/High School/College",
+  "mathematical_concepts": [],
+  "stimulus_type_specification": {
+    "title": "Available Images: Composite Rectangular Triangular Grid",
+    "description": "This function can draw a composite shape that is a union of two rectangles and one triangle. It accepts inputs based on the CompositeRectangularTriangularGrid class, which includes the dimensions and positions of the rectangles and triangle. The function then merges these shapes into one continuous shape, labels the outer edges with lengths, and fills the shape. This visualization is useful in teaching geometry, particularly the concepts of area and perimeter. It can also be used to illustrate the principle of superposition in geometry.",
+    "specifications": [
+      {
+        "section": "Input Parameters",
+        "details": [
+          "The input parameters are based on the CompositeRectangularTriangularGrid class",
+          "This includes the dimensions (width and length) and positions (x and y coordinates) of two rectangles",
+          "It also includes the dimensions (base and height) and position (right-angle vertex coordinates) of one triangle",
+          "All these inputs control the size and position of the shapes that will be drawn"
+        ]
+      },
+      {
+        "section": "Constraints & Validation",
+        "details": [
+          "The dimensions and positions of the shapes must be non-negative numbers",
+          "The base and height of the triangle must be greater than zero",
+          "The width and length of the rectangles must be greater than zero",
+          "The x and y coordinates of the shapes must be within the limits of the drawing area"
+        ]
+      },
+      {
+        "section": "Visual Output",
+        "details": [
+          "The function draws a composite shape that is a union of two rectangles and one triangle",
+          "It fills the shape and labels the outer edges with lengths",
+          "The size and position of the shapes, as well as the lengths of the outer edges, are determined by the input parameters"
+        ]
+      }
+    ]
+  },
+  "ai_generated": true,
   "educational_standards": [
     {
       "external_id": "CCSS.MATH.CONTENT.7.G.B.6+1",
@@ -20,5 +77,5 @@
       "description": "Find the area of compound figures."
     }
   ],
-  "standards_last_updated": "2025-10-06T10:11:47.237283"
+  "standards_last_updated": "2025-10-11T19:27:13.285777"
 }
