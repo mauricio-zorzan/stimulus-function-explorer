@@ -1,145 +1,34 @@
 {
   "function_name": "draw_object_array",
-  "description": "This function draws an array of a specified object for educational visualization. The array is arranged in a grid format with a specified number of rows and columns. This can be used to help students understand concepts such as multiplication, area, and counting.",
-  "category": "arithmetic",
+  "description": "Draws object array for educational visualization.",
+  "category": "other",
   "tags": [
-    "array",
-    "visualization",
-    "multiplication",
-    "counting",
-    "area"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_object_array_1_20251011_190400.webp",
-      "filename": "draw_object_array_1_20251011_190400.webp",
+      "path": "images/object_array_stimulus_1768102321.webp",
+      "filename": "object_array_stimulus_1768102321.webp",
       "index": 1,
-      "size": 256180
-    },
-    {
-      "path": "images/draw_object_array_2_20251011_190400.webp",
-      "filename": "draw_object_array_2_20251011_190400.webp",
-      "index": 2,
-      "size": 54244
-    },
-    {
-      "path": "images/draw_object_array_3_20251011_190400.webp",
-      "filename": "draw_object_array_3_20251011_190400.webp",
-      "index": 3,
       "size": 428448
     },
     {
-      "path": "images/draw_object_array_4_20251011_190400.webp",
-      "filename": "draw_object_array_4_20251011_190400.webp",
-      "index": 4,
+      "path": "images/object_array_stimulus_1768102320.webp",
+      "filename": "object_array_stimulus_1768102320.webp",
+      "index": 2,
+      "size": 256180
+    },
+    {
+      "path": "images/object_array_stimulus_1768102319.webp",
+      "filename": "object_array_stimulus_1768102319.webp",
+      "index": 3,
       "size": 94286
     }
   ],
-  "image_count": 4,
+  "image_count": 3,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.685661",
   "file_patterns": [
     "object_array_stimulus"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.1.NBT.A.1+3",
-      "display_name": null,
-      "description": "Represent a number of objects with a written numeral."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.OA.C.3+1",
-      "display_name": null,
-      "description": "Determine whether a group of objects up to 20 has an odd or even number of members by pairing objects or counting by 2."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.OA.C.4+1",
-      "display_name": null,
-      "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.OA.C.4+2",
-      "display_name": null,
-      "description": "Write an equation to express the total number of objects in rectangular arrays with up to five rows and up to five columns as a sum of equal addends."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.1+3",
-      "display_name": "Understanding Multiplication With Arrays",
-      "description": "Write a multiplication equation that represents an array."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.3+1",
-      "display_name": "Multiplication and Division Word Problems",
-      "description": "Use multiplication and division within 100 to solve word problems."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.3+2",
-      "display_name": "Two-Step Multiplication Problems",
-      "description": "Solve word problems involving two step multiplication."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.4+1",
-      "display_name": "Multiplication and Division Fact Families",
-      "description": "Determine the unknown whole number in a multiplication equation relating three whole numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.4+2",
-      "display_name": null,
-      "description": "Determine the unknown whole number in a division equation relating three whole numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.B.6+2",
-      "display_name": "Find the Missing Factors up to Ten",
-      "description": "Find a missing factor for a multiplication fact."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+5",
-      "display_name": null,
-      "description": "Multiply 1-digit numbers by 4-digit numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NBT.B.5+6",
-      "display_name": "Multiplying 2-Digit Numbers by 2-Digit Numbers Using Area Models",
-      "description": "Multiply 2-digit numbers by 2-digit numbers using area models."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.OA.A.2+1",
-      "display_name": "Multiplicative Comparison: Word Problems",
-      "description": "Use multiplication or division to solve equal-groups and multiplicative-comparison problems."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:29.843064",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Object Array Visualization",
-    "description": "The draw_object_array function generates a grid of images, where the type of image and the dimensions of the grid are specified by the user. The function accepts an instance of the ObjectArray class, which includes the type of object to be drawn and the number of rows and columns for the array. The object type is selected from a predefined list of drawable items. The rows and columns must be integers between 2 and 7, inclusive. This function can be used to visually represent mathematical concepts such as multiplication, arrays, and area.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "object_name: The type of object to be arranged in the array. This is selected from a predefined list of drawable items.",
-          "rows: The number of rows in the array. This must be an integer between 2 and 7, inclusive.",
-          "columns: The number of columns in the array. This must be an integer between 2 and 7, inclusive."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The object_name must be selected from a predefined list of drawable items.",
-          "The rows and columns must be integers between 2 and 7, inclusive.",
-          "The image file for the drawable item must exist in the specified location."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a grid of images, where each cell contains the specified drawable item.",
-          "The dimensions of the grid are determined by the specified number of rows and columns.",
-          "The type of object drawn in each cell is determined by the object_name parameter."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

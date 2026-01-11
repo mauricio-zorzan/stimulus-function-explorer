@@ -1,225 +1,304 @@
 {
   "function_name": "generate_symmetry_identification_task",
-  "description": "This function generates a visual task for identifying symmetry in a given shape. It currently supports the creation of a flower shape with symmetrical petals radiating from a center point. The function is designed to help students understand the concept of symmetry in geometry.",
-  "category": "geometry",
+  "description": "Generates symmetry identification task for educational visualization.",
+  "category": "other",
   "tags": [
-    "symmetry",
-    "shapes",
-    "geometry",
-    "visualization"
+    "other"
   ],
   "images": [
     {
-      "path": "images/generate_symmetry_identification_task_1_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_1_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_all_lines_1768103173017092000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103173017092000.webp",
       "index": 1,
-      "size": 66186
+      "size": 2868
     },
     {
-      "path": "images/generate_symmetry_identification_task_2_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_2_20251011_190400.webp",
+      "path": "images/symmetry_identification_heart_1_lines_1768103161128958000.webp",
+      "filename": "symmetry_identification_heart_1_lines_1768103161128958000.webp",
       "index": 2,
-      "size": 24338
+      "size": 31454
     },
     {
-      "path": "images/generate_symmetry_identification_task_3_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_3_20251011_190400.webp",
+      "path": "images/symmetry_identification_diamond_1_lines_1768103160565781000.webp",
+      "filename": "symmetry_identification_diamond_1_lines_1768103160565781000.webp",
       "index": 3,
-      "size": 25996
+      "size": 27246
     },
     {
-      "path": "images/generate_symmetry_identification_task_4_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_4_20251011_190400.webp",
+      "path": "images/symmetry_identification_heart_1_lines_1768103160957908000.webp",
+      "filename": "symmetry_identification_heart_1_lines_1768103160957908000.webp",
       "index": 4,
-      "size": 81458
+      "size": 35958
     },
     {
-      "path": "images/generate_symmetry_identification_task_5_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_5_20251011_190400.webp",
+      "path": "images/symmetry_identification_football_1_lines_1768103163260818000.webp",
+      "filename": "symmetry_identification_football_1_lines_1768103163260818000.webp",
       "index": 5,
-      "size": 23002
+      "size": 20134
     },
     {
-      "path": "images/generate_symmetry_identification_task_6_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_6_20251011_190400.webp",
+      "path": "images/symmetry_identification_sun_1_lines_1768103160077817000.webp",
+      "filename": "symmetry_identification_sun_1_lines_1768103160077817000.webp",
       "index": 6,
-      "size": 38024
+      "size": 38896
     },
     {
-      "path": "images/generate_symmetry_identification_task_7_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_7_20251011_190400.webp",
+      "path": "images/symmetry_identification_heart_outline_all_lines_1768103171715813000.webp",
+      "filename": "symmetry_identification_heart_outline_all_lines_1768103171715813000.webp",
       "index": 7,
-      "size": 81352
+      "size": 3472
     },
     {
-      "path": "images/generate_symmetry_identification_task_8_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_8_20251011_190400.webp",
+      "path": "images/symmetry_identification_sun_no_lines_1768103163895403000.webp",
+      "filename": "symmetry_identification_sun_no_lines_1768103163895403000.webp",
       "index": 8,
-      "size": 40248
+      "size": 33426
     },
     {
-      "path": "images/generate_symmetry_identification_task_9_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_9_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_1_lines_1768103162576420000.webp",
+      "filename": "symmetry_identification_polygon_1_lines_1768103162576420000.webp",
       "index": 9,
-      "size": 87914
+      "size": 15848
     },
     {
-      "path": "images/generate_symmetry_identification_task_10_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_10_20251011_190400.webp",
+      "path": "images/symmetry_identification_football_no_lines_1768103164967319000.webp",
+      "filename": "symmetry_identification_football_no_lines_1768103164967319000.webp",
       "index": 10,
-      "size": 17088
+      "size": 16082
     },
     {
-      "path": "images/generate_symmetry_identification_task_11_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_11_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_all_lines_1768103172818424000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103172818424000.webp",
       "index": 11,
-      "size": 77110
+      "size": 3084
     },
     {
-      "path": "images/generate_symmetry_identification_task_12_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_12_20251011_190400.webp",
+      "path": "images/symmetry_identification_wheel_1_lines_1768103161587682000.webp",
+      "filename": "symmetry_identification_wheel_1_lines_1768103161587682000.webp",
       "index": 12,
-      "size": 38024
+      "size": 50240
     },
     {
-      "path": "images/generate_symmetry_identification_task_13_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_13_20251011_190400.webp",
+      "path": "images/symmetry_identification_house_no_lines_1768103164382685000.webp",
+      "filename": "symmetry_identification_house_no_lines_1768103164382685000.webp",
       "index": 13,
-      "size": 17382
+      "size": 15724
     },
     {
-      "path": "images/generate_symmetry_identification_task_14_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_14_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_1_lines_1768103162438264000.webp",
+      "filename": "symmetry_identification_polygon_1_lines_1768103162438264000.webp",
       "index": 14,
-      "size": 39098
+      "size": 22260
     },
     {
-      "path": "images/generate_symmetry_identification_task_15_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_15_20251011_190400.webp",
+      "path": "images/symmetry_identification_wheel_no_lines_1768103164536881000.webp",
+      "filename": "symmetry_identification_wheel_no_lines_1768103164536881000.webp",
       "index": 15,
-      "size": 18754
+      "size": 67362
     },
     {
-      "path": "images/generate_symmetry_identification_task_16_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_16_20251011_190400.webp",
+      "path": "images/symmetry_identification_diamond_no_lines_1768103164098842000.webp",
+      "filename": "symmetry_identification_diamond_no_lines_1768103164098842000.webp",
       "index": 16,
-      "size": 37228
+      "size": 20720
     },
     {
-      "path": "images/generate_symmetry_identification_task_17_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_17_20251011_190400.webp",
+      "path": "images/symmetry_identification_sun_1_lines_1768103160410873000.webp",
+      "filename": "symmetry_identification_sun_1_lines_1768103160410873000.webp",
       "index": 17,
-      "size": 32362
+      "size": 33426
     },
     {
-      "path": "images/generate_symmetry_identification_task_18_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_18_20251011_190400.webp",
+      "path": "images/symmetry_identification_sun_1_lines_1768103160243504000.webp",
+      "filename": "symmetry_identification_sun_1_lines_1768103160243504000.webp",
       "index": 18,
-      "size": 25060
+      "size": 38858
     },
     {
-      "path": "images/generate_symmetry_identification_task_19_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_19_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_1_lines_1768103162698825000.webp",
+      "filename": "symmetry_identification_polygon_1_lines_1768103162698825000.webp",
       "index": 19,
-      "size": 35900
+      "size": 23842
     },
     {
-      "path": "images/generate_symmetry_identification_task_20_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_20_20251011_190400.webp",
+      "path": "images/symmetry_identification_house_1_lines_1768103165559083000.webp",
+      "filename": "symmetry_identification_house_1_lines_1768103165559083000.webp",
       "index": 20,
-      "size": 25996
+      "size": 15724
     },
     {
-      "path": "images/generate_symmetry_identification_task_21_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_21_20251011_190400.webp",
+      "path": "images/symmetry_identification_flower_1_lines_1768103159917976000.webp",
+      "filename": "symmetry_identification_flower_1_lines_1768103159917976000.webp",
       "index": 21,
-      "size": 19250
+      "size": 38746
     },
     {
-      "path": "images/generate_symmetry_identification_task_22_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_22_20251011_190400.webp",
+      "path": "images/symmetry_identification_heart_no_lines_1768103164225670000.webp",
+      "filename": "symmetry_identification_heart_no_lines_1768103164225670000.webp",
       "index": 22,
-      "size": 75834
+      "size": 31454
     },
     {
-      "path": "images/generate_symmetry_identification_task_23_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_23_20251011_190400.webp",
+      "path": "images/symmetry_identification_diamond_1_lines_1768103160827841000.webp",
+      "filename": "symmetry_identification_diamond_1_lines_1768103160827841000.webp",
       "index": 23,
-      "size": 11128
+      "size": 20720
     },
     {
-      "path": "images/generate_symmetry_identification_task_24_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_24_20251011_190400.webp",
+      "path": "images/symmetry_identification_football_1_lines_1768103161449206000.webp",
+      "filename": "symmetry_identification_football_1_lines_1768103161449206000.webp",
       "index": 24,
-      "size": 78922
+      "size": 20134
     },
     {
-      "path": "images/generate_symmetry_identification_task_25_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_25_20251011_190400.webp",
+      "path": "images/symmetry_identification_wheel_1_lines_1768103162122216000.webp",
+      "filename": "symmetry_identification_wheel_1_lines_1768103162122216000.webp",
       "index": 25,
-      "size": 39098
+      "size": 71800
     },
     {
-      "path": "images/generate_symmetry_identification_task_26_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_26_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_all_lines_1768103171946669000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103171946669000.webp",
       "index": 26,
-      "size": 37696
+      "size": 5570
     },
     {
-      "path": "images/generate_symmetry_identification_task_27_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_27_20251011_190400.webp",
+      "path": "images/symmetry_identification_polygon_1_lines_1768103162830976000.webp",
+      "filename": "symmetry_identification_polygon_1_lines_1768103162830976000.webp",
       "index": 27,
-      "size": 19250
+      "size": 30770
     },
     {
-      "path": "images/generate_symmetry_identification_task_28_20251011_190400.webp",
-      "filename": "generate_symmetry_identification_task_28_20251011_190400.webp",
+      "path": "images/symmetry_identification_football_1_lines_1768103163127065000.webp",
+      "filename": "symmetry_identification_football_1_lines_1768103163127065000.webp",
       "index": 28,
-      "size": 33790
+      "size": 19206
+    },
+    {
+      "path": "images/symmetry_identification_flower_1_lines_1768103159748879000.webp",
+      "filename": "symmetry_identification_flower_1_lines_1768103159748879000.webp",
+      "index": 29,
+      "size": 38746
+    },
+    {
+      "path": "images/symmetry_identification_polygon_all_lines_1768103165806354000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103165806354000.webp",
+      "index": 30,
+      "size": 42082
+    },
+    {
+      "path": "images/symmetry_identification_heart_1_lines_1768103165411917000.webp",
+      "filename": "symmetry_identification_heart_1_lines_1768103165411917000.webp",
+      "index": 31,
+      "size": 31454
+    },
+    {
+      "path": "images/symmetry_identification_house_1_lines_1768103161286544000.webp",
+      "filename": "symmetry_identification_house_1_lines_1768103161286544000.webp",
+      "index": 32,
+      "size": 19626
+    },
+    {
+      "path": "images/symmetry_identification_sun_1_lines_1768103165250365000.webp",
+      "filename": "symmetry_identification_sun_1_lines_1768103165250365000.webp",
+      "index": 33,
+      "size": 33426
+    },
+    {
+      "path": "images/symmetry_identification_wheel_1_lines_1768103161933094000.webp",
+      "filename": "symmetry_identification_wheel_1_lines_1768103161933094000.webp",
+      "index": 34,
+      "size": 71988
+    },
+    {
+      "path": "images/symmetry_identification_star_outline_all_lines_1768103172589459000.webp",
+      "filename": "symmetry_identification_star_outline_all_lines_1768103172589459000.webp",
+      "index": 35,
+      "size": 2986
+    },
+    {
+      "path": "images/symmetry_identification_polygon_all_lines_1768103172175759000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103172175759000.webp",
+      "index": 36,
+      "size": 6748
+    },
+    {
+      "path": "images/symmetry_identification_hexagon_all_lines_1768103172418122000.webp",
+      "filename": "symmetry_identification_hexagon_all_lines_1768103172418122000.webp",
+      "index": 37,
+      "size": 9950
+    },
+    {
+      "path": "images/symmetry_identification_polygon_1_lines_1768103162991820000.webp",
+      "filename": "symmetry_identification_polygon_1_lines_1768103162991820000.webp",
+      "index": 38,
+      "size": 8222
+    },
+    {
+      "path": "images/symmetry_identification_flower_1_lines_1768103159580410000.webp",
+      "filename": "symmetry_identification_flower_1_lines_1768103159580410000.webp",
+      "index": 39,
+      "size": 38746
+    },
+    {
+      "path": "images/symmetry_identification_diamond_1_lines_1768103162293583000.webp",
+      "filename": "symmetry_identification_diamond_1_lines_1768103162293583000.webp",
+      "index": 40,
+      "size": 27246
+    },
+    {
+      "path": "images/symmetry_identification_bell_all_lines_1768103165942464000.webp",
+      "filename": "symmetry_identification_bell_all_lines_1768103165942464000.webp",
+      "index": 41,
+      "size": 27324
+    },
+    {
+      "path": "images/symmetry_identification_football_1_lines_1768103163378496000.webp",
+      "filename": "symmetry_identification_football_1_lines_1768103163378496000.webp",
+      "index": 42,
+      "size": 16082
+    },
+    {
+      "path": "images/symmetry_identification_wheel_1_lines_1768103161751776000.webp",
+      "filename": "symmetry_identification_wheel_1_lines_1768103161751776000.webp",
+      "index": 43,
+      "size": 67362
+    },
+    {
+      "path": "images/symmetry_identification_flower_1_lines_1768103165089843000.webp",
+      "filename": "symmetry_identification_flower_1_lines_1768103165089843000.webp",
+      "index": 44,
+      "size": 38746
+    },
+    {
+      "path": "images/symmetry_identification_flower_no_lines_1768103163695386000.webp",
+      "filename": "symmetry_identification_flower_no_lines_1768103163695386000.webp",
+      "index": 45,
+      "size": 38746
+    },
+    {
+      "path": "images/symmetry_identification_polygon_all_lines_1768103165692553000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103165692553000.webp",
+      "index": 46,
+      "size": 15816
+    },
+    {
+      "path": "images/symmetry_identification_polygon_all_lines_1768103173219264000.webp",
+      "filename": "symmetry_identification_polygon_all_lines_1768103173219264000.webp",
+      "index": 47,
+      "size": 3676
+    },
+    {
+      "path": "images/symmetry_identification_diamond_1_lines_1768103160699576000.webp",
+      "filename": "symmetry_identification_diamond_1_lines_1768103160699576000.webp",
+      "index": 48,
+      "size": 25320
     }
   ],
-  "image_count": 125,
+  "image_count": 48,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.696801",
   "file_patterns": [
     "symmetry_identification"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.G.A.3+2",
-      "display_name": null,
-      "description": "Identify whether a dotted line across a shape is a line of symmetry."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:45.925314",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Symmetry Identification Tasks",
-    "description": "The function can draw a symmetrical flower shape with a specified number of petals. The shape is drawn with matplotlib patches, with each petal represented as an elongated ellipse radiating from the center of the flower. The function accepts a stimulus description object that specifies the type of shape to be drawn. Currently, the only supported shape type is 'flower'. The function is designed to be used in educational settings, where students are asked to identify lines of symmetry in the generated shape.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "shape_type: This input controls the type of shape to be drawn. Currently, the only supported value is 'flower'."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The shape_type field must be a string and must be 'flower'.",
-          "The function does not currently support any other shape types."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a symmetrical flower shape with eight petals radiating from a center point.",
-          "The petals are drawn as elongated ellipses, and the center of the flower is drawn as a circle.",
-          "The shape is drawn on a matplotlib figure with a white background."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

@@ -1,87 +1,29 @@
 {
   "function_name": "generate_multiple_grids",
-  "description": "This function generates multiple unit square grids in the same picture for comparison, which can be used for teaching area comparison, perimeter comparison, and unit understanding. It supports up to 5 grids, each with different dimensions, and can create both regular and irregular grids.",
-  "category": "geometry",
+  "description": "Generates multiple grids for educational visualization.",
+  "category": "other",
   "tags": [
-    "grids",
-    "geometry",
-    "comparison",
-    "area",
-    "perimeter",
-    "units"
+    "multiple",
+    "other"
   ],
   "images": [
     {
-      "path": "images/generate_multiple_grids_1_20251011_190400.webp",
-      "filename": "generate_multiple_grids_1_20251011_190400.webp",
+      "path": "images/multiple_grids_1768102661.webp",
+      "filename": "multiple_grids_1768102661.webp",
       "index": 1,
-      "size": 49090
+      "size": 25740
     },
     {
-      "path": "images/generate_multiple_grids_2_20251011_190400.webp",
-      "filename": "generate_multiple_grids_2_20251011_190400.webp",
+      "path": "images/multiple_grids_1768102662.webp",
+      "filename": "multiple_grids_1768102662.webp",
       "index": 2,
-      "size": 32508
-    },
-    {
-      "path": "images/generate_multiple_grids_3_20251011_190400.webp",
-      "filename": "generate_multiple_grids_3_20251011_190400.webp",
-      "index": 3,
-      "size": 33728
-    },
-    {
-      "path": "images/generate_multiple_grids_4_20251011_190400.webp",
-      "filename": "generate_multiple_grids_4_20251011_190400.webp",
-      "index": 4,
-      "size": 38096
+      "size": 49568
     }
   ],
-  "image_count": 16,
+  "image_count": 2,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.683995",
   "file_patterns": [
     "multiple_grids"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.D.8+7",
-      "display_name": "Figures with the Same Area",
-      "description": "Given multiple shapes, determine which shapes have the same area."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:40.853352",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Multiple Grids for Comparison",
-    "description": "The 'generate_multiple_grids' function can draw multiple unit square grids in the same picture. It accepts a 'MultipleGrids' object as input, which contains a list of 'Grid' objects and an 'irregularity' setting. Each 'Grid' object specifies the length and width of the grid. The 'irregularity' setting determines whether the grids are regular, irregular, or a mix of both. The function can draw up to 5 grids, each with different dimensions. It is useful for teaching concepts related to area comparison, perimeter comparison, and unit understanding.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "'data': A 'MultipleGrids' object that contains a list of 'Grid' objects and an 'irregularity' setting.",
-          "'Grid': An object that specifies the length and width of a grid. Each 'Grid' object represents one grid to be drawn.",
-          "'irregularity': A setting that determines whether the grids are regular, irregular, or a mix of both."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "At least one grid must be provided.",
-          "The function can draw up to 5 grids.",
-          "Each grid must have a length and a width.",
-          "The 'irregularity' setting must be one of the following: 'all_regular', 'all_irregular', 'mixed'."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws multiple unit square grids in the same picture.",
-          "Each grid is drawn with its own dimensions.",
-          "The grids can be regular, irregular, or a mix of both, depending on the 'irregularity' setting."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

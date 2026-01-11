@@ -1,0 +1,15 @@
+{
+  "function_name": "draw_input_output_machines",
+  "description": "Draws input output machines for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T09:56:00.437224",
+  "file_patterns": [
+    "io_machines"
+  ]
+}

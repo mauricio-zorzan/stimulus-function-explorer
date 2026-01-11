@@ -1,0 +1,100 @@
+{
+  "function_name": "draw_fraction_strips",
+  "description": "Draws fraction strips for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "images": [
+    {
+      "path": "images/1768102455_fraction_strips.webp",
+      "filename": "1768102455_fraction_strips.webp",
+      "index": 1,
+      "size": 87406
+    },
+    {
+      "path": "images/1768102463_fraction_strips_new.webp",
+      "filename": "1768102463_fraction_strips_new.webp",
+      "index": 2,
+      "size": 5778
+    },
+    {
+      "path": "images/1768102462_fraction_strips_new.webp",
+      "filename": "1768102462_fraction_strips_new.webp",
+      "index": 3,
+      "size": 2340
+    },
+    {
+      "path": "images/1768102454_fraction_strips.webp",
+      "filename": "1768102454_fraction_strips.webp",
+      "index": 4,
+      "size": 81734
+    },
+    {
+      "path": "images/1768102451_fraction_strips.webp",
+      "filename": "1768102451_fraction_strips.webp",
+      "index": 5,
+      "size": 61460
+    },
+    {
+      "path": "images/1768102458_fraction_strips.webp",
+      "filename": "1768102458_fraction_strips.webp",
+      "index": 6,
+      "size": 89290
+    },
+    {
+      "path": "images/1768102460_fraction_strips.webp",
+      "filename": "1768102460_fraction_strips.webp",
+      "index": 7,
+      "size": 104936
+    },
+    {
+      "path": "images/1768102452_fraction_strips.webp",
+      "filename": "1768102452_fraction_strips.webp",
+      "index": 8,
+      "size": 89866
+    },
+    {
+      "path": "images/1768102457_fraction_strips.webp",
+      "filename": "1768102457_fraction_strips.webp",
+      "index": 9,
+      "size": 78854
+    },
+    {
+      "path": "images/1768102453_fraction_strips.webp",
+      "filename": "1768102453_fraction_strips.webp",
+      "index": 10,
+      "size": 86260
+    },
+    {
+      "path": "images/1768102456_fraction_strips.webp",
+      "filename": "1768102456_fraction_strips.webp",
+      "index": 11,
+      "size": 64328
+    },
+    {
+      "path": "images/1768102461_fraction_strips.webp",
+      "filename": "1768102461_fraction_strips.webp",
+      "index": 12,
+      "size": 209096
+    },
+    {
+      "path": "images/1768102463_fraction_strips_WE.webp",
+      "filename": "1768102463_fraction_strips_WE.webp",
+      "index": 13,
+      "size": 1640
+    },
+    {
+      "path": "images/1768102459_fraction_strips.webp",
+      "filename": "1768102459_fraction_strips.webp",
+      "index": 14,
+      "size": 63638
+    }
+  ],
+  "image_count": 14,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.640085",
+  "file_patterns": [
+    "fraction_strips"
+  ]
+}

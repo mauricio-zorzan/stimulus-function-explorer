@@ -1,0 +1,40 @@
+{
+  "function_name": "draw_triangle_classification",
+  "description": "Draws triangle classification for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/triangle_classification_1768102673.webp",
+      "filename": "triangle_classification_1768102673.webp",
+      "index": 1,
+      "size": 233440
+    },
+    {
+      "path": "images/triangle_classification_1768102672.webp",
+      "filename": "triangle_classification_1768102672.webp",
+      "index": 2,
+      "size": 70896
+    },
+    {
+      "path": "images/triangle_classification_1768102671.webp",
+      "filename": "triangle_classification_1768102671.webp",
+      "index": 3,
+      "size": 152092
+    },
+    {
+      "path": "images/triangle_classification_1768102670.webp",
+      "filename": "triangle_classification_1768102670.webp",
+      "index": 4,
+      "size": 140716
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.703307",
+  "file_patterns": [
+    "triangle_classification"
+  ]
+}

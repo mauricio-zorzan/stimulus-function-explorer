@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_tenths_fractional_comparison_single",
+  "description": "Draws tenths fractional comparison single for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions",
+    "comparison"
+  ],
+  "images": [
+    {
+      "path": "images/tenths_fractional_comparison_single_1768102477.webp",
+      "filename": "tenths_fractional_comparison_single_1768102477.webp",
+      "index": 1,
+      "size": 7924
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.700552",
+  "file_patterns": [
+    "tenths_fractional_comparison_single"
+  ]
+}

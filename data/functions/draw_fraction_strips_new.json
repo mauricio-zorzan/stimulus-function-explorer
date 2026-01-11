@@ -1,0 +1,28 @@
+{
+  "function_name": "draw_fraction_strips_new",
+  "description": "Draws fraction strips new for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "images": [
+    {
+      "path": "images/1768102463_fraction_strips_new.webp",
+      "filename": "1768102463_fraction_strips_new.webp",
+      "index": 1,
+      "size": 5778
+    },
+    {
+      "path": "images/1768102462_fraction_strips_new.webp",
+      "filename": "1768102462_fraction_strips_new.webp",
+      "index": 2,
+      "size": 2340
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.640920",
+  "file_patterns": [
+    "fraction_strips_new"
+  ]
+}

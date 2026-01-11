@@ -1,72 +1,22 @@
 {
   "function_name": "draw_base_ten_blocks_grid",
-  "description": "This function draws a grid of base ten blocks, which are used to visually represent numbers in the base-10 number system. The blocks are arranged in a grid with a maximum of two columns and three rows. This visualization helps students understand place value and number composition in a concrete, visual way.",
-  "category": "arithmetic",
+  "description": "Draws base ten blocks grid for educational visualization.",
+  "category": "base_ten",
   "tags": [
-    "base_ten_blocks",
-    "number_representation",
-    "place_value",
-    "math_visualization"
+    "base_ten"
   ],
   "images": [
     {
-      "path": "images/draw_base_ten_blocks_grid_1_20251011_190400.webp",
-      "filename": "draw_base_ten_blocks_grid_1_20251011_190400.webp",
+      "path": "images/base_ten_blocks_grid_1768102115.webp",
+      "filename": "base_ten_blocks_grid_1768102115.webp",
       "index": 1,
-      "size": 73532
-    },
-    {
-      "path": "images/draw_base_ten_blocks_grid_2_20251011_190400.webp",
-      "filename": "draw_base_ten_blocks_grid_2_20251011_190400.webp",
-      "index": 2,
       "size": 88964
     }
   ],
-  "image_count": 9,
+  "image_count": 1,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.600387",
   "file_patterns": [
     "base_ten_blocks_grid"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Base Ten Blocks Grid",
-    "description": "The draw_base_ten_blocks_grid function generates a grid of base ten blocks, which can be used to visually represent any number from 1 to 600. The function accepts an instance of the BaseTenBlockGridStimulus class as input, which specifies the number of blocks and their value. The function is constrained to a maximum of 6 blocks, arranged in a grid of 2 columns and 3 rows. This visualization is particularly useful in teaching concepts of place value and number composition in elementary mathematics.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "stimulus: An instance of the BaseTenBlockGridStimulus class, which specifies the number of blocks and their value.",
-          "count: The number of blocks to be drawn. This controls the number of blocks displayed in the visualization.",
-          "block_value: The value of each block. This controls the size and type of each block in the visualization."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The number of blocks (count) must be between 1 and 6.",
-          "The value of each block (block_value) must be a positive integer.",
-          "The total value (count * block_value) must not exceed 600."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a grid of base ten blocks, with a maximum of 2 columns and 3 rows.",
-          "The size and type of each block is determined by the block_value input.",
-          "The number of blocks is determined by the count input."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true,
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NBT.B.7+5",
-      "display_name": "Divide Decimals Using Blocks",
-      "description": "Add, subtract, multiply, and divide decimals"
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:09.552963"
+  ]
 }

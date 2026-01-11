@@ -1,0 +1,26 @@
+{
+  "function_name": "draw_repeated_geometric_figures",
+  "description": "Draws repeated geometric figures for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T10:02:49.069663",
+  "file_patterns": [
+    "repeated_geo"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.B+2",
+      "display_name": "Multiply Fractions by Whole Numbers Using Models",
+      "description": "Complete multiplication equations that multiply fractions by whole numbers using models.",
+      "stimulus_type_specifications": [
+        "Renders identical geometric figures, each divided into equal parts with some sections shaded.\n\n**Schema (STRICT - exactly 3 fields):**\n```json\n{\"count\": 3, \"divisions\": 5, \"shaded_parts\": 2}\n```\n\n| Field | Type | Description | Constraints |\n|-------|------|-------------|-------------|\n| `count` | int | Number of figures | 2\u20134 |\n| `divisions` | int | Parts per figure (denominator) | 2, 3, 4, 5, 6, 8, 10, 12 |\n| `shaded_parts` | int | Shaded parts per figure (numerator) | < `divisions` |\n\n**Shape is auto-inferred from `divisions`:**\n\n| Divisions | Shape |\n|-----------|-------|\n| 2 | Circle/Rectangle |\n| 3 | Triangle |\n| 4 | Rectangle |\n| 5 | Pentagon |\n| 6 | Hexagon |\n| 8 | Octagon |\n| 10 | Decagon |\n| 12 | Circle |\n\n* **DO NOT** include a `shape` field.\n* Returns filesystem path to generated image."
+      ]
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:22:33.481423"
+}

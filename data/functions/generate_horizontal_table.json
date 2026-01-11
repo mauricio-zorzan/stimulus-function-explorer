@@ -1,0 +1,13 @@
+{
+  "function_name": "generate_horizontal_table",
+  "description": "Generates horizontal table for educational visualization.",
+  "category": "tables",
+  "tags": [
+    "tables"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.314623",
+  "file_patterns": []
+}

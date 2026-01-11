@@ -3,6 +3,9 @@ New Streamlit app using file-based function data for instant loading.
 """
 
 import json
+import os
+import subprocess
+import sys
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -61,7 +64,7 @@ class FunctionDataManager:
         self.images_dir = self.data_dir / "images"
         self.index_file = self.data_dir / "index.json"
 
-    @st.cache_data(ttl=3600)  # Cache for 1 hour
+    @st.cache_data(ttl=30)  # Cache for 30 seconds (reduced for faster updates after sync)
     def load_index(_self) -> Dict:
         """Load the master index file with caching."""
         if not _self.index_file.exists():
@@ -75,28 +78,37 @@ class FunctionDataManager:
             st.info("Creating a fresh index...")
             return {"metadata": {"total_functions": 0}, "functions": []}
 
+    @st.cache_data(ttl=30)  # Cache for 30 seconds (reduced for faster updates)
+    def _load_function_data_cached(_self, function_name: str) -> Optional[Dict]:
+        """Cached version of load_function_data for internal use."""
+        function_file = _self.functions_dir / f"{function_name}.json"
+        
+        if not function_file.exists():
+            return None
+        
+        try:
+            with open(function_file, "r") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, Exception):
+            return None
+    
     def load_function_data(
         self, function_name: str, show_errors: bool = True
     ) -> Optional[Dict]:
         """Load data for a specific function."""
-        function_file = self.functions_dir / f"{function_name}.json"
-
-        if not function_file.exists():
+        # Use cached version for better performance
+        data = self._load_function_data_cached(function_name)
+        
+        if data is None:
             if show_errors:
-                st.error(f"Function file not found: {function_file}")
+                function_file = self.functions_dir / f"{function_name}.json"
+                if not function_file.exists():
+                    st.error(f"Function file not found: {function_file}")
+                else:
+                    st.error(f"Error loading function data for {function_name}")
             return None
-
-        try:
-            with open(function_file, "r") as f:
-                return json.load(f)
-        except json.JSONDecodeError as e:
-            if show_errors:
-                st.error(f"Error parsing JSON for {function_name}: {e}")
-            return None
-        except Exception:
-            if show_errors:
-                st.error(f"Error loading function data for {function_name}")
-            return None
+        
+        return data
 
     def search_functions(self, query: str) -> List[Dict]:
         """Search functions by name, category, tags, description, or educational standards."""
@@ -341,8 +353,17 @@ def display_search_results(functions: List[Dict], search_type: str):
 
             # Try new format first (images array)
             images = func.get("images", [])
+            image_path = ""
+            
+            # Extract image path from images array
             if images and len(images) > 0:
-                image_path = images[0].get("path", "")
+                # Get the first image
+                first_image = images[0]
+                if isinstance(first_image, dict):
+                    image_path = first_image.get("path", "")
+                elif isinstance(first_image, str):
+                    # If images is a list of strings (old format)
+                    image_path = first_image
             else:
                 # Fallback to old format
                 image_path = func.get("image_path", "")
@@ -423,6 +444,7 @@ def display_educational_standards(function_data: Dict):
                 external_id = standard["external_id"]
                 display_name = standard["display_name"]
                 description = standard["description"]
+                specifications = standard.get("stimulus_type_specifications", [])
 
                 # Create a clean display for each standard
                 with st.container():
@@ -435,6 +457,14 @@ def display_educational_standards(function_data: Dict):
                         st.write(f"**{display_name}**")
                         if description and description.strip():
                             st.caption(description)
+                    
+                    # Display stimulus type specifications if available
+                    if specifications:
+                        st.write("**Stimulus Type Specifications:**")
+                        for j, spec in enumerate(specifications, 1):
+                            with st.expander(f"📋 Specification {j}", expanded=False):
+                                # Display as markdown
+                                st.markdown(spec)
 
                     if i < len(standards) - 1:  # Add separator between standards
                         st.divider()
@@ -481,6 +511,224 @@ def generate_plain_text_specification(stimulus_spec: Dict) -> str:
         lines.append(educational_purpose)
 
     return "\n".join(lines)
+
+
+def sync_repo_and_functions():
+    """Sync repository, functions, and images from GitHub repository."""
+    import subprocess
+    
+    st.info("🔄 Syncing repository, functions, and images...")
+    
+    # Create a status container
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    
+    try:
+        # Step 1: Sync the repository first
+        status_text.text("Syncing coach-bot repository...")
+        progress_bar.progress(10)
+        
+        sync_script = Path("sync_coach_bot.sh")
+        if not sync_script.exists():
+            st.error("❌ sync_coach_bot.sh not found!")
+            st.info("Please run ./setup_repo_without_token.sh first to set up the repository")
+            return False
+        
+        # Run the sync script
+        try:
+            result = subprocess.run(
+                ["bash", str(sync_script)],
+                capture_output=True,
+                text=True,
+                timeout=60,
+                cwd=Path.cwd()
+            )
+            
+            if result.returncode == 0:
+                st.success("✅ Repository synced successfully")
+                if result.stdout:
+                    st.code(result.stdout, language="text")
+            else:
+                st.warning(f"⚠️ Repository sync had issues: {result.stderr}")
+                if result.stdout:
+                    st.code(result.stdout, language="text")
+        except subprocess.TimeoutExpired:
+            st.warning("⚠️ Repository sync timed out")
+        except Exception as e:
+            st.warning(f"⚠️ Could not sync repository: {e}")
+            st.info("Continuing with existing repository state...")
+        
+        # Step 2: Auto-update mapping from repository
+        status_text.text("Extracting filename patterns from repository functions...")
+        progress_bar.progress(30)
+        
+        # Import the retriever class
+        from retrieve_function_images import FunctionImageRetriever
+        
+        github_token = os.getenv("GITHUB_TOKEN")
+        retriever = FunctionImageRetriever(github_token=github_token)
+        
+        # Auto-update mapping before syncing
+        new_mapping = retriever.auto_generate_mapping()
+        if new_mapping:
+            retriever.update_mapping_file(new_mapping, merge=True)
+            # Reload mapping after update
+            retriever.mapping = retriever.load_mapping()
+            retriever.reverse_mapping = retriever.create_reverse_mapping()
+            st.success(f"✅ Updated mapping with {len(new_mapping)} patterns from repository")
+        
+        # Step 3: Sync images from test files
+        status_text.text("Scanning test files and images...")
+        progress_bar.progress(60)
+        success = retriever.run_test_images_scan()
+        if not success:
+            st.warning("⚠️ Test images scan failed. Make sure tests have been run to generate images.")
+            st.info("💡 Run the tests in coach-bot-repo to generate test images")
+        
+        progress_bar.progress(95)
+        
+        if success:
+            # Clear all caches to refresh data
+            FunctionDataManager.load_index.clear()
+            # Create a temporary instance to clear the function data cache
+            temp_data_manager = FunctionDataManager()
+            temp_data_manager._load_function_data_cached.clear()
+            
+            progress_bar.progress(100)
+            status_text.text("✅ Sync completed successfully!")
+            
+            st.success("✅ Repository, functions, and images synced successfully!")
+            st.info("🔄 Refreshing page to show updated data...")
+            
+            # Rerun to show updated data
+            st.rerun()
+        else:
+            progress_bar.progress(100)
+            status_text.text("❌ Sync completed with errors")
+            st.error("❌ Sync completed with errors. Check the logs for details.")
+        
+        return success
+        
+    except Exception as e:
+        st.error(f"❌ Error during sync: {e}")
+        import traceback
+        st.code(traceback.format_exc(), language="python")
+        return False
+
+
+def sync_standards():
+    """Sync educational standards from database."""
+    st.info("🔄 Syncing educational standards from database...")
+    
+    # Create a status container
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    
+    try:
+        # Update educational standards from database
+        status_text.text("Updating educational standards from database...")
+        progress_bar.progress(10)
+        
+        try:
+            from update_function_standards import update_all_standards
+            
+            def progress_cb(progress):
+                progress_bar.progress(progress)
+            
+            def status_cb(message):
+                status_text.text(message)
+            
+            standards_success = update_all_standards(
+                progress_callback=progress_cb,
+                status_callback=status_cb
+            )
+            
+            if standards_success:
+                progress_bar.progress(100)
+                status_text.text("✅ Standards updated successfully!")
+                st.success("✅ Standards updated successfully!")
+                
+                # Clear caches to refresh data
+                FunctionDataManager.load_index.clear()
+                temp_data_manager = FunctionDataManager()
+                temp_data_manager._load_function_data_cached.clear()
+                
+                st.info("🔄 Refreshing page to show updated data...")
+                st.rerun()
+            else:
+                progress_bar.progress(100)
+                status_text.text("⚠️ Standards update skipped or had issues")
+                st.warning("⚠️ Standards update skipped or had issues")
+                return False
+        except Exception as e:
+            st.warning(f"⚠️ Could not update standards: {e}")
+            import traceback
+            st.code(traceback.format_exc(), language="python")
+            return False
+        
+        return standards_success
+        
+    except Exception as e:
+        st.error(f"❌ Error during standards sync: {e}")
+        import traceback
+        st.code(traceback.format_exc(), language="python")
+        return False
+            
+    except ImportError:
+        # Fallback: run as subprocess if import fails
+        status_text.text("Running sync script...")
+        progress_bar.progress(50)
+        
+        try:
+            result = subprocess.run(
+                [sys.executable, "retrieve_function_images.py", "--mode", mode],
+                capture_output=True,
+                text=True,
+                timeout=300,  # 5 minute timeout
+            )
+            
+            progress_bar.progress(90)
+            
+            if result.returncode == 0:
+                # Clear cache
+                FunctionDataManager.load_index.clear()
+                
+                progress_bar.progress(100)
+                status_text.text("✅ Sync completed successfully!")
+                
+                st.success("✅ Functions and images synced successfully!")
+                st.info("🔄 Refreshing page to show updated data...")
+                
+                # Show output if available
+                if result.stdout:
+                    with st.expander("📋 Sync Details", expanded=False):
+                        st.code(result.stdout)
+                
+                st.rerun()
+            else:
+                progress_bar.progress(100)
+                status_text.text("❌ Sync failed")
+                st.error("❌ Sync failed. Check the error details below.")
+                
+                if result.stderr:
+                    st.error(f"Error: {result.stderr}")
+                if result.stdout:
+                    with st.expander("📋 Sync Output", expanded=True):
+                        st.code(result.stdout)
+                        
+        except subprocess.TimeoutExpired:
+            progress_bar.progress(100)
+            status_text.text("⏱️ Sync timed out")
+            st.error("⏱️ Sync timed out after 5 minutes. The process may still be running.")
+        except Exception as e:
+            progress_bar.progress(100)
+            status_text.text(f"❌ Error: {str(e)}")
+            st.error(f"❌ Error running sync: {str(e)}")
+    except Exception as e:
+        progress_bar.progress(100)
+        status_text.text(f"❌ Error: {str(e)}")
+        st.error(f"❌ Error during sync: {str(e)}")
+        st.exception(e)
 
 
 def display_function_details(function_data: Dict):
@@ -740,10 +988,30 @@ def main():
     total_functions = index_data.get("metadata", {}).get("total_functions", 0)
     last_updated = index_data.get("metadata", {}).get("last_updated", "Unknown")
 
-    # Sidebar with stats
+    # Sidebar with stats and update button
     st.sidebar.header("📊 Statistics")
     st.sidebar.metric("Total Functions", total_functions)
     st.sidebar.caption(f"Last updated: {last_updated}")
+    
+    st.sidebar.divider()
+    st.sidebar.header("🔄 Sync Options")
+    
+    # Sync Repository & Functions button
+    if st.sidebar.button("📦 Sync Repository & Functions", use_container_width=True, type="primary"):
+        st.session_state["sync_repo_triggered"] = True
+    
+    # Sync Standards button
+    if st.sidebar.button("📚 Sync Standards", use_container_width=True, type="secondary"):
+        st.session_state["sync_standards_triggered"] = True
+    
+    # Show sync UI in main area if triggered
+    if st.session_state.get("sync_repo_triggered", False):
+        st.session_state["sync_repo_triggered"] = False  # Reset flag
+        sync_repo_and_functions()
+    
+    if st.session_state.get("sync_standards_triggered", False):
+        st.session_state["sync_standards_triggered"] = False  # Reset flag
+        sync_standards()
 
     # Check if data exists
     if total_functions == 0:
@@ -784,8 +1052,30 @@ def main():
             functions = data_manager.search_functions(search_query)
 
             if functions:
-                st.write(f"💡 **Found {len(functions)} matching functions:**")
-                display_search_results(functions, "name_search")
+                # Load full function data for each result to get images
+                functions_with_images = []
+                for func in functions:
+                    func_name = func.get("function_name")
+                    if func_name:
+                        # Load full function data directly from file (bypass cache)
+                        function_file = data_manager.functions_dir / f"{func_name}.json"
+                        if function_file.exists():
+                            try:
+                                with open(function_file, "r") as f:
+                                    file_data = json.load(f)
+                                    # Ensure images array exists
+                                    if "images" not in file_data:
+                                        file_data["images"] = []
+                                    functions_with_images.append(file_data)
+                            except Exception:
+                                # If file read fails, use the search result data
+                                functions_with_images.append(func)
+                        else:
+                            # File doesn't exist, use search result data
+                            functions_with_images.append(func)
+                
+                st.write(f"💡 **Found {len(functions_with_images)} matching functions:**")
+                display_search_results(functions_with_images, "name_search")
             else:
                 st.info(f"No functions found matching: '{search_query}'")
 
@@ -823,9 +1113,26 @@ def main():
                     # Convert function names to full function data
                     functions = []
                     for func_name in ai_function_names:
-                        func_data = data_manager.load_function_data(func_name)
-                        if func_data:
-                            functions.append(func_data)
+                        # Load full function data directly from file (bypass cache)
+                        function_file = data_manager.functions_dir / f"{func_name}.json"
+                        if function_file.exists():
+                            try:
+                                with open(function_file, "r") as f:
+                                    file_data = json.load(f)
+                                    # Ensure images array exists
+                                    if "images" not in file_data:
+                                        file_data["images"] = []
+                                    functions.append(file_data)
+                            except Exception:
+                                # If file read fails, try cached version
+                                func_data = data_manager.load_function_data(func_name, show_errors=False)
+                                if func_data:
+                                    functions.append(func_data)
+                        else:
+                            # File doesn't exist, try cached version
+                            func_data = data_manager.load_function_data(func_name, show_errors=False)
+                            if func_data:
+                                functions.append(func_data)
 
                     # Store results in session state
                     st.session_state.ai_search_results = functions
@@ -877,11 +1184,53 @@ def main():
     st.subheader("🎨 Function Gallery")
     st.write("Browse all available functions:")
 
-    # Reuse already-loaded index data
-    all_functions = index_data.get("functions", [])
-
-    if all_functions:
-        display_search_results(all_functions, "gallery")
+    # Load full function data for gallery (index only has basic info)
+    all_functions_index = index_data.get("functions", [])
+    
+    if all_functions_index:
+        # Load full function data for each function to get images
+        # Always load directly from file to bypass cache and get fresh data
+        all_functions_with_images = []
+        for func_index in all_functions_index:
+            func_name = func_index.get("function_name")
+            if func_name:
+                # Always load directly from file (bypass cache) to ensure we get latest data with images
+                function_file = data_manager.functions_dir / f"{func_name}.json"
+                if function_file.exists():
+                    try:
+                        with open(function_file, "r") as f:
+                            file_data = json.load(f)
+                            # Ensure images array exists (even if empty)
+                            if "images" not in file_data:
+                                file_data["images"] = []
+                            # Always add the file data (has images if they exist)
+                            all_functions_with_images.append(file_data)
+                    except Exception as e:
+                        # If file read fails, try cached version as fallback
+                        full_func_data = data_manager.load_function_data(func_name, show_errors=False)
+                        if full_func_data:
+                            all_functions_with_images.append(full_func_data)
+                        else:
+                            # Last resort: use index data
+                            all_functions_with_images.append(func_index)
+                else:
+                    # File doesn't exist, try cached version
+                    full_func_data = data_manager.load_function_data(func_name, show_errors=False)
+                    if full_func_data:
+                        all_functions_with_images.append(full_func_data)
+                    else:
+                        # Last resort: use index data
+                        all_functions_with_images.append(func_index)
+        
+        if all_functions_with_images:
+            # Verify we have images for debugging
+            functions_with_images_count = sum(1 for f in all_functions_with_images if f.get("images"))
+            if functions_with_images_count < len(all_functions_with_images):
+                # Some functions don't have images - this is expected for some functions
+                pass
+            display_search_results(all_functions_with_images, "gallery")
+        else:
+            st.info("No functions available in the gallery.")
     else:
         st.info("No functions available in the gallery.")
 

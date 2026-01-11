@@ -1,0 +1,42 @@
+{
+  "function_name": "draw_multiple_3d_objects_blank",
+  "description": "Draws multiple 3d objects blank for educational visualization.",
+  "category": "other",
+  "tags": [
+    "3d",
+    "multiple",
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/three_d_objects_blank_1768102693.webp",
+      "filename": "three_d_objects_blank_1768102693.webp",
+      "index": 1,
+      "size": 129108
+    },
+    {
+      "path": "images/three_d_objects_blank_1768102692.webp",
+      "filename": "three_d_objects_blank_1768102692.webp",
+      "index": 2,
+      "size": 46028
+    },
+    {
+      "path": "images/three_d_objects_blank_1768102695.webp",
+      "filename": "three_d_objects_blank_1768102695.webp",
+      "index": 3,
+      "size": 74128
+    },
+    {
+      "path": "images/three_d_objects_blank_1768102694.webp",
+      "filename": "three_d_objects_blank_1768102694.webp",
+      "index": 4,
+      "size": 130396
+    }
+  ],
+  "image_count": 4,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.701926",
+  "file_patterns": [
+    "three_d_objects_blank"
+  ]
+}

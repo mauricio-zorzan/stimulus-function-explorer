@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_box_plots_WE",
+  "description": "Draws box plots we for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/box_plot_we_1768102150.webp",
+      "filename": "box_plot_we_1768102150.webp",
+      "index": 1,
+      "size": 11600
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.602878",
+  "file_patterns": [
+    "box_plot_we"
+  ]
+}

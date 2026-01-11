@@ -1,0 +1,428 @@
+{
+  "function_name": "create_flowchart",
+  "description": "Creates flowchart for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.307461",
+  "file_patterns": [
+    "flowchart"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "ENE-1.A.1",
+      "display_name": null,
+      "description": "In order for a catalyst to increase the rate of a reaction, the addition of the catalyst must increase the number of effective collisions and/ or provide a reaction path with a lower activation energy relative to the original reaction coordinate."
+    },
+    {
+      "external_id": "ENE-1.B.1",
+      "display_name": null,
+      "description": "Surface area-to-volume ratios affect the ability of a biological system to obtain necessary resources, eliminate waste products, acquire or dissipate thermal energy, and otherwise exchange chemicals and energy with the environment. Relevant equations: Volume of a Sphere: V=\\dfrac{4}{3}\\pi r^3 Volume of a Cube: V = s^3 Volume of a Rectangular Solid: V = lwh Volume of a Cylinder: V = \\pi r^2 h Surface Area of a Sphere: SA = 4 \\pi r^2 Surface Area of a Cube: SA = 6s^2 Surface Area of a Rectangular Solid: SA = 2lh + 2lw + 2wh Surface Area of a Cylinder: SA = 2 \\pi rh + 2 \\pi r^2 ...where: r = radius l = length h = height w = width s = length of one side of a cube"
+    },
+    {
+      "external_id": "ENE-1.B.2",
+      "display_name": null,
+      "description": "The surface area of the plasma membrane must be large enough to adequately exchange materials\u2014 a. These limitations can restrict cell size and shape. Smaller cells typically have a higher surface area-to-volume ratio and more efficient exchange of materials with the environment. b. As cells increase in volume, the relative surface area decreases and the demand for internal resources increases. c. More complex cellular structures (e.g., membrane folds) are necessary to adequately exchange materials with the environment. d. As organisms increase in size, their surface area-to-volume ratio decreases, affecting properties like rate of heat exchange with the environment."
+    },
+    {
+      "external_id": "ENE-1.G.4",
+      "display_name": null,
+      "description": "Competitive inhibitor molecules can bind reversibly or irreversibly to the active site of the enzyme. Noncompetitive inhibitors can bind allosteric sites, changing the activity of the enzyme."
+    },
+    {
+      "external_id": "ENE-1.H.2",
+      "display_name": null,
+      "description": "Life requires a highly ordered system and does not violate the second law of thermodynamics\u2014 a. Energy input must exceed energy loss to maintain order and to power cellular processes. b. Cellular processes that release energy may be coupled with cellular processes that require energy. c. Loss of order or energy flow results in death."
+    },
+    {
+      "external_id": "ENE-1.I.1",
+      "display_name": null,
+      "description": "Organisms capture and store energy for use in biological processes\u2014 a. Photosynthesis captures energy from the sun and produces sugars. i. Photosynthesis first evolved in prokaryotic organisms. ii. Scientific evidence supports the claim that prokaryotic (cyanobacterial) photosynthesis was responsible for the production of an oxygenated atmosphere. iii. Prokaryotic photosynthetic pathways were the foundation of eukaryotic photosynthesis."
+    },
+    {
+      "external_id": "ENE-1.K.3",
+      "display_name": null,
+      "description": "The electron transport chain transfers energy from electrons in a series of coupled reactions that establish an electrochemical gradient across membranes\u2014 a. Electron transport chain reactions occur in chloroplasts, mitochondria, and prokaryotic plasma membranes. b. In cellular respiration, electrons delivered by NADH and FADH_2 are passed to a series of electron acceptors as they move toward the terminal electron acceptor, oxygen. In photosynthesis, the terminal electron acceptor is NADP^+. Aerobic prokaryotes use oxygen as a terminal electron acceptor, while anaerobic prokaryotes use other molecules. c. The transfer of electrons is accompanied by the formation of a proton gradient across the inner mitochondrial membrane or the internal membrane of chloroplasts, with the membrane(s) separating a region of high proton concentration from a region of low proton concentration. In prokaryotes, the passage of electrons is accompanied by the movement of protons across the plasma membrane. d."
+    },
+    {
+      "external_id": "ENE-1.L.2",
+      "display_name": null,
+      "description": "Pyruvate is transported from the cytosol to the mitochondrion, where further oxidation occurs."
+    },
+    {
+      "external_id": "ENE-1.L.5",
+      "display_name": null,
+      "description": "When electrons are transferred between molecules in a sequence of reactions as they pass through the ETC, an electrochemical gradient of protons (hydrogen ions) across the inner mitochondrial membrane is established."
+    },
+    {
+      "external_id": "ENE-1.M.1",
+      "display_name": null,
+      "description": "Organisms use energy to maintain organization, grow, and reproduce\u2014 a. Organisms use different strategies to regulate body temperature and metabolism. i. Endotherms use thermal energy generated by metabolism to maintain homeostatic body temperatures. ii. Ectotherms lack efficient internal mechanisms for maintaining body temperature, though they may regulate their temperature behaviorally by moving into the sun or shade or by aggregating with other individuals. b. Different organisms use various reproductive strategies in response to energy availability. c. There is a relationship between metabolic rate per unit body mass and the size of multicellular organisms\u2014generally, the smaller the organism, the higher the metabolic rate. d. A net gain in energy results in energy storage or the growth of an organism. e. A net loss of energy results in loss of mass and, ultimately, the death of an organism."
+    },
+    {
+      "external_id": "ENE-1.N.2",
+      "display_name": null,
+      "description": "Changes in energy availability can result in disruptions to an ecosystem\u2014 a. A change in energy resources such as sunlight can affect the number and size of the trophic levels. b. A change in the producer level can affect the number and size of other trophic levels."
+    },
+    {
+      "external_id": "ENE-2.C.3",
+      "display_name": null,
+      "description": "Eventually, thermal equilibrium is reached as the particles continue to collide. At thermal equilibrium, the average kinetic energy of both bodies is the same, and hence, their temperatures are the same."
+    },
+    {
+      "external_id": "ENE-2.C.4",
+      "display_name": null,
+      "description": "Small nonpolar molecules, including N_2, O_2, and CO_2, freely pass across the membrane. Hydrophilic substances, such as large polar molecules and ions, move across the membrane through embedded channel and transport proteins."
+    },
+    {
+      "external_id": "ENE-2.E.2",
+      "display_name": null,
+      "description": "The energy absorbed during a phase change is equal to the energy released during a complementary phase change in the opposite direction. For example, the molar heat of condensation of a substance is equal to the negative of its molar heat of vaporization."
+    },
+    {
+      "external_id": "ENE-2.F.2",
+      "display_name": null,
+      "description": "The processes of endocytosis and exocytosis require energy to move large molecules into and out of cells\u2014 a. In exocytosis, internal vesicles fuse with the plasma membrane and secrete large macromolecules out of the cell. b. In endocytosis, the cell takes in macromolecules and particulate matter by forming new vesicles derived from the plasma membrane."
+    },
+    {
+      "external_id": "ENE-2.G.1",
+      "display_name": null,
+      "description": "Membrane proteins are required for facilitated diffusion of charged and large polar molecules through a membrane\u2014 a. Large quantities of water pass through aquaporins. b. Charged ions, including Na^+ and K^+, require channel proteins to move through the membrane. c. Membranes may become polarized by movement of ions across the membrane."
+    },
+    {
+      "external_id": "ENE-2.G.2",
+      "display_name": null,
+      "description": "Membrane proteins are necessary for active transport."
+    },
+    {
+      "external_id": "ENE-2.G.4",
+      "display_name": null,
+      "description": "The Na+K+ATPase contributes to the maintenance of the membrane potential."
+    },
+    {
+      "external_id": "ENE-3.D.1",
+      "display_name": null,
+      "description": "When the products of a reaction are at a different temperature than their surroundings, they exchange energy with the surroundings to reach thermal equilibrium. Thermal energy is transferred to the surroundings from the products of an exothermic reaction. Thermal energy is transferred from the surroundings to the products of an endothermic reaction."
+    },
+    {
+      "external_id": "ENE-3.D.2",
+      "display_name": null,
+      "description": "Organisms exchange information with one another in response to internal changes and external cues, which can change behavior."
+    },
+    {
+      "external_id": "ENE-4.B.1",
+      "display_name": null,
+      "description": "The entropy change for a process can be calculated from the absolute entropies of the species involved before and after the process occurs. <br><br> EQN: \\Delta S^\\circ_{reaction} =\\Delta S^\\circ_{products}-\\Delta S^\\circ_{reactants}"
+    },
+    {
+      "external_id": "EVO-1.C.1",
+      "display_name": null,
+      "description": "Natural selection is a major mechanism of evolution."
+    },
+    {
+      "external_id": "EVO-1.C.2",
+      "display_name": null,
+      "description": "According to Darwin\u2019s theory of natural selection, competition for limited resources results in differential survival. Individuals with more favorable phenotypes are more likely to survive and produce more offspring, thus passing traits to subsequent generations."
+    },
+    {
+      "external_id": "EVO-1.D.2",
+      "display_name": null,
+      "description": "Biotic and abiotic environments can be more or less stable/fluctuating, and this affects the rate and direction of evolution; different genetic variations can be selected in each generation."
+    },
+    {
+      "external_id": "EVO-1.G.1",
+      "display_name": null,
+      "description": "Convergent evolution occurs when similar selective pressures result in similar phenotypic adaptations in different populations or species."
+    },
+    {
+      "external_id": "EVO-1.H.1",
+      "display_name": null,
+      "description": "Evolution is also driven by random occurrences\u2014 a. Mutation is a random process that contributes to evolution. b. Genetic drift is a nonselective process occurring in small populations\u2014 i. Bottlenecks. ii. Founder effect. c. Migration/gene flow can drive evolution."
+    },
+    {
+      "external_id": "EVO-1.J.1",
+      "display_name": null,
+      "description": "Mutation results in genetic variation, which provides phenotypes on which natural selection acts."
+    },
+    {
+      "external_id": "EVO-1.N.2",
+      "display_name": null,
+      "description": "A comparison of DNA nucleotide sequences and/or protein amino acid sequences provides evidence for evolution and common ancestry."
+    },
+    {
+      "external_id": "EVO-2.A.1",
+      "display_name": null,
+      "description": "DNA and RNA are carriers of genetic information."
+    },
+    {
+      "external_id": "EVO-3.A.1",
+      "display_name": null,
+      "description": "Populations of organisms continue to evolve."
+    },
+    {
+      "external_id": "EVO-3.D.2",
+      "display_name": null,
+      "description": "The biological species concept provides a commonly used definition of species for sexually reproducing organisms. It states that species can be defined as a group capable of interbreeding and exchanging genetic information to produce viable, fertile offspring."
+    },
+    {
+      "external_id": "IST-1.A.1",
+      "display_name": null,
+      "description": "DNA and RNA molecules have structural similarities and differences related to their function\u2014 a. Both DNA and RNA have three components\u2014sugar, a phosphate group, and a nitrogenous base\u2014that form nucleotide units that are connected by covalent bonds to form a linear molecule with 5\u2019 and 3\u2019 ends, with the nitrogenous bases perpendicular to the sugar-phosphate backbone. b. The basic structural differences between DNA and RNA include the following: i. DNA contains deoxyribose and RNA contains ribose. ii. RNA contains uracil and DNA contains thymine. iii. DNA is usually double stranded; RNA is usually single stranded. iv. The two DNA strands in double-stranded DNA are antiparallel in directionality."
+    },
+    {
+      "external_id": "IST-1.B.1",
+      "display_name": null,
+      "description": "In eukaryotes, cells divide and transmit genetic information via two highly regulated processes."
+    },
+    {
+      "external_id": "IST-1.B.2",
+      "display_name": null,
+      "description": "The cell cycle is a highly regulated series of events for the growth and reproduction of cells\u2014 a. The cell cycle consists of sequential stages of interphase (G1, S, G2), mitosis, and cytokinesis. b. A cell can enter a stage (G0) where it no longer divides, but it can reenter the cell cycle in response to appropriate cues. Nondividing cells may exit the cell cycle or be held at a particular stage in the cell cycle."
+    },
+    {
+      "external_id": "IST-1.C.1",
+      "display_name": null,
+      "description": "Mitosis is a process that ensures the transfer of a complete genome from a parent cell to two genetically identical daughter cells\u2014 a. Mitosis plays a role in growth, tissue repair, and asexual reproduction. b. Mitosis alternates with interphase in the cell cycle. c. Mitosis occurs in a sequential series of steps (prophase, metaphase, anaphase, telophase)."
+    },
+    {
+      "external_id": "IST-1.F.1",
+      "display_name": null,
+      "description": "Meiosis is a process that ensures the formation of haploid gamete cells in sexually reproducing diploid organisms\u2014 a. Meiosis results in daughter cells with half the number of chromosomes of the parent cell. b. Meiosis involves two rounds of a sequential series of steps (meiosis I and meiosis II)."
+    },
+    {
+      "external_id": "IST-1.H.1",
+      "display_name": null,
+      "description": "Separation of the homologous chromosomes in meiosis I ensures that each gamete receives a haploid (1n) set of chromosomes that comprises both maternal and paternal chromosomes."
+    },
+    {
+      "external_id": "IST-1.H.2",
+      "display_name": null,
+      "description": "During meiosis I, homologous chromatids exchange genetic material via a process called \u201ccrossing over\u201d (recombination), which increases genetic diversity among the resultant gametes."
+    },
+    {
+      "external_id": "IST-1.H.3",
+      "display_name": null,
+      "description": "Sexual reproduction in eukaryotes involving gamete formation\u2014including crossing over, the random assortment of chromosomes during meiosis, and subsequent fertilization of gametes\u2014serves to increase variation."
+    },
+    {
+      "external_id": "IST-1.I.2",
+      "display_name": null,
+      "description": "Fertilization involves the fusion of two haploid gametes, restoring the diploid number of chromosomes and increasing genetic variation in populations by creating new combinations of alleles in the zygote\u2014 a. Rules of probability can be applied to analyze passage of single-gene traits from parent to offspring. b. The pattern of inheritance (monohybrid, dihybrid, sex-linked, and genetically linked genes) can often be predicted from data, including pedigree, that give the parent genotype/phenotype and the offspring genotypes/phenotypes. Relevant equation: Laws of Probability\u2014 If A and B are mutually exclusive, then: P ( A \\text{ or } B ) = P ( A ) + P ( B ) If A and B are independent, then: P ( A \\text{ and } B ) = P ( A ) \\times P ( B )"
+    },
+    {
+      "external_id": "IST-1.J.1",
+      "display_name": null,
+      "description": "Patterns of inheritance of many traits do not follow ratios predicted by Mendel\u2019s laws and can be identified by quantitative analysis, where observed phenotypic ratios statistically differ from the predicted ratios\u2014 a. Genes that are adjacent and close to one another on the same chromosome may appear to be genetically linked; the probability that genetically linked genes will segregate as a unit can be used to calculate the map distance between them."
+    },
+    {
+      "external_id": "IST-1.K.1",
+      "display_name": null,
+      "description": "DNA, and in some cases RNA, is the primary source of heritable information."
+    },
+    {
+      "external_id": "IST-1.K.2",
+      "display_name": null,
+      "description": "Genetic information is transmitted from one generation to the next through DNA or RNA\u2014 a. Genetic information is stored in and passed to subsequent generations through DNA molecules and, in some cases, RNA molecules. b. Prokaryotic organisms typically have circular chromosomes, while eukaryotic organisms typically have multiple linear chromosomes."
+    },
+    {
+      "external_id": "IST-1.M.1",
+      "display_name": null,
+      "description": "DNA replication ensures continuity of hereditary information\u2014 a. DNA is synthesized in the 5\u2019 to 3\u2019 direction. b. Replication is a semiconservative process\u2014that is, one strand of DNA serves as the template for a new strand of complementary DNA. c. Helicase unwinds the DNA strands. d. Topoisomerase relaxes supercoiling in front of the replication fork. e. DNA polymerase requires RNA primers to initiate DNA synthesis. f. DNA polymerase synthesizes new strands of DNA continuously on the leading strand and discontinuously on the lagging strand. g. Ligase joins the fragments on the lagging strand."
+    },
+    {
+      "external_id": "IST-1.N.1",
+      "display_name": null,
+      "description": "The sequence of the RNA bases, together with the structure of the RNA molecule, determines RNA function\u2014 a. mRNA molecules carry information from DNA to the ribosome. b. Distinct tRNA molecules bind specific amino acids and have anti-codon sequences that base pair with the mRNA. tRNA is recruited to the ribosome during translation to generate the primary peptide sequence based on the mRNA sequence. c. rRNA molecules are functional building blocks of ribosomes."
+    },
+    {
+      "external_id": "IST-1.N.3",
+      "display_name": null,
+      "description": "RNA polymerases use a single template strand of DNA to direct the inclusion of bases in the newly formed RNA molecule. This process is known as transcription."
+    },
+    {
+      "external_id": "IST-1.N.4",
+      "display_name": null,
+      "description": "The DNA strand acting as the template strand is also referred to as the noncoding strand, minus strand, or antisense strand. Selection of which DNA strand serves as the template strand depends on the gene being transcribed."
+    },
+    {
+      "external_id": "IST-1.N.6",
+      "display_name": null,
+      "description": "In eukaryotic cells the mRNA transcript undergoes a series of enzyme-regulated modifications\u2014 a. Addition of a poly-A tail. b. Addition of a GTP cap. c. Excision of introns and splicing and retention of exons. d. Excision of introns and splicing and retention of exons can generate different versions of the resulting mRNA molecule; this is known as alternative splicing."
+    },
+    {
+      "external_id": "IST-1.O.2",
+      "display_name": null,
+      "description": "In prokaryotic organisms, translation of the mRNA molecule occurs while it is being transcribed."
+    },
+    {
+      "external_id": "IST-1.O.3",
+      "display_name": null,
+      "description": "Translation involves energy and many sequential steps, including initiation, elongation, and termination."
+    },
+    {
+      "external_id": "IST-1.P.1",
+      "display_name": null,
+      "description": "Genetic engineering techniques can be used to analyze and manipulate DNA and RNA\u2014 a. Electrophoresis separates molecules according to size and charge. b. During polymerase chain reaction (PCR), DNA fragments are amplified. c. Bacterial transformation introduces DNA into bacterial cells. d. DNA sequencing determines the order of nucleotides in a DNA molecule."
+    },
+    {
+      "external_id": "IST-2.A.2",
+      "display_name": null,
+      "description": "Epigenetic changes can affect gene expression through reversible modifications of DNA or histones."
+    },
+    {
+      "external_id": "IST-2.C.1",
+      "display_name": null,
+      "description": "Promoters are DNA sequences upstream of the transcription start site where RNA polymerase and transcription factors bind to initiate transcription."
+    },
+    {
+      "external_id": "IST-2.C.2",
+      "display_name": null,
+      "description": "Negative regulatory molecules inhibit gene expression by binding to DNA and blocking transcription."
+    },
+    {
+      "external_id": "IST-2.D.1",
+      "display_name": null,
+      "description": "Gene regulation results in differential gene expression and influences cell products and function."
+    },
+    {
+      "external_id": "IST-2.E.1",
+      "display_name": null,
+      "description": "Changes in genotype can result in changes in phenotype\u2014 a. The function and amount of gene products determine the phenotype of organisms. i. The normal function of the genes and gene products collectively comprises the normal function of organisms. ii. Disruptions in genes and gene products cause new phenotypes."
+    },
+    {
+      "external_id": "IST-3.B.1",
+      "display_name": null,
+      "description": "Cells communicate over short distances by using local regulators that target cells in the vicinity of the signal-emitting cell \u2014 a. Signals released by one cell type can travel long distances to target cells of another cell type."
+    },
+    {
+      "external_id": "IST-3.C.1",
+      "display_name": null,
+      "description": "Signal transduction pathways link signal reception with cellular responses."
+    },
+    {
+      "external_id": "IST-3.D.2",
+      "display_name": null,
+      "description": "Signaling cascades relay signals from receptors to cell targets, often amplifying the incoming signals, resulting in the appropriate responses by the cell, which could include cell growth, secretion of molecules, or gene expression\u2014 a. After the ligand binds, the intracellular domain of a receptor protein changes shape initiating transduction of the signal. b. Second messengers (such as cyclic AMP) are molecules that relay and amplify the intracellular signal. c. Binding of ligand-to-ligand-gated channels can cause the channel to open or close."
+    },
+    {
+      "external_id": "IST-3.G.1",
+      "display_name": null,
+      "description": "Changes in signal transduction pathways can alter cellular response\u2014 a. Mutations in any domain of the receptor protein or in any component of the signaling pathway may affect the downstream components by altering the subsequent transduction of the signal."
+    },
+    {
+      "external_id": "IST-4.A.1",
+      "display_name": null,
+      "description": "Errors in DNA replication or DNA repair mechanisms, and external factors, including radiation and reactive chemicals, can cause random mutations in the DNA\u2014 a. Whether a mutation is detrimental, beneficial, or neutral depends on the environmental context. b. Mutations are the primary source of genetic variation."
+    },
+    {
+      "external_id": "IST-4.A.2",
+      "display_name": null,
+      "description": "Errors in mitosis or meiosis can result in changes in phenotype\u2014 a. Changes in chromosome number often result in new phenotypes, including sterility caused by triploidy, and increased vigor of other polyploids. b. Changes in chromosome number often result in human disorders with developmental limitations, including Down syndrome/Trisomy 21 and Turner syndrome."
+    },
+    {
+      "external_id": "IST-4.B.1",
+      "display_name": null,
+      "description": "Changes in genotype may affect phenotypes that are subject to natural selection. Genetic changes that enhance survival and reproduction can be selected for by environmental conditions\u2014 a. The horizontal acquisitions of genetic information primarily in prokaryotes via transformation (uptake of naked DNA), transduction (viral transmission of genetic information), conjugation (cell-to-cell transfer of DNA), and transposition (movement of DNA segments within and between DNA molecules) increase variation. b. Related viruses can combine/recombine genetic information if they infect the same host cell. c. Reproduction processes that increase genetic variation are evolutionarily conserved and are shared by various organisms."
+    },
+    {
+      "external_id": "IST-5.A.1",
+      "display_name": null,
+      "description": "Individuals can act on information and communicate it to others."
+    },
+    {
+      "external_id": "IST-5.A.2",
+      "display_name": null,
+      "description": "Communication occurs through various mechanisms\u2014 a. Organisms have a variety of signaling behaviors that produce changes in the behavior of other organisms and can result in differential reproductive success. b. Animals use visual, audible, tactile, electrical, and chemical signals to indicate dominance, find food, establish territory, and ensure reproductive success."
+    },
+    {
+      "external_id": "IST-5.A.3",
+      "display_name": null,
+      "description": "Responses to information and communication of information are vital to natural selection and evolution\u2014 a. Natural selection favors innate and learned behaviors that increase survival and reproductive fitness. b. Cooperative behavior tends to increase the fitness of the individual and the survival of the population."
+    },
+    {
+      "external_id": "SYI-1.A.1",
+      "display_name": null,
+      "description": "The subcomponents of biological molecules and their sequence determine the properties of that molecule."
+    },
+    {
+      "external_id": "SYI-1.A.3",
+      "display_name": null,
+      "description": "The hydrogen bonds between water molecules result in cohesion, adhesion, and surface tension."
+    },
+    {
+      "external_id": "SYI-1.B.1",
+      "display_name": null,
+      "description": "Hydrolysis and dehydration synthesis are used to cleave and form covalent bonds between monomers."
+    },
+    {
+      "external_id": "SYI-1.B.2",
+      "display_name": null,
+      "description": "Structure and function of polymers are derived from the way their monomers are assembled\u2014 a. In nucleic acids, biological information is encoded in sequences of nucleotide monomers. Each nucleotide has structural components: a five-carbon sugar (deoxyribose or ribose), a phosphate, and a nitrogen base (adenine, thymine, guanine, cytosine, or uracil). DNA and RNA differ in structure and function. b. In proteins, the specific order of amino acids in a polypeptide (primary structure) determines the overall shape of the protein. Amino acids have directionality, with an amino (NH_2) terminus and a carboxyl (COOH) terminus. The R group of an amino acid can be categorized by chemical properties (hydrophobic, hydrophilic, or ionic), and the interactions of these R groups determine structure and function of that region of the protein. c. Complex carbohydrates comprise sugar monomers whose structures determine the properties and functions of the molecules. d. Lipids are nonpolar macromolecules\u2014 "
+    },
+    {
+      "external_id": "SYI-1.C.1",
+      "display_name": null,
+      "description": "Directionality of the subcomponents influences structure and function of the polymer\u2014 a. Nucleic acids have a linear sequence of nucleotides that have ends, defined by the 3\u2019 hydroxyl and 5\u2019 phosphates of the sugar in the nucleotide. During DNA and RNA synthesis, nucleotides are added to the 3\u2019 end of the growing strand, resulting in the formation of a covalent bond between nucleotides. b. DNA is structured as an antiparallel double helix, with each strand running in opposite 5\u2019 to 3\u2019 orientation. Adenine nucleotides pair with thymine nucleotides via two hydrogen bonds. Cytosine nucleotides pair with guanine nucleotides by three hydrogen bonds. c. Proteins comprise linear chains of amino acids, connected by the formation of covalent bonds at the carboxyl terminus of the growing peptide chain. d. Proteins have primary structure determined by the sequence order of their constituent amino acids, secondary structure that arises through local folding of the amino acid chain into elements su"
+    },
+    {
+      "external_id": "SYI-1.D.1",
+      "display_name": null,
+      "description": "Ribosomes comprise ribosomal RNA (rRNA) and protein. Ribosomes synthesize protein according to mRNA sequence."
+    },
+    {
+      "external_id": "SYI-1.D.3",
+      "display_name": null,
+      "description": "Endoplasmic reticulum (ER) occurs in two forms\u2014smooth and rough. Rough ER is associated with membrane-bound ribosomes\u2014 a. Rough ER compartmentalizes the cell. b. Smooth ER functions include detoxification and lipid synthesis."
+    },
+    {
+      "external_id": "SYI-1.D.4",
+      "display_name": null,
+      "description": "The Golgi complex is a membrane-bound structure that consists of a series of flattened membrane sacs\u2014 a. Functions of the Golgi include the correct folding and chemical modification of newly synthesized proteins and packaging for protein trafficking."
+    },
+    {
+      "external_id": "SYI-1.D.5",
+      "display_name": null,
+      "description": "Mitochondria have a double membrane. The outer membrane is smooth, but the inner membrane is highly convoluted, forming folds."
+    },
+    {
+      "external_id": "SYI-1.D.6",
+      "display_name": null,
+      "description": "Lysosomes are membrane-enclosed sacs that contain hydrolytic enzymes."
+    },
+    {
+      "external_id": "SYI-1.E.1",
+      "display_name": null,
+      "description": "Organelles and subcellular structures, and the interactions among them, support cellular function\u2014 a. Endoplasmic reticulum provides mechanical support, carries out protein synthesis on membrane-bound ribosomes, and plays a role in intracellular transport. b. Mitochondrial double membrane provides compartments for different metabolic reactions. c. Lysosomes contain hydrolytic enzymes, which are important in intracellular digestion, the recycling of a cell\u2019s organic materials, and programmed cell death (apoptosis). d. Vacuoles have many roles, including storage and release of macromolecules and cellular waste products. In plants, it aids in retention of water for turgor pressure."
+    },
+    {
+      "external_id": "SYI-1.F.1",
+      "display_name": null,
+      "description": "The folding of the inner membrane increases the surface area, which allows for more ATP to be synthesized."
+    },
+    {
+      "external_id": "SYI-2.B.2",
+      "display_name": null,
+      "description": "Human impact accelerates change at local and global levels\u2014 a. The introduction of new diseases can devastate native species. b. Habitat change can occur because of human activity"
+    },
+    {
+      "external_id": "SYI-2.C.1",
+      "display_name": null,
+      "description": "Geological and meteorological events affect habitat change and ecosystem distribution. Biogeographical studies illustrate these changes."
+    },
+    {
+      "external_id": "SYI-3.C.1",
+      "display_name": null,
+      "description": "Segregation, independent assortment of chromosomes, and fertilization result in genetic variation in populations."
+    },
+    {
+      "external_id": "SYI-3.E.1",
+      "display_name": null,
+      "description": "Several hypotheses about the origin of life on Earth are supported with scientific evidence\u2014 a. Geological evidence provides support for models of the origin of life on Earth. i. Earth formed approximately 4.6 billion years ago (bya). The environment was too hostile for life until 3.9 bya, and the earliest fossil evidence for life dates to 3.5 bya. Taken together, this evidence provides a plausible range of dates when the origin of life could have occurred. b. There are several models about the origin of life on Earth\u2014 i. Primitive Earth provided inorganic precursors from which organic molecules could have been synthesized because of the presence of available free energy and the absence of a significant quantity of atmospheric oxygen (O_2). ii. Organic molecules could have been transported to Earth by a meteorite or other celestial event. c. Chemical experiments have shown that it is possible to form complex organic molecules from inorganic molecules in the absence of life\u2014 i. Organic "
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:12:53.274601"
+}

@@ -1,0 +1,26 @@
+{
+  "function_name": "draw_stem_and_leaf_plot",
+  "description": "Draws stem and leaf plot for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T09:56:00.441041",
+  "file_patterns": [
+    "stem_and_leaf_plot"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "TEKS.MATH.CONTENT.5.9.C+1",
+      "display_name": "Interpret Graphs",
+      "description": "Solve problems using given data.",
+      "stimulus_type_specifications": [
+        "The available image that can be generated is a stem-and-leaf plot with specific requirements and features. Here is a detailed breakdown:\n\n1. **Plot Structure**: This is a stem-and-leaf plot with between 12 and 20 data points.\n\n2. **Data Point Details**:\n   - Each data point is a non-negative integer (e.g., 23, 45, 67).\n   - Values are automatically sorted and organized by stem (tens place) and leaf (ones place).\n\n3. **Stem-and-Leaf Plot Characteristics**:\n   - Title should be tailored to the content and context of the data.\n   - A legend is automatically generated showing an example (e.g., \"7 | 2 means 72\").\n   - Use only non-negative whole numbers; avoid negative values.\n   - Values can be single-digit (stem of 0), two-digit, or three-digit numbers.\n\n4. **Question Design**:\n   - Questions are concise and directly related to the plot without unnecessary descriptions.\n   - The context of the question ensures appropriateness for the predefined grade level.\n   - Limit the numbers to up to 5 stems, all either single or two digit numbers, or all three-digit numbers.\n\nBy following these guidelines, one can generate a diverse array of stem-and-leaf plots suitable for educational purposes.\n\nExample stimulus_description:\n\nstimulus_description = {\n  \"title\": \"Ice Cream Sales (in dollars)\",\n  \"numbers\": [15, 17, 20, 8, 29, 15, 33, 32, 19, 16, 12, 12, 12]\n}"
+      ]
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:23:00.331602"
+}

@@ -1,0 +1,64 @@
+{
+  "function_name": "generate_spinner_with_shapes",
+  "description": "Generates spinner with shapes for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/spinner_shapes_1768103145795943.webp",
+      "filename": "spinner_shapes_1768103145795943.webp",
+      "index": 1,
+      "size": 158312
+    },
+    {
+      "path": "images/spinner_shapes_1768103143113777.webp",
+      "filename": "spinner_shapes_1768103143113777.webp",
+      "index": 2,
+      "size": 119946
+    },
+    {
+      "path": "images/spinner_shapes_1768103143977058.webp",
+      "filename": "spinner_shapes_1768103143977058.webp",
+      "index": 3,
+      "size": 115440
+    },
+    {
+      "path": "images/spinner_shapes_1768103142197823.webp",
+      "filename": "spinner_shapes_1768103142197823.webp",
+      "index": 4,
+      "size": 111242
+    },
+    {
+      "path": "images/spinner_shapes_1768103144842450.webp",
+      "filename": "spinner_shapes_1768103144842450.webp",
+      "index": 5,
+      "size": 161056
+    },
+    {
+      "path": "images/spinner_shapes_1768103146627735.webp",
+      "filename": "spinner_shapes_1768103146627735.webp",
+      "index": 6,
+      "size": 164086
+    },
+    {
+      "path": "images/spinner_shapes_1768103141469874.webp",
+      "filename": "spinner_shapes_1768103141469874.webp",
+      "index": 7,
+      "size": 123448
+    },
+    {
+      "path": "images/spinner_shapes_1768103147475029.webp",
+      "filename": "spinner_shapes_1768103147475029.webp",
+      "index": 8,
+      "size": 123570
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.695905",
+  "file_patterns": [
+    "spinner_shapes"
+  ]
+}

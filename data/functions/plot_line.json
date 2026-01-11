@@ -1,122 +1,58 @@
 {
   "function_name": "plot_line",
-  "description": "This function draws a line on a 2D plane, with optional points along the line. It is useful for teaching geometry and algebra, and for visualizing mathematical equations.",
-  "category": "geometry",
+  "description": "Plots line for educational visualization.",
+  "category": "graphs",
   "tags": [
-    "line",
-    "2D",
-    "geometry",
-    "algebra"
+    "graphs"
   ],
   "images": [
     {
-      "path": "images/plot_line_1_20251011_190400.webp",
-      "filename": "plot_line_1_20251011_190400.webp",
+      "path": "images/1768102858_graphing_lines.webp",
+      "filename": "1768102858_graphing_lines.webp",
       "index": 1,
-      "size": 339118
+      "size": 62456
     },
     {
-      "path": "images/plot_line_2_20251011_190400.webp",
-      "filename": "plot_line_2_20251011_190400.webp",
+      "path": "images/graphing_lines_1768102709.webp",
+      "filename": "graphing_lines_1768102709.webp",
       "index": 2,
-      "size": 334796
+      "size": 118572
+    },
+    {
+      "path": "images/1768102857_graphing_lines.webp",
+      "filename": "1768102857_graphing_lines.webp",
+      "index": 3,
+      "size": 60614
+    },
+    {
+      "path": "images/1768102701_graphing_line.webp",
+      "filename": "1768102701_graphing_line.webp",
+      "index": 4,
+      "size": 330358
+    },
+    {
+      "path": "images/1768102856_graphing_lines.webp",
+      "filename": "1768102856_graphing_lines.webp",
+      "index": 5,
+      "size": 96776
+    },
+    {
+      "path": "images/graphing_lines_1768102710.webp",
+      "filename": "graphing_lines_1768102710.webp",
+      "index": 6,
+      "size": 85724
+    },
+    {
+      "path": "images/graphing_lines_1768102711.webp",
+      "filename": "graphing_lines_1768102711.webp",
+      "index": 7,
+      "size": 161384
     }
   ],
-  "image_count": 2,
+  "image_count": 7,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.676363",
   "file_patterns": [
     "graphing_line"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+1",
-      "display_name": "Independent and Dependent Variables",
-      "description": "Identify independent and dependent variables in situations."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.EE.C.9+7",
-      "display_name": "Interpreting Graphs in Word Problems",
-      "description": "Interpret graphs presented in word problems, extracting and analyzing quantitative information to explain the relationships shown."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.RP.A.3.A+5",
-      "display_name": "Graphs from Ratios",
-      "description": "Create graphs from ratios."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.5+2",
-      "display_name": "Graphing Proportional Relationships",
-      "description": "Graph proportional relationships."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.6+1",
-      "display_name": "Slope from a Graph",
-      "description": "Find the slope of a linear function from a graph."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.6+2",
-      "display_name": "Slope from Two Points",
-      "description": "Find the slope of a linear function from two points."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.6+3",
-      "display_name": "Similar Triangles and Slope Consistency",
-      "description": "Use similar triangles to explain why the slope m is the same between any two distinct points on a non-vertical line in the coordinate plane by making the distance between the points the hypotenuse of a right triangle and solving for the ratio of the vertical leg to the horizontal leg."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.EE.B.6+4",
-      "display_name": "Writing Equations for Proportional Relationships",
-      "description": "Write an equation, y = mx, for a line through the origin."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.A.1+3",
-      "display_name": "Interpreting Graphs",
-      "description": "Interpret points on a graph of a linear function."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.B.4+11",
-      "display_name": "Writing Equations from Graphs",
-      "description": "Write an equation for a linear function of a graph with real world context."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.F.B.4+13",
-      "display_name": "Writing Equations from Situations",
-      "description": "Write an equation in slope-intercept from (y = mx + b) for a graph of a line intercepting the vertical axis at b."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:50.118552",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Line on a 2D Plane",
-    "description": "This function draws a line on a 2D plane, optionally with points along the line. The line is defined by its slope and y-intercept, and the points are defined by their x and y coordinates. The line and points are drawn on a 2D plane with a specified x and y range. This function is useful for teaching geometry and algebra, and for visualizing mathematical equations.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "Axis: Defines the x and y range of the 2D plane",
-          "Line: Defines the slope and y-intercept of the line",
-          "Point: Optional, defines the x and y coordinates of points along the line"
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "Axis: Both x and y range are required",
-          "Line: Both slope and y-intercept are required",
-          "Point: Both x and y coordinates are required if a point is specified"
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "Draws a line on a 2D plane, with optional points along the line",
-          "The line is defined by its slope and y-intercept",
-          "The points are defined by their x and y coordinates"
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

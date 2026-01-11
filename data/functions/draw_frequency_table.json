@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_frequency_table",
+  "description": "Draws frequency table for educational visualization.",
+  "category": "tables",
+  "tags": [
+    "tables"
+  ],
+  "images": [
+    {
+      "path": "images/1768102478_frequency_table.webp",
+      "filename": "1768102478_frequency_table.webp",
+      "index": 1,
+      "size": 13062
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.642129",
+  "file_patterns": [
+    "frequency_table"
+  ]
+}

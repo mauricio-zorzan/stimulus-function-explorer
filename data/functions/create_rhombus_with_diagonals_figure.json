@@ -1,0 +1,64 @@
+{
+  "function_name": "create_rhombus_with_diagonals_figure",
+  "description": "Creates rhombus with diagonals figure for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/symmetry_we_rhombus_1768102052462136000.webp",
+      "filename": "symmetry_we_rhombus_1768102052462136000.webp",
+      "index": 1,
+      "size": 31640
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rhombus_d7d1881f_1768102669.webp",
+      "filename": "geometric_properties_venn_qna_option_rhombus_d7d1881f_1768102669.webp",
+      "index": 2,
+      "size": 2990
+    },
+    {
+      "path": "images/rhombus_1768103138.webp",
+      "filename": "rhombus_1768103138.webp",
+      "index": 3,
+      "size": 29680
+    },
+    {
+      "path": "images/symmetry_question_rhombus_1768102051639651000.webp",
+      "filename": "symmetry_question_rhombus_1768102051639651000.webp",
+      "index": 4,
+      "size": 22086
+    },
+    {
+      "path": "images/rhombus_1768103136.webp",
+      "filename": "rhombus_1768103136.webp",
+      "index": 5,
+      "size": 37644
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rhombus_d7d1881f_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_rhombus_d7d1881f_1768102670.webp",
+      "index": 6,
+      "size": 2990
+    },
+    {
+      "path": "images/rhombus_1768103137.webp",
+      "filename": "rhombus_1768103137.webp",
+      "index": 7,
+      "size": 33530
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rhombus_78d86ef9_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_rhombus_78d86ef9_1768102670.webp",
+      "index": 8,
+      "size": 2990
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.692340",
+  "file_patterns": [
+    "rhombus"
+  ]
+}

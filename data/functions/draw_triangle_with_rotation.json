@@ -1,0 +1,256 @@
+{
+  "function_name": "draw_triangle_with_rotation",
+  "description": "Draws triangle with rotation for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/geo_triangle_rotation_1768102627742728000.webp",
+      "filename": "geo_triangle_rotation_1768102627742728000.webp",
+      "index": 1,
+      "size": 23142
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "index": 2,
+      "size": 35264
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631925104000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631925104000.webp",
+      "index": 3,
+      "size": 48190
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632387640000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632387640000.webp",
+      "index": 4,
+      "size": 49760
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "index": 5,
+      "size": 50532
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631596537000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631596537000.webp",
+      "index": 6,
+      "size": 37664
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "index": 7,
+      "size": 50388
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631254653000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631254653000.webp",
+      "index": 8,
+      "size": 48856
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "index": 9,
+      "size": 38126
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "index": 10,
+      "size": 47266
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632242209000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632242209000.webp",
+      "index": 11,
+      "size": 32698
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626040929000.webp",
+      "filename": "geo_triangle_rotation_1768102626040929000.webp",
+      "index": 12,
+      "size": 22392
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "index": 13,
+      "size": 50268
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624878611000.webp",
+      "filename": "geo_triangle_rotation_1768102624878611000.webp",
+      "index": 14,
+      "size": 35334
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626325834000.webp",
+      "filename": "geo_triangle_rotation_1768102626325834000.webp",
+      "index": 15,
+      "size": 20008
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632083764000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632083764000.webp",
+      "index": 16,
+      "size": 48166
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "index": 17,
+      "size": 41690
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626885530000.webp",
+      "filename": "geo_triangle_rotation_1768102626885530000.webp",
+      "index": 18,
+      "size": 18540
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631423643000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631423643000.webp",
+      "index": 19,
+      "size": 45786
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102627464410000.webp",
+      "filename": "geo_triangle_rotation_1768102627464410000.webp",
+      "index": 20,
+      "size": 21906
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "index": 21,
+      "size": 49936
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102627184211000.webp",
+      "filename": "geo_triangle_rotation_1768102627184211000.webp",
+      "index": 22,
+      "size": 36678
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629700739000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629700739000.webp",
+      "index": 23,
+      "size": 44984
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "index": 24,
+      "size": 45470
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625474336000.webp",
+      "filename": "geo_triangle_rotation_1768102625474336000.webp",
+      "index": 25,
+      "size": 30248
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628026964000.webp",
+      "filename": "geo_triangle_rotation_1768102628026964000.webp",
+      "index": 26,
+      "size": 32628
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624587075000.webp",
+      "filename": "geo_triangle_rotation_1768102624587075000.webp",
+      "index": 27,
+      "size": 21056
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631767542000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631767542000.webp",
+      "index": 28,
+      "size": 49028
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "index": 29,
+      "size": 53304
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102623815751000.webp",
+      "filename": "geo_triangle_rotation_1768102623815751000.webp",
+      "index": 30,
+      "size": 16660
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626608223000.webp",
+      "filename": "geo_triangle_rotation_1768102626608223000.webp",
+      "index": 31,
+      "size": 38704
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628292782000.webp",
+      "filename": "geo_triangle_rotation_1768102628292782000.webp",
+      "index": 32,
+      "size": 47318
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625179490000.webp",
+      "filename": "geo_triangle_rotation_1768102625179490000.webp",
+      "index": 33,
+      "size": 16690
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102623545016000.webp",
+      "filename": "geo_triangle_rotation_1768102623545016000.webp",
+      "index": 34,
+      "size": 18540
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625755280000.webp",
+      "filename": "geo_triangle_rotation_1768102625755280000.webp",
+      "index": 35,
+      "size": 22386
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "index": 36,
+      "size": 45402
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629388471000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629388471000.webp",
+      "index": 37,
+      "size": 42296
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629541293000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629541293000.webp",
+      "index": 38,
+      "size": 45400
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624087576000.webp",
+      "filename": "geo_triangle_rotation_1768102624087576000.webp",
+      "index": 39,
+      "size": 18358
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628582405000.webp",
+      "filename": "geo_triangle_rotation_1768102628582405000.webp",
+      "index": 40,
+      "size": 17630
+    }
+  ],
+  "image_count": 40,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.670653",
+  "file_patterns": [
+    "geo_triangle_rotation"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_base_ten_blocks_2d",
+  "description": "Draws base ten blocks 2d for educational visualization.",
+  "category": "base_ten",
+  "tags": [
+    "base_ten"
+  ],
+  "images": [
+    {
+      "path": "images/base_ten_blocks_horizontal_1768102123.webp",
+      "filename": "base_ten_blocks_horizontal_1768102123.webp",
+      "index": 1,
+      "size": 38166
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.600833",
+  "file_patterns": [
+    "base_ten_blocks_horizontal"
+  ]
+}

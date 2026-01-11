@@ -1,0 +1,23 @@
+{
+  "function_name": "generate_lines_of_symmetry_counting_multiple",
+  "description": "Generates lines of symmetry counting multiple for educational visualization.",
+  "category": "other",
+  "tags": [
+    "multiple",
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/symmetry_counting_multiple_1768103171.webp",
+      "filename": "symmetry_counting_multiple_1768103171.webp",
+      "index": 1,
+      "size": 16344
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.696266",
+  "file_patterns": [
+    "symmetry_counting_multiple"
+  ]
+}

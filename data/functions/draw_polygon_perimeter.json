@@ -1,0 +1,112 @@
+{
+  "function_name": "draw_polygon_perimeter",
+  "description": "Draws polygon perimeter for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/polygon_perimeter_1768102862.809852.webp",
+      "filename": "polygon_perimeter_1768102862.809852.webp",
+      "index": 1,
+      "size": 51822
+    },
+    {
+      "path": "images/polygon_perimeter_1768102864.171676.webp",
+      "filename": "polygon_perimeter_1768102864.171676.webp",
+      "index": 2,
+      "size": 92084
+    },
+    {
+      "path": "images/polygon_perimeter_1768102863.057645.webp",
+      "filename": "polygon_perimeter_1768102863.057645.webp",
+      "index": 3,
+      "size": 56982
+    },
+    {
+      "path": "images/polygon_perimeter_1768102858.981012.webp",
+      "filename": "polygon_perimeter_1768102858.981012.webp",
+      "index": 4,
+      "size": 43168
+    },
+    {
+      "path": "images/polygon_perimeter_1768102860.261978.webp",
+      "filename": "polygon_perimeter_1768102860.261978.webp",
+      "index": 5,
+      "size": 82916
+    },
+    {
+      "path": "images/polygon_perimeter_1768102865.431730.webp",
+      "filename": "polygon_perimeter_1768102865.431730.webp",
+      "index": 6,
+      "size": 84414
+    },
+    {
+      "path": "images/polygon_perimeter_1768102861.947448.webp",
+      "filename": "polygon_perimeter_1768102861.947448.webp",
+      "index": 7,
+      "size": 53078
+    },
+    {
+      "path": "images/polygon_perimeter_1768102860.850088.webp",
+      "filename": "polygon_perimeter_1768102860.850088.webp",
+      "index": 8,
+      "size": 89758
+    },
+    {
+      "path": "images/polygon_perimeter_1768102859.692965.webp",
+      "filename": "polygon_perimeter_1768102859.692965.webp",
+      "index": 9,
+      "size": 91490
+    },
+    {
+      "path": "images/polygon_perimeter_1768102862.327190.webp",
+      "filename": "polygon_perimeter_1768102862.327190.webp",
+      "index": 10,
+      "size": 44134
+    },
+    {
+      "path": "images/polygon_perimeter_1768102858.370776.webp",
+      "filename": "polygon_perimeter_1768102858.370776.webp",
+      "index": 11,
+      "size": 80802
+    },
+    {
+      "path": "images/polygon_perimeter_1768102865.893935.webp",
+      "filename": "polygon_perimeter_1768102865.893935.webp",
+      "index": 12,
+      "size": 60314
+    },
+    {
+      "path": "images/polygon_perimeter_1768102864.761710.webp",
+      "filename": "polygon_perimeter_1768102864.761710.webp",
+      "index": 13,
+      "size": 44648
+    },
+    {
+      "path": "images/polygon_perimeter_1768102863.715188.webp",
+      "filename": "polygon_perimeter_1768102863.715188.webp",
+      "index": 14,
+      "size": 90816
+    },
+    {
+      "path": "images/polygon_perimeter_1768102863.319121.webp",
+      "filename": "polygon_perimeter_1768102863.319121.webp",
+      "index": 15,
+      "size": 77614
+    },
+    {
+      "path": "images/polygon_perimeter_1768102861.420926.webp",
+      "filename": "polygon_perimeter_1768102861.420926.webp",
+      "index": 16,
+      "size": 62648
+    }
+  ],
+  "image_count": 16,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.688466",
+  "file_patterns": [
+    "polygon_perimeter"
+  ]
+}

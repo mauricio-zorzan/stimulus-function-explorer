@@ -1,0 +1,23 @@
+{
+  "function_name": "plot_polygon_four_quadrants",
+  "description": "Plots polygon four quadrants for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.303533",
+  "file_patterns": [
+    "polygon_four_coordinate_planes"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.8.G.A.3+1",
+      "display_name": "Dilation Coordinates",
+      "description": "Determine the coordinates of a figure's vertices after a dilation on the coordinate plane using a given scale factor"
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:26:56.395262"
+}

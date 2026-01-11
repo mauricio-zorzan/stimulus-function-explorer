@@ -1,0 +1,82 @@
+{
+  "function_name": "draw_triangle_rotation_markers",
+  "description": "Draws triangle rotation markers for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631925104000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631925104000.webp",
+      "index": 1,
+      "size": 48190
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632387640000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632387640000.webp",
+      "index": 2,
+      "size": 49760
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631596537000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631596537000.webp",
+      "index": 3,
+      "size": 37664
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631254653000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631254653000.webp",
+      "index": 4,
+      "size": 48856
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632242209000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632242209000.webp",
+      "index": 5,
+      "size": 32698
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632083764000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632083764000.webp",
+      "index": 6,
+      "size": 48166
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631423643000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631423643000.webp",
+      "index": 7,
+      "size": 45786
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629700739000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629700739000.webp",
+      "index": 8,
+      "size": 44984
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631767542000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631767542000.webp",
+      "index": 9,
+      "size": 49028
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629388471000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629388471000.webp",
+      "index": 10,
+      "size": 42296
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629541293000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629541293000.webp",
+      "index": 11,
+      "size": 45400
+    }
+  ],
+  "image_count": 11,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.671277",
+  "file_patterns": [
+    "geo_triangle_rotation_markers"
+  ]
+}

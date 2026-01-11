@@ -1,136 +1,130 @@
 {
   "function_name": "generate_spinner",
-  "description": "The 'generate_spinner' function creates a pie chart that resembles a carnival spinner. The spinner is divided into equal sections, each representing a category. The function is designed to visually represent probability distributions, making it an effective educational tool for teaching probability concepts.",
-  "category": "data_visualization",
+  "description": "Generates spinner for educational visualization.",
+  "category": "other",
   "tags": [
-    "probability",
-    "data_visualization",
-    "pie_chart",
-    "spinner"
+    "other"
   ],
   "images": [
     {
-      "path": "images/generate_spinner_1_20251011_190400.webp",
-      "filename": "generate_spinner_1_20251011_190400.webp",
+      "path": "images/spinner_1768103139380895.webp",
+      "filename": "spinner_1768103139380895.webp",
       "index": 1,
-      "size": 10010
+      "size": 53926
     },
     {
-      "path": "images/generate_spinner_2_20251011_190400.webp",
-      "filename": "generate_spinner_2_20251011_190400.webp",
+      "path": "images/spinner_1768103141206350.webp",
+      "filename": "spinner_1768103141206350.webp",
       "index": 2,
-      "size": 8458
+      "size": 62186
     },
     {
-      "path": "images/generate_spinner_3_20251011_190400.webp",
-      "filename": "generate_spinner_3_20251011_190400.webp",
+      "path": "images/spinner_1768103139624768.webp",
+      "filename": "spinner_1768103139624768.webp",
       "index": 3,
-      "size": 12028
+      "size": 95888
     },
     {
-      "path": "images/generate_spinner_4_20251011_190400.webp",
-      "filename": "generate_spinner_4_20251011_190400.webp",
+      "path": "images/spinner_1768103140190479.webp",
+      "filename": "spinner_1768103140190479.webp",
       "index": 4,
-      "size": 8002
+      "size": 44770
     },
     {
-      "path": "images/generate_spinner_5_20251011_190400.webp",
-      "filename": "generate_spinner_5_20251011_190400.webp",
+      "path": "images/spinner_shapes_1768103145795943.webp",
+      "filename": "spinner_shapes_1768103145795943.webp",
       "index": 5,
-      "size": 15748
+      "size": 158312
     },
     {
-      "path": "images/generate_spinner_6_20251011_190400.webp",
-      "filename": "generate_spinner_6_20251011_190400.webp",
+      "path": "images/spinner_shapes_1768103143113777.webp",
+      "filename": "spinner_shapes_1768103143113777.webp",
       "index": 6,
-      "size": 12218
+      "size": 119946
     },
     {
-      "path": "images/generate_spinner_7_20251011_190400.webp",
-      "filename": "generate_spinner_7_20251011_190400.webp",
+      "path": "images/spinner_1768103140939543.webp",
+      "filename": "spinner_1768103140939543.webp",
       "index": 7,
-      "size": 8052
+      "size": 83404
     },
     {
-      "path": "images/generate_spinner_8_20251011_190400.webp",
-      "filename": "generate_spinner_8_20251011_190400.webp",
+      "path": "images/spinner_shapes_1768103143977058.webp",
+      "filename": "spinner_shapes_1768103143977058.webp",
       "index": 8,
-      "size": 9702
+      "size": 115440
     },
     {
-      "path": "images/generate_spinner_9_20251011_190400.webp",
-      "filename": "generate_spinner_9_20251011_190400.webp",
+      "path": "images/spinner_1768103138401951.webp",
+      "filename": "spinner_1768103138401951.webp",
       "index": 9,
-      "size": 14544
+      "size": 45626
     },
     {
-      "path": "images/generate_spinner_10_20251011_190400.webp",
-      "filename": "generate_spinner_10_20251011_190400.webp",
+      "path": "images/spinner_1768103138889482.webp",
+      "filename": "spinner_1768103138889482.webp",
       "index": 10,
-      "size": 17036
+      "size": 72928
     },
     {
-      "path": "images/generate_spinner_11_20251011_190400.webp",
-      "filename": "generate_spinner_11_20251011_190400.webp",
+      "path": "images/spinner_1768103139135926.webp",
+      "filename": "spinner_1768103139135926.webp",
       "index": 11,
-      "size": 19552
+      "size": 50758
+    },
+    {
+      "path": "images/spinner_shapes_1768103142197823.webp",
+      "filename": "spinner_shapes_1768103142197823.webp",
+      "index": 12,
+      "size": 111242
+    },
+    {
+      "path": "images/spinner_1768103140414506.webp",
+      "filename": "spinner_1768103140414506.webp",
+      "index": 13,
+      "size": 47024
+    },
+    {
+      "path": "images/spinner_1768103138643727.webp",
+      "filename": "spinner_1768103138643727.webp",
+      "index": 14,
+      "size": 78708
+    },
+    {
+      "path": "images/spinner_1768103139880648.webp",
+      "filename": "spinner_1768103139880648.webp",
+      "index": 15,
+      "size": 61386
+    },
+    {
+      "path": "images/spinner_shapes_1768103144842450.webp",
+      "filename": "spinner_shapes_1768103144842450.webp",
+      "index": 16,
+      "size": 161056
+    },
+    {
+      "path": "images/spinner_shapes_1768103146627735.webp",
+      "filename": "spinner_shapes_1768103146627735.webp",
+      "index": 17,
+      "size": 164086
+    },
+    {
+      "path": "images/spinner_shapes_1768103141469874.webp",
+      "filename": "spinner_shapes_1768103141469874.webp",
+      "index": 18,
+      "size": 123448
+    },
+    {
+      "path": "images/spinner_shapes_1768103147475029.webp",
+      "filename": "spinner_shapes_1768103147475029.webp",
+      "index": 19,
+      "size": 123570
     }
   ],
-  "image_count": 46,
+  "image_count": 19,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.695595",
   "file_patterns": [
     "spinner"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+1",
-      "display_name": "Outcomes and Likelihood",
-      "description": "Use probability and relative frequency to describe the likelihood of an event."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+3",
-      "display_name": "Making Predictions with Theoretical Probability",
-      "description": "Make predictions using theoretical proability word problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+2",
-      "display_name": "Sample Space Lists",
-      "description": "Create lists that represent the sample space of compound events."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:44.082376",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: [Carnival Spinner]",
-    "description": "The 'generate_spinner' function draws a pie chart that mimics a carnival spinner. The spinner is divided into equal sections, each representing a category. The function accepts a 'Spinner' object as input, which contains a title and a list of section labels. The function assigns a unique color to each section if the label matches a known color. The function is designed to visually represent probability distributions, making it an effective educational tool for teaching probability concepts. The spinner can have up to 10 sections if color names or words with less than 7 letters are used as labels, otherwise, it can have up to 8 sections. The minimum number of sections is 4.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "Title: A clear title that relates to the content or purpose of the spinner.",
-          "Sections: Each section of the spinner is represented by a label of a category. The order of the sections in the array determines the order of the items on the spinner in a clockwise direction."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "At least one category label should represent 2 or more distinct sections.",
-          "The maximum number of categories is 5.",
-          "The spinner can have up to 10 sections if color names or words with less than 7 letters are used as labels, otherwise, it can have up to 8 sections.",
-          "The minimum number of sections is 4."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a pie chart that resembles a carnival spinner, divided into equal sections.",
-          "Each section is assigned a unique color if the label matches a known color. If not, the section is colorless.",
-          "The inputs control the number of sections on the spinner, the labels of the sections, and the colors of the sections."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

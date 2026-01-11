@@ -1,147 +1,226 @@
 {
   "function_name": "create_dot_plot",
-  "description": "The 'create_dot_plot' function generates a dot plot, which is a statistical graphic that displays the frequency of different categories of data. The function uses enhanced visual appeal, such as a variety of colors, dot sizes, and transparency levels, to make the plot more engaging for educational purposes.",
-  "category": "data_visualization",
+  "description": "Creates dot plot for educational visualization.",
+  "category": "graphs",
   "tags": [
-    "dot_plot",
-    "statistics",
-    "data_visualization",
-    "educational_technology"
+    "graphs"
   ],
   "images": [
     {
-      "path": "images/create_dot_plot_1_20251011_190400.webp",
-      "filename": "create_dot_plot_1_20251011_190400.webp",
+      "path": "images/dot_plot_c3c6cc91187d403b93b8495f1b520a09.webp",
+      "filename": "dot_plot_c3c6cc91187d403b93b8495f1b520a09.webp",
       "index": 1,
-      "size": 31264
+      "size": 30798
     },
     {
-      "path": "images/create_dot_plot_2_20251011_190400.webp",
-      "filename": "create_dot_plot_2_20251011_190400.webp",
+      "path": "images/dual_dot_plot_32b357ca739440f6bd6272993231e5d2.webp",
+      "filename": "dual_dot_plot_32b357ca739440f6bd6272993231e5d2.webp",
       "index": 2,
-      "size": 34104
+      "size": 49852
     },
     {
-      "path": "images/create_dot_plot_3_20251011_190400.webp",
-      "filename": "create_dot_plot_3_20251011_190400.webp",
+      "path": "images/dot_plot_3a001991c89849af9deee4d7e90b4cbd.webp",
+      "filename": "dot_plot_3a001991c89849af9deee4d7e90b4cbd.webp",
       "index": 3,
-      "size": 34066
+      "size": 27190
     },
     {
-      "path": "images/create_dot_plot_4_20251011_190400.webp",
-      "filename": "create_dot_plot_4_20251011_190400.webp",
+      "path": "images/dot_plot_7323ddd397c44402a4f71ec048a36895.webp",
+      "filename": "dot_plot_7323ddd397c44402a4f71ec048a36895.webp",
       "index": 4,
-      "size": 23914
+      "size": 18704
     },
     {
-      "path": "images/create_dot_plot_5_20251011_190400.webp",
-      "filename": "create_dot_plot_5_20251011_190400.webp",
+      "path": "images/dual_dot_plot_2a4c7ae8a1fb4777a0358dfc8ef2e32e.webp",
+      "filename": "dual_dot_plot_2a4c7ae8a1fb4777a0358dfc8ef2e32e.webp",
       "index": 5,
-      "size": 19582
+      "size": 41072
     },
     {
-      "path": "images/create_dot_plot_6_20251011_190400.webp",
-      "filename": "create_dot_plot_6_20251011_190400.webp",
+      "path": "images/dot_plot_49a72357d3f74962a93f0ebc18478d8f.webp",
+      "filename": "dot_plot_49a72357d3f74962a93f0ebc18478d8f.webp",
       "index": 6,
-      "size": 21256
+      "size": 28150
     },
     {
-      "path": "images/create_dot_plot_7_20251011_190400.webp",
-      "filename": "create_dot_plot_7_20251011_190400.webp",
+      "path": "images/dot_plot_08cab1b3a8ee4a4eabbfebf28a250a36.webp",
+      "filename": "dot_plot_08cab1b3a8ee4a4eabbfebf28a250a36.webp",
       "index": 7,
-      "size": 26350
+      "size": 27274
     },
     {
-      "path": "images/create_dot_plot_8_20251011_190400.webp",
-      "filename": "create_dot_plot_8_20251011_190400.webp",
+      "path": "images/dot_plot_9a0ecd56dacc45be8ff1beeedacd1268.webp",
+      "filename": "dot_plot_9a0ecd56dacc45be8ff1beeedacd1268.webp",
       "index": 8,
-      "size": 25498
+      "size": 18904
     },
     {
-      "path": "images/create_dot_plot_9_20251011_190400.webp",
-      "filename": "create_dot_plot_9_20251011_190400.webp",
+      "path": "images/dual_dot_plot_dd6997036fac4768bc8cc3b1b68892f8.webp",
+      "filename": "dual_dot_plot_dd6997036fac4768bc8cc3b1b68892f8.webp",
       "index": 9,
-      "size": 20964
+      "size": 58000
     },
     {
-      "path": "images/create_dot_plot_10_20251011_190400.webp",
-      "filename": "create_dot_plot_10_20251011_190400.webp",
+      "path": "images/dot_plot_a31cc6a320454e2baee9d495cfe5d216.webp",
+      "filename": "dot_plot_a31cc6a320454e2baee9d495cfe5d216.webp",
       "index": 10,
-      "size": 17154
+      "size": 20436
     },
     {
-      "path": "images/create_dot_plot_11_20251011_190400.webp",
-      "filename": "create_dot_plot_11_20251011_190400.webp",
+      "path": "images/dot_plot_a31cc42495344b44844ddfc6c3870966.webp",
+      "filename": "dot_plot_a31cc42495344b44844ddfc6c3870966.webp",
       "index": 11,
-      "size": 26924
+      "size": 16656
     },
     {
-      "path": "images/create_dot_plot_12_20251011_190400.webp",
-      "filename": "create_dot_plot_12_20251011_190400.webp",
+      "path": "images/dot_plot_8bd00d20883d40fc92c69ca4e457ca16.webp",
+      "filename": "dot_plot_8bd00d20883d40fc92c69ca4e457ca16.webp",
       "index": 12,
-      "size": 23576
+      "size": 18016
     },
     {
-      "path": "images/create_dot_plot_13_20251011_190400.webp",
-      "filename": "create_dot_plot_13_20251011_190400.webp",
+      "path": "images/dot_plot_978be532aa84491c89ef44fa2253e802.webp",
+      "filename": "dot_plot_978be532aa84491c89ef44fa2253e802.webp",
       "index": 13,
-      "size": 24690
+      "size": 23604
+    },
+    {
+      "path": "images/dot_plot_62bfe262da1c45e897585a320e469fe6.webp",
+      "filename": "dot_plot_62bfe262da1c45e897585a320e469fe6.webp",
+      "index": 14,
+      "size": 29188
+    },
+    {
+      "path": "images/dual_dot_plot_4b3e191522ff4a7e869ca0da3b6b26dd.webp",
+      "filename": "dual_dot_plot_4b3e191522ff4a7e869ca0da3b6b26dd.webp",
+      "index": 15,
+      "size": 38870
+    },
+    {
+      "path": "images/dual_dot_plot_6cf81a4e61d04f848ea1cec1615eef11.webp",
+      "filename": "dual_dot_plot_6cf81a4e61d04f848ea1cec1615eef11.webp",
+      "index": 16,
+      "size": 49710
+    },
+    {
+      "path": "images/dot_plot_061dce62f74a4c1b820af3b35aa92fc7.webp",
+      "filename": "dot_plot_061dce62f74a4c1b820af3b35aa92fc7.webp",
+      "index": 17,
+      "size": 22244
+    },
+    {
+      "path": "images/dual_dot_plot_c4800560deef43e5b38a744d4bdd16b0.webp",
+      "filename": "dual_dot_plot_c4800560deef43e5b38a744d4bdd16b0.webp",
+      "index": 18,
+      "size": 54220
+    },
+    {
+      "path": "images/dot_plot_54ad06e799454bf39f0c0e809771fc76.webp",
+      "filename": "dot_plot_54ad06e799454bf39f0c0e809771fc76.webp",
+      "index": 19,
+      "size": 22698
+    },
+    {
+      "path": "images/dot_plot_dd13eb0afb994942b1ed4ae7e4cd8d52.webp",
+      "filename": "dot_plot_dd13eb0afb994942b1ed4ae7e4cd8d52.webp",
+      "index": 20,
+      "size": 20054
+    },
+    {
+      "path": "images/dot_plot_8e76fce483414e8893530bedc92dae4d.webp",
+      "filename": "dot_plot_8e76fce483414e8893530bedc92dae4d.webp",
+      "index": 21,
+      "size": 21486
+    },
+    {
+      "path": "images/dual_dot_plot_7ba83177e9ea45ff8fab6bc0486aa0c7.webp",
+      "filename": "dual_dot_plot_7ba83177e9ea45ff8fab6bc0486aa0c7.webp",
+      "index": 22,
+      "size": 46626
+    },
+    {
+      "path": "images/dot_plot_e97e277497644cdcb891cbf1e7efc66c.webp",
+      "filename": "dot_plot_e97e277497644cdcb891cbf1e7efc66c.webp",
+      "index": 23,
+      "size": 24410
+    },
+    {
+      "path": "images/dual_dot_plot_c14fbc3b099e427c957fa06cf333f698.webp",
+      "filename": "dual_dot_plot_c14fbc3b099e427c957fa06cf333f698.webp",
+      "index": 24,
+      "size": 57220
+    },
+    {
+      "path": "images/dot_plot_cb401f9ae1284c56b025ff31fd884100.webp",
+      "filename": "dot_plot_cb401f9ae1284c56b025ff31fd884100.webp",
+      "index": 25,
+      "size": 24516
+    },
+    {
+      "path": "images/dot_plot_8765ff80aac6443a852ffcbb43b249b7.webp",
+      "filename": "dot_plot_8765ff80aac6443a852ffcbb43b249b7.webp",
+      "index": 26,
+      "size": 21426
+    },
+    {
+      "path": "images/dual_dot_plot_e7bcc37f4bde4f88b2b9d6c868ebc0ff.webp",
+      "filename": "dual_dot_plot_e7bcc37f4bde4f88b2b9d6c868ebc0ff.webp",
+      "index": 27,
+      "size": 80666
+    },
+    {
+      "path": "images/dual_dot_plot_a448e4f7bb2242c89e2c4b175208ad43.webp",
+      "filename": "dual_dot_plot_a448e4f7bb2242c89e2c4b175208ad43.webp",
+      "index": 28,
+      "size": 48488
+    },
+    {
+      "path": "images/dual_dot_plot_70da36a19caa4418891206c56a622cb6.webp",
+      "filename": "dual_dot_plot_70da36a19caa4418891206c56a622cb6.webp",
+      "index": 29,
+      "size": 49710
+    },
+    {
+      "path": "images/dot_plot_f6372dc7f11e4b679e8a2e0f90e4776f.webp",
+      "filename": "dot_plot_f6372dc7f11e4b679e8a2e0f90e4776f.webp",
+      "index": 30,
+      "size": 25156
+    },
+    {
+      "path": "images/dot_plot_02e4383ae81a4b0d88b836653ceb548a.webp",
+      "filename": "dot_plot_02e4383ae81a4b0d88b836653ceb548a.webp",
+      "index": 31,
+      "size": 20630
+    },
+    {
+      "path": "images/dual_dot_plot_314e65fa1da74c61aff2a70615a60b04.webp",
+      "filename": "dual_dot_plot_314e65fa1da74c61aff2a70615a60b04.webp",
+      "index": 32,
+      "size": 57126
+    },
+    {
+      "path": "images/dot_plot_60d58eceeef049c7bfd8514f4e423264.webp",
+      "filename": "dot_plot_60d58eceeef049c7bfd8514f4e423264.webp",
+      "index": 33,
+      "size": 22798
+    },
+    {
+      "path": "images/dual_dot_plot_d510e159773747b28d8c133662302cb7.webp",
+      "filename": "dual_dot_plot_d510e159773747b28d8c133662302cb7.webp",
+      "index": 34,
+      "size": 52104
+    },
+    {
+      "path": "images/dot_plot_9be1c6ba771c4f4eaf681de416235cc8.webp",
+      "filename": "dot_plot_9be1c6ba771c4f4eaf681de416235cc8.webp",
+      "index": 35,
+      "size": 26086
     }
   ],
-  "image_count": 55,
+  "image_count": 35,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.634371",
   "file_patterns": [
     "dot_plot"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Dot Plots",
-    "description": "The 'create_dot_plot' function can draw dot plots based on the input data. It accepts an instance of the 'StatsLinePlot' class as input, which contains the data and title for the plot. The function has been designed to handle a varying number of unique values in the data, adjusting the figure size, dot size, and vertical spacing of the dots accordingly. The color of the dots is randomly selected from a predefined list of colors. This function is particularly useful in educational settings where data visualization is being taught, as it provides a clear and visually appealing representation of data frequency.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "The 'stimulus_description' input is an instance of the 'StatsLinePlot' class, which includes 'data' and 'title' fields.",
-          "The 'data' field controls the values and frequencies that will be represented in the dot plot.",
-          "The 'title' field provides a title for the plot."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The 'data' field should be a list of numerical values.",
-          "The 'title' field should be a string."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a dot plot, with each dot representing a data point from the input data.",
-          "The size and vertical spacing of the dots vary depending on the number of unique values in the data.",
-          "The color of the dots is randomly selected for each plot generation, adding a level of visual variation to the output."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true,
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.4+1",
-      "display_name": "Dot Plots",
-      "description": "Display numerical data on dot plots."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.A+1",
-      "display_name": "Interpret Dot Plots",
-      "description": "Report the number of observations of data from a math problem."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.SP.B.5.C+2",
-      "display_name": "Finding Quantitative Measures from Charts and Graphs",
-      "description": "Interpret charts and graphs to find mean, median, mode, and range."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:26:59.194122"
+  ]
 }

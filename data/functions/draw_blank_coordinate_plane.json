@@ -1,0 +1,76 @@
+{
+  "function_name": "draw_blank_coordinate_plane",
+  "description": "Draws blank coordinate plane for educational visualization.",
+  "category": "coordinates",
+  "tags": [
+    "coordinates"
+  ],
+  "images": [
+    {
+      "path": "images/blank_coordinate_plane_1768102728629985000.webp",
+      "filename": "blank_coordinate_plane_1768102728629985000.webp",
+      "index": 1,
+      "size": 58152
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102729605423000.webp",
+      "filename": "blank_coordinate_plane_1768102729605423000.webp",
+      "index": 2,
+      "size": 49410
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102731109000000.webp",
+      "filename": "blank_coordinate_plane_1768102731109000000.webp",
+      "index": 3,
+      "size": 51532
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102727714949000.webp",
+      "filename": "blank_coordinate_plane_1768102727714949000.webp",
+      "index": 4,
+      "size": 68436
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102729259847000.webp",
+      "filename": "blank_coordinate_plane_1768102729259847000.webp",
+      "index": 5,
+      "size": 44042
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102730041210000.webp",
+      "filename": "blank_coordinate_plane_1768102730041210000.webp",
+      "index": 6,
+      "size": 47924
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102728201060000.webp",
+      "filename": "blank_coordinate_plane_1768102728201060000.webp",
+      "index": 7,
+      "size": 44750
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102730669975000.webp",
+      "filename": "blank_coordinate_plane_1768102730669975000.webp",
+      "index": 8,
+      "size": 36644
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102731937052000.webp",
+      "filename": "blank_coordinate_plane_1768102731937052000.webp",
+      "index": 9,
+      "size": 43170
+    },
+    {
+      "path": "images/blank_coordinate_plane_1768102731542549000.webp",
+      "filename": "blank_coordinate_plane_1768102731542549000.webp",
+      "index": 10,
+      "size": 48282
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.601844",
+  "file_patterns": [
+    "blank_coordinate_plane"
+  ]
+}

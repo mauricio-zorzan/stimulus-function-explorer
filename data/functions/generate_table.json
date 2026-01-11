@@ -1,305 +1,502 @@
 {
   "function_name": "generate_table",
-  "description": "This function generates a table visualization for educational purposes. It creates a table with specified columns and rows, wrapping text as necessary for readability. The generated table can be used to present data in a structured format, facilitating comprehension and analysis.",
-  "category": "data_visualization",
+  "description": "Generates table for educational visualization.",
+  "category": "tables",
   "tags": [
-    "tables",
-    "data_presentation",
-    "text_wrapping",
-    "educational_visualization"
+    "tables"
   ],
   "images": [
     {
-      "path": "images/generate_table_1_20251011_190400.webp",
-      "filename": "generate_table_1_20251011_190400.webp",
+      "path": "images/data_table_1768103210923414000.webp",
+      "filename": "data_table_1768103210923414000.webp",
       "index": 1,
-      "size": 33596
+      "size": 11580
     },
     {
-      "path": "images/generate_table_2_20251011_190400.webp",
-      "filename": "generate_table_2_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102236.webp",
+      "filename": "combo_points_table_graph_1768102236.webp",
       "index": 2,
-      "size": 67416
+      "size": 221192
     },
     {
-      "path": "images/generate_table_3_20251011_190400.webp",
-      "filename": "generate_table_3_20251011_190400.webp",
+      "path": "images/table_and_multi_scatterplots_1768103194.webp",
+      "filename": "table_and_multi_scatterplots_1768103194.webp",
       "index": 3,
-      "size": 158006
+      "size": 250542
     },
     {
-      "path": "images/generate_table_4_20251011_190400.webp",
-      "filename": "generate_table_4_20251011_190400.webp",
+      "path": "images/data_table_1768103225102876000.webp",
+      "filename": "data_table_1768103225102876000.webp",
       "index": 4,
-      "size": 68716
+      "size": 4884
     },
     {
-      "path": "images/generate_table_5_20251011_190400.webp",
-      "filename": "generate_table_5_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102220.webp",
+      "filename": "combo_points_table_graph_1768102220.webp",
       "index": 5,
-      "size": 46060
+      "size": 291652
     },
     {
-      "path": "images/generate_table_6_20251011_190400.webp",
-      "filename": "generate_table_6_20251011_190400.webp",
+      "path": "images/data_table_1768103210907428000.webp",
+      "filename": "data_table_1768103210907428000.webp",
       "index": 6,
-      "size": 82654
+      "size": 8986
     },
     {
-      "path": "images/generate_table_7_20251011_190400.webp",
-      "filename": "generate_table_7_20251011_190400.webp",
+      "path": "images/data_table_group_1768103224.webp",
+      "filename": "data_table_group_1768103224.webp",
       "index": 7,
-      "size": 46000
+      "size": 19202
     },
     {
-      "path": "images/generate_table_8_20251011_190400.webp",
-      "filename": "generate_table_8_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102257.webp",
+      "filename": "combo_points_table_graph_1768102257.webp",
       "index": 8,
-      "size": 46000
+      "size": 292690
     },
     {
-      "path": "images/generate_table_9_20251011_190400.webp",
-      "filename": "generate_table_9_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102241.webp",
+      "filename": "combo_points_table_graph_1768102241.webp",
       "index": 9,
-      "size": 43200
+      "size": 263274
     },
     {
-      "path": "images/generate_table_10_20251011_190400.webp",
-      "filename": "generate_table_10_20251011_190400.webp",
+      "path": "images/recipe_table_1768103083.webp",
+      "filename": "recipe_table_1768103083.webp",
       "index": 10,
-      "size": 46000
+      "size": 45832
     },
     {
-      "path": "images/generate_table_11_20251011_190400.webp",
-      "filename": "generate_table_11_20251011_190400.webp",
+      "path": "images/recipe_table_1768103082.webp",
+      "filename": "recipe_table_1768103082.webp",
       "index": 11,
-      "size": 127006
+      "size": 45652
     },
     {
-      "path": "images/generate_table_12_20251011_190400.webp",
-      "filename": "generate_table_12_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102217.webp",
+      "filename": "combo_points_table_graph_1768102217.webp",
       "index": 12,
-      "size": 3688
+      "size": 257058
     },
     {
-      "path": "images/generate_table_13_20251011_190400.webp",
-      "filename": "generate_table_13_20251011_190400.webp",
+      "path": "images/data_table_1768103226253888000.webp",
+      "filename": "data_table_1768103226253888000.webp",
       "index": 13,
-      "size": 42878
+      "size": 14754
     },
     {
-      "path": "images/generate_table_14_20251011_190400.webp",
-      "filename": "generate_table_14_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102256.webp",
+      "filename": "combo_points_table_graph_1768102256.webp",
       "index": 14,
-      "size": 46432
+      "size": 324526
     },
     {
-      "path": "images/generate_table_15_20251011_190400.webp",
-      "filename": "generate_table_15_20251011_190400.webp",
+      "path": "images/1768103219_table.webp",
+      "filename": "1768103219_table.webp",
       "index": 15,
-      "size": 59130
+      "size": 121894
     },
     {
-      "path": "images/generate_table_16_20251011_190400.webp",
-      "filename": "generate_table_16_20251011_190400.webp",
+      "path": "images/table_and_multi_scatterplots_1768103176.webp",
+      "filename": "table_and_multi_scatterplots_1768103176.webp",
       "index": 16,
-      "size": 198340
+      "size": 246320
     },
     {
-      "path": "images/generate_table_17_20251011_190400.webp",
-      "filename": "generate_table_17_20251011_190400.webp",
+      "path": "images/table_and_multi_scatterplots_1768103199.webp",
+      "filename": "table_and_multi_scatterplots_1768103199.webp",
       "index": 17,
-      "size": 46060
+      "size": 540968
     },
     {
-      "path": "images/generate_table_18_20251011_190400.webp",
-      "filename": "generate_table_18_20251011_190400.webp",
+      "path": "images/table_and_multi_scatterplots_1768103208.webp",
+      "filename": "table_and_multi_scatterplots_1768103208.webp",
       "index": 18,
-      "size": 77752
+      "size": 256094
     },
     {
-      "path": "images/generate_table_19_20251011_190400.webp",
-      "filename": "generate_table_19_20251011_190400.webp",
+      "path": "images/data_table_group_1768103225.webp",
+      "filename": "data_table_group_1768103225.webp",
       "index": 19,
-      "size": 109704
+      "size": 41306
     },
     {
-      "path": "images/generate_table_20_20251011_190400.webp",
-      "filename": "generate_table_20_20251011_190400.webp",
+      "path": "images/data_table_1768103226231922000.webp",
+      "filename": "data_table_1768103226231922000.webp",
       "index": 20,
-      "size": 46060
+      "size": 12120
     },
     {
-      "path": "images/generate_table_21_20251011_190400.webp",
-      "filename": "generate_table_21_20251011_190400.webp",
+      "path": "images/data_table_1768103225087356000.webp",
+      "filename": "data_table_1768103225087356000.webp",
       "index": 21,
-      "size": 6634
+      "size": 7140
     },
     {
-      "path": "images/generate_table_22_20251011_190400.webp",
-      "filename": "generate_table_22_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102237.webp",
+      "filename": "combo_points_table_graph_1768102237.webp",
       "index": 22,
-      "size": 191274
+      "size": 250546
     },
     {
-      "path": "images/generate_table_23_20251011_190400.webp",
-      "filename": "generate_table_23_20251011_190400.webp",
+      "path": "images/combo_points_table_graph_1768102260.webp",
+      "filename": "combo_points_table_graph_1768102260.webp",
       "index": 23,
-      "size": 46358
+      "size": 310136
     },
     {
-      "path": "images/generate_table_24_20251011_190400.webp",
-      "filename": "generate_table_24_20251011_190400.webp",
+      "path": "images/1768103214_table.webp",
+      "filename": "1768103214_table.webp",
       "index": 24,
-      "size": 75876
+      "size": 65024
     },
     {
-      "path": "images/generate_table_25_20251011_190400.webp",
-      "filename": "generate_table_25_20251011_190400.webp",
+      "path": "images/1768103213_table.webp",
+      "filename": "1768103213_table.webp",
       "index": 25,
-      "size": 46060
+      "size": 105848
+    },
+    {
+      "path": "images/data_table_1768103224450178000.webp",
+      "filename": "data_table_1768103224450178000.webp",
+      "index": 26,
+      "size": 11530
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102247.webp",
+      "filename": "combo_points_table_graph_1768102247.webp",
+      "index": 27,
+      "size": 227558
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103203.webp",
+      "filename": "table_and_multi_scatterplots_1768103203.webp",
+      "index": 28,
+      "size": 258018
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102230.webp",
+      "filename": "combo_points_table_graph_1768102230.webp",
+      "index": 29,
+      "size": 289148
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103192.webp",
+      "filename": "table_and_multi_scatterplots_1768103192.webp",
+      "index": 30,
+      "size": 273346
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102226.webp",
+      "filename": "combo_points_table_graph_1768102226.webp",
+      "index": 31,
+      "size": 298672
+    },
+    {
+      "path": "images/data_table_group_1768103222.webp",
+      "filename": "data_table_group_1768103222.webp",
+      "index": 32,
+      "size": 63700
+    },
+    {
+      "path": "images/1768103211_table_two_way.webp",
+      "filename": "1768103211_table_two_way.webp",
+      "index": 33,
+      "size": 263216
+    },
+    {
+      "path": "images/data_table_group_1768103223.webp",
+      "filename": "data_table_group_1768103223.webp",
+      "index": 34,
+      "size": 73952
+    },
+    {
+      "path": "images/data_table_1768103224433584000.webp",
+      "filename": "data_table_1768103224433584000.webp",
+      "index": 35,
+      "size": 6780
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103185.webp",
+      "filename": "table_and_multi_scatterplots_1768103185.webp",
+      "index": 36,
+      "size": 244106
+    },
+    {
+      "path": "images/1768102478_frequency_table.webp",
+      "filename": "1768102478_frequency_table.webp",
+      "index": 37,
+      "size": 13062
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102231.webp",
+      "filename": "combo_points_table_graph_1768102231.webp",
+      "index": 38,
+      "size": 299600
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102266.webp",
+      "filename": "combo_points_table_graph_1768102266.webp",
+      "index": 39,
+      "size": 114374
+    },
+    {
+      "path": "images/recipe_table_1768103084.webp",
+      "filename": "recipe_table_1768103084.webp",
+      "index": 40,
+      "size": 45832
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102246.webp",
+      "filename": "combo_points_table_graph_1768102246.webp",
+      "index": 41,
+      "size": 178730
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102250.webp",
+      "filename": "combo_points_table_graph_1768102250.webp",
+      "index": 42,
+      "size": 260768
+    },
+    {
+      "path": "images/1768103216_table.webp",
+      "filename": "1768103216_table.webp",
+      "index": 43,
+      "size": 230208
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103189.webp",
+      "filename": "table_and_multi_scatterplots_1768103189.webp",
+      "index": 44,
+      "size": 248438
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102228.webp",
+      "filename": "combo_points_table_graph_1768102228.webp",
+      "index": 45,
+      "size": 306758
+    },
+    {
+      "path": "images/1768103218_table.webp",
+      "filename": "1768103218_table.webp",
+      "index": 46,
+      "size": 152976
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103173.webp",
+      "filename": "table_and_multi_scatterplots_1768103173.webp",
+      "index": 47,
+      "size": 260124
+    },
+    {
+      "path": "images/data_table_1768103223149644000.webp",
+      "filename": "data_table_1768103223149644000.webp",
+      "index": 48,
+      "size": 9864
+    },
+    {
+      "path": "images/1768103222_table.webp",
+      "filename": "1768103222_table.webp",
+      "index": 49,
+      "size": 33064
+    },
+    {
+      "path": "images/1768103215_table.webp",
+      "filename": "1768103215_table.webp",
+      "index": 50,
+      "size": 80538
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102265.webp",
+      "filename": "combo_points_table_graph_1768102265.webp",
+      "index": 51,
+      "size": 170604
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102233.webp",
+      "filename": "combo_points_table_graph_1768102233.webp",
+      "index": 52,
+      "size": 137518
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103187.webp",
+      "filename": "table_and_multi_scatterplots_1768103187.webp",
+      "index": 53,
+      "size": 280644
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102225.webp",
+      "filename": "combo_points_table_graph_1768102225.webp",
+      "index": 54,
+      "size": 244312
+    },
+    {
+      "path": "images/data_table_1768103223186060000.webp",
+      "filename": "data_table_1768103223186060000.webp",
+      "index": 55,
+      "size": 12172
+    },
+    {
+      "path": "images/1768103210_table_two_way.webp",
+      "filename": "1768103210_table_two_way.webp",
+      "index": 56,
+      "size": 51224
+    },
+    {
+      "path": "images/data_table_1768103223165251000.webp",
+      "filename": "data_table_1768103223165251000.webp",
+      "index": 57,
+      "size": 10390
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102252.webp",
+      "filename": "combo_points_table_graph_1768102252.webp",
+      "index": 58,
+      "size": 245556
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102244.webp",
+      "filename": "combo_points_table_graph_1768102244.webp",
+      "index": 59,
+      "size": 209464
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102259.webp",
+      "filename": "combo_points_table_graph_1768102259.webp",
+      "index": 60,
+      "size": 316116
+    },
+    {
+      "path": "images/data_table_group_1768103226.webp",
+      "filename": "data_table_group_1768103226.webp",
+      "index": 61,
+      "size": 44288
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103180.webp",
+      "filename": "table_and_multi_scatterplots_1768103180.webp",
+      "index": 62,
+      "size": 410420
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102222.webp",
+      "filename": "combo_points_table_graph_1768102222.webp",
+      "index": 63,
+      "size": 306834
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103196.webp",
+      "filename": "table_and_multi_scatterplots_1768103196.webp",
+      "index": 64,
+      "size": 259896
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102263.webp",
+      "filename": "combo_points_table_graph_1768102263.webp",
+      "index": 65,
+      "size": 112496
+    },
+    {
+      "path": "images/data_table_1768103210885840000.webp",
+      "filename": "data_table_1768103210885840000.webp",
+      "index": 66,
+      "size": 12978
+    },
+    {
+      "path": "images/recipe_table_1768103081.webp",
+      "filename": "recipe_table_1768103081.webp",
+      "index": 67,
+      "size": 45666
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102214.webp",
+      "filename": "combo_points_table_graph_1768102214.webp",
+      "index": 68,
+      "size": 215924
+    },
+    {
+      "path": "images/data_table_1768103210867680000.webp",
+      "filename": "data_table_1768103210867680000.webp",
+      "index": 69,
+      "size": 10486
+    },
+    {
+      "path": "images/1768103220_table.webp",
+      "filename": "1768103220_table.webp",
+      "index": 70,
+      "size": 183242
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102243.webp",
+      "filename": "combo_points_table_graph_1768102243.webp",
+      "index": 71,
+      "size": 207714
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102239.webp",
+      "filename": "combo_points_table_graph_1768102239.webp",
+      "index": 72,
+      "size": 283040
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102254.webp",
+      "filename": "combo_points_table_graph_1768102254.webp",
+      "index": 73,
+      "size": 233002
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102215.webp",
+      "filename": "combo_points_table_graph_1768102215.webp",
+      "index": 74,
+      "size": 155868
+    },
+    {
+      "path": "images/recipe_table_1768103080.webp",
+      "filename": "recipe_table_1768103080.webp",
+      "index": 75,
+      "size": 68774
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103206.webp",
+      "filename": "table_and_multi_scatterplots_1768103206.webp",
+      "index": 76,
+      "size": 273398
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102262.webp",
+      "filename": "combo_points_table_graph_1768102262.webp",
+      "index": 77,
+      "size": 118762
+    },
+    {
+      "path": "images/1768103213_table_small.webp",
+      "filename": "1768103213_table_small.webp",
+      "index": 78,
+      "size": 5476
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102235.webp",
+      "filename": "combo_points_table_graph_1768102235.webp",
+      "index": 79,
+      "size": 152886
+    },
+    {
+      "path": "images/table_and_multi_scatterplots_1768103178.webp",
+      "filename": "table_and_multi_scatterplots_1768103178.webp",
+      "index": 80,
+      "size": 278338
+    },
+    {
+      "path": "images/combo_points_table_graph_1768102219.webp",
+      "filename": "combo_points_table_graph_1768102219.webp",
+      "index": 81,
+      "size": 229164
     }
   ],
-  "image_count": 107,
+  "image_count": 81,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.698838",
   "file_patterns": [
     "table"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.A.1+2",
-      "display_name": "Customary Conversions: Weight",
-      "description": "Convert to larger customary units involving fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.A.1+6",
-      "display_name": "Metric Conversions: Volume",
-      "description": "Perform multi-step metric conversions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.4+4",
-      "display_name": "Compare, Order and Round Decimals - Word Problems",
-      "description": "Solve word problems involving comparing, ordering and rounding decimals."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+1",
-      "display_name": "Generating Patterns",
-      "description": "Generate two numerical patterns based on the given rules and starting number."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+3",
-      "display_name": "Relationships in Patterns",
-      "description": "Identify the relationship between corresponding terms of the two patterns."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.A+2",
-      "display_name": "Proportional Relationships in Tables",
-      "description": "Determine if two quantities represented in a table are in a proportional relationship."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.B+1",
-      "display_name": "Constant of Proportionality in Tables",
-      "description": "Identify the constant of proportionality in tables."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.2.C+1",
-      "display_name": "Proportional Relationship Equations",
-      "description": "Represent proportional relationships by equations. For example, if total cost t is proportional to the number n of items purchased at a constant price p, the relationship between the total cost and the number of items can be expressed as t = pn."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+2",
-      "display_name": "Solving Proportion Word Problems",
-      "description": "Write and solve proportions in real-world context word problems."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+5",
-      "display_name": "Percent Change",
-      "description": "Solve percent of change problems."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.RP.A.3+9",
-      "display_name": "Deal Comparisons",
-      "description": "Compare pricing options word problem to determine the better deal or value"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.A.2+1",
-      "display_name": "Making Inferences",
-      "description": "Utilize data from a random sample to make informed inferences about a population characteristic that is not directly known."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.B.3+1",
-      "display_name": "Comparing Populations",
-      "description": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+2",
-      "display_name": null,
-      "description": ""
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.5+3",
-      "display_name": "Theoretical Probability",
-      "description": "Find theoretical probability."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+1",
-      "display_name": "Experimental Probability",
-      "description": "Find experiemental probability."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.6+2",
-      "display_name": "Making Predictions with Experimental Probability",
-      "description": "Make predictions using experimental proability."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.7.A+1",
-      "display_name": "Real World Probability Experiments",
-      "description": "Model real-life random selections by assigning equal probability to each outcome and calculate the probability of specified individuals or groups being chosen."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.7.A+2",
-      "display_name": "Probability of Opposite Events",
-      "description": "Find the probability of something NOT happening."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.7.SP.C.8.B+3",
-      "display_name": "Sample Space Tables",
-      "description": "Create tables to systematically organize and represent sample spaces for compound events, clearly displaying all possible outcomes."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:46.334612",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Data Table Visualization",
-    "description": "This function generates a table visualization based on the provided data. It accepts input in the form of a `Table` object, which includes a list of `TableColumn` objects for the column labels and a list of `TableRow` objects for the row data. The function wraps text for both columns and rows to ensure readability. The maximum number of rows is limited to 15. This function is useful for presenting structured data in a clear and concise manner, aiding in data analysis and comprehension in educational settings.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "columns: A list of `TableColumn` objects, each containing a `label` field which specifies the label for a column in the table.",
-          "rows: A list of `TableRow` objects, each containing `field_1` and `field_2` fields which specify the data for a row in the table.",
-          "All fields are required."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The maximum number of rows is limited to 15.",
-          "All fields are required and must be strings. Numbers are coerced to strings.",
-          "The `alias` and `validation_alias` fields in `TableRow` allow for alternative names for the fields."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function generates a table with the specified columns and rows.",
-          "Text in both columns and rows is wrapped for readability.",
-          "The size of the table adjusts based on the maximum cell dimensions, ensuring all data is visible and readable."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

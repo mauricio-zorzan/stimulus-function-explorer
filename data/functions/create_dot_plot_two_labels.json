@@ -1,0 +1,35 @@
+{
+  "function_name": "create_dot_plot_two_labels",
+  "description": "Creates dot plot two labels for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T09:56:00.441441",
+  "file_patterns": [
+    "dot_plot_two_labels"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "TEKS.MATH.CONTENT.5.9.C+1",
+      "display_name": "Interpret Graphs",
+      "description": "Solve problems using given data.",
+      "stimulus_type_specifications": [
+        "Available Images That Can Be Generated:\n \n The images are dot plots representing the frequency of individual data points along a number line. Dot plots display how many times each number or category appears by stacking dots vertically above that value.\n \n Specifications for Image Generation:\n \n The number line must be horizontal, displaying each distinct value in the dataset in ascending order.\n \n For every occurrence of a value, a dot is placed above that number; multiple occurrences are represented by stacking dots vertically.\n \n Each plot shall include a clear title describing what the data represents.\nEach plot shall include a clear legend, which is the x-axis label, describing what each number on the x-axis represents\n \n No additional gridlines or axis labels beyond the horizontal number line are required.\n \n These parameters ensure that the dot plot clearly visualizes frequency distribution and supports comparative reasoning about data repetition and mode.\n \nExample stimulus_description for dot plot:\n\nstimulus_description = StatsLinePlot(\n         title=\"Pets per Student\",\n         legend=\"Number of Pets\",\n         data=[1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 5],\n     )"
+      ]
+    },
+    {
+      "external_id": "TEKS.MATH.CONTENT.6.12(B)+1",
+      "display_name": "Interpreting Dot Plots",
+      "description": "Use the graphical representation of numeric data to describe the center, spread, and shape of the data distribution in a dot plot.",
+      "stimulus_type_specifications": [
+        "# Available Images That Can Be Generated\n\nThe images are dot plots representing the frequency of individual data points along a number line. Dot plots display how many times each number or category appears by stacking dots vertically above that value.\n\n# Specifications for Image Generation\n\n- The number line must be horizontal, displaying each distinct value in the dataset in ascending order\n- For every occurrence of a value, a dot is placed above that number; multiple occurrences are represented by stacking dots vertically\n- Each plot includes:\n  * A title at the top describing what the data represents\n  * A legend at the bottom (x-axis label) describing the measurement unit\n  * Arrows on both ends of the number line\n- The number line shows all relevant values within the data range, spanning from minimum to maximum value\n- Number line values are evenly spaced with clear tick marks\n- No additional gridlines or axis labels beyond the horizontal number line\n- The data must contain consecutive unique values (e.g., {5, 6, 7, 8, 9} is valid, {5, 7, 9, 11} is not)\n- Real-world context must be reflected in the title and legend\n\n## Example Stimulus Code Format\n\n### REQUIRED FORMAT - Use ONLY these four fields. Don't add any new arguments!\n\n{\n  \"title\": \"Games Won Each Season\",\n  \"legend\": \"Number of Games\",\n  \"data\": [4, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11],\n  \"show_arrows\": true\n}\n\n{\n  \"title\": \"Wing Lengths of Birds\",\n  \"legend\": \"Wing Length (millimeters)\",\n  \"data\": [46, 47, 48, 48, 48, 49, 50, 51, 52, 53],\n  \"show_arrows\": true\n}\n\n{\n  \"title\": \"Touchdowns Scored\",\n  \"legend\": \"Number of Touchdowns\",\n  \"data\": [0, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 4],\n  \"show_arrows\": true\n}\n\n### IMPORTANT CONSTRAINTS:\n- ONLY use these four fields: \"title\", \"legend\", \"data\", \"show_arrows\"\n- ALWAYS set \"show_arrows\": true\n- DO NOT add: dot_color, title_color, legend_color, axis_color, or any fontsize/fontweight parameters\n- All styling (colors, fonts) is automatic and should not be specified",
+        "# Available Images That Can Be Generated\n\nThe images are dot plots representing the frequency of individual data points along a number line. Dot plots display how many times each number or category appears by stacking dots vertically above that value.\n\n# Specifications for Image Generation\n\n- The number line must be horizontal, displaying each distinct value in the dataset in ascending order\n- For every occurrence of a value, a dot is placed above that number; multiple occurrences are represented by stacking dots vertically\n- Each plot includes:\n  * A title at the top describing what the data represents\n  * A legend at the bottom (x-axis label) describing the measurement unit\n  * Arrows on both ends of the number line\n- The number line shows all relevant values within the data range, spanning from minimum to maximum value\n- Number line values are evenly spaced with clear tick marks\n- No additional gridlines or axis labels beyond the horizontal number line\n- Data values typically range from 0-20 for EASY/MEDIUM difficulty; may extend to 30 for HARD difficulty\n- The data must contain 5-8 consecutive unique values (e.g., {5, 6, 7, 8, 9} is valid, {5, 7, 9, 11} is not)\n- Total number of dots typically ranges from 10-20 observations\n- Real-world context must be reflected in the title and legend\n\n## Example Stimulus Code Format\n\n### REQUIRED FORMAT - Use ONLY these four fields. Don't add any new arguments!\n\n{\n  \"title\": \"Games Won Each Season\",\n  \"legend\": \"Number of Games\",\n  \"data\": [4, 5, 6, 6, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11],\n  \"show_arrows\": true\n}\n\n{\n  \"title\": \"Wing Lengths of Birds\",\n  \"legend\": \"Wing Length (millimeters)\",\n  \"data\": [46, 47, 48, 48, 48, 49, 50, 51, 52, 53],\n  \"show_arrows\": true\n}\n\n{\n  \"title\": \"Touchdowns Scored\",\n  \"legend\": \"Number of Touchdowns\",\n  \"data\": [0, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 4],\n  \"show_arrows\": true\n}\n\n### IMPORTANT CONSTRAINTS:\n- ONLY use these four fields: \"title\", \"legend\", \"data\", \"show_arrows\"\n- ALWAYS set \"show_arrows\": true\n- DO NOT add: dot_color, title_color, legend_color, axis_color, or any fontsize/fontweight parameters\n- All styling (colors, fonts) is automatic and should not be specified"
+      ]
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:10:27.258679"
+}

@@ -1,0 +1,136 @@
+{
+  "function_name": "draw_bar_models",
+  "description": "Draws bar models for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/bar_model_1768102100.webp",
+      "filename": "bar_model_1768102100.webp",
+      "index": 1,
+      "size": 27042
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421860.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421860.webp",
+      "index": 2,
+      "size": 3694
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102420996.webp",
+      "filename": "fraction_bar_model_we_empty_1768102420996.webp",
+      "index": 3,
+      "size": 14628
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102420952.webp",
+      "filename": "fraction_bar_model_we_filled_1768102420952.webp",
+      "index": 4,
+      "size": 10572
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421893.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421893.webp",
+      "index": 5,
+      "size": 18422
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421755.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421755.webp",
+      "index": 6,
+      "size": 7144
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102420902.webp",
+      "filename": "fraction_bar_model_we_empty_1768102420902.webp",
+      "index": 7,
+      "size": 9156
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421477.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421477.webp",
+      "index": 8,
+      "size": 23966
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421361.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421361.webp",
+      "index": 9,
+      "size": 11872
+    },
+    {
+      "path": "images/bar_model_1768102124.webp",
+      "filename": "bar_model_1768102124.webp",
+      "index": 10,
+      "size": 51150
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421307.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421307.webp",
+      "index": 11,
+      "size": 6968
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102422013.webp",
+      "filename": "fraction_bar_model_we_filled_1768102422013.webp",
+      "index": 12,
+      "size": 24144
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421090.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421090.webp",
+      "index": 13,
+      "size": 18426
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421185.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421185.webp",
+      "index": 14,
+      "size": 9156
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421225.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421225.webp",
+      "index": 15,
+      "size": 11652
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421832.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421832.webp",
+      "index": 16,
+      "size": 3148
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421623.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421623.webp",
+      "index": 17,
+      "size": 30596
+    },
+    {
+      "path": "images/fraction_bar_model_we_empty_1768102421262.webp",
+      "filename": "fraction_bar_model_we_empty_1768102421262.webp",
+      "index": 18,
+      "size": 5568
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421414.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421414.webp",
+      "index": 19,
+      "size": 14420
+    },
+    {
+      "path": "images/fraction_bar_model_we_filled_1768102421793.webp",
+      "filename": "fraction_bar_model_we_filled_1768102421793.webp",
+      "index": 20,
+      "size": 7630
+    }
+  ],
+  "image_count": 20,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.597011",
+  "file_patterns": [
+    "bar_model"
+  ]
+}

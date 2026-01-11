@@ -1,116 +1,46 @@
 {
   "function_name": "draw_divide_items_into_array",
-  "description": "This function generates a visual representation of items arranged in a rectangular array. It is designed to aid in the understanding of division and multiplication concepts by visually representing the items in rows and columns. The function uses circles to represent the items, and the number of rows and columns can be specified by the user.",
-  "category": "arithmetic",
+  "description": "Draws divide items into array for educational visualization.",
+  "category": "other",
   "tags": [
-    "division",
-    "multiplication",
-    "arrays",
-    "visualization",
-    "mathematics"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_divide_items_into_array_1_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_1_20251011_190400.webp",
+      "path": "images/divide_items_into_array_1768102299.webp",
+      "filename": "divide_items_into_array_1768102299.webp",
       "index": 1,
-      "size": 9094
+      "size": 8206
     },
     {
-      "path": "images/draw_divide_items_into_array_2_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_2_20251011_190400.webp",
+      "path": "images/divide_items_into_array_1768102301.webp",
+      "filename": "divide_items_into_array_1768102301.webp",
       "index": 2,
-      "size": 10192
-    },
-    {
-      "path": "images/draw_divide_items_into_array_3_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_3_20251011_190400.webp",
-      "index": 3,
-      "size": 7684
-    },
-    {
-      "path": "images/draw_divide_items_into_array_4_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_4_20251011_190400.webp",
-      "index": 4,
-      "size": 12618
-    },
-    {
-      "path": "images/draw_divide_items_into_array_5_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_5_20251011_190400.webp",
-      "index": 5,
-      "size": 21986
-    },
-    {
-      "path": "images/draw_divide_items_into_array_6_20251011_190400.webp",
-      "filename": "draw_divide_items_into_array_6_20251011_190400.webp",
-      "index": 6,
       "size": 143176
+    },
+    {
+      "path": "images/divide_items_into_array_1768102300.webp",
+      "filename": "divide_items_into_array_1768102300.webp",
+      "index": 3,
+      "size": 8070
+    },
+    {
+      "path": "images/divide_items_into_array_1768102297.webp",
+      "filename": "divide_items_into_array_1768102297.webp",
+      "index": 4,
+      "size": 12614
+    },
+    {
+      "path": "images/divide_items_into_array_1768102296.webp",
+      "filename": "divide_items_into_array_1768102296.webp",
+      "index": 5,
+      "size": 10240
     }
   ],
-  "image_count": 26,
+  "image_count": 5,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.628897",
   "file_patterns": [
     "divide_items_into_array"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.2+1",
-      "display_name": "Divide by Counting Equal Groups or Arrays",
-      "description": "Understand division as the process of sharing or grouping by solving division problems using counters, drawings, or arrays."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.2+2",
-      "display_name": "Writing Division Sentences for Arrays",
-      "description": "Write a division equation that represents an array."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.2+4",
-      "display_name": "Writing Multiplication and Division Sentences for Arrays",
-      "description": "Write a multiplication or division equation to represent an array."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.B.6+1",
-      "display_name": "Relate Multiplication with Division Using Arrays",
-      "description": "Understand division as an unknown-factor problem using arrays."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+3",
-      "display_name": null,
-      "description": "Multiply fractions by whole numbers using arrays."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:17.381185",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Rectangular Arrays",
-    "description": "The draw_divide_items_into_array function is capable of creating visualizations of items arranged in a rectangular array. The function accepts two inputs: the number of rows and the number of columns, both of which are defined in the DivideItemsIntoArray class. The number of rows and columns must be positive integers between 1 and 10, inclusive. This function is particularly useful in teaching division and multiplication, as it visually demonstrates the concept of arranging items into equal groups.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "num_rows: Controls the number of rows in the array. It is a required field.",
-          "num_columns: Controls the number of columns in the array. It is a required field."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The number of rows and columns must be positive integers.",
-          "The number of rows and columns must be between 1 and 10, inclusive.",
-          "The function validates the inputs to ensure they meet these requirements."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function generates an image of a rectangular array of circles.",
-          "The number of rows and columns in the array corresponds to the input parameters.",
-          "Each row is separated by a border, and the entire array is colored randomly from a set of standard colors."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

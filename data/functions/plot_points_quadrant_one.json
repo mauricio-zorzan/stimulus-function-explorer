@@ -1,0 +1,46 @@
+{
+  "function_name": "plot_points_quadrant_one",
+  "description": "Plots points quadrant one for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/graphing_coordinate_planes_1768102703.webp",
+      "filename": "graphing_coordinate_planes_1768102703.webp",
+      "index": 1,
+      "size": 114796
+    },
+    {
+      "path": "images/graphing_coordinate_planes_1768102702.webp",
+      "filename": "graphing_coordinate_planes_1768102702.webp",
+      "index": 2,
+      "size": 84538
+    },
+    {
+      "path": "images/graphing_coordinate_planes_1768102704.webp",
+      "filename": "graphing_coordinate_planes_1768102704.webp",
+      "index": 3,
+      "size": 154480
+    },
+    {
+      "path": "images/graphing_coordinate_planes_1768102707.webp",
+      "filename": "graphing_coordinate_planes_1768102707.webp",
+      "index": 4,
+      "size": 222580
+    },
+    {
+      "path": "images/graphing_coordinate_planes_1768102706.webp",
+      "filename": "graphing_coordinate_planes_1768102706.webp",
+      "index": 5,
+      "size": 227290
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.673048",
+  "file_patterns": [
+    "graphing_coordinate_planes"
+  ]
+}

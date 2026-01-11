@@ -1,0 +1,28 @@
+{
+  "function_name": "draw_rational_numbers_venn_separate_circles",
+  "description": "Draws rational numbers venn separate circles for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/rational_numbers_venn_separate_1768102188.webp",
+      "filename": "rational_numbers_venn_separate_1768102188.webp",
+      "index": 1,
+      "size": 28354
+    },
+    {
+      "path": "images/rational_numbers_venn_separate_1768102189.webp",
+      "filename": "rational_numbers_venn_separate_1768102189.webp",
+      "index": 2,
+      "size": 29048
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.690705",
+  "file_patterns": [
+    "rational_numbers_venn_separate"
+  ]
+}

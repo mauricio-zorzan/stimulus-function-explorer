@@ -1,0 +1,124 @@
+{
+  "function_name": "create_bar_graph",
+  "description": "Creates bar graph for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/categorical_graph_1768102182.webp",
+      "filename": "categorical_graph_1768102182.webp",
+      "index": 1,
+      "size": 174136
+    },
+    {
+      "path": "images/categorical_graph_1768102176.webp",
+      "filename": "categorical_graph_1768102176.webp",
+      "index": 2,
+      "size": 1564726
+    },
+    {
+      "path": "images/categorical_graph_1768102183.webp",
+      "filename": "categorical_graph_1768102183.webp",
+      "index": 3,
+      "size": 231170
+    },
+    {
+      "path": "images/categorical_graph_1768102151.webp",
+      "filename": "categorical_graph_1768102151.webp",
+      "index": 4,
+      "size": 103068
+    },
+    {
+      "path": "images/categorical_graph_1768102184.webp",
+      "filename": "categorical_graph_1768102184.webp",
+      "index": 5,
+      "size": 113174
+    },
+    {
+      "path": "images/categorical_graph_1768102150.webp",
+      "filename": "categorical_graph_1768102150.webp",
+      "index": 6,
+      "size": 226412
+    },
+    {
+      "path": "images/categorical_graph_1768102170.webp",
+      "filename": "categorical_graph_1768102170.webp",
+      "index": 7,
+      "size": 163652
+    },
+    {
+      "path": "images/categorical_graph_1768102173.webp",
+      "filename": "categorical_graph_1768102173.webp",
+      "index": 8,
+      "size": 319778
+    },
+    {
+      "path": "images/multi_categorical_graph_1768102155.webp",
+      "filename": "multi_categorical_graph_1768102155.webp",
+      "index": 9,
+      "size": 837304
+    },
+    {
+      "path": "images/categorical_graph_1768102169.webp",
+      "filename": "categorical_graph_1768102169.webp",
+      "index": 10,
+      "size": 562674
+    },
+    {
+      "path": "images/categorical_graph_1768102153.webp",
+      "filename": "categorical_graph_1768102153.webp",
+      "index": 11,
+      "size": 927104
+    },
+    {
+      "path": "images/categorical_graph_1768102152.webp",
+      "filename": "categorical_graph_1768102152.webp",
+      "index": 12,
+      "size": 407672
+    },
+    {
+      "path": "images/categorical_graph_1768102172.webp",
+      "filename": "categorical_graph_1768102172.webp",
+      "index": 13,
+      "size": 151972
+    },
+    {
+      "path": "images/categorical_graph_1768102179.webp",
+      "filename": "categorical_graph_1768102179.webp",
+      "index": 14,
+      "size": 159254
+    },
+    {
+      "path": "images/categorical_graph_1768102180.webp",
+      "filename": "categorical_graph_1768102180.webp",
+      "index": 15,
+      "size": 494480
+    },
+    {
+      "path": "images/categorical_graph_1768102155.webp",
+      "filename": "categorical_graph_1768102155.webp",
+      "index": 16,
+      "size": 82542
+    },
+    {
+      "path": "images/categorical_graph_1768102174.webp",
+      "filename": "categorical_graph_1768102174.webp",
+      "index": 17,
+      "size": 562674
+    },
+    {
+      "path": "images/categorical_graph_1768102178.webp",
+      "filename": "categorical_graph_1768102178.webp",
+      "index": 18,
+      "size": 347268
+    }
+  ],
+  "image_count": 18,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.603261",
+  "file_patterns": [
+    "categorical_graph"
+  ]
+}

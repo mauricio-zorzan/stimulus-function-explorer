@@ -1,0 +1,214 @@
+{
+  "function_name": "draw_x_and_ones_algebraic_tiles",
+  "description": "Draws x and ones algebraic tiles for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/algebraic_tiles_units_1fc38924.webp",
+      "filename": "algebraic_tiles_units_1fc38924.webp",
+      "index": 1,
+      "size": 4392
+    },
+    {
+      "path": "images/algebraic_tiles_00c04aa9.webp",
+      "filename": "algebraic_tiles_00c04aa9.webp",
+      "index": 2,
+      "size": 4378
+    },
+    {
+      "path": "images/algebraic_tiles_01a14d8a.webp",
+      "filename": "algebraic_tiles_01a14d8a.webp",
+      "index": 3,
+      "size": 4018
+    },
+    {
+      "path": "images/algebraic_tiles_d79faa3f.webp",
+      "filename": "algebraic_tiles_d79faa3f.webp",
+      "index": 4,
+      "size": 3880
+    },
+    {
+      "path": "images/algebraic_tiles_c096abf1.webp",
+      "filename": "algebraic_tiles_c096abf1.webp",
+      "index": 5,
+      "size": 4378
+    },
+    {
+      "path": "images/algebraic_tiles_8ee4ac5a.webp",
+      "filename": "algebraic_tiles_8ee4ac5a.webp",
+      "index": 6,
+      "size": 4098
+    },
+    {
+      "path": "images/algebraic_tiles_75c3e7d9.webp",
+      "filename": "algebraic_tiles_75c3e7d9.webp",
+      "index": 7,
+      "size": 4600
+    },
+    {
+      "path": "images/circle_algebraic_tiles_1768102187.webp",
+      "filename": "circle_algebraic_tiles_1768102187.webp",
+      "index": 8,
+      "size": 14880
+    },
+    {
+      "path": "images/algebraic_tiles_c1eaa7d8.webp",
+      "filename": "algebraic_tiles_c1eaa7d8.webp",
+      "index": 9,
+      "size": 5066
+    },
+    {
+      "path": "images/algebraic_tiles_units_cf131cbb.webp",
+      "filename": "algebraic_tiles_units_cf131cbb.webp",
+      "index": 10,
+      "size": 6336
+    },
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103235.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103235.webp",
+      "index": 11,
+      "size": 5100
+    },
+    {
+      "path": "images/algebraic_tiles_c8ccdea0.webp",
+      "filename": "algebraic_tiles_c8ccdea0.webp",
+      "index": 12,
+      "size": 10910
+    },
+    {
+      "path": "images/algebraic_tiles_17f5753b.webp",
+      "filename": "algebraic_tiles_17f5753b.webp",
+      "index": 13,
+      "size": 6330
+    },
+    {
+      "path": "images/algebraic_tiles_3485dacc.webp",
+      "filename": "algebraic_tiles_3485dacc.webp",
+      "index": 14,
+      "size": 5982
+    },
+    {
+      "path": "images/algebraic_tiles_94c73449.webp",
+      "filename": "algebraic_tiles_94c73449.webp",
+      "index": 15,
+      "size": 5982
+    },
+    {
+      "path": "images/algebraic_tiles_18c391ef.webp",
+      "filename": "algebraic_tiles_18c391ef.webp",
+      "index": 16,
+      "size": 3180
+    },
+    {
+      "path": "images/circle_algebraic_tiles_1768102186.webp",
+      "filename": "circle_algebraic_tiles_1768102186.webp",
+      "index": 17,
+      "size": 7476
+    },
+    {
+      "path": "images/algebraic_tiles_cf92f7bd.webp",
+      "filename": "algebraic_tiles_cf92f7bd.webp",
+      "index": 18,
+      "size": 3934
+    },
+    {
+      "path": "images/algebraic_tiles_c9561001.webp",
+      "filename": "algebraic_tiles_c9561001.webp",
+      "index": 19,
+      "size": 5072
+    },
+    {
+      "path": "images/algebraic_tiles_82851d45.webp",
+      "filename": "algebraic_tiles_82851d45.webp",
+      "index": 20,
+      "size": 3250
+    },
+    {
+      "path": "images/algebraic_tiles_895e1cbd.webp",
+      "filename": "algebraic_tiles_895e1cbd.webp",
+      "index": 21,
+      "size": 12652
+    },
+    {
+      "path": "images/algebraic_tiles_3429f1f6.webp",
+      "filename": "algebraic_tiles_3429f1f6.webp",
+      "index": 22,
+      "size": 3888
+    },
+    {
+      "path": "images/algebraic_tiles_1643a6ce.webp",
+      "filename": "algebraic_tiles_1643a6ce.webp",
+      "index": 23,
+      "size": 5122
+    },
+    {
+      "path": "images/algebraic_tiles_units_ecce4de1.webp",
+      "filename": "algebraic_tiles_units_ecce4de1.webp",
+      "index": 24,
+      "size": 3394
+    },
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103236.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103236.webp",
+      "index": 25,
+      "size": 6762
+    },
+    {
+      "path": "images/algebraic_tiles_596e0a37.webp",
+      "filename": "algebraic_tiles_596e0a37.webp",
+      "index": 26,
+      "size": 5164
+    },
+    {
+      "path": "images/algebraic_tiles_32f71368.webp",
+      "filename": "algebraic_tiles_32f71368.webp",
+      "index": 27,
+      "size": 3880
+    },
+    {
+      "path": "images/algebraic_tiles_dfae631f.webp",
+      "filename": "algebraic_tiles_dfae631f.webp",
+      "index": 28,
+      "size": 13504
+    },
+    {
+      "path": "images/algebraic_tiles_9a4b014a.webp",
+      "filename": "algebraic_tiles_9a4b014a.webp",
+      "index": 29,
+      "size": 4282
+    },
+    {
+      "path": "images/algebraic_tiles_9e37b0ac.webp",
+      "filename": "algebraic_tiles_9e37b0ac.webp",
+      "index": 30,
+      "size": 6356
+    },
+    {
+      "path": "images/algebraic_tiles_4c7482d3.webp",
+      "filename": "algebraic_tiles_4c7482d3.webp",
+      "index": 31,
+      "size": 3934
+    },
+    {
+      "path": "images/algebraic_tiles_b0a55630.webp",
+      "filename": "algebraic_tiles_b0a55630.webp",
+      "index": 32,
+      "size": 6710
+    },
+    {
+      "path": "images/algebraic_tiles_4d668a3f.webp",
+      "filename": "algebraic_tiles_4d668a3f.webp",
+      "index": 33,
+      "size": 4228
+    }
+  ],
+  "image_count": 33,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.590649",
+  "file_patterns": [
+    "algebraic_tiles"
+  ]
+}

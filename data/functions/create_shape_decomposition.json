@@ -1,0 +1,76 @@
+{
+  "function_name": "create_shape_decomposition",
+  "description": "Creates shape decomposition for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/shape_decomp_1768103115.webp",
+      "filename": "shape_decomp_1768103115.webp",
+      "index": 1,
+      "size": 31842
+    },
+    {
+      "path": "images/shape_decomp_1768103129.webp",
+      "filename": "shape_decomp_1768103129.webp",
+      "index": 2,
+      "size": 33458
+    },
+    {
+      "path": "images/shape_decomp_1768103109.webp",
+      "filename": "shape_decomp_1768103109.webp",
+      "index": 3,
+      "size": 27458
+    },
+    {
+      "path": "images/shape_decomp_1768103112.webp",
+      "filename": "shape_decomp_1768103112.webp",
+      "index": 4,
+      "size": 34200
+    },
+    {
+      "path": "images/shape_decomp_1768103128.webp",
+      "filename": "shape_decomp_1768103128.webp",
+      "index": 5,
+      "size": 27580
+    },
+    {
+      "path": "images/shape_decomp_1768103111.webp",
+      "filename": "shape_decomp_1768103111.webp",
+      "index": 6,
+      "size": 36554
+    },
+    {
+      "path": "images/shape_decomp_1768103127.webp",
+      "filename": "shape_decomp_1768103127.webp",
+      "index": 7,
+      "size": 37716
+    },
+    {
+      "path": "images/shape_decomp_1768103131.webp",
+      "filename": "shape_decomp_1768103131.webp",
+      "index": 8,
+      "size": 33536
+    },
+    {
+      "path": "images/shape_decomp_1768103130.webp",
+      "filename": "shape_decomp_1768103130.webp",
+      "index": 9,
+      "size": 32516
+    },
+    {
+      "path": "images/shape_decomp_1768103110.webp",
+      "filename": "shape_decomp_1768103110.webp",
+      "index": 10,
+      "size": 19116
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.694254",
+  "file_patterns": [
+    "shape_decomp"
+  ]
+}

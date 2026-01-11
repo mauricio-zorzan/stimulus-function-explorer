@@ -1,0 +1,82 @@
+{
+  "function_name": "draw_triangle_rotation_numeric",
+  "description": "Draws triangle rotation numeric for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "index": 1,
+      "size": 35264
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "index": 2,
+      "size": 50532
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "index": 3,
+      "size": 50388
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "index": 4,
+      "size": 38126
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "index": 5,
+      "size": 47266
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "index": 6,
+      "size": 50268
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "index": 7,
+      "size": 41690
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "index": 8,
+      "size": 49936
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "index": 9,
+      "size": 45470
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "index": 10,
+      "size": 53304
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "index": 11,
+      "size": 45402
+    }
+  ],
+  "image_count": 11,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.671676",
+  "file_patterns": [
+    "geo_triangle_rotation_numeric"
+  ]
+}

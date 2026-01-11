@@ -1,78 +1,34 @@
 {
   "function_name": "generate_rect_with_side_len_and_area",
-  "description": "This function generates a visual representation of a rectangle with one side length displayed, the other labeled as '?', and the area of the rectangle displayed inside. It is designed to help students visualize and understand the concept of area in geometry, and how it relates to the dimensions of a shape.",
-  "category": "geometry",
+  "description": "Generates rect with side len and area for educational visualization.",
+  "category": "other",
   "tags": [
-    "geometry",
-    "area",
-    "rectangle",
-    "visualization"
+    "other"
   ],
   "images": [
     {
-      "path": "images/generate_rect_with_side_len_and_area_1_20251011_190400.webp",
-      "filename": "generate_rect_with_side_len_and_area_1_20251011_190400.webp",
+      "path": "images/rectangle_with_area_1768102651.webp",
+      "filename": "rectangle_with_area_1768102651.webp",
       "index": 1,
-      "size": 34714
+      "size": 56916
     },
     {
-      "path": "images/generate_rect_with_side_len_and_area_2_20251011_190400.webp",
-      "filename": "generate_rect_with_side_len_and_area_2_20251011_190400.webp",
+      "path": "images/rectangle_with_area_1768102650.webp",
+      "filename": "rectangle_with_area_1768102650.webp",
       "index": 2,
-      "size": 41632
+      "size": 32912
     },
     {
-      "path": "images/generate_rect_with_side_len_and_area_3_20251011_190400.webp",
-      "filename": "generate_rect_with_side_len_and_area_3_20251011_190400.webp",
+      "path": "images/rectangle_with_area_1768102652.webp",
+      "filename": "rectangle_with_area_1768102652.webp",
       "index": 3,
-      "size": 29892
+      "size": 49002
     }
   ],
   "image_count": 3,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.690998",
   "file_patterns": [
     "rectangle_with_area"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.C.7.B+3",
-      "display_name": "Area Problems: Missing Side Length",
-      "description": "Given the area and a side, find the missing side length."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:41.739104",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Rectangles with Side Length and Area",
-    "description": "This function can generate images of rectangles with one side length displayed, the other side length hidden, and the area of the rectangle displayed inside. It accepts inputs of length, width, and units for the rectangle. The function scales the rectangle to fit well in the figure, with a target maximum dimension of 8 units. The educational purpose of this function is to help students understand the concept of area in geometry, and how it is calculated from the dimensions of a shape. It can be used in lessons on geometry, area calculation, and understanding dimensions.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "length: The length of the rectangle",
-          "width: The width of the rectangle",
-          "unit: The units for the dimensions of the rectangle"
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The length and width must be positive numbers",
-          "The unit must be a valid unit of measurement",
-          "The maximum dimension of the rectangle is 8 units"
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a rectangle with one side length displayed, the other side length hidden, and the area of the rectangle displayed inside",
-          "The rectangle is drawn to scale, with a target maximum dimension of 8 units",
-          "The dimensions and area are displayed in the appropriate units"
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

@@ -1,720 +1,1258 @@
 {
   "function_name": "generate_angles",
-  "description": "The 'generate_angles' function draws a triangle with labeled vertices and angles. It is designed to aid in the teaching and learning of geometry, specifically the understanding of angles within a triangle.",
-  "category": "geometry",
+  "description": "Generates angles for educational visualization.",
+  "category": "angles",
   "tags": [
-    "angles",
-    "triangles",
-    "geometry",
-    "visualization",
-    "education"
+    "angles"
   ],
   "images": [
     {
-      "path": "images/generate_angles_1_20251011_190400.webp",
-      "filename": "generate_angles_1_20251011_190400.webp",
+      "path": "images/circle_angle_30deg_1768102089.webp",
+      "filename": "circle_angle_30deg_1768102089.webp",
       "index": 1,
-      "size": 98370
+      "size": 54086
     },
     {
-      "path": "images/generate_angles_2_20251011_190400.webp",
-      "filename": "generate_angles_2_20251011_190400.webp",
+      "path": "images/circle_angle_150deg_1768102091.webp",
+      "filename": "circle_angle_150deg_1768102091.webp",
       "index": 2,
-      "size": 18010
-    },
-    {
-      "path": "images/generate_angles_3_20251011_190400.webp",
-      "filename": "generate_angles_3_20251011_190400.webp",
-      "index": 3,
-      "size": 95816
-    },
-    {
-      "path": "images/generate_angles_4_20251011_190400.webp",
-      "filename": "generate_angles_4_20251011_190400.webp",
-      "index": 4,
-      "size": 151654
-    },
-    {
-      "path": "images/generate_angles_5_20251011_190400.webp",
-      "filename": "generate_angles_5_20251011_190400.webp",
-      "index": 5,
-      "size": 99430
-    },
-    {
-      "path": "images/generate_angles_6_20251011_190400.webp",
-      "filename": "generate_angles_6_20251011_190400.webp",
-      "index": 6,
-      "size": 101962
-    },
-    {
-      "path": "images/generate_angles_7_20251011_190400.webp",
-      "filename": "generate_angles_7_20251011_190400.webp",
-      "index": 7,
-      "size": 36766
-    },
-    {
-      "path": "images/generate_angles_8_20251011_190400.webp",
-      "filename": "generate_angles_8_20251011_190400.webp",
-      "index": 8,
-      "size": 88464
-    },
-    {
-      "path": "images/generate_angles_9_20251011_190400.webp",
-      "filename": "generate_angles_9_20251011_190400.webp",
-      "index": 9,
-      "size": 36536
-    },
-    {
-      "path": "images/generate_angles_10_20251011_190400.webp",
-      "filename": "generate_angles_10_20251011_190400.webp",
-      "index": 10,
-      "size": 137546
-    },
-    {
-      "path": "images/generate_angles_11_20251011_190400.webp",
-      "filename": "generate_angles_11_20251011_190400.webp",
-      "index": 11,
-      "size": 44448
-    },
-    {
-      "path": "images/generate_angles_12_20251011_190400.webp",
-      "filename": "generate_angles_12_20251011_190400.webp",
-      "index": 12,
-      "size": 101794
-    },
-    {
-      "path": "images/generate_angles_13_20251011_190400.webp",
-      "filename": "generate_angles_13_20251011_190400.webp",
-      "index": 13,
-      "size": 37888
-    },
-    {
-      "path": "images/generate_angles_14_20251011_190400.webp",
-      "filename": "generate_angles_14_20251011_190400.webp",
-      "index": 14,
-      "size": 36976
-    },
-    {
-      "path": "images/generate_angles_15_20251011_190400.webp",
-      "filename": "generate_angles_15_20251011_190400.webp",
-      "index": 15,
-      "size": 70896
-    },
-    {
-      "path": "images/generate_angles_16_20251011_190400.webp",
-      "filename": "generate_angles_16_20251011_190400.webp",
-      "index": 16,
-      "size": 76060
-    },
-    {
-      "path": "images/generate_angles_17_20251011_190400.webp",
-      "filename": "generate_angles_17_20251011_190400.webp",
-      "index": 17,
-      "size": 61436
-    },
-    {
-      "path": "images/generate_angles_18_20251011_190400.webp",
-      "filename": "generate_angles_18_20251011_190400.webp",
-      "index": 18,
-      "size": 97576
-    },
-    {
-      "path": "images/generate_angles_19_20251011_190400.webp",
-      "filename": "generate_angles_19_20251011_190400.webp",
-      "index": 19,
-      "size": 16980
-    },
-    {
-      "path": "images/generate_angles_20_20251011_190400.webp",
-      "filename": "generate_angles_20_20251011_190400.webp",
-      "index": 20,
-      "size": 233440
-    },
-    {
-      "path": "images/generate_angles_21_20251011_190400.webp",
-      "filename": "generate_angles_21_20251011_190400.webp",
-      "index": 21,
-      "size": 35298
-    },
-    {
-      "path": "images/generate_angles_22_20251011_190400.webp",
-      "filename": "generate_angles_22_20251011_190400.webp",
-      "index": 22,
-      "size": 61436
-    },
-    {
-      "path": "images/generate_angles_23_20251011_190400.webp",
-      "filename": "generate_angles_23_20251011_190400.webp",
-      "index": 23,
-      "size": 104836
-    },
-    {
-      "path": "images/generate_angles_24_20251011_190400.webp",
-      "filename": "generate_angles_24_20251011_190400.webp",
-      "index": 24,
-      "size": 89754
-    },
-    {
-      "path": "images/generate_angles_25_20251011_190400.webp",
-      "filename": "generate_angles_25_20251011_190400.webp",
-      "index": 25,
-      "size": 101458
-    },
-    {
-      "path": "images/generate_angles_26_20251011_190400.webp",
-      "filename": "generate_angles_26_20251011_190400.webp",
-      "index": 26,
-      "size": 17568
-    },
-    {
-      "path": "images/generate_angles_27_20251011_190400.webp",
-      "filename": "generate_angles_27_20251011_190400.webp",
-      "index": 27,
-      "size": 140674
-    },
-    {
-      "path": "images/generate_angles_28_20251011_190400.webp",
-      "filename": "generate_angles_28_20251011_190400.webp",
-      "index": 28,
-      "size": 18332
-    },
-    {
-      "path": "images/generate_angles_29_20251011_190400.webp",
-      "filename": "generate_angles_29_20251011_190400.webp",
-      "index": 29,
-      "size": 100610
-    },
-    {
-      "path": "images/generate_angles_30_20251011_190147.webp",
-      "filename": "generate_angles_30_20251011_190147.webp",
-      "index": 30,
-      "size": 60800
-    },
-    {
-      "path": "images/generate_angles_31_20251011_190147.webp",
-      "filename": "generate_angles_31_20251011_190147.webp",
-      "index": 31,
-      "size": 90018
-    },
-    {
-      "path": "images/generate_angles_32_20251011_190147.webp",
-      "filename": "generate_angles_32_20251011_190147.webp",
-      "index": 32,
-      "size": 4964
-    },
-    {
-      "path": "images/generate_angles_33_20251011_190147.webp",
-      "filename": "generate_angles_33_20251011_190147.webp",
-      "index": 33,
-      "size": 36536
-    },
-    {
-      "path": "images/generate_angles_34_20251011_190147.webp",
-      "filename": "generate_angles_34_20251011_190147.webp",
-      "index": 34,
-      "size": 137546
-    },
-    {
-      "path": "images/generate_angles_35_20251011_190147.webp",
-      "filename": "generate_angles_35_20251011_190147.webp",
-      "index": 35,
-      "size": 44448
-    },
-    {
-      "path": "images/generate_angles_36_20251011_190147.webp",
-      "filename": "generate_angles_36_20251011_190147.webp",
-      "index": 36,
-      "size": 101794
-    },
-    {
-      "path": "images/generate_angles_37_20251011_190147.webp",
-      "filename": "generate_angles_37_20251011_190147.webp",
-      "index": 37,
-      "size": 64972
-    },
-    {
-      "path": "images/generate_angles_38_20251011_190147.webp",
-      "filename": "generate_angles_38_20251011_190147.webp",
-      "index": 38,
-      "size": 54016
-    },
-    {
-      "path": "images/generate_angles_39_20251011_190147.webp",
-      "filename": "generate_angles_39_20251011_190147.webp",
-      "index": 39,
-      "size": 60248
-    },
-    {
-      "path": "images/generate_angles_40_20251011_190147.webp",
-      "filename": "generate_angles_40_20251011_190147.webp",
-      "index": 40,
-      "size": 59330
-    },
-    {
-      "path": "images/generate_angles_41_20251011_190147.webp",
-      "filename": "generate_angles_41_20251011_190147.webp",
-      "index": 41,
-      "size": 52414
-    },
-    {
-      "path": "images/generate_angles_42_20251011_190147.webp",
-      "filename": "generate_angles_42_20251011_190147.webp",
-      "index": 42,
-      "size": 37888
-    },
-    {
-      "path": "images/generate_angles_43_20251011_190147.webp",
-      "filename": "generate_angles_43_20251011_190147.webp",
-      "index": 43,
-      "size": 36976
-    },
-    {
-      "path": "images/generate_angles_44_20251011_190147.webp",
-      "filename": "generate_angles_44_20251011_190147.webp",
-      "index": 44,
-      "size": 57842
-    },
-    {
-      "path": "images/generate_angles_45_20251011_190147.webp",
-      "filename": "generate_angles_45_20251011_190147.webp",
-      "index": 45,
-      "size": 55076
-    },
-    {
-      "path": "images/generate_angles_46_20251011_190147.webp",
-      "filename": "generate_angles_46_20251011_190147.webp",
-      "index": 46,
-      "size": 58518
-    },
-    {
-      "path": "images/generate_angles_47_20251011_190147.webp",
-      "filename": "generate_angles_47_20251011_190147.webp",
-      "index": 47,
-      "size": 50794
-    },
-    {
-      "path": "images/generate_angles_48_20251011_190147.webp",
-      "filename": "generate_angles_48_20251011_190147.webp",
-      "index": 48,
-      "size": 60150
-    },
-    {
-      "path": "images/generate_angles_49_20251011_190147.webp",
-      "filename": "generate_angles_49_20251011_190147.webp",
-      "index": 49,
-      "size": 56970
-    },
-    {
-      "path": "images/generate_angles_50_20251011_190147.webp",
-      "filename": "generate_angles_50_20251011_190147.webp",
-      "index": 50,
-      "size": 47390
-    },
-    {
-      "path": "images/generate_angles_51_20251011_190147.webp",
-      "filename": "generate_angles_51_20251011_190147.webp",
-      "index": 51,
-      "size": 61944
-    },
-    {
-      "path": "images/generate_angles_52_20251011_190147.webp",
-      "filename": "generate_angles_52_20251011_190147.webp",
-      "index": 52,
-      "size": 70896
-    },
-    {
-      "path": "images/generate_angles_53_20251011_190147.webp",
-      "filename": "generate_angles_53_20251011_190147.webp",
-      "index": 53,
-      "size": 60734
-    },
-    {
-      "path": "images/generate_angles_54_20251011_190147.webp",
-      "filename": "generate_angles_54_20251011_190147.webp",
-      "index": 54,
-      "size": 76060
-    },
-    {
-      "path": "images/generate_angles_55_20251011_190147.webp",
-      "filename": "generate_angles_55_20251011_190147.webp",
-      "index": 55,
-      "size": 69540
-    },
-    {
-      "path": "images/generate_angles_56_20251011_190147.webp",
-      "filename": "generate_angles_56_20251011_190147.webp",
-      "index": 56,
-      "size": 74240
-    },
-    {
-      "path": "images/generate_angles_57_20251011_190147.webp",
-      "filename": "generate_angles_57_20251011_190147.webp",
-      "index": 57,
       "size": 56618
     },
     {
-      "path": "images/generate_angles_58_20251011_190147.webp",
-      "filename": "generate_angles_58_20251011_190147.webp",
-      "index": 58,
-      "size": 54574
-    },
-    {
-      "path": "images/generate_angles_59_20251011_190147.webp",
-      "filename": "generate_angles_59_20251011_190147.webp",
-      "index": 59,
-      "size": 55328
-    },
-    {
-      "path": "images/generate_angles_60_20251011_190147.webp",
-      "filename": "generate_angles_60_20251011_190147.webp",
-      "index": 60,
-      "size": 61436
-    },
-    {
-      "path": "images/generate_angles_61_20251011_190147.webp",
-      "filename": "generate_angles_61_20251011_190147.webp",
-      "index": 61,
-      "size": 97576
-    },
-    {
-      "path": "images/generate_angles_62_20251011_190147.webp",
-      "filename": "generate_angles_62_20251011_190147.webp",
-      "index": 62,
-      "size": 65872
-    },
-    {
-      "path": "images/generate_angles_63_20251011_190147.webp",
-      "filename": "generate_angles_63_20251011_190147.webp",
-      "index": 63,
-      "size": 62840
-    },
-    {
-      "path": "images/generate_angles_64_20251011_190147.webp",
-      "filename": "generate_angles_64_20251011_190147.webp",
-      "index": 64,
-      "size": 5896
-    },
-    {
-      "path": "images/generate_angles_65_20251011_190147.webp",
-      "filename": "generate_angles_65_20251011_190147.webp",
-      "index": 65,
-      "size": 48504
-    },
-    {
-      "path": "images/generate_angles_66_20251011_190147.webp",
-      "filename": "generate_angles_66_20251011_190147.webp",
-      "index": 66,
-      "size": 60108
-    },
-    {
-      "path": "images/generate_angles_67_20251011_190147.webp",
-      "filename": "generate_angles_67_20251011_190147.webp",
-      "index": 67,
-      "size": 58782
-    },
-    {
-      "path": "images/generate_angles_68_20251011_190147.webp",
-      "filename": "generate_angles_68_20251011_190147.webp",
-      "index": 68,
-      "size": 63944
-    },
-    {
-      "path": "images/generate_angles_69_20251011_190147.webp",
-      "filename": "generate_angles_69_20251011_190147.webp",
-      "index": 69,
+      "path": "images/circle_angle_315deg_1768102085.webp",
+      "filename": "circle_angle_315deg_1768102085.webp",
+      "index": 3,
       "size": 60800
     },
     {
-      "path": "images/generate_angles_70_20251011_190147.webp",
-      "filename": "generate_angles_70_20251011_190147.webp",
-      "index": 70,
-      "size": 56142
+      "path": "images/geo_triangle_rotation_1768102627742728000.webp",
+      "filename": "geo_triangle_rotation_1768102627742728000.webp",
+      "index": 4,
+      "size": 23142
     },
     {
-      "path": "images/generate_angles_71_20251011_190147.webp",
-      "filename": "generate_angles_71_20251011_190147.webp",
-      "index": 71,
-      "size": 2122
+      "path": "images/1768102079_angle.webp",
+      "filename": "1768102079_angle.webp",
+      "index": 5,
+      "size": 103582
     },
     {
-      "path": "images/generate_angles_72_20251011_190147.webp",
-      "filename": "generate_angles_72_20251011_190147.webp",
-      "index": 72,
-      "size": 54702
+      "path": "images/circle_angle_330deg_1768102095.webp",
+      "filename": "circle_angle_330deg_1768102095.webp",
+      "index": 6,
+      "size": 61944
     },
     {
-      "path": "images/generate_angles_73_20251011_190147.webp",
-      "filename": "generate_angles_73_20251011_190147.webp",
-      "index": 73,
-      "size": 16980
+      "path": "images/geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630042126000.webp",
+      "index": 7,
+      "size": 35264
     },
     {
-      "path": "images/generate_angles_74_20251011_190147.webp",
-      "filename": "generate_angles_74_20251011_190147.webp",
-      "index": 74,
-      "size": 49362
+      "path": "images/geo_triangle_rotation_markers_1768102631925104000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631925104000.webp",
+      "index": 8,
+      "size": 48190
     },
     {
-      "path": "images/generate_angles_75_20251011_190147.webp",
-      "filename": "generate_angles_75_20251011_190147.webp",
-      "index": 75,
-      "size": 233440
+      "path": "images/fractional_angle_2_5_1768102470.webp",
+      "filename": "fractional_angle_2_5_1768102470.webp",
+      "index": 9,
+      "size": 18634
     },
     {
-      "path": "images/generate_angles_76_20251011_190147.webp",
-      "filename": "generate_angles_76_20251011_190147.webp",
-      "index": 76,
-      "size": 35298
+      "path": "images/fractional_angle_1_6_1768102464.webp",
+      "filename": "fractional_angle_1_6_1768102464.webp",
+      "index": 10,
+      "size": 15738
     },
     {
-      "path": "images/generate_angles_77_20251011_190147.webp",
-      "filename": "generate_angles_77_20251011_190147.webp",
-      "index": 77,
-      "size": 64972
+      "path": "images/geo_triangle_rotation_markers_1768102632387640000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632387640000.webp",
+      "index": 11,
+      "size": 49760
     },
     {
-      "path": "images/generate_angles_78_20251011_190147.webp",
-      "filename": "generate_angles_78_20251011_190147.webp",
-      "index": 78,
-      "size": 61436
-    },
-    {
-      "path": "images/generate_angles_79_20251011_190147.webp",
-      "filename": "generate_angles_79_20251011_190147.webp",
-      "index": 79,
-      "size": 58518
-    },
-    {
-      "path": "images/generate_angles_80_20251011_190147.webp",
-      "filename": "generate_angles_80_20251011_190147.webp",
-      "index": 80,
+      "path": "images/1768102068_angle.webp",
+      "filename": "1768102068_angle.webp",
+      "index": 12,
       "size": 104836
     },
     {
-      "path": "images/generate_angles_81_20251011_190147.webp",
-      "filename": "generate_angles_81_20251011_190147.webp",
-      "index": 81,
-      "size": 63896
+      "path": "images/circle_angle_15deg_1768102083.webp",
+      "filename": "circle_angle_15deg_1768102083.webp",
+      "index": 13,
+      "size": 52414
     },
     {
-      "path": "images/generate_angles_82_20251011_190147.webp",
-      "filename": "generate_angles_82_20251011_190147.webp",
-      "index": 82,
-      "size": 50254
+      "path": "images/geo_shapes_with_angles_1768102607.webp",
+      "filename": "geo_shapes_with_angles_1768102607.webp",
+      "index": 14,
+      "size": 160290
     },
     {
-      "path": "images/generate_angles_83_20251011_190147.webp",
-      "filename": "generate_angles_83_20251011_190147.webp",
-      "index": 83,
-      "size": 47336
+      "path": "images/geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629865505000.webp",
+      "index": 15,
+      "size": 50532
     },
     {
-      "path": "images/generate_angles_84_20251011_190147.webp",
-      "filename": "generate_angles_84_20251011_190147.webp",
-      "index": 84,
-      "size": 60204
+      "path": "images/fractional_angle_1_6_1768102469.webp",
+      "filename": "fractional_angle_1_6_1768102469.webp",
+      "index": 16,
+      "size": 18422
     },
     {
-      "path": "images/generate_angles_85_20251011_190147.webp",
-      "filename": "generate_angles_85_20251011_190147.webp",
-      "index": 85,
-      "size": 89754
+      "path": "images/circle_angle_210deg_1768102092.webp",
+      "filename": "circle_angle_210deg_1768102092.webp",
+      "index": 17,
+      "size": 60150
     },
     {
-      "path": "images/generate_angles_86_20251011_190147.webp",
-      "filename": "generate_angles_86_20251011_190147.webp",
-      "index": 86,
-      "size": 51080
+      "path": "images/geo_triangle_rotation_markers_1768102631596537000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631596537000.webp",
+      "index": 18,
+      "size": 37664
     },
     {
-      "path": "images/generate_angles_87_20251011_190147.webp",
-      "filename": "generate_angles_87_20251011_190147.webp",
-      "index": 87,
+      "path": "images/geo_shapes_with_angles_1768102606.webp",
+      "filename": "geo_shapes_with_angles_1768102606.webp",
+      "index": 19,
+      "size": 184788
+    },
+    {
+      "path": "images/circle_angle_60deg_1768102089.webp",
+      "filename": "circle_angle_60deg_1768102089.webp",
+      "index": 20,
+      "size": 54548
+    },
+    {
+      "path": "images/circle_angle_270deg_1768102085.webp",
+      "filename": "circle_angle_270deg_1768102085.webp",
+      "index": 21,
+      "size": 59330
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630547885000.webp",
+      "index": 22,
+      "size": 50388
+    },
+    {
+      "path": "images/circle_angle_300deg_1768102094.webp",
+      "filename": "circle_angle_300deg_1768102094.webp",
+      "index": 23,
+      "size": 60994
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rectangle_355d1ee6_1768102669.webp",
+      "filename": "geometric_properties_venn_qna_option_rectangle_355d1ee6_1768102669.webp",
+      "index": 24,
+      "size": 2144
+    },
+    {
+      "path": "images/1768103227_tenths_rectangles.webp",
+      "filename": "1768103227_tenths_rectangles.webp",
+      "index": 25,
+      "size": 59214
+    },
+    {
+      "path": "images/1768102071_angle.webp",
+      "filename": "1768102071_angle.webp",
+      "index": 26,
+      "size": 98370
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631254653000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631254653000.webp",
+      "index": 27,
+      "size": 48856
+    },
+    {
+      "path": "images/symmetry_question_rectangle_1768103168736890000.webp",
+      "filename": "symmetry_question_rectangle_1768103168736890000.webp",
+      "index": 28,
+      "size": 25662
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629037285000.webp",
+      "index": 29,
+      "size": 38126
+    },
+    {
+      "path": "images/circle_angle_120deg_1768102091.webp",
+      "filename": "circle_angle_120deg_1768102091.webp",
+      "index": 30,
+      "size": 55518
+    },
+    {
+      "path": "images/1768102057_angle.webp",
+      "filename": "1768102057_angle.webp",
+      "index": 31,
+      "size": 101962
+    },
+    {
+      "path": "images/1768102060_angle.webp",
+      "filename": "1768102060_angle.webp",
+      "index": 32,
+      "size": 137546
+    },
+    {
+      "path": "images/random_shape_right_angles_0_1768102604.webp",
+      "filename": "random_shape_right_angles_0_1768102604.webp",
+      "index": 33,
+      "size": 63652
+    },
+    {
+      "path": "images/circle_angle_120deg_1768102087.webp",
+      "filename": "circle_angle_120deg_1768102087.webp",
+      "index": 34,
       "size": 55528
     },
     {
-      "path": "images/generate_angles_88_20251011_190147.webp",
-      "filename": "generate_angles_88_20251011_190147.webp",
-      "index": 88,
+      "path": "images/1768102083_angle.webp",
+      "filename": "1768102083_angle.webp",
+      "index": 35,
+      "size": 121214
+    },
+    {
+      "path": "images/circle_angle_240deg_1768102093.webp",
+      "filename": "circle_angle_240deg_1768102093.webp",
+      "index": 36,
+      "size": 60248
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rectangle_3dfb4908_1768102669.webp",
+      "filename": "geometric_properties_venn_qna_option_rectangle_3dfb4908_1768102669.webp",
+      "index": 37,
+      "size": 2294
+    },
+    {
+      "path": "images/similar_right_triangles_1768102621.webp",
+      "filename": "similar_right_triangles_1768102621.webp",
+      "index": 38,
+      "size": 48984
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630381499000.webp",
+      "index": 39,
+      "size": 47266
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102647.webp",
+      "filename": "triangle_opt_side_len_1768102647.webp",
+      "index": 40,
+      "size": 53698
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_equilateral_triangle_c61b3f02_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_equilateral_triangle_c61b3f02_1768102670.webp",
+      "index": 41,
+      "size": 3940
+    },
+    {
+      "path": "images/symmetry_question_triangle_scalene_1768103167926910000.webp",
+      "filename": "symmetry_question_triangle_scalene_1768103167926910000.webp",
+      "index": 42,
+      "size": 16378
+    },
+    {
+      "path": "images/symmetry_question_triangle_isosceles_1768103168273782000.webp",
+      "filename": "symmetry_question_triangle_isosceles_1768103168273782000.webp",
+      "index": 43,
+      "size": 22878
+    },
+    {
+      "path": "images/triangle_with_sides_and_angles_1768102676.webp",
+      "filename": "triangle_with_sides_and_angles_1768102676.webp",
+      "index": 44,
+      "size": 21746
+    },
+    {
+      "path": "images/circle_angle_225deg_1768102093.webp",
+      "filename": "circle_angle_225deg_1768102093.webp",
+      "index": 45,
+      "size": 60038
+    },
+    {
+      "path": "images/1768102067_angle.webp",
+      "filename": "1768102067_angle.webp",
+      "index": 46,
+      "size": 88464
+    },
+    {
+      "path": "images/angle_1768102061.webp",
+      "filename": "angle_1768102061.webp",
+      "index": 47,
+      "size": 36976
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632242209000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632242209000.webp",
+      "index": 48,
+      "size": 32698
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626040929000.webp",
+      "filename": "geo_triangle_rotation_1768102626040929000.webp",
+      "index": 49,
+      "size": 22392
+    },
+    {
+      "path": "images/circle_angle_270deg_1768102094.webp",
+      "filename": "circle_angle_270deg_1768102094.webp",
+      "index": 50,
+      "size": 56142
+    },
+    {
+      "path": "images/random_shape_right_angles_1_1768102604.webp",
+      "filename": "random_shape_right_angles_1_1768102604.webp",
+      "index": 51,
+      "size": 22734
+    },
+    {
+      "path": "images/circle_angle_45deg_1768102084.webp",
+      "filename": "circle_angle_45deg_1768102084.webp",
+      "index": 52,
+      "size": 54574
+    },
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103235.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103235.webp",
+      "index": 53,
+      "size": 5100
+    },
+    {
+      "path": "images/circle_angle_315deg_1768102095.webp",
+      "filename": "circle_angle_315deg_1768102095.webp",
+      "index": 54,
+      "size": 60800
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_scalene_triangle_fbdb1a5a_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_scalene_triangle_fbdb1a5a_1768102670.webp",
+      "index": 55,
+      "size": 4206
+    },
+    {
+      "path": "images/1768103226_tenths_rectangles.webp",
+      "filename": "1768103226_tenths_rectangles.webp",
+      "index": 56,
+      "size": 53230
+    },
+    {
+      "path": "images/circle_angle_105deg_1768102090.webp",
+      "filename": "circle_angle_105deg_1768102090.webp",
+      "index": 57,
+      "size": 55328
+    },
+    {
+      "path": "images/triangle_classification_1768102673.webp",
+      "filename": "triangle_classification_1768102673.webp",
+      "index": 58,
+      "size": 233440
+    },
+    {
+      "path": "images/triangle_decomp_1768103238.webp",
+      "filename": "triangle_decomp_1768103238.webp",
+      "index": 59,
+      "size": 43388
+    },
+    {
+      "path": "images/circle_angle_15deg_1768102089.webp",
+      "filename": "circle_angle_15deg_1768102089.webp",
+      "index": 60,
+      "size": 52414
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_right_triangle_1d76829f_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_right_triangle_1d76829f_1768102670.webp",
+      "index": 61,
+      "size": 3774
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630907784000.webp",
+      "index": 62,
+      "size": 50268
+    },
+    {
+      "path": "images/rectangle_with_area_1768102651.webp",
+      "filename": "rectangle_with_area_1768102651.webp",
+      "index": 63,
+      "size": 56916
+    },
+    {
+      "path": "images/fractional_angle_1_8_1768102469.webp",
+      "filename": "fractional_angle_1_8_1768102469.webp",
+      "index": 64,
+      "size": 18806
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624878611000.webp",
+      "filename": "geo_triangle_rotation_1768102624878611000.webp",
+      "index": 65,
+      "size": 35334
+    },
+    {
+      "path": "images/rectangle_with_area_1768102650.webp",
+      "filename": "rectangle_with_area_1768102650.webp",
+      "index": 66,
+      "size": 32912
+    },
+    {
+      "path": "images/symmetry_question_triangle_scalene_1768103166908694000.webp",
+      "filename": "symmetry_question_triangle_scalene_1768103166908694000.webp",
+      "index": 67,
+      "size": 16378
+    },
+    {
+      "path": "images/circle_angle_90deg_1768102084.webp",
+      "filename": "circle_angle_90deg_1768102084.webp",
+      "index": 68,
+      "size": 51080
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626325834000.webp",
+      "filename": "geo_triangle_rotation_1768102626325834000.webp",
+      "index": 69,
+      "size": 20008
+    },
+    {
+      "path": "images/fractional_angle_1_6_1768102475.webp",
+      "filename": "fractional_angle_1_6_1768102475.webp",
+      "index": 70,
+      "size": 17808
+    },
+    {
+      "path": "images/triangle_decomp_1768103239.webp",
+      "filename": "triangle_decomp_1768103239.webp",
+      "index": 71,
+      "size": 35168
+    },
+    {
+      "path": "images/triangle_classification_1768102672.webp",
+      "filename": "triangle_classification_1768102672.webp",
+      "index": 72,
+      "size": 70896
+    },
+    {
+      "path": "images/1768102058_angle.webp",
+      "filename": "1768102058_angle.webp",
+      "index": 73,
+      "size": 89754
+    },
+    {
+      "path": "images/circle_angle_285deg_1768102094.webp",
+      "filename": "circle_angle_285deg_1768102094.webp",
+      "index": 74,
+      "size": 60734
+    },
+    {
+      "path": "images/fractional_angle_1_2_1768102467.webp",
+      "filename": "fractional_angle_1_2_1768102467.webp",
+      "index": 75,
+      "size": 19824
+    },
+    {
+      "path": "images/circle_angle_150deg_1768102096.webp",
+      "filename": "circle_angle_150deg_1768102096.webp",
+      "index": 76,
+      "size": 62570
+    },
+    {
+      "path": "images/fractional_angle_1_8_1768102464.webp",
+      "filename": "fractional_angle_1_8_1768102464.webp",
+      "index": 77,
+      "size": 17968
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102632083764000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102632083764000.webp",
+      "index": 78,
+      "size": 48166
+    },
+    {
+      "path": "images/circle_angle_90deg_1768102088.webp",
+      "filename": "circle_angle_90deg_1768102088.webp",
+      "index": 79,
+      "size": 49362
+    },
+    {
+      "path": "images/1768102081_angle.webp",
+      "filename": "1768102081_angle.webp",
+      "index": 80,
+      "size": 117448
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_obtuse_triangle_665057c1_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_obtuse_triangle_665057c1_1768102670.webp",
+      "index": 81,
+      "size": 4250
+    },
+    {
+      "path": "images/circle_angle_135deg_1768102091.webp",
+      "filename": "circle_angle_135deg_1768102091.webp",
+      "index": 82,
       "size": 55290
     },
     {
-      "path": "images/generate_angles_89_20251011_190147.webp",
-      "filename": "generate_angles_89_20251011_190147.webp",
-      "index": 89,
-      "size": 101458
+      "path": "images/two_rectangles_1768102656.webp",
+      "filename": "two_rectangles_1768102656.webp",
+      "index": 83,
+      "size": 45456
     },
     {
-      "path": "images/generate_angles_90_20251011_190147.webp",
-      "filename": "generate_angles_90_20251011_190147.webp",
+      "path": "images/circle_angle_345deg_1768102095.webp",
+      "filename": "circle_angle_345deg_1768102095.webp",
+      "index": 84,
+      "size": 62706
+    },
+    {
+      "path": "images/triangle_with_sides_and_angles_1768102677.webp",
+      "filename": "triangle_with_sides_and_angles_1768102677.webp",
+      "index": 85,
+      "size": 27462
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102646.webp",
+      "filename": "triangle_opt_side_len_1768102646.webp",
+      "index": 86,
+      "size": 63250
+    },
+    {
+      "path": "images/circle_angle_255deg_1768102093.webp",
+      "filename": "circle_angle_255deg_1768102093.webp",
+      "index": 87,
+      "size": 60204
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630723873000.webp",
+      "index": 88,
+      "size": 41690
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102650.webp",
+      "filename": "triangle_opt_side_len_1768102650.webp",
+      "index": 89,
+      "size": 59840
+    },
+    {
+      "path": "images/circle_angle_45deg_1768102089.webp",
+      "filename": "circle_angle_45deg_1768102089.webp",
       "index": 90,
       "size": 54574
     },
     {
-      "path": "images/generate_angles_91_20251011_190147.webp",
-      "filename": "generate_angles_91_20251011_190147.webp",
+      "path": "images/fractional_angle_2_9_1768102471.webp",
+      "filename": "fractional_angle_2_9_1768102471.webp",
       "index": 91,
+      "size": 16878
+    },
+    {
+      "path": "images/circle_angle_135deg_1768102084.webp",
+      "filename": "circle_angle_135deg_1768102084.webp",
+      "index": 92,
+      "size": 55290
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626885530000.webp",
+      "filename": "geo_triangle_rotation_1768102626885530000.webp",
+      "index": 93,
+      "size": 18540
+    },
+    {
+      "path": "images/circle_angle_75deg_1768102090.webp",
+      "filename": "circle_angle_75deg_1768102090.webp",
+      "index": 94,
+      "size": 54702
+    },
+    {
+      "path": "images/two_rectangles_1768102655.webp",
+      "filename": "two_rectangles_1768102655.webp",
+      "index": 95,
+      "size": 56254
+    },
+    {
+      "path": "images/triangle_with_sides_and_angles_1768102674.webp",
+      "filename": "triangle_with_sides_and_angles_1768102674.webp",
+      "index": 96,
+      "size": 17644
+    },
+    {
+      "path": "images/similar_triangles_1768102680678_1081.webp",
+      "filename": "similar_triangles_1768102680678_1081.webp",
+      "index": 97,
+      "size": 153430
+    },
+    {
+      "path": "images/triangle_decomp_1768103236.webp",
+      "filename": "triangle_decomp_1768103236.webp",
+      "index": 98,
+      "size": 48400
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102645.webp",
+      "filename": "triangle_opt_side_len_1768102645.webp",
+      "index": 99,
+      "size": 56392
+    },
+    {
+      "path": "images/geo_triangle1768102622.webp",
+      "filename": "geo_triangle1768102622.webp",
+      "index": 100,
+      "size": 59822
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631423643000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631423643000.webp",
+      "index": 101,
+      "size": 45786
+    },
+    {
+      "path": "images/circle_angle_180deg_1768102084.webp",
+      "filename": "circle_angle_180deg_1768102084.webp",
+      "index": 102,
       "size": 56892
     },
     {
-      "path": "images/generate_angles_92_20251011_190147.webp",
-      "filename": "generate_angles_92_20251011_190147.webp",
-      "index": 92,
-      "size": 68608
-    },
-    {
-      "path": "images/generate_angles_93_20251011_190147.webp",
-      "filename": "generate_angles_93_20251011_190147.webp",
-      "index": 93,
-      "size": 17568
-    },
-    {
-      "path": "images/generate_angles_94_20251011_190147.webp",
-      "filename": "generate_angles_94_20251011_190147.webp",
-      "index": 94,
-      "size": 57236
-    },
-    {
-      "path": "images/generate_angles_95_20251011_190147.webp",
-      "filename": "generate_angles_95_20251011_190147.webp",
-      "index": 95,
-      "size": 62570
-    },
-    {
-      "path": "images/generate_angles_96_20251011_190147.webp",
-      "filename": "generate_angles_96_20251011_190147.webp",
-      "index": 96,
-      "size": 49322
-    },
-    {
-      "path": "images/generate_angles_97_20251011_190147.webp",
-      "filename": "generate_angles_97_20251011_190147.webp",
-      "index": 97,
-      "size": 66986
-    },
-    {
-      "path": "images/generate_angles_98_20251011_190147.webp",
-      "filename": "generate_angles_98_20251011_190147.webp",
-      "index": 98,
-      "size": 54548
-    },
-    {
-      "path": "images/generate_angles_99_20251011_190147.webp",
-      "filename": "generate_angles_99_20251011_190147.webp",
-      "index": 99,
-      "size": 140674
-    },
-    {
-      "path": "images/generate_angles_100_20251011_190147.webp",
-      "filename": "generate_angles_100_20251011_190147.webp",
-      "index": 100,
-      "size": 55518
-    },
-    {
-      "path": "images/generate_angles_101_20251011_190147.webp",
-      "filename": "generate_angles_101_20251011_190147.webp",
-      "index": 101,
-      "size": 51470
-    },
-    {
-      "path": "images/generate_angles_102_20251011_190147.webp",
-      "filename": "generate_angles_102_20251011_190147.webp",
-      "index": 102,
-      "size": 59420
-    },
-    {
-      "path": "images/generate_angles_103_20251011_190147.webp",
-      "filename": "generate_angles_103_20251011_190147.webp",
+      "path": "images/geo_triangle_rotation_1768102627464410000.webp",
+      "filename": "geo_triangle_rotation_1768102627464410000.webp",
       "index": 103,
-      "size": 48504
+      "size": 21906
     },
     {
-      "path": "images/generate_angles_104_20251011_190147.webp",
-      "filename": "generate_angles_104_20251011_190147.webp",
+      "path": "images/fractional_angle_1_5_1768102469.webp",
+      "filename": "fractional_angle_1_5_1768102469.webp",
       "index": 104,
-      "size": 51150
+      "size": 18836
     },
     {
-      "path": "images/generate_angles_105_20251011_190147.webp",
-      "filename": "generate_angles_105_20251011_190147.webp",
+      "path": "images/circle_angle_180deg_1768102092.webp",
+      "filename": "circle_angle_180deg_1768102092.webp",
       "index": 105,
+      "size": 53512
+    },
+    {
+      "path": "images/circle_angle_105deg_1768102088.webp",
+      "filename": "circle_angle_105deg_1768102088.webp",
+      "index": 106,
+      "size": 57842
+    },
+    {
+      "path": "images/1768102070_angle.webp",
+      "filename": "1768102070_angle.webp",
+      "index": 107,
+      "size": 101458
+    },
+    {
+      "path": "images/1768102061_angle.webp",
+      "filename": "1768102061_angle.webp",
+      "index": 108,
       "size": 18332
     },
     {
-      "path": "images/generate_angles_106_20251011_190147.webp",
-      "filename": "generate_angles_106_20251011_190147.webp",
-      "index": 106,
-      "size": 85390
-    },
-    {
-      "path": "images/generate_angles_107_20251011_190147.webp",
-      "filename": "generate_angles_107_20251011_190147.webp",
-      "index": 107,
-      "size": 100610
-    },
-    {
-      "path": "images/generate_angles_108_20251011_190147.webp",
-      "filename": "generate_angles_108_20251011_190147.webp",
-      "index": 108,
-      "size": 61148
-    },
-    {
-      "path": "images/generate_angles_109_20251011_190147.webp",
-      "filename": "generate_angles_109_20251011_190147.webp",
+      "path": "images/fractional_angle_1_4_1768102474.webp",
+      "filename": "fractional_angle_1_4_1768102474.webp",
       "index": 109,
-      "size": 47390
+      "size": 14822
     },
     {
-      "path": "images/generate_angles_110_20251011_190147.webp",
-      "filename": "generate_angles_110_20251011_190147.webp",
+      "path": "images/1768102077_single_angle.webp",
+      "filename": "1768102077_single_angle.webp",
       "index": 110,
-      "size": 5240
+      "size": 2598
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102629213969000.webp",
+      "index": 111,
+      "size": 49936
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102627184211000.webp",
+      "filename": "geo_triangle_rotation_1768102627184211000.webp",
+      "index": 112,
+      "size": 36678
+    },
+    {
+      "path": "images/symmetry_we_triangle_scalene_1768103167016887000.webp",
+      "filename": "symmetry_we_triangle_scalene_1768103167016887000.webp",
+      "index": 113,
+      "size": 16378
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629700739000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629700739000.webp",
+      "index": 114,
+      "size": 44984
+    },
+    {
+      "path": "images/fractional_angle_1_3_1768102463.webp",
+      "filename": "fractional_angle_1_3_1768102463.webp",
+      "index": 115,
+      "size": 16888
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102631084354000.webp",
+      "index": 116,
+      "size": 45470
+    },
+    {
+      "path": "images/random_shape_right_angles_4_1768102605.webp",
+      "filename": "random_shape_right_angles_4_1768102605.webp",
+      "index": 117,
+      "size": 18320
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102649.webp",
+      "filename": "triangle_opt_side_len_1768102649.webp",
+      "index": 118,
+      "size": 52780
+    },
+    {
+      "path": "images/triangle_classification_1768102671.webp",
+      "filename": "triangle_classification_1768102671.webp",
+      "index": 119,
+      "size": 152092
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625474336000.webp",
+      "filename": "geo_triangle_rotation_1768102625474336000.webp",
+      "index": 120,
+      "size": 30248
+    },
+    {
+      "path": "images/symmetry_question_triangle_scalene_1768103168036791000.webp",
+      "filename": "symmetry_question_triangle_scalene_1768103168036791000.webp",
+      "index": 121,
+      "size": 24346
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_isosceles_triangle_2b7e9e69_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_isosceles_triangle_2b7e9e69_1768102670.webp",
+      "index": 122,
+      "size": 3748
+    },
+    {
+      "path": "images/1768102082_angle.webp",
+      "filename": "1768102082_angle.webp",
+      "index": 123,
+      "size": 128742
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628026964000.webp",
+      "filename": "geo_triangle_rotation_1768102628026964000.webp",
+      "index": 124,
+      "size": 32628
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624587075000.webp",
+      "filename": "geo_triangle_rotation_1768102624587075000.webp",
+      "index": 125,
+      "size": 21056
+    },
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103236.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103236.webp",
+      "index": 126,
+      "size": 6762
+    },
+    {
+      "path": "images/circle_angle_165deg_1768102092.webp",
+      "filename": "circle_angle_165deg_1768102092.webp",
+      "index": 127,
+      "size": 57236
+    },
+    {
+      "path": "images/1768102073_single_angle.webp",
+      "filename": "1768102073_single_angle.webp",
+      "index": 128,
+      "size": 6328
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102631767542000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102631767542000.webp",
+      "index": 129,
+      "size": 49028
+    },
+    {
+      "path": "images/fractional_angle_2_3_1768102465.webp",
+      "filename": "fractional_angle_2_3_1768102465.webp",
+      "index": 130,
+      "size": 18152
+    },
+    {
+      "path": "images/triangle_classification_1768102670.webp",
+      "filename": "triangle_classification_1768102670.webp",
+      "index": 131,
+      "size": 140716
+    },
+    {
+      "path": "images/random_shape_right_angles_3_1768102605.webp",
+      "filename": "random_shape_right_angles_3_1768102605.webp",
+      "index": 132,
+      "size": 31816
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rectangle_3dfb4908_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_rectangle_3dfb4908_1768102670.webp",
+      "index": 133,
+      "size": 2294
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102648.webp",
+      "filename": "triangle_opt_side_len_1768102648.webp",
+      "index": 134,
+      "size": 42560
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102628855609000.webp",
+      "index": 135,
+      "size": 53304
+    },
+    {
+      "path": "images/fractional_angle_1_4_1768102463.webp",
+      "filename": "fractional_angle_1_4_1768102463.webp",
+      "index": 136,
+      "size": 18064
+    },
+    {
+      "path": "images/circle_angle_90deg_1768102090.webp",
+      "filename": "circle_angle_90deg_1768102090.webp",
+      "index": 137,
+      "size": 50794
+    },
+    {
+      "path": "images/1768102078_angle.webp",
+      "filename": "1768102078_angle.webp",
+      "index": 138,
+      "size": 120528
+    },
+    {
+      "path": "images/circle_angle_90deg_1768102086.webp",
+      "filename": "circle_angle_90deg_1768102086.webp",
+      "index": 139,
+      "size": 50646
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102623815751000.webp",
+      "filename": "geo_triangle_rotation_1768102623815751000.webp",
+      "index": 140,
+      "size": 16660
+    },
+    {
+      "path": "images/fractional_angle_1_4_1768102475.webp",
+      "filename": "fractional_angle_1_4_1768102475.webp",
+      "index": 141,
+      "size": 14890
+    },
+    {
+      "path": "images/rectangle_with_area_1768102652.webp",
+      "filename": "rectangle_with_area_1768102652.webp",
+      "index": 142,
+      "size": 49002
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102626608223000.webp",
+      "filename": "geo_triangle_rotation_1768102626608223000.webp",
+      "index": 143,
+      "size": 38704
+    },
+    {
+      "path": "images/1768102076_single_angle.webp",
+      "filename": "1768102076_single_angle.webp",
+      "index": 144,
+      "size": 7556
+    },
+    {
+      "path": "images/1768102069_angle.webp",
+      "filename": "1768102069_angle.webp",
+      "index": 145,
+      "size": 76060
+    },
+    {
+      "path": "images/geo_triangle1768102623.webp",
+      "filename": "geo_triangle1768102623.webp",
+      "index": 146,
+      "size": 50576
+    },
+    {
+      "path": "images/symmetry_question_triangle_equilateral_1768103168396402000.webp",
+      "filename": "symmetry_question_triangle_equilateral_1768103168396402000.webp",
+      "index": 147,
+      "size": 20002
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628292782000.webp",
+      "filename": "geo_triangle_rotation_1768102628292782000.webp",
+      "index": 148,
+      "size": 47318
+    },
+    {
+      "path": "images/triangle_decomp_1768103237.webp",
+      "filename": "triangle_decomp_1768103237.webp",
+      "index": 149,
+      "size": 52656
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102644.webp",
+      "filename": "triangle_opt_side_len_1768102644.webp",
+      "index": 150,
+      "size": 46444
+    },
+    {
+      "path": "images/triangle_with_sides_and_angles_1768102675.webp",
+      "filename": "triangle_with_sides_and_angles_1768102675.webp",
+      "index": 151,
+      "size": 19996
+    },
+    {
+      "path": "images/fractional_angle_3_4_1768102465.webp",
+      "filename": "fractional_angle_3_4_1768102465.webp",
+      "index": 152,
+      "size": 20462
+    },
+    {
+      "path": "images/two_rectangles_1768102654.webp",
+      "filename": "two_rectangles_1768102654.webp",
+      "index": 153,
+      "size": 48348
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_right_triangle_1d76829f_1768102669.webp",
+      "filename": "geometric_properties_venn_qna_option_right_triangle_1d76829f_1768102669.webp",
+      "index": 154,
+      "size": 3774
+    },
+    {
+      "path": "images/angle_1768102062.webp",
+      "filename": "angle_1768102062.webp",
+      "index": 155,
+      "size": 35298
+    },
+    {
+      "path": "images/circle_angle_75deg_1768102087.webp",
+      "filename": "circle_angle_75deg_1768102087.webp",
+      "index": 156,
+      "size": 55076
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625179490000.webp",
+      "filename": "geo_triangle_rotation_1768102625179490000.webp",
+      "index": 157,
+      "size": 16690
+    },
+    {
+      "path": "images/fractional_angle_1_4_1768102472.webp",
+      "filename": "fractional_angle_1_4_1768102472.webp",
+      "index": 158,
+      "size": 18248
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102623545016000.webp",
+      "filename": "geo_triangle_rotation_1768102623545016000.webp",
+      "index": 159,
+      "size": 18540
+    },
+    {
+      "path": "images/random_shape_right_angles_2_1768102605.webp",
+      "filename": "random_shape_right_angles_2_1768102605.webp",
+      "index": 160,
+      "size": 37532
+    },
+    {
+      "path": "images/1768102072_angle.webp",
+      "filename": "1768102072_angle.webp",
+      "index": 161,
+      "size": 101794
+    },
+    {
+      "path": "images/circle_angle_60deg_1768102086.webp",
+      "filename": "circle_angle_60deg_1768102086.webp",
+      "index": 162,
+      "size": 54016
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102625755280000.webp",
+      "filename": "geo_triangle_rotation_1768102625755280000.webp",
+      "index": 163,
+      "size": 22386
+    },
+    {
+      "path": "images/geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "filename": "geo_triangle_rotation_numeric_1768102630210010000.webp",
+      "index": 164,
+      "size": 45402
+    },
+    {
+      "path": "images/circle_angle_195deg_1768102092.webp",
+      "filename": "circle_angle_195deg_1768102092.webp",
+      "index": 165,
+      "size": 58518
+    },
+    {
+      "path": "images/fractional_angle_1_2_1768102474.webp",
+      "filename": "fractional_angle_1_2_1768102474.webp",
+      "index": 166,
+      "size": 15598
+    },
+    {
+      "path": "images/symmetry_question_rectangle_1768103168646241000.webp",
+      "filename": "symmetry_question_rectangle_1768103168646241000.webp",
+      "index": 167,
+      "size": 7468
+    },
+    {
+      "path": "images/1768102059_angle.webp",
+      "filename": "1768102059_angle.webp",
+      "index": 168,
+      "size": 99430
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rectangle_355d1ee6_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_rectangle_355d1ee6_1768102670.webp",
+      "index": 169,
+      "size": 2144
+    },
+    {
+      "path": "images/1768102075_single_angle.webp",
+      "filename": "1768102075_single_angle.webp",
+      "index": 170,
+      "size": 5262
+    },
+    {
+      "path": "images/circle_angle_345deg_1768102086.webp",
+      "filename": "circle_angle_345deg_1768102086.webp",
+      "index": 171,
+      "size": 63896
+    },
+    {
+      "path": "images/two_rectangles_1768102653.webp",
+      "filename": "two_rectangles_1768102653.webp",
+      "index": 172,
+      "size": 46108
+    },
+    {
+      "path": "images/circle_angle_75deg_1768102096.webp",
+      "filename": "circle_angle_75deg_1768102096.webp",
+      "index": 173,
+      "size": 58782
+    },
+    {
+      "path": "images/1768102080_angle.webp",
+      "filename": "1768102080_angle.webp",
+      "index": 174,
+      "size": 91116
+    },
+    {
+      "path": "images/fractional_angle_1_4_1768102468.webp",
+      "filename": "fractional_angle_1_4_1768102468.webp",
+      "index": 175,
+      "size": 15440
+    },
+    {
+      "path": "images/circle_angle_120deg_1768102088.webp",
+      "filename": "circle_angle_120deg_1768102088.webp",
+      "index": 176,
+      "size": 55528
+    },
+    {
+      "path": "images/triangle_opt_side_len_1768102643.webp",
+      "filename": "triangle_opt_side_len_1768102643.webp",
+      "index": 177,
+      "size": 62030
+    },
+    {
+      "path": "images/symmetry_question_triangle_isosceles_1768103168164156000.webp",
+      "filename": "symmetry_question_triangle_isosceles_1768103168164156000.webp",
+      "index": 178,
+      "size": 18188
+    },
+    {
+      "path": "images/fractional_angle_5_8_1768102476.webp",
+      "filename": "fractional_angle_5_8_1768102476.webp",
+      "index": 179,
+      "size": 17762
+    },
+    {
+      "path": "images/fractional_angle_1_9_1768102470.webp",
+      "filename": "fractional_angle_1_9_1768102470.webp",
+      "index": 180,
+      "size": 18094
+    },
+    {
+      "path": "images/geo_triangle1768102632.webp",
+      "filename": "geo_triangle1768102632.webp",
+      "index": 181,
+      "size": 35966
+    },
+    {
+      "path": "images/symmetry_question_triangle_equilateral_1768103168522279000.webp",
+      "filename": "symmetry_question_triangle_equilateral_1768103168522279000.webp",
+      "index": 182,
+      "size": 21096
+    },
+    {
+      "path": "images/circle_angle_300deg_1768102096.webp",
+      "filename": "circle_angle_300deg_1768102096.webp",
+      "index": 183,
+      "size": 62840
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629388471000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629388471000.webp",
+      "index": 184,
+      "size": 42296
+    },
+    {
+      "path": "images/fractional_angle_1_3_1768102468.webp",
+      "filename": "fractional_angle_1_3_1768102468.webp",
+      "index": 185,
+      "size": 17300
+    },
+    {
+      "path": "images/geo_triangle_rotation_markers_1768102629541293000.webp",
+      "filename": "geo_triangle_rotation_markers_1768102629541293000.webp",
+      "index": 186,
+      "size": 45400
+    },
+    {
+      "path": "images/circle_angle_225deg_1768102096.webp",
+      "filename": "circle_angle_225deg_1768102096.webp",
+      "index": 187,
+      "size": 60108
+    },
+    {
+      "path": "images/similar_triangles_1768102679588_6186.webp",
+      "filename": "similar_triangles_1768102679588_6186.webp",
+      "index": 188,
+      "size": 181138
+    },
+    {
+      "path": "images/angle_rays_1768102065.webp",
+      "filename": "angle_rays_1768102065.webp",
+      "index": 189,
+      "size": 51856
+    },
+    {
+      "path": "images/fractional_angle_2_9_1768102476.webp",
+      "filename": "fractional_angle_2_9_1768102476.webp",
+      "index": 190,
+      "size": 17964
+    },
+    {
+      "path": "images/fractional_angle_3_4_1768102475.webp",
+      "filename": "fractional_angle_3_4_1768102475.webp",
+      "index": 191,
+      "size": 19612
+    },
+    {
+      "path": "images/1768102074_single_angle.webp",
+      "filename": "1768102074_single_angle.webp",
+      "index": 192,
+      "size": 3570
+    },
+    {
+      "path": "images/circle_angle_195deg_1768102085.webp",
+      "filename": "circle_angle_195deg_1768102085.webp",
+      "index": 193,
+      "size": 58518
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_rectangle_13cd46c5_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_rectangle_13cd46c5_1768102670.webp",
+      "index": 194,
+      "size": 2144
+    },
+    {
+      "path": "images/fractional_angle_5_6_1768102466.webp",
+      "filename": "fractional_angle_5_6_1768102466.webp",
+      "index": 195,
+      "size": 19628
+    },
+    {
+      "path": "images/fractional_angle_1_2_1768102463.webp",
+      "filename": "fractional_angle_1_2_1768102463.webp",
+      "index": 196,
+      "size": 15620
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102624087576000.webp",
+      "filename": "geo_triangle_rotation_1768102624087576000.webp",
+      "index": 197,
+      "size": 18358
+    },
+    {
+      "path": "images/fractional_angle_4_9_1768102467.webp",
+      "filename": "fractional_angle_4_9_1768102467.webp",
+      "index": 198,
+      "size": 19528
+    },
+    {
+      "path": "images/fractional_angle_1_6_1768102471.webp",
+      "filename": "fractional_angle_1_6_1768102471.webp",
+      "index": 199,
+      "size": 17172
+    },
+    {
+      "path": "images/geo_shapes_with_angles_1768102608.webp",
+      "filename": "geo_shapes_with_angles_1768102608.webp",
+      "index": 200,
+      "size": 70156
+    },
+    {
+      "path": "images/circle_angle_60deg_1768102087.webp",
+      "filename": "circle_angle_60deg_1768102087.webp",
+      "index": 201,
+      "size": 55448
+    },
+    {
+      "path": "images/fractional_angle_3_8_1768102470.webp",
+      "filename": "fractional_angle_3_8_1768102470.webp",
+      "index": 202,
+      "size": 18294
+    },
+    {
+      "path": "images/geometric_properties_venn_qna_option_triangle_c61b3f02_1768102670.webp",
+      "filename": "geometric_properties_venn_qna_option_triangle_c61b3f02_1768102670.webp",
+      "index": 203,
+      "size": 3940
+    },
+    {
+      "path": "images/geo_triangle_rotation_1768102628582405000.webp",
+      "filename": "geo_triangle_rotation_1768102628582405000.webp",
+      "index": 204,
+      "size": 17630
+    },
+    {
+      "path": "images/fractional_angle_2_5_1768102465.webp",
+      "filename": "fractional_angle_2_5_1768102465.webp",
+      "index": 205,
+      "size": 18462
+    },
+    {
+      "path": "images/fractional_angle_1_4_1768102473.webp",
+      "filename": "fractional_angle_1_4_1768102473.webp",
+      "index": 206,
+      "size": 18016
+    },
+    {
+      "path": "images/fractional_angle_3_8_1768102466.webp",
+      "filename": "fractional_angle_3_8_1768102466.webp",
+      "index": 207,
+      "size": 18800
     }
   ],
-  "image_count": 434,
+  "image_count": 207,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.593161",
   "file_patterns": [
     "angle"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.G.A.5+1",
-      "display_name": "Angle Sums in Triangles",
-      "description": "Identify a mising angle in a triangle."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:39.131903",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Triangle with Labeled Angles",
-    "description": "The 'generate_angles' function creates a visualization of a triangle with labeled vertices and angles. It accepts an input of type 'AngleList', which contains a list of 'Angle' objects, each having a 'measure' and a 'label'. The 'measure' represents the angle in degrees, and the 'label' is a string identifier for the angle. The function has constraints on the angle measurements: they must be greater than 0 and less than or equal to 360 degrees. Additionally, each angle measurement must be less than 80, greater than 100, or exactly 90 degrees, and the difference between any two angle measurements must be at least 15 degrees. This function is useful in educational settings where understanding of angles within a triangle is being taught or reinforced.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "The function accepts an 'AngleList' object as input, which contains a list of 'Angle' objects.",
-          "Each 'Angle' object has a 'measure' and a 'label'. The 'measure' represents the angle in degrees, and the 'label' is a string identifier for the angle."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The 'measure' of each 'Angle' must be greater than 0 and less than or equal to 360 degrees.",
-          "Each angle measurement must be less than 80, greater than 100, or exactly 90 degrees.",
-          "The difference between any two angle measurements must be at least 15 degrees."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a triangle with labeled vertices and angles.",
-          "The triangle is drawn with the vertices sorted by the length of the angle labels, and the coordinates of the vertices are fixed.",
-          "The angles are labeled with their measurements in degrees, and the labels are positioned based on the coordinates of the vertices."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

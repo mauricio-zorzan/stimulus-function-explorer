@@ -1,0 +1,160 @@
+{
+  "function_name": "create_dimensional_compound_area_figure",
+  "description": "Creates dimensional compound area figure for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/compound_area_6th_1768103131.webp",
+      "filename": "compound_area_6th_1768103131.webp",
+      "index": 1,
+      "size": 21180
+    },
+    {
+      "path": "images/compound_area_6th_1768103127.webp",
+      "filename": "compound_area_6th_1768103127.webp",
+      "index": 2,
+      "size": 25148
+    },
+    {
+      "path": "images/compound_area_6th_1768103126.webp",
+      "filename": "compound_area_6th_1768103126.webp",
+      "index": 3,
+      "size": 21364
+    },
+    {
+      "path": "images/compound_area_6th_1768103130.webp",
+      "filename": "compound_area_6th_1768103130.webp",
+      "index": 4,
+      "size": 20214
+    },
+    {
+      "path": "images/compound_area_6th_1768103121.webp",
+      "filename": "compound_area_6th_1768103121.webp",
+      "index": 5,
+      "size": 25148
+    },
+    {
+      "path": "images/compound_area_6th_1768103117.webp",
+      "filename": "compound_area_6th_1768103117.webp",
+      "index": 6,
+      "size": 20592
+    },
+    {
+      "path": "images/compound_area_6th_1768103116.webp",
+      "filename": "compound_area_6th_1768103116.webp",
+      "index": 7,
+      "size": 24480
+    },
+    {
+      "path": "images/compound_area_6th_1768103120.webp",
+      "filename": "compound_area_6th_1768103120.webp",
+      "index": 8,
+      "size": 20040
+    },
+    {
+      "path": "images/compound_area_6th_1768103136.webp",
+      "filename": "compound_area_6th_1768103136.webp",
+      "index": 9,
+      "size": 25604
+    },
+    {
+      "path": "images/compound_area_6th_1768103123.webp",
+      "filename": "compound_area_6th_1768103123.webp",
+      "index": 10,
+      "size": 22244
+    },
+    {
+      "path": "images/compound_area_6th_1768103135.webp",
+      "filename": "compound_area_6th_1768103135.webp",
+      "index": 11,
+      "size": 24196
+    },
+    {
+      "path": "images/compound_area_6th_1768103119.webp",
+      "filename": "compound_area_6th_1768103119.webp",
+      "index": 12,
+      "size": 22244
+    },
+    {
+      "path": "images/compound_area_6th_1768103115.webp",
+      "filename": "compound_area_6th_1768103115.webp",
+      "index": 13,
+      "size": 21846
+    },
+    {
+      "path": "images/compound_area_6th_1768103114.webp",
+      "filename": "compound_area_6th_1768103114.webp",
+      "index": 14,
+      "size": 20494
+    },
+    {
+      "path": "images/compound_area_6th_1768103118.webp",
+      "filename": "compound_area_6th_1768103118.webp",
+      "index": 15,
+      "size": 27608
+    },
+    {
+      "path": "images/compound_area_6th_1768103134.webp",
+      "filename": "compound_area_6th_1768103134.webp",
+      "index": 16,
+      "size": 23598
+    },
+    {
+      "path": "images/compound_area_6th_1768103122.webp",
+      "filename": "compound_area_6th_1768103122.webp",
+      "index": 17,
+      "size": 21364
+    },
+    {
+      "path": "images/compound_area_6th_1768103129.webp",
+      "filename": "compound_area_6th_1768103129.webp",
+      "index": 18,
+      "size": 14980
+    },
+    {
+      "path": "images/compound_area_6th_1768103113.webp",
+      "filename": "compound_area_6th_1768103113.webp",
+      "index": 19,
+      "size": 21118
+    },
+    {
+      "path": "images/compound_area_6th_1768103125.webp",
+      "filename": "compound_area_6th_1768103125.webp",
+      "index": 20,
+      "size": 22244
+    },
+    {
+      "path": "images/compound_area_6th_1768103133.webp",
+      "filename": "compound_area_6th_1768103133.webp",
+      "index": 21,
+      "size": 28076
+    },
+    {
+      "path": "images/compound_area_6th_1768103132.webp",
+      "filename": "compound_area_6th_1768103132.webp",
+      "index": 22,
+      "size": 24284
+    },
+    {
+      "path": "images/compound_area_6th_1768103124.webp",
+      "filename": "compound_area_6th_1768103124.webp",
+      "index": 23,
+      "size": 21364
+    },
+    {
+      "path": "images/compound_area_6th_1768103112.webp",
+      "filename": "compound_area_6th_1768103112.webp",
+      "index": 24,
+      "size": 25574
+    }
+  ],
+  "image_count": 24,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.611209",
+  "file_patterns": [
+    "compound_area_6th"
+  ]
+}

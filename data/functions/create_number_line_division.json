@@ -1,0 +1,28 @@
+{
+  "function_name": "create_number_line_division",
+  "description": "Creates number line division for educational visualization.",
+  "category": "number_lines",
+  "tags": [
+    "number_lines"
+  ],
+  "images": [
+    {
+      "path": "images/number_line_division_1768102822.webp",
+      "filename": "number_line_division_1768102822.webp",
+      "index": 1,
+      "size": 28426
+    },
+    {
+      "path": "images/number_line_division_1768102823.webp",
+      "filename": "number_line_division_1768102823.webp",
+      "index": 2,
+      "size": 72222
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.685269",
+  "file_patterns": [
+    "number_line_division"
+  ]
+}

@@ -1,119 +1,77 @@
 {
   "function_name": "draw_decimal_grid",
-  "description": "The function 'draw_decimal_grid' generates a visual representation of decimal numbers using a grid system. It creates grids divided into either 10 or 100 equal parts, with a certain number of parts shaded to represent a decimal or fraction. The grids are used for educational purposes, particularly for teaching decimal representation and fraction-to-decimal conversion.",
-  "category": "fractions",
+  "description": "Draws decimal grid for educational visualization.",
+  "category": "other",
   "tags": [
     "decimals",
-    "fractions",
-    "grid",
-    "visualization",
-    "education"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_decimal_grid_1_20251011_190400.webp",
-      "filename": "draw_decimal_grid_1_20251011_190400.webp",
+      "path": "images/decimal_grid_10_43_1768102282.webp",
+      "filename": "decimal_grid_10_43_1768102282.webp",
       "index": 1,
-      "size": 16706
+      "size": 16850
     },
     {
-      "path": "images/draw_decimal_grid_2_20251011_190400.webp",
-      "filename": "draw_decimal_grid_2_20251011_190400.webp",
+      "path": "images/decimal_grid_100_455_1768102282.webp",
+      "filename": "decimal_grid_100_455_1768102282.webp",
       "index": 2,
       "size": 29198
     },
     {
-      "path": "images/draw_decimal_grid_3_20251011_190400.webp",
-      "filename": "draw_decimal_grid_3_20251011_190400.webp",
+      "path": "images/decimal_grid_10_0_1768102282.webp",
+      "filename": "decimal_grid_10_0_1768102282.webp",
       "index": 3,
-      "size": 12026
+      "size": 6420
     },
     {
-      "path": "images/draw_decimal_grid_4_20251011_190400.webp",
-      "filename": "draw_decimal_grid_4_20251011_190400.webp",
+      "path": "images/decimal_grid_10_99_1768102288.webp",
+      "filename": "decimal_grid_10_99_1768102288.webp",
       "index": 4,
-      "size": 20124
+      "size": 32316
     },
     {
-      "path": "images/draw_decimal_grid_5_20251011_190400.webp",
-      "filename": "draw_decimal_grid_5_20251011_190400.webp",
+      "path": "images/decimal_grid_100_89_1768102283.webp",
+      "filename": "decimal_grid_100_89_1768102283.webp",
       "index": 5,
-      "size": 18934
+      "size": 18194
     },
     {
-      "path": "images/draw_decimal_grid_6_20251011_190400.webp",
-      "filename": "draw_decimal_grid_6_20251011_190400.webp",
+      "path": "images/decimal_grid_100_25_1768102283.webp",
+      "filename": "decimal_grid_100_25_1768102283.webp",
       "index": 6,
-      "size": 91600
+      "size": 12372
     },
     {
-      "path": "images/draw_decimal_grid_7_20251011_190400.webp",
-      "filename": "draw_decimal_grid_7_20251011_190400.webp",
+      "path": "images/decimal_grid_100_100_1768102283.webp",
+      "filename": "decimal_grid_100_100_1768102283.webp",
       "index": 7,
-      "size": 9990
+      "size": 18600
     },
     {
-      "path": "images/draw_decimal_grid_8_20251011_190400.webp",
-      "filename": "draw_decimal_grid_8_20251011_190400.webp",
+      "path": "images/decimal_grid_100_7_1768102283.webp",
+      "filename": "decimal_grid_100_7_1768102283.webp",
       "index": 8,
       "size": 21424
     },
     {
-      "path": "images/draw_decimal_grid_9_20251011_190400.webp",
-      "filename": "draw_decimal_grid_9_20251011_190400.webp",
+      "path": "images/decimal_grid_100_0_1768102283.webp",
+      "filename": "decimal_grid_100_0_1768102283.webp",
       "index": 9,
-      "size": 12532
+      "size": 21142
     },
     {
-      "path": "images/draw_decimal_grid_10_20251011_190400.webp",
-      "filename": "draw_decimal_grid_10_20251011_190400.webp",
+      "path": "images/decimal_grid_100_999_1768102288.webp",
+      "filename": "decimal_grid_100_999_1768102288.webp",
       "index": 10,
-      "size": 3728
+      "size": 57560
     }
   ],
-  "image_count": 42,
+  "image_count": 10,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.614876",
   "file_patterns": [
     "decimal_grid"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Decimal Grids",
-    "description": "The 'draw_decimal_grid' function can generate images of decimal grids, which are grids divided into either 10 or 100 equal parts. The grids are shaded to represent a particular decimal or fraction. The function accepts two inputs: 'division', which determines how many parts the grid is divided into, and 'shaded_squares', which specifies the number of squares to shade. The function can create multiple grids if the number of shaded squares exceeds the division value, up to a maximum of 10 fully shaded grids. These visualizations are useful for teaching decimal representation and fraction-to-decimal conversion.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "'division': Determines the number of equal parts the grid is divided into. Must be either 10 or 100.",
-          "'shaded_squares': Specifies the number of squares to shade in the grid. Can exceed the division value to create multiple grids, up to a maximum of 10 fully shaded grids."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The 'division' value must be either 10 or 100.",
-          "The 'shaded_squares' value must be non-negative and cannot exceed the maximum allowed, which is the division value multiplied by 10."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws grids divided into either 10 or 100 equal parts, with a certain number of parts shaded.",
-          "The function can create multiple grids if the number of shaded squares exceeds the division value, up to a maximum of 10 fully shaded grids.",
-          "The grids are arranged in rows, with a maximum of 5 grids per row."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true,
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NBT.A.3.B+3",
-      "display_name": "Comparing Decimals on Grids",
-      "description": "Find decimals that are greater than or less than decimals represented on grids."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:16.263212"
+  ]
 }

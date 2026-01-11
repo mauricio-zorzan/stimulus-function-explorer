@@ -1,0 +1,103 @@
+{
+  "function_name": "draw_grouped_bar_chart",
+  "description": "Draws grouped bar chart for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.314145",
+  "file_patterns": [
+    "grouped_bar"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "ENE-1.A.1",
+      "display_name": null,
+      "description": "In order for a catalyst to increase the rate of a reaction, the addition of the catalyst must increase the number of effective collisions and/ or provide a reaction path with a lower activation energy relative to the original reaction coordinate."
+    },
+    {
+      "external_id": "ENE-1.O.2",
+      "display_name": null,
+      "description": "Heterotrophs capture energy present in carbon compounds produced by other organisms. a. Heterotrophs may metabolize carbohydrates, lipids, and proteins as sources of energy by hydrolysis."
+    },
+    {
+      "external_id": "ENE-3.A.1",
+      "display_name": null,
+      "description": "During a chemical reaction, bonds are broken and/or formed, and these events change the potential energy of the system."
+    },
+    {
+      "external_id": "ENE-4.A.1",
+      "display_name": null,
+      "description": "Entropy increases when matter becomes more dispersed. For example, the phase change from solid to liquid or from liquid to gas results in a dispersal of matter as the individual particles become freer to move and generally occupy a larger volume. Similarly, for a gas, the entropy increases when there is an increase in volume (at constant temperature), and the gas molecules are able to move within a larger space. For reactions involving gas-phase reactants or products, the entropy generally increases when the total number of moles of gas-phase products is greater than the total number of moles of gas-phase reactants."
+    },
+    {
+      "external_id": "EVO-1.F.1",
+      "display_name": null,
+      "description": "Through artificial selection, humans affect variation in other species."
+    },
+    {
+      "external_id": "EVO-1.H.1",
+      "display_name": null,
+      "description": "Evolution is also driven by random occurrences\u2014 a. Mutation is a random process that contributes to evolution. b. Genetic drift is a nonselective process occurring in small populations\u2014 i. Bottlenecks. ii. Founder effect. c. Migration/gene flow can drive evolution."
+    },
+    {
+      "external_id": "EVO-1.O.2",
+      "display_name": null,
+      "description": "Mutations are random and are not directed by specific environmental pressures."
+    },
+    {
+      "external_id": "IST-1.A.1",
+      "display_name": null,
+      "description": "DNA and RNA molecules have structural similarities and differences related to their function\u2014 a. Both DNA and RNA have three components\u2014sugar, a phosphate group, and a nitrogenous base\u2014that form nucleotide units that are connected by covalent bonds to form a linear molecule with 5\u2019 and 3\u2019 ends, with the nitrogenous bases perpendicular to the sugar-phosphate backbone. b. The basic structural differences between DNA and RNA include the following: i. DNA contains deoxyribose and RNA contains ribose. ii. RNA contains uracil and DNA contains thymine. iii. DNA is usually double stranded; RNA is usually single stranded. iv. The two DNA strands in double-stranded DNA are antiparallel in directionality."
+    },
+    {
+      "external_id": "IST-1.F.1",
+      "display_name": null,
+      "description": "Meiosis is a process that ensures the formation of haploid gamete cells in sexually reproducing diploid organisms\u2014 a. Meiosis results in daughter cells with half the number of chromosomes of the parent cell. b. Meiosis involves two rounds of a sequential series of steps (meiosis I and meiosis II)."
+    },
+    {
+      "external_id": "IST-1.I.2",
+      "display_name": null,
+      "description": "Fertilization involves the fusion of two haploid gametes, restoring the diploid number of chromosomes and increasing genetic variation in populations by creating new combinations of alleles in the zygote\u2014 a. Rules of probability can be applied to analyze passage of single-gene traits from parent to offspring. b. The pattern of inheritance (monohybrid, dihybrid, sex-linked, and genetically linked genes) can often be predicted from data, including pedigree, that give the parent genotype/phenotype and the offspring genotypes/phenotypes. Relevant equation: Laws of Probability\u2014 If A and B are mutually exclusive, then: P ( A \\text{ or } B ) = P ( A ) + P ( B ) If A and B are independent, then: P ( A \\text{ and } B ) = P ( A ) \\times P ( B )"
+    },
+    {
+      "external_id": "IST-1.J.1",
+      "display_name": null,
+      "description": "Patterns of inheritance of many traits do not follow ratios predicted by Mendel\u2019s laws and can be identified by quantitative analysis, where observed phenotypic ratios statistically differ from the predicted ratios\u2014 a. Genes that are adjacent and close to one another on the same chromosome may appear to be genetically linked; the probability that genetically linked genes will segregate as a unit can be used to calculate the map distance between them."
+    },
+    {
+      "external_id": "IST-2.A.3",
+      "display_name": null,
+      "description": "The phenotype of a cell or organism is determined by the combination of genes that are expressed and the levels at which they are expressed\u2014 a. Observable cell differentiation results from the expression of genes for tissue-specific proteins. b. Induction of transcription factors during development results in sequential gene expression."
+    },
+    {
+      "external_id": "IST-4.A.1",
+      "display_name": null,
+      "description": "Errors in DNA replication or DNA repair mechanisms, and external factors, including radiation and reactive chemicals, can cause random mutations in the DNA\u2014 a. Whether a mutation is detrimental, beneficial, or neutral depends on the environmental context. b. Mutations are the primary source of genetic variation."
+    },
+    {
+      "external_id": "IST-4.B.1",
+      "display_name": null,
+      "description": "Changes in genotype may affect phenotypes that are subject to natural selection. Genetic changes that enhance survival and reproduction can be selected for by environmental conditions\u2014 a. The horizontal acquisitions of genetic information primarily in prokaryotes via transformation (uptake of naked DNA), transduction (viral transmission of genetic information), conjugation (cell-to-cell transfer of DNA), and transposition (movement of DNA segments within and between DNA molecules) increase variation. b. Related viruses can combine/recombine genetic information if they infect the same host cell. c. Reproduction processes that increase genetic variation are evolutionarily conserved and are shared by various organisms."
+    },
+    {
+      "external_id": "SYI-1.A.3",
+      "display_name": null,
+      "description": "The hydrogen bonds between water molecules result in cohesion, adhesion, and surface tension."
+    },
+    {
+      "external_id": "SYI-3.B.1",
+      "display_name": null,
+      "description": "Environmental factors influence gene expression and can lead to phenotypic plasticity. Phenotypic plasticity occurs when individuals with the same genotype exhibit different phenotypes in different environments."
+    },
+    {
+      "external_id": "SYI-3.C.3",
+      "display_name": null,
+      "description": "Certain human genetic disorders can be attributed to the inheritance of a single affected or mutated allele or specific chromosomal changes, such as nondisjunction."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:19:00.811268"
+}

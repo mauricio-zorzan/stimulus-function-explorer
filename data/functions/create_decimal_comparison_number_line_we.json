@@ -1,0 +1,24 @@
+{
+  "function_name": "create_decimal_comparison_number_line_we",
+  "description": "Creates decimal comparison number line we for educational visualization.",
+  "category": "number_lines",
+  "tags": [
+    "comparison",
+    "number_lines",
+    "decimals"
+  ],
+  "images": [
+    {
+      "path": "images/decimal_comparison_number_line_we_1768102826.webp",
+      "filename": "decimal_comparison_number_line_we_1768102826.webp",
+      "index": 1,
+      "size": 41648
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.614046",
+  "file_patterns": [
+    "decimal_comparison_number_line_we"
+  ]
+}

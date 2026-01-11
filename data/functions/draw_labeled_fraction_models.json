@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_labeled_fraction_models",
+  "description": "Draws labeled fraction models for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "images": [
+    {
+      "path": "images/1768102782_labeled_fraction_models.webp",
+      "filename": "1768102782_labeled_fraction_models.webp",
+      "index": 1,
+      "size": 2778
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.678503",
+  "file_patterns": [
+    "labeled_fraction_models"
+  ]
+}

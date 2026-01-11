@@ -1,0 +1,28 @@
+{
+  "function_name": "draw_horizontal_tree_diagram",
+  "description": "Draws horizontal tree diagram for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/horizontal_tree_diagram_1768102778.webp",
+      "filename": "horizontal_tree_diagram_1768102778.webp",
+      "index": 1,
+      "size": 36404
+    },
+    {
+      "path": "images/horizontal_tree_diagram_1768102777.webp",
+      "filename": "horizontal_tree_diagram_1768102777.webp",
+      "index": 2,
+      "size": 48752
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.678125",
+  "file_patterns": [
+    "horizontal_tree_diagram"
+  ]
+}

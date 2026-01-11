@@ -1,83 +1,46 @@
 {
   "function_name": "draw_polygon_fully_labeled",
-  "description": "The 'draw_polygon_fully_labeled' function generates educational stimulus images of various types of polygons with all sides labeled with their measurements. The function is designed to help students understand the concept of perimeter, especially when all dimensions are provided. It supports a range of polygon types from squares and rectangles to regular polygons with 3-10 sides, and L-shaped and T-shaped polygons.",
+  "description": "Draws polygon fully labeled for educational visualization.",
   "category": "geometry",
   "tags": [
-    "polygons",
-    "geometry",
-    "measurements",
-    "perimeter",
-    "visualization"
+    "geometry"
   ],
   "images": [
     {
-      "path": "images/draw_polygon_fully_labeled_1_20251011_190400.webp",
-      "filename": "draw_polygon_fully_labeled_1_20251011_190400.webp",
+      "path": "images/polygon_fully_labeled_1768102657.webp",
+      "filename": "polygon_fully_labeled_1768102657.webp",
       "index": 1,
-      "size": 87534
+      "size": 64762
     },
     {
-      "path": "images/draw_polygon_fully_labeled_2_20251011_190400.webp",
-      "filename": "draw_polygon_fully_labeled_2_20251011_190400.webp",
+      "path": "images/polygon_fully_labeled_1768102656.webp",
+      "filename": "polygon_fully_labeled_1768102656.webp",
       "index": 2,
-      "size": 66980
+      "size": 87750
     },
     {
-      "path": "images/draw_polygon_fully_labeled_3_20251011_190400.webp",
-      "filename": "draw_polygon_fully_labeled_3_20251011_190400.webp",
+      "path": "images/polygon_fully_labeled_1768102660.webp",
+      "filename": "polygon_fully_labeled_1768102660.webp",
       "index": 3,
-      "size": 66352
+      "size": 67010
     },
     {
-      "path": "images/draw_polygon_fully_labeled_4_20251011_190400.webp",
-      "filename": "draw_polygon_fully_labeled_4_20251011_190400.webp",
+      "path": "images/polygon_fully_labeled_1768102659.webp",
+      "filename": "polygon_fully_labeled_1768102659.webp",
       "index": 4,
-      "size": 85368
+      "size": 85016
     },
     {
-      "path": "images/draw_polygon_fully_labeled_5_20251011_190400.webp",
-      "filename": "draw_polygon_fully_labeled_5_20251011_190400.webp",
+      "path": "images/polygon_fully_labeled_1768102658.webp",
+      "filename": "polygon_fully_labeled_1768102658.webp",
       "index": 5,
-      "size": 142778
+      "size": 155276
     }
   ],
-  "image_count": 22,
+  "image_count": 5,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.687975",
   "file_patterns": [
     "polygon_fully_labeled"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Fully Labeled Polygons",
-    "description": "The 'draw_polygon_fully_labeled' function can draw a variety of polygons, including squares, rectangles, regular polygons with 3-10 sides, and L-shaped and T-shaped polygons. Each polygon is fully labeled with the measurements of all sides. The function accepts inputs of side lengths, units, and the type of shape to be drawn. The side lengths must be positive integers, and the function supports 3-10 sides. The shape type can be 'square', 'rectangle', 'regular', 'L-shape', or 'T-shape'. The function is designed for educational purposes, particularly for teaching students how to calculate the perimeter of various polygons when all dimensions are provided.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "side_lengths: A list of positive integers representing the lengths of the sides of the polygon. The list should contain 3-10 elements.",
-          "unit: A string representing the unit of measurement for the side lengths (e.g., 'cm', 'm', 'units').",
-          "shape_type: A string indicating the type of polygon to be drawn. It can be 'square', 'rectangle', 'regular', 'L-shape', or 'T-shape'."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "All side lengths must be positive.",
-          "The number of side lengths provided must match the type of shape. For example, a square or rectangle must have exactly 4 sides.",
-          "The shape type must be one of the specified options: 'square', 'rectangle', 'regular', 'L-shape', or 'T-shape'."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a polygon of the specified type with all sides labeled with their lengths and units.",
-          "The polygon is drawn in a random color for visual clarity.",
-          "The visual output is designed for educational clarity, showing proper geometric construction and all side measurements."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

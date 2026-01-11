@@ -1,262 +1,334 @@
 {
   "function_name": "draw_unit_cube_figure",
-  "description": "The 'draw_unit_cube_figure' function generates 3D visualizations of unit cubes. It can render either a right rectangular prism or an irregular set of unit cubes. The function is designed to aid in the understanding of three-dimensional shapes and spatial reasoning in geometry.",
-  "category": "geometry",
+  "description": "Draws unit cube figure for educational visualization.",
+  "category": "other",
   "tags": [
-    "3D_visualization",
-    "unit_cubes",
-    "geometry",
-    "spatial_reasoning"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_unit_cube_figure_1_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_1_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102944.webp",
+      "filename": "rectangular_prism_net_1768102944.webp",
       "index": 1,
-      "size": 5576
+      "size": 64068
     },
     {
-      "path": "images/draw_unit_cube_figure_2_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_2_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102909.webp",
+      "filename": "rectangular_prism_net_1768102909.webp",
       "index": 2,
-      "size": 13478
+      "size": 119962
     },
     {
-      "path": "images/draw_unit_cube_figure_3_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_3_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102876.webp",
+      "filename": "rectangular_prism_net_1768102876.webp",
       "index": 3,
-      "size": 7412
+      "size": 60108
     },
     {
-      "path": "images/draw_unit_cube_figure_4_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_4_20251011_190400.webp",
+      "path": "images/rectangular_prism_1768103060.webp",
+      "filename": "rectangular_prism_1768103060.webp",
       "index": 4,
-      "size": 5564
+      "size": 162422
     },
     {
-      "path": "images/draw_unit_cube_figure_5_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_5_20251011_190400.webp",
+      "path": "images/rectangular_prism_1768103099.webp",
+      "filename": "rectangular_prism_1768103099.webp",
       "index": 5,
-      "size": 12794
+      "size": 4832
     },
     {
-      "path": "images/draw_unit_cube_figure_6_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_6_20251011_190400.webp",
+      "path": "images/rectangular_prism_1768103061.webp",
+      "filename": "rectangular_prism_1768103061.webp",
       "index": 6,
-      "size": 6588
+      "size": 29246
     },
     {
-      "path": "images/draw_unit_cube_figure_7_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_7_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102949.webp",
+      "filename": "rectangular_prism_net_1768102949.webp",
       "index": 7,
-      "size": 11078
+      "size": 91604
     },
     {
-      "path": "images/draw_unit_cube_figure_8_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_8_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102908.webp",
+      "filename": "rectangular_prism_net_1768102908.webp",
       "index": 8,
-      "size": 16936
+      "size": 82110
     },
     {
-      "path": "images/draw_unit_cube_figure_9_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_9_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102882.webp",
+      "filename": "rectangular_prism_net_1768102882.webp",
       "index": 9,
-      "size": 17592
+      "size": 62774
     },
     {
-      "path": "images/draw_unit_cube_figure_10_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_10_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102894.webp",
+      "filename": "rectangular_prism_net_1768102894.webp",
       "index": 10,
-      "size": 6772
+      "size": 83570
     },
     {
-      "path": "images/draw_unit_cube_figure_11_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_11_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102912.webp",
+      "filename": "rectangular_prism_net_1768102912.webp",
       "index": 11,
-      "size": 8938
+      "size": 87072
     },
     {
-      "path": "images/draw_unit_cube_figure_12_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_12_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102904.webp",
+      "filename": "rectangular_prism_net_1768102904.webp",
       "index": 12,
-      "size": 13218
+      "size": 69140
     },
     {
-      "path": "images/draw_unit_cube_figure_13_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_13_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102958.webp",
+      "filename": "rectangular_prism_net_1768102958.webp",
       "index": 13,
-      "size": 4196
+      "size": 103560
     },
     {
-      "path": "images/draw_unit_cube_figure_14_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_14_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102919.webp",
+      "filename": "rectangular_prism_net_1768102919.webp",
       "index": 14,
-      "size": 5726
+      "size": 60992
     },
     {
-      "path": "images/draw_unit_cube_figure_15_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_15_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102954.webp",
+      "filename": "rectangular_prism_net_1768102954.webp",
       "index": 15,
-      "size": 12184
+      "size": 66850
     },
     {
-      "path": "images/draw_unit_cube_figure_16_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_16_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102942.webp",
+      "filename": "rectangular_prism_net_1768102942.webp",
       "index": 16,
-      "size": 12368
+      "size": 61348
     },
     {
-      "path": "images/draw_unit_cube_figure_17_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_17_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102893.webp",
+      "filename": "rectangular_prism_net_1768102893.webp",
       "index": 17,
-      "size": 6744
+      "size": 74976
     },
     {
-      "path": "images/draw_unit_cube_figure_18_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_18_20251011_190400.webp",
+      "path": "images/rectangular_prism_1768103085.webp",
+      "filename": "rectangular_prism_1768103085.webp",
       "index": 18,
-      "size": 11492
+      "size": 7828
     },
     {
-      "path": "images/draw_unit_cube_figure_19_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_19_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768103040.webp",
+      "filename": "rectangular_prism_net_1768103040.webp",
       "index": 19,
-      "size": 3894
+      "size": 70692
     },
     {
-      "path": "images/draw_unit_cube_figure_20_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_20_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102997.webp",
+      "filename": "rectangular_prism_net_1768102997.webp",
       "index": 20,
-      "size": 11492
+      "size": 55366
     },
     {
-      "path": "images/draw_unit_cube_figure_21_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_21_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102996.webp",
+      "filename": "rectangular_prism_net_1768102996.webp",
       "index": 21,
-      "size": 5416
+      "size": 51720
     },
     {
-      "path": "images/draw_unit_cube_figure_22_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_22_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768103016.webp",
+      "filename": "rectangular_prism_net_1768103016.webp",
       "index": 22,
-      "size": 6772
+      "size": 78948
     },
     {
-      "path": "images/draw_unit_cube_figure_23_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_23_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102892.webp",
+      "filename": "rectangular_prism_net_1768102892.webp",
       "index": 23,
-      "size": 18264
+      "size": 107836
     },
     {
-      "path": "images/draw_unit_cube_figure_24_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_24_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102943.webp",
+      "filename": "rectangular_prism_net_1768102943.webp",
       "index": 24,
-      "size": 7104
+      "size": 77178
     },
     {
-      "path": "images/draw_unit_cube_figure_25_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_25_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102888.webp",
+      "filename": "rectangular_prism_net_1768102888.webp",
       "index": 25,
-      "size": 27314
+      "size": 69140
     },
     {
-      "path": "images/draw_unit_cube_figure_26_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_26_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768103020.webp",
+      "filename": "rectangular_prism_net_1768103020.webp",
       "index": 26,
-      "size": 5548
+      "size": 74230
     },
     {
-      "path": "images/draw_unit_cube_figure_27_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_27_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102921.webp",
+      "filename": "rectangular_prism_net_1768102921.webp",
       "index": 27,
-      "size": 3322
+      "size": 61276
     },
     {
-      "path": "images/draw_unit_cube_figure_28_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_28_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102937.webp",
+      "filename": "rectangular_prism_net_1768102937.webp",
       "index": 28,
-      "size": 22722
+      "size": 90870
     },
     {
-      "path": "images/draw_unit_cube_figure_29_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_29_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768103019.webp",
+      "filename": "rectangular_prism_net_1768103019.webp",
       "index": 29,
-      "size": 15098
+      "size": 63196
     },
     {
-      "path": "images/draw_unit_cube_figure_30_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_30_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102887.webp",
+      "filename": "rectangular_prism_net_1768102887.webp",
       "index": 30,
-      "size": 2688
+      "size": 95008
     },
     {
-      "path": "images/draw_unit_cube_figure_31_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_31_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768102995.webp",
+      "filename": "rectangular_prism_net_1768102995.webp",
       "index": 31,
-      "size": 9970
+      "size": 55366
     },
     {
-      "path": "images/draw_unit_cube_figure_32_20251011_190400.webp",
-      "filename": "draw_unit_cube_figure_32_20251011_190400.webp",
+      "path": "images/rectangular_prism_net_1768103042.webp",
+      "filename": "rectangular_prism_net_1768103042.webp",
       "index": 32,
-      "size": 13744
+      "size": 68290
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103015.webp",
+      "filename": "rectangular_prism_net_1768103015.webp",
+      "index": 33,
+      "size": 78948
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102891.webp",
+      "filename": "rectangular_prism_net_1768102891.webp",
+      "index": 34,
+      "size": 103322
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102940.webp",
+      "filename": "rectangular_prism_net_1768102940.webp",
+      "index": 35,
+      "size": 103322
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102917.webp",
+      "filename": "rectangular_prism_net_1768102917.webp",
+      "index": 36,
+      "size": 70108
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103038.webp",
+      "filename": "rectangular_prism_net_1768103038.webp",
+      "index": 37,
+      "size": 78948
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102941.webp",
+      "filename": "rectangular_prism_net_1768102941.webp",
+      "index": 38,
+      "size": 65000
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103043.webp",
+      "filename": "rectangular_prism_net_1768103043.webp",
+      "index": 39,
+      "size": 69370
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102886.webp",
+      "filename": "rectangular_prism_net_1768102886.webp",
+      "index": 40,
+      "size": 107784
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103018.webp",
+      "filename": "rectangular_prism_net_1768103018.webp",
+      "index": 41,
+      "size": 76982
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102946.webp",
+      "filename": "rectangular_prism_net_1768102946.webp",
+      "index": 42,
+      "size": 96768
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102907.webp",
+      "filename": "rectangular_prism_net_1768102907.webp",
+      "index": 43,
+      "size": 89700
+    },
+    {
+      "path": "images/rectangular_prism_1768103062.webp",
+      "filename": "rectangular_prism_1768103062.webp",
+      "index": 44,
+      "size": 6336
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102874.webp",
+      "filename": "rectangular_prism_net_1768102874.webp",
+      "index": 45,
+      "size": 57668
+    },
+    {
+      "path": "images/rectangular_prism_1768103058.webp",
+      "filename": "rectangular_prism_1768103058.webp",
+      "index": 46,
+      "size": 17736
+    },
+    {
+      "path": "images/base_area_rectangular_prism_1768103062.webp",
+      "filename": "base_area_rectangular_prism_1768103062.webp",
+      "index": 47,
+      "size": 5176
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103049.webp",
+      "filename": "rectangular_prism_net_1768103049.webp",
+      "index": 48,
+      "size": 105054
+    },
+    {
+      "path": "images/rectangular_prism_1768103075.webp",
+      "filename": "rectangular_prism_1768103075.webp",
+      "index": 49,
+      "size": 6878
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102951.webp",
+      "filename": "rectangular_prism_net_1768102951.webp",
+      "index": 50,
+      "size": 83504
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102910.webp",
+      "filename": "rectangular_prism_net_1768102910.webp",
+      "index": 51,
+      "size": 57668
+    },
+    {
+      "path": "images/rectangular_prism_net_1768102947.webp",
+      "filename": "rectangular_prism_net_1768102947.webp",
+      "index": 52,
+      "size": 21700
+    },
+    {
+      "path": "images/rectangular_prism_net_1768103045.webp",
+      "filename": "rectangular_prism_net_1768103045.webp",
+      "index": 53,
+      "size": 78660
     }
   ],
-  "image_count": 32,
+  "image_count": 53,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.691574",
   "file_patterns": [
     "rectangular_prism"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.C.3.B+1",
-      "display_name": null,
-      "description": "Determine the volume of rectangular prisms made of unit cubes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.C.3.B+2",
-      "display_name": null,
-      "description": "Calculate the volume of rectangular prisms made of unit cubes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.MD.C.4+1",
-      "display_name": "Volume with Unit Cubes",
-      "description": "Measure volumes by counting unit cubes, using cubic cm, cubic in, cubic ft, and improvised units."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:37.832857",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: 3D Unit Cube Visualizations",
-    "description": "The 'draw_unit_cube_figure' function can generate 3D visualizations of right rectangular prisms or irregular sets of unit cubes. It accepts an instance of the 'UnitCubeFigure' class as input, which specifies the kind of figure ('rectangular' or 'custom') and the dimensions or set of cubes to render. For 'rectangular' figures, the length, width, and height are required. For 'custom' figures, a list of cubes with x, y, and z coordinates is required. The function is designed to help students visualize and understand three-dimensional shapes and their properties.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "figure.shape.kind: Specifies the kind of figure to draw ('rectangular' or 'custom')",
-          "figure.shape.length, figure.shape.width, figure.shape.height: Specifies the dimensions of a 'rectangular' figure",
-          "figure.shape.cubes: Specifies a list of cubes with x, y, and z coordinates for a 'custom' figure"
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The figure.shape.kind field must be either 'rectangular' or 'custom'",
-          "For 'rectangular' figures, the length, width, and height must be positive integers",
-          "For 'custom' figures, the list of cubes must contain at least one cube, and each cube must have x, y, and z coordinates that are non-negative integers"
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a 3D visualization of unit cubes, either as a right rectangular prism or an irregular set",
-          "Each cube is rendered with a pleasant violet gradient for the three visible faces, and black edges",
-          "The size and shape of the visualization depend on the input parameters"
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

@@ -1,219 +1,700 @@
 {
   "function_name": "draw_fractional_models",
-  "description": "The function 'draw_fractional_models' generates images of fractional models in the form of circles or rectangles. Each model is divided into segments according to the fractions provided, with each segment represented visually by a unique color. This function is intended to aid in the understanding of fractions in an educational setting.",
+  "description": "Draws fractional models for educational visualization.",
   "category": "fractions",
   "tags": [
-    "fractions",
-    "geometry",
-    "visualization",
-    "education"
+    "fractions"
   ],
   "images": [
     {
-      "path": "images/draw_fractional_models_1_20251011_190400.webp",
-      "filename": "draw_fractional_models_1_20251011_190400.webp",
+      "path": "images/1768102423253_76be0404_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423253_76be0404_frac_model_equivalent_WE_0_2.webp",
       "index": 1,
-      "size": 3800
+      "size": 1000
     },
     {
-      "path": "images/draw_fractional_models_2_20251011_190400.webp",
-      "filename": "draw_fractional_models_2_20251011_190400.webp",
+      "path": "images/1768102423230_a49c6718_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423230_a49c6718_frac_model_equivalent_WE_0_2.webp",
       "index": 2,
-      "size": 4812
+      "size": 1022
     },
     {
-      "path": "images/draw_fractional_models_3_20251011_190400.webp",
-      "filename": "draw_fractional_models_3_20251011_190400.webp",
+      "path": "images/1768102423115_4f102317_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423115_4f102317_frac_model_equivalent_WE_0_1.webp",
       "index": 3,
-      "size": 84984
+      "size": 1048
     },
     {
-      "path": "images/draw_fractional_models_4_20251011_190400.webp",
-      "filename": "draw_fractional_models_4_20251011_190400.webp",
+      "path": "images/1768102422982_d33eabad_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422982_d33eabad_frac_model_equivalent_WE_0_2.webp",
       "index": 4,
-      "size": 456106
+      "size": 492
     },
     {
-      "path": "images/draw_fractional_models_5_20251011_190400.webp",
-      "filename": "draw_fractional_models_5_20251011_190400.webp",
+      "path": "images/1768102805_mixed_frac_model.webp",
+      "filename": "1768102805_mixed_frac_model.webp",
       "index": 5,
-      "size": 448648
+      "size": 54938
     },
     {
-      "path": "images/draw_fractional_models_6_20251011_190400.webp",
-      "filename": "draw_fractional_models_6_20251011_190400.webp",
+      "path": "images/1768103241_frac_model_unequal.webp",
+      "filename": "1768103241_frac_model_unequal.webp",
       "index": 6,
+      "size": 9484
+    },
+    {
+      "path": "images/frac_model_multi_units1768102437.webp",
+      "filename": "frac_model_multi_units1768102437.webp",
+      "index": 7,
+      "size": 45770
+    },
+    {
+      "path": "images/1768102422_0f600adc_frac_model_equivalent.webp",
+      "filename": "1768102422_0f600adc_frac_model_equivalent.webp",
+      "index": 8,
+      "size": 1120
+    },
+    {
+      "path": "images/frac_model_multi_units1768102440.webp",
+      "filename": "frac_model_multi_units1768102440.webp",
+      "index": 9,
+      "size": 50212
+    },
+    {
+      "path": "images/1768102423102_5b334825_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423102_5b334825_frac_model_equivalent_WE_0_1.webp",
+      "index": 10,
+      "size": 640
+    },
+    {
+      "path": "images/1768102451169_1388fe88_frac_model_WE_1.webp",
+      "filename": "1768102451169_1388fe88_frac_model_WE_1.webp",
+      "index": 11,
+      "size": 420
+    },
+    {
+      "path": "images/1768102422904_e84b4d42_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422904_e84b4d42_frac_model_equivalent_WE_0_1.webp",
+      "index": 12,
+      "size": 428
+    },
+    {
+      "path": "images/1768103243_whole_frac_model.webp",
+      "filename": "1768103243_whole_frac_model.webp",
+      "index": 13,
+      "size": 99528
+    },
+    {
+      "path": "images/1768102422_5b214a1b_frac_model_equivalent.webp",
+      "filename": "1768102422_5b214a1b_frac_model_equivalent.webp",
+      "index": 14,
+      "size": 1308
+    },
+    {
+      "path": "images/1768102422880_205913bf_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422880_205913bf_frac_model_equivalent_WE_0_1.webp",
+      "index": 15,
+      "size": 492
+    },
+    {
+      "path": "images/1768102423151_6861a7a9_frac_model_equivalent_WE_2_2.webp",
+      "filename": "1768102423151_6861a7a9_frac_model_equivalent_WE_2_2.webp",
+      "index": 16,
+      "size": 1346
+    },
+    {
+      "path": "images/1768102423159_45b554f3_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423159_45b554f3_frac_model_equivalent_WE_0_1.webp",
+      "index": 17,
+      "size": 1142
+    },
+    {
+      "path": "images/1768102422_257fc2a3_frac_model_equivalent.webp",
+      "filename": "1768102422_257fc2a3_frac_model_equivalent.webp",
+      "index": 18,
+      "size": 920
+    },
+    {
+      "path": "images/1768102422_e16ff6d3_frac_model_equivalent.webp",
+      "filename": "1768102422_e16ff6d3_frac_model_equivalent.webp",
+      "index": 19,
+      "size": 2446
+    },
+    {
+      "path": "images/1768102443_frac_model.webp",
+      "filename": "1768102443_frac_model.webp",
+      "index": 20,
+      "size": 11880
+    },
+    {
+      "path": "images/1768102422899_400cf3ab_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422899_400cf3ab_frac_model_equivalent_WE_0_2.webp",
+      "index": 21,
+      "size": 358
+    },
+    {
+      "path": "images/1768102422935_8925d6cb_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422935_8925d6cb_frac_model_equivalent_WE_0_1.webp",
+      "index": 22,
+      "size": 2258
+    },
+    {
+      "path": "images/1768102423283_dc5bf973_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423283_dc5bf973_frac_model_equivalent_WE_0_1.webp",
+      "index": 23,
+      "size": 510
+    },
+    {
+      "path": "images/1768102422910_bdf7e375_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422910_bdf7e375_frac_model_equivalent_WE_0_2.webp",
+      "index": 24,
+      "size": 324
+    },
+    {
+      "path": "images/1768102451163_3f836bff_frac_model_WE_0.webp",
+      "filename": "1768102451163_3f836bff_frac_model_WE_0.webp",
+      "index": 25,
+      "size": 1480
+    },
+    {
+      "path": "images/1768102423171_04bb3f8b_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423171_04bb3f8b_frac_model_equivalent_WE_0_1.webp",
+      "index": 26,
+      "size": 1180
+    },
+    {
+      "path": "images/frac_model_units_overlay_shaded_extents_93409975-0d3c-4549-9049-b60b4dc51d15.webp",
+      "filename": "frac_model_units_overlay_shaded_extents_93409975-0d3c-4549-9049-b60b4dc51d15.webp",
+      "index": 27,
+      "size": 92440
+    },
+    {
+      "path": "images/1768102423193_a96abf78_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423193_a96abf78_frac_model_equivalent_WE_0_2.webp",
+      "index": 28,
+      "size": 1028
+    },
+    {
+      "path": "images/frac_model_multi_units1768102441.webp",
+      "filename": "frac_model_multi_units1768102441.webp",
+      "index": 29,
+      "size": 84868
+    },
+    {
+      "path": "images/1768102807_mixed_frac_model.webp",
+      "filename": "1768102807_mixed_frac_model.webp",
+      "index": 30,
+      "size": 64238
+    },
+    {
+      "path": "images/1768102422_21d65191_frac_model_equivalent.webp",
+      "filename": "1768102422_21d65191_frac_model_equivalent.webp",
+      "index": 31,
+      "size": 1530
+    },
+    {
+      "path": "images/1768102423218_8cef0d82_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423218_8cef0d82_frac_model_equivalent_WE_0_2.webp",
+      "index": 32,
+      "size": 1000
+    },
+    {
+      "path": "images/1768102430_frac_model_labeled.webp",
+      "filename": "1768102430_frac_model_labeled.webp",
+      "index": 33,
+      "size": 3810
+    },
+    {
+      "path": "images/1768103241_whole_frac_model.webp",
+      "filename": "1768103241_whole_frac_model.webp",
+      "index": 34,
+      "size": 22834
+    },
+    {
+      "path": "images/1768102422924_bfbdf477_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422924_bfbdf477_frac_model_equivalent_WE_0_2.webp",
+      "index": 35,
+      "size": 358
+    },
+    {
+      "path": "images/1768102451189_70c09fb9_frac_model_WE_1.webp",
+      "filename": "1768102451189_70c09fb9_frac_model_WE_1.webp",
+      "index": 36,
+      "size": 320
+    },
+    {
+      "path": "images/1768102422886_03cd69cb_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422886_03cd69cb_frac_model_equivalent_WE_0_2.webp",
+      "index": 37,
+      "size": 358
+    },
+    {
+      "path": "images/1768102451155_9ae21005_frac_model_WE_0.webp",
+      "filename": "1768102451155_9ae21005_frac_model_WE_0.webp",
+      "index": 38,
+      "size": 922
+    },
+    {
+      "path": "images/frac_model_units_overlay_shaded_extents_69aff212-ec37-4250-a2f0-a64164dfce8b.webp",
+      "filename": "frac_model_units_overlay_shaded_extents_69aff212-ec37-4250-a2f0-a64164dfce8b.webp",
+      "index": 39,
+      "size": 40810
+    },
+    {
+      "path": "images/1768102423131_308d2b1e_frac_model_equivalent_WE_1_1.webp",
+      "filename": "1768102423131_308d2b1e_frac_model_equivalent_WE_1_1.webp",
+      "index": 40,
+      "size": 606
+    },
+    {
+      "path": "images/1768102423248_b2ef044f_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423248_b2ef044f_frac_model_equivalent_WE_0_1.webp",
+      "index": 41,
+      "size": 1044
+    },
+    {
+      "path": "images/1768102422_9cc329d9_frac_model_equivalent.webp",
+      "filename": "1768102422_9cc329d9_frac_model_equivalent.webp",
+      "index": 42,
+      "size": 1660
+    },
+    {
+      "path": "images/1768102422_1610742d_frac_model_equivalent.webp",
+      "filename": "1768102422_1610742d_frac_model_equivalent.webp",
+      "index": 43,
+      "size": 1360
+    },
+    {
+      "path": "images/frac_model_1768102437.webp",
+      "filename": "frac_model_1768102437.webp",
+      "index": 44,
+      "size": 67852
+    },
+    {
+      "path": "images/1768102809_mixed_frac_model_remainder.webp",
+      "filename": "1768102809_mixed_frac_model_remainder.webp",
+      "index": 45,
+      "size": 77448
+    },
+    {
+      "path": "images/1768103245_whole_frac_model.webp",
+      "filename": "1768103245_whole_frac_model.webp",
+      "index": 46,
+      "size": 518162
+    },
+    {
+      "path": "images/1768102430_frac_model.webp",
+      "filename": "1768102430_frac_model.webp",
+      "index": 47,
       "size": 456106
     },
     {
-      "path": "images/draw_fractional_models_7_20251011_190400.webp",
-      "filename": "draw_fractional_models_7_20251011_190400.webp",
-      "index": 7,
-      "size": 21886
+      "path": "images/frac_model_units_overlay_shaded_extents_1ddbf4c9-0ff9-4f17-babf-50db3160c611.webp",
+      "filename": "frac_model_units_overlay_shaded_extents_1ddbf4c9-0ff9-4f17-babf-50db3160c611.webp",
+      "index": 48,
+      "size": 99388
     },
     {
-      "path": "images/draw_fractional_models_8_20251011_190400.webp",
-      "filename": "draw_fractional_models_8_20251011_190400.webp",
-      "index": 8,
-      "size": 15160
+      "path": "images/1768102422993_2b9632ae_frac_model_equivalent_WE_1_1.webp",
+      "filename": "1768102422993_2b9632ae_frac_model_equivalent_WE_1_1.webp",
+      "index": 49,
+      "size": 760
     },
     {
-      "path": "images/draw_fractional_models_9_20251011_190400.webp",
-      "filename": "draw_fractional_models_9_20251011_190400.webp",
-      "index": 9,
+      "path": "images/1768102422965_767cd5d6_frac_model_equivalent_WE_1_1.webp",
+      "filename": "1768102422965_767cd5d6_frac_model_equivalent_WE_1_1.webp",
+      "index": 50,
+      "size": 428
+    },
+    {
+      "path": "images/1768102423288_9a564398_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423288_9a564398_frac_model_equivalent_WE_0_2.webp",
+      "index": 51,
+      "size": 530
+    },
+    {
+      "path": "images/1768102451175_21e7175e_frac_model_WE_2.webp",
+      "filename": "1768102451175_21e7175e_frac_model_WE_2.webp",
+      "index": 52,
+      "size": 680
+    },
+    {
+      "path": "images/1768102423123_b7c03422_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423123_b7c03422_frac_model_equivalent_WE_0_2.webp",
+      "index": 53,
+      "size": 1594
+    },
+    {
+      "path": "images/1768102422942_83c9c745_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422942_83c9c745_frac_model_equivalent_WE_0_2.webp",
+      "index": 54,
+      "size": 1432
+    },
+    {
+      "path": "images/frac_model_1768102302.webp",
+      "filename": "frac_model_1768102302.webp",
+      "index": 55,
       "size": 95928
+    },
+    {
+      "path": "images/1768102422_a6254486_frac_model_equivalent.webp",
+      "filename": "1768102422_a6254486_frac_model_equivalent.webp",
+      "index": 56,
+      "size": 1120
+    },
+    {
+      "path": "images/1768102423136_0463f68c_frac_model_equivalent_WE_1_2.webp",
+      "filename": "1768102423136_0463f68c_frac_model_equivalent_WE_1_2.webp",
+      "index": 57,
+      "size": 312
+    },
+    {
+      "path": "images/1768102803_mixed_frac_model.webp",
+      "filename": "1768102803_mixed_frac_model.webp",
+      "index": 58,
+      "size": 57040
+    },
+    {
+      "path": "images/1768102808_mixed_frac_model_remainder.webp",
+      "filename": "1768102808_mixed_frac_model_remainder.webp",
+      "index": 59,
+      "size": 95990
+    },
+    {
+      "path": "images/1768102423089_bd686032_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423089_bd686032_frac_model_equivalent_WE_0_1.webp",
+      "index": 60,
+      "size": 1754
+    },
+    {
+      "path": "images/1768102423184_6f25b4e5_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423184_6f25b4e5_frac_model_equivalent_WE_0_1.webp",
+      "index": 61,
+      "size": 1166
+    },
+    {
+      "path": "images/1768103242_whole_frac_model.webp",
+      "filename": "1768103242_whole_frac_model.webp",
+      "index": 62,
+      "size": 51414
+    },
+    {
+      "path": "images/1768102423265_080ab72e_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423265_080ab72e_frac_model_equivalent_WE_0_2.webp",
+      "index": 63,
+      "size": 1010
+    },
+    {
+      "path": "images/1768102435_frac_model.webp",
+      "filename": "1768102435_frac_model.webp",
+      "index": 64,
+      "size": 464666
+    },
+    {
+      "path": "images/1768102804_mixed_frac_model.webp",
+      "filename": "1768102804_mixed_frac_model.webp",
+      "index": 65,
+      "size": 101942
+    },
+    {
+      "path": "images/1768102451230_7389e6b8_frac_model_WE_1.webp",
+      "filename": "1768102451230_7389e6b8_frac_model_WE_1.webp",
+      "index": 66,
+      "size": 1148
+    },
+    {
+      "path": "images/1768102423224_3b57402d_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423224_3b57402d_frac_model_equivalent_WE_0_1.webp",
+      "index": 67,
+      "size": 1048
+    },
+    {
+      "path": "images/1768102451205_d38d2c8e_frac_model_WE_0.webp",
+      "filename": "1768102451205_d38d2c8e_frac_model_WE_0.webp",
+      "index": 68,
+      "size": 1430
+    },
+    {
+      "path": "images/1768102423259_d817b713_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423259_d817b713_frac_model_equivalent_WE_0_1.webp",
+      "index": 69,
+      "size": 1056
+    },
+    {
+      "path": "images/1768102451_frac_model.webp",
+      "filename": "1768102451_frac_model.webp",
+      "index": 70,
+      "size": 9172
+    },
+    {
+      "path": "images/1768102422975_8e0ac87c_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422975_8e0ac87c_frac_model_equivalent_WE_0_1.webp",
+      "index": 71,
+      "size": 608
+    },
+    {
+      "path": "images/1768102432_frac_model.webp",
+      "filename": "1768102432_frac_model.webp",
+      "index": 72,
+      "size": 456106
+    },
+    {
+      "path": "images/1768102423096_5f2688b1_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423096_5f2688b1_frac_model_equivalent_WE_0_2.webp",
+      "index": 73,
+      "size": 1102
+    },
+    {
+      "path": "images/1768102422918_50038a6a_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422918_50038a6a_frac_model_equivalent_WE_0_1.webp",
+      "index": 74,
+      "size": 632
+    },
+    {
+      "path": "images/1768102422959_dec9b5eb_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422959_dec9b5eb_frac_model_equivalent_WE_0_2.webp",
+      "index": 75,
+      "size": 1432
+    },
+    {
+      "path": "images/1768102451212_b8a0f1a9_frac_model_WE_1.webp",
+      "filename": "1768102451212_b8a0f1a9_frac_model_WE_1.webp",
+      "index": 76,
+      "size": 1148
+    },
+    {
+      "path": "images/1768102422_8232ff62_frac_model_equivalent.webp",
+      "filename": "1768102422_8232ff62_frac_model_equivalent.webp",
+      "index": 77,
+      "size": 1092
+    },
+    {
+      "path": "images/1768102451183_5ce90f69_frac_model_WE_0.webp",
+      "filename": "1768102451183_5ce90f69_frac_model_WE_0.webp",
+      "index": 78,
+      "size": 336
+    },
+    {
+      "path": "images/1768102423302_694a1f8a_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423302_694a1f8a_frac_model_equivalent_WE_0_2.webp",
+      "index": 79,
+      "size": 338
+    },
+    {
+      "path": "images/1768102806_mixed_frac_model.webp",
+      "filename": "1768102806_mixed_frac_model.webp",
+      "index": 80,
+      "size": 50138
+    },
+    {
+      "path": "images/frac_model_units_overlay_tile_units_ce2a85d8-64a6-49c0-a8e3-f565ff81ddc5.webp",
+      "filename": "frac_model_units_overlay_tile_units_ce2a85d8-64a6-49c0-a8e3-f565ff81ddc5.webp",
+      "index": 81,
+      "size": 32812
+    },
+    {
+      "path": "images/1768102422969_11e84617_frac_model_equivalent_WE_1_2.webp",
+      "filename": "1768102422969_11e84617_frac_model_equivalent_WE_1_2.webp",
+      "index": 82,
+      "size": 324
+    },
+    {
+      "path": "images/1768102423211_4e8f9ca4_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423211_4e8f9ca4_frac_model_equivalent_WE_0_1.webp",
+      "index": 83,
+      "size": 1070
+    },
+    {
+      "path": "images/1768102423241_2809c3e1_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423241_2809c3e1_frac_model_equivalent_WE_0_2.webp",
+      "index": 84,
+      "size": 1000
+    },
+    {
+      "path": "images/frac_model_units_overlay_tile_units_14411529-ee48-4b70-8ed0-46fac93f98bf.webp",
+      "filename": "frac_model_units_overlay_tile_units_14411529-ee48-4b70-8ed0-46fac93f98bf.webp",
+      "index": 85,
+      "size": 93274
+    },
+    {
+      "path": "images/1768102422874_cea30413_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102422874_cea30413_frac_model_equivalent_WE_0_2.webp",
+      "index": 86,
+      "size": 1432
+    },
+    {
+      "path": "images/1768102423200_1d5cdd90_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423200_1d5cdd90_frac_model_equivalent_WE_0_1.webp",
+      "index": 87,
+      "size": 1088
+    },
+    {
+      "path": "images/1768102423277_aa4f2588_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423277_aa4f2588_frac_model_equivalent_WE_0_2.webp",
+      "index": 88,
+      "size": 1076
+    },
+    {
+      "path": "images/1768102422_0824f169_frac_model_equivalent.webp",
+      "filename": "1768102422_0824f169_frac_model_equivalent.webp",
+      "index": 89,
+      "size": 4186
+    },
+    {
+      "path": "images/1768102422_a108938d_frac_model_equivalent.webp",
+      "filename": "1768102422_a108938d_frac_model_equivalent.webp",
+      "index": 90,
+      "size": 928
+    },
+    {
+      "path": "images/frac_model_multi_units1768102439.webp",
+      "filename": "frac_model_multi_units1768102439.webp",
+      "index": 91,
+      "size": 52602
+    },
+    {
+      "path": "images/1768102423145_df9f9777_frac_model_equivalent_WE_2_1.webp",
+      "filename": "1768102423145_df9f9777_frac_model_equivalent_WE_2_1.webp",
+      "index": 92,
+      "size": 2094
+    },
+    {
+      "path": "images/1768102423108_177e0709_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423108_177e0709_frac_model_equivalent_WE_0_2.webp",
+      "index": 93,
+      "size": 314
+    },
+    {
+      "path": "images/1768102422893_3cd72f20_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422893_3cd72f20_frac_model_equivalent_WE_0_1.webp",
+      "index": 94,
+      "size": 608
+    },
+    {
+      "path": "images/1768102451222_ff899573_frac_model_WE_0.webp",
+      "filename": "1768102451222_ff899573_frac_model_WE_0.webp",
+      "index": 95,
+      "size": 1430
+    },
+    {
+      "path": "images/1768102422_93e3539c_frac_model_equivalent.webp",
+      "filename": "1768102422_93e3539c_frac_model_equivalent.webp",
+      "index": 96,
+      "size": 1156
+    },
+    {
+      "path": "images/frac_model_multi_units1768102442.webp",
+      "filename": "frac_model_multi_units1768102442.webp",
+      "index": 97,
+      "size": 41412
+    },
+    {
+      "path": "images/1768102422_5d732ea5_frac_model_equivalent.webp",
+      "filename": "1768102422_5d732ea5_frac_model_equivalent.webp",
+      "index": 98,
+      "size": 588
+    },
+    {
+      "path": "images/1768102423165_4236aad1_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423165_4236aad1_frac_model_equivalent_WE_0_2.webp",
+      "index": 99,
+      "size": 1102
+    },
+    {
+      "path": "images/frac_model_units_overlay_tile_units_d8f6c4ad-22e4-441a-94af-399c9d3fcb9f.webp",
+      "filename": "frac_model_units_overlay_tile_units_d8f6c4ad-22e4-441a-94af-399c9d3fcb9f.webp",
+      "index": 100,
+      "size": 95408
+    },
+    {
+      "path": "images/1768102423235_9cc37178_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423235_9cc37178_frac_model_equivalent_WE_0_1.webp",
+      "index": 101,
+      "size": 1086
+    },
+    {
+      "path": "images/1768102423205_1a038569_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423205_1a038569_frac_model_equivalent_WE_0_2.webp",
+      "index": 102,
+      "size": 1018
+    },
+    {
+      "path": "images/frac_model_multi_units1768102438.webp",
+      "filename": "frac_model_multi_units1768102438.webp",
+      "index": 103,
+      "size": 83084
+    },
+    {
+      "path": "images/1768102422866_b705941e_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422866_b705941e_frac_model_equivalent_WE_0_1.webp",
+      "index": 104,
+      "size": 1772
+    },
+    {
+      "path": "images/1768102423271_cabde599_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423271_cabde599_frac_model_equivalent_WE_0_1.webp",
+      "index": 105,
+      "size": 1068
+    },
+    {
+      "path": "images/1768102451195_6205831a_frac_model_WE_2.webp",
+      "filename": "1768102451195_6205831a_frac_model_WE_2.webp",
+      "index": 106,
+      "size": 438
+    },
+    {
+      "path": "images/1768102423296_61daa81f_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102423296_61daa81f_frac_model_equivalent_WE_0_1.webp",
+      "index": 107,
+      "size": 526
+    },
+    {
+      "path": "images/1768102423177_c55aa01f_frac_model_equivalent_WE_0_2.webp",
+      "filename": "1768102423177_c55aa01f_frac_model_equivalent_WE_0_2.webp",
+      "index": 108,
+      "size": 1102
+    },
+    {
+      "path": "images/1768102422_ed261e94_frac_model_equivalent.webp",
+      "filename": "1768102422_ed261e94_frac_model_equivalent.webp",
+      "index": 109,
+      "size": 546
+    },
+    {
+      "path": "images/1768102422_b6f4cdf6_frac_model_equivalent.webp",
+      "filename": "1768102422_b6f4cdf6_frac_model_equivalent.webp",
+      "index": 110,
+      "size": 4820
+    },
+    {
+      "path": "images/1768102422_0498b5be_frac_model_equivalent.webp",
+      "filename": "1768102422_0498b5be_frac_model_equivalent.webp",
+      "index": 111,
+      "size": 790
+    },
+    {
+      "path": "images/1768102422_4efb5509_frac_model_equivalent.webp",
+      "filename": "1768102422_4efb5509_frac_model_equivalent.webp",
+      "index": 112,
+      "size": 3552
+    },
+    {
+      "path": "images/1768102422999_6fb41824_frac_model_equivalent_WE_1_2.webp",
+      "filename": "1768102422999_6fb41824_frac_model_equivalent_WE_1_2.webp",
+      "index": 113,
+      "size": 438
+    },
+    {
+      "path": "images/1768102422952_caef2e5d_frac_model_equivalent_WE_0_1.webp",
+      "filename": "1768102422952_caef2e5d_frac_model_equivalent_WE_0_1.webp",
+      "index": 114,
+      "size": 1772
     }
   ],
-  "image_count": 9,
+  "image_count": 114,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.637226",
   "file_patterns": [
     "frac_model"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.3+1",
-      "display_name": null,
-      "description": "Partition circles into two, three, or four equal shares."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.3+5",
-      "display_name": null,
-      "description": "Recognize that equal shares of identical wholes need not have the same shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+1",
-      "display_name": "Fractions as Equal Parts",
-      "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.1+2",
-      "display_name": "Unit Fraction Models",
-      "description": "Identify visual models that represent unit fractions (1/n)."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+1",
-      "display_name": "Represent Fractions Using Fraction Models",
-      "description": "Represent a fraction a/b with a fraction model."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.B+3",
-      "display_name": "Modeling Real World Fractions",
-      "description": "Determine the fraction of a whole described in a word problem and select the visual model that correctly represents that fraction (denominators \u2264 12).\n"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.B+1",
-      "display_name": "Recognizing Equivalent Fractions",
-      "description": "Recognize and generate simple equivalent fractions, explaining why the fractions are equivalent."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.3.D+1",
-      "display_name": "Compare Unit Fractions",
-      "description": "Compare two unit fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+1",
-      "display_name": "Equivalent Fractions",
-      "description": "Create equivalent fractions by multiplying the numerator and denominator by the same number."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+2",
-      "display_name": "Simplifying Fraction to Lowest Terms",
-      "description": "Simplify fraction to lowest terms."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.A.1+4",
-      "display_name": null,
-      "description": "Find equivalent fractions using area models."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.A+1",
-      "display_name": "Decomposing Fractions Less than One",
-      "description": "Decompose proper fractions into a sum of fractions in multiple ways."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.A+2",
-      "display_name": null,
-      "description": "Understand subtraction of fractions as separating parts referring to the same whole."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.B+2",
-      "display_name": null,
-      "description": "Justify decompositions of a fraction into a sum of fractions with the same denominator by using a visual fraction model."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.3.D+2",
-      "display_name": null,
-      "description": "Add and subtract fractions in recipes with like denominators."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.A+2",
-      "display_name": null,
-      "description": "Complete multiplication sentences that multiply unit fractions by whole numbers without models."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.B.4.B+1",
-      "display_name": null,
-      "description": "Solve mathematical problems involving multiplying whole numbers and fractions with models and repeated addition."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.C.5+1",
-      "display_name": "Denominators of 10 and 100",
-      "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+2",
-      "display_name": "Decimal Place Value",
-      "description": "Identify place value of digits in decimal numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.A.2+7",
-      "display_name": null,
-      "description": "Solve word problems involving addition and subtraction of fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.3+1",
-      "display_name": "Fractions as Division",
-      "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a \u00f7 b) and solve word problems involving division of whole numbers resulting in fractional answers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.3+2",
-      "display_name": "Writing Remainders as Fractions",
-      "description": "Fluently divide multi-digit numbers using the standard algorithm, resulting in fractions."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:19.193616",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Fractional Models",
-    "description": "The 'draw_fractional_models' function can generate visualizations of fractional models in the form of circles or rectangles. It accepts a list of fractions and their corresponding shapes as input, based on the stimulus description class. Each fraction is represented as a shape divided into segments, with the number of segments corresponding to the denominator of the fraction. The function randomly assigns a color to each segment, creating a visually distinct representation of each fraction. This function is designed to aid in the understanding of fractions, and can be used in an educational setting to visually demonstrate the concept of fractions.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "model_data: A list of fractions and their corresponding shapes. Each fraction is represented as a string, and the shape is represented as an instance of the FractionShape class.",
-          "Each fraction controls the number of segments into which the corresponding shape is divided.",
-          "The shape of each fraction is required, but the color of each segment is randomly assigned by the function."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The denominator of each fraction must be a positive integer, and the numerator must be a non-negative integer less than or equal to the denominator.",
-          "Each shape must be an instance of the FractionShape class.",
-          "The function generates a random color for each segment, with RGB values between 0.3 and 0.8 to avoid very dark or very light colors."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a series of shapes, each divided into segments according to the corresponding fraction.",
-          "The function can draw two types of shapes: circles and rectangles.",
-          "The number of segments in each shape is determined by the denominator of the corresponding fraction, and the color of each segment is randomly assigned by the function."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

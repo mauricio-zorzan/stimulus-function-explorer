@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_input_output_table",
+  "description": "Draws input output table for educational visualization.",
+  "category": "tables",
+  "tags": [
+    "tables"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T10:02:49.069589",
+  "file_patterns": [
+    "input_output_table"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+4",
+      "display_name": "Using a Rule to Complete a Table and Graph",
+      "description": "Use a rule to complete a table and graph."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:19:13.541548"
+}

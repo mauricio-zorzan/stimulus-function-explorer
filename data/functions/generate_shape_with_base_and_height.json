@@ -1,168 +1,364 @@
 {
   "function_name": "generate_shape_with_base_and_height",
-  "description": "This function generates a visual representation of geometric shapes such as rectangles, parallelograms, and rhombuses, with specified base and height. It is designed to aid in the teaching of geometry, particularly in understanding the properties and dimensions of these shapes.",
+  "description": "Generates shape with base and height for educational visualization.",
   "category": "geometry",
   "tags": [
-    "geometry",
-    "shapes",
-    "visualization",
-    "education"
+    "geometry"
   ],
   "images": [
     {
-      "path": "images/generate_shape_with_base_and_height_1_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_1_20251011_190400.webp",
+      "path": "images/1768102615_shape.webp",
+      "filename": "1768102615_shape.webp",
       "index": 1,
-      "size": 22314
+      "size": 32532
     },
     {
-      "path": "images/generate_shape_with_base_and_height_2_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_2_20251011_190400.webp",
+      "path": "images/colored_shapes_coordinate_plane_1768102201.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102201.webp",
       "index": 2,
-      "size": 6322
+      "size": 147862
     },
     {
-      "path": "images/generate_shape_with_base_and_height_3_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_3_20251011_190400.webp",
+      "path": "images/colored_shapes_coordinate_plane_we_1768102208_step3.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102208_step3.webp",
       "index": 3,
-      "size": 16870
+      "size": 135838
     },
     {
-      "path": "images/generate_shape_with_base_and_height_4_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_4_20251011_190400.webp",
+      "path": "images/geo_shapes_with_angles_1768102607.webp",
+      "filename": "geo_shapes_with_angles_1768102607.webp",
       "index": 4,
-      "size": 7498
+      "size": 160290
     },
     {
-      "path": "images/generate_shape_with_base_and_height_5_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_5_20251011_190400.webp",
+      "path": "images/irregular_cube_shapes_1768103071.webp",
+      "filename": "irregular_cube_shapes_1768103071.webp",
       "index": 5,
-      "size": 37574
+      "size": 38142
     },
     {
-      "path": "images/generate_shape_with_base_and_height_6_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_6_20251011_190400.webp",
+      "path": "images/shape_decomp_1768103115.webp",
+      "filename": "shape_decomp_1768103115.webp",
       "index": 6,
-      "size": 19004
+      "size": 31842
     },
     {
-      "path": "images/generate_shape_with_base_and_height_7_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_7_20251011_190400.webp",
+      "path": "images/geo_shapes_with_angles_1768102606.webp",
+      "filename": "geo_shapes_with_angles_1768102606.webp",
       "index": 7,
-      "size": 34616
+      "size": 184788
     },
     {
-      "path": "images/generate_shape_with_base_and_height_8_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_8_20251011_190400.webp",
+      "path": "images/spinner_shapes_1768103145795943.webp",
+      "filename": "spinner_shapes_1768103145795943.webp",
       "index": 8,
-      "size": 7294
+      "size": 158312
     },
     {
-      "path": "images/generate_shape_with_base_and_height_9_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_9_20251011_190400.webp",
+      "path": "images/colored_shapes_coordinate_plane_1768102200.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102200.webp",
       "index": 9,
-      "size": 25106
+      "size": 146576
     },
     {
-      "path": "images/generate_shape_with_base_and_height_10_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_10_20251011_190400.webp",
+      "path": "images/colored_shapes_coordinate_plane_we_1768102206_step1.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102206_step1.webp",
       "index": 10,
-      "size": 3796
+      "size": 137168
     },
     {
-      "path": "images/generate_shape_with_base_and_height_11_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_11_20251011_190400.webp",
+      "path": "images/spinner_shapes_1768103143113777.webp",
+      "filename": "spinner_shapes_1768103143113777.webp",
       "index": 11,
+      "size": 119946
+    },
+    {
+      "path": "images/random_shape_right_angles_0_1768102604.webp",
+      "filename": "random_shape_right_angles_0_1768102604.webp",
+      "index": 12,
+      "size": 63652
+    },
+    {
+      "path": "images/shape_decomp_1768103129.webp",
+      "filename": "shape_decomp_1768103129.webp",
+      "index": 13,
+      "size": 33458
+    },
+    {
+      "path": "images/stepwise_shape_pattern_1768103148.webp",
+      "filename": "stepwise_shape_pattern_1768103148.webp",
+      "index": 14,
+      "size": 80800
+    },
+    {
+      "path": "images/irregular_cube_shape_1768103070.webp",
+      "filename": "irregular_cube_shape_1768103070.webp",
+      "index": 15,
+      "size": 11442
+    },
+    {
+      "path": "images/random_shape_right_angles_1_1768102604.webp",
+      "filename": "random_shape_right_angles_1_1768102604.webp",
+      "index": 16,
+      "size": 22734
+    },
+    {
+      "path": "images/stepwise_shape_pattern_1768103152.webp",
+      "filename": "stepwise_shape_pattern_1768103152.webp",
+      "index": 17,
+      "size": 32932
+    },
+    {
+      "path": "images/spinner_shapes_1768103143977058.webp",
+      "filename": "spinner_shapes_1768103143977058.webp",
+      "index": 18,
+      "size": 115440
+    },
+    {
+      "path": "images/shape_decomp_1768103109.webp",
+      "filename": "shape_decomp_1768103109.webp",
+      "index": 19,
+      "size": 27458
+    },
+    {
+      "path": "images/1768102639_shape.webp",
+      "filename": "1768102639_shape.webp",
+      "index": 20,
       "size": 18364
     },
     {
-      "path": "images/generate_shape_with_base_and_height_12_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_12_20251011_190400.webp",
-      "index": 12,
-      "size": 20568
+      "path": "images/shape_decomp_1768103112.webp",
+      "filename": "shape_decomp_1768103112.webp",
+      "index": 21,
+      "size": 34200
     },
     {
-      "path": "images/generate_shape_with_base_and_height_13_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_13_20251011_190400.webp",
-      "index": 13,
-      "size": 6808
+      "path": "images/irregular_cube_shape_1768103071.webp",
+      "filename": "irregular_cube_shape_1768103071.webp",
+      "index": 22,
+      "size": 11112
     },
     {
-      "path": "images/generate_shape_with_base_and_height_14_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_14_20251011_190400.webp",
-      "index": 14,
-      "size": 6882
+      "path": "images/colored_shapes_coordinate_plane_we_1768102208_step4.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102208_step4.webp",
+      "index": 23,
+      "size": 137922
     },
     {
-      "path": "images/generate_shape_with_base_and_height_15_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_15_20251011_190400.webp",
-      "index": 15,
-      "size": 6036
+      "path": "images/stepwise_shape_pattern_1768103149.webp",
+      "filename": "stepwise_shape_pattern_1768103149.webp",
+      "index": 24,
+      "size": 123400
     },
     {
-      "path": "images/generate_shape_with_base_and_height_16_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_16_20251011_190400.webp",
-      "index": 16,
-      "size": 6812
+      "path": "images/shape_decomp_1768103128.webp",
+      "filename": "shape_decomp_1768103128.webp",
+      "index": 25,
+      "size": 27580
     },
     {
-      "path": "images/generate_shape_with_base_and_height_17_20251011_190400.webp",
-      "filename": "generate_shape_with_base_and_height_17_20251011_190400.webp",
-      "index": 17,
-      "size": 23754
+      "path": "images/colored_shapes_coordinate_plane_we_1768102210_step3.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102210_step3.webp",
+      "index": 26,
+      "size": 136340
+    },
+    {
+      "path": "images/shape_decomp_1768103111.webp",
+      "filename": "shape_decomp_1768103111.webp",
+      "index": 27,
+      "size": 36554
+    },
+    {
+      "path": "images/irregular_cube_shape_1768103072.webp",
+      "filename": "irregular_cube_shape_1768103072.webp",
+      "index": 28,
+      "size": 15582
+    },
+    {
+      "path": "images/random_shape_right_angles_4_1768102605.webp",
+      "filename": "random_shape_right_angles_4_1768102605.webp",
+      "index": 29,
+      "size": 18320
+    },
+    {
+      "path": "images/shape_decomp_1768103127.webp",
+      "filename": "shape_decomp_1768103127.webp",
+      "index": 30,
+      "size": 37716
+    },
+    {
+      "path": "images/shape_decomp_1768103131.webp",
+      "filename": "shape_decomp_1768103131.webp",
+      "index": 31,
+      "size": 33536
+    },
+    {
+      "path": "images/stepwise_shape_pattern_1768103150.webp",
+      "filename": "stepwise_shape_pattern_1768103150.webp",
+      "index": 32,
+      "size": 49660
+    },
+    {
+      "path": "images/stepwise_shape_pattern_1768103151.webp",
+      "filename": "stepwise_shape_pattern_1768103151.webp",
+      "index": 33,
+      "size": 48238
+    },
+    {
+      "path": "images/shape_decomp_1768103130.webp",
+      "filename": "shape_decomp_1768103130.webp",
+      "index": 34,
+      "size": 32516
+    },
+    {
+      "path": "images/spinner_shapes_1768103142197823.webp",
+      "filename": "spinner_shapes_1768103142197823.webp",
+      "index": 35,
+      "size": 111242
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_1768102199.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102199.webp",
+      "index": 36,
+      "size": 145786
+    },
+    {
+      "path": "images/random_shape_right_angles_3_1768102605.webp",
+      "filename": "random_shape_right_angles_3_1768102605.webp",
+      "index": 37,
+      "size": 31816
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102212_step4.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102212_step4.webp",
+      "index": 38,
+      "size": 138436
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_1768102204.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102204.webp",
+      "index": 39,
+      "size": 148266
+    },
+    {
+      "path": "images/shape_decomp_1768103110.webp",
+      "filename": "shape_decomp_1768103110.webp",
+      "index": 40,
+      "size": 19116
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102205_step1.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102205_step1.webp",
+      "index": 41,
+      "size": 135256
+    },
+    {
+      "path": "images/1768102638_shape.webp",
+      "filename": "1768102638_shape.webp",
+      "index": 42,
+      "size": 17740
+    },
+    {
+      "path": "images/random_shape_right_angles_2_1768102605.webp",
+      "filename": "random_shape_right_angles_2_1768102605.webp",
+      "index": 43,
+      "size": 37532
+    },
+    {
+      "path": "images/spinner_shapes_1768103144842450.webp",
+      "filename": "spinner_shapes_1768103144842450.webp",
+      "index": 44,
+      "size": 161056
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102212_step3.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102212_step3.webp",
+      "index": 45,
+      "size": 137010
+    },
+    {
+      "path": "images/irregular_cube_shapes_1768103073.webp",
+      "filename": "irregular_cube_shapes_1768103073.webp",
+      "index": 46,
+      "size": 188704
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_1768102203.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102203.webp",
+      "index": 47,
+      "size": 138528
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102206_step2.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102206_step2.webp",
+      "index": 48,
+      "size": 139114
+    },
+    {
+      "path": "images/spinner_shapes_1768103146627735.webp",
+      "filename": "spinner_shapes_1768103146627735.webp",
+      "index": 49,
+      "size": 164086
+    },
+    {
+      "path": "images/spinner_shapes_1768103141469874.webp",
+      "filename": "spinner_shapes_1768103141469874.webp",
+      "index": 50,
+      "size": 123448
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102206_step3.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102206_step3.webp",
+      "index": 51,
+      "size": 138104
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_1768102202.webp",
+      "filename": "colored_shapes_coordinate_plane_1768102202.webp",
+      "index": 52,
+      "size": 153946
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102211_step1.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102211_step1.webp",
+      "index": 53,
+      "size": 136720
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102210_step4.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102210_step4.webp",
+      "index": 54,
+      "size": 138534
+    },
+    {
+      "path": "images/colored_shapes_coordinate_plane_we_1768102212_step2.webp",
+      "filename": "colored_shapes_coordinate_plane_we_1768102212_step2.webp",
+      "index": 55,
+      "size": 138208
+    },
+    {
+      "path": "images/geo_shapes_with_angles_1768102608.webp",
+      "filename": "geo_shapes_with_angles_1768102608.webp",
+      "index": 56,
+      "size": 70156
+    },
+    {
+      "path": "images/spinner_shapes_1768103147475029.webp",
+      "filename": "spinner_shapes_1768103147475029.webp",
+      "index": 57,
+      "size": 123570
+    },
+    {
+      "path": "images/1768102616_shape.webp",
+      "filename": "1768102616_shape.webp",
+      "index": 58,
+      "size": 37574
     }
   ],
-  "image_count": 172,
+  "image_count": 58,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.693732",
   "file_patterns": [
     "shape"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.MD.A.3+1",
-      "display_name": "Finding the Area of Rectangles",
-      "description": "Solve problems involving area."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.G.A.1+5",
-      "display_name": "Real-World Area Problems",
-      "description": "Solve real world problems involving the area of quadrilaterals and triangles."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:42.562934",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Geometric Shapes with Specified Dimensions",
-    "description": "This function can draw three types of geometric shapes: rectangles, parallelograms, and rhombuses. It accepts inputs for the type of shape, the base, the height, and the unit of measurement. The base and height are scaled to fit within the plot, and the shape is drawn with a red outline. This function is particularly useful in teaching geometry, as it allows students to visualize the dimensions of different shapes and understand how changing the base and height affects the shape's appearance.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "shape_type: The type of shape to draw. Can be 'rectangle', 'parallelogram', or 'rhombus'.",
-          "height: The height of the shape. This is scaled to fit within the plot.",
-          "base: The base of the shape. This is also scaled to fit within the plot.",
-          "unit: The unit of measurement for the base and height. This does not affect the visual output, but can be used for labeling."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The base and height must be positive numbers.",
-          "The shape_type must be one of the specified options ('rectangle', 'parallelogram', 'rhombus').",
-          "The unit must be a valid unit of measurement."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws the specified shape with a red outline on a white background.",
-          "The shape is drawn with its base starting at the point (1,1) on the plot, and its dimensions are scaled to fit within the plot.",
-          "The plot has extra space on the right and top to accommodate for labels, and the axes are hidden."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

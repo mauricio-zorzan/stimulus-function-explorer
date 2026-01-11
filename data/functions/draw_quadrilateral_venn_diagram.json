@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_quadrilateral_venn_diagram",
+  "description": "Draws quadrilateral venn diagram for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.309317",
+  "file_patterns": [
+    "quadrilateral_venn_diagram"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+3",
+      "display_name": "Relationships Among Quadrilaterals",
+      "description": "Describe relationships among quadrilaterals."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:22:07.865213"
+}

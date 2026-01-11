@@ -1,0 +1,64 @@
+{
+  "function_name": "create_money_counting",
+  "description": "Creates money counting for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/money_counting_1768102811.webp",
+      "filename": "money_counting_1768102811.webp",
+      "index": 1,
+      "size": 333804
+    },
+    {
+      "path": "images/money_counting_1768102810.webp",
+      "filename": "money_counting_1768102810.webp",
+      "index": 2,
+      "size": 264850
+    },
+    {
+      "path": "images/money_counting_1768102817.webp",
+      "filename": "money_counting_1768102817.webp",
+      "index": 3,
+      "size": 102322
+    },
+    {
+      "path": "images/money_counting_1768102816.webp",
+      "filename": "money_counting_1768102816.webp",
+      "index": 4,
+      "size": 189090
+    },
+    {
+      "path": "images/money_counting_1768102815.webp",
+      "filename": "money_counting_1768102815.webp",
+      "index": 5,
+      "size": 102322
+    },
+    {
+      "path": "images/money_counting_1768102814.webp",
+      "filename": "money_counting_1768102814.webp",
+      "index": 6,
+      "size": 84550
+    },
+    {
+      "path": "images/money_counting_1768102818.webp",
+      "filename": "money_counting_1768102818.webp",
+      "index": 7,
+      "size": 264850
+    },
+    {
+      "path": "images/money_counting_1768102812.webp",
+      "filename": "money_counting_1768102812.webp",
+      "index": 8,
+      "size": 759926
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.681367",
+  "file_patterns": [
+    "money_counting"
+  ]
+}

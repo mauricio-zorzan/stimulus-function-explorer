@@ -1,93 +1,58 @@
 {
   "function_name": "draw_base_ten_blocks_division",
-  "description": "This function generates a visual representation of the division process using base ten blocks. It takes a dividend and a divisor as input, breaks down the dividend into hundreds, tens, and ones, and then distributes these blocks across groups according to the divisor. This visualization helps students understand the concept of division as a process of equal distribution.",
-  "category": "arithmetic",
+  "description": "Draws base ten blocks division for educational visualization.",
+  "category": "base_ten",
   "tags": [
-    "division",
-    "base_ten_blocks",
-    "arithmetic",
-    "educational_visualization"
+    "base_ten"
   ],
   "images": [
     {
-      "path": "images/draw_base_ten_blocks_division_1_20251011_190400.webp",
-      "filename": "draw_base_ten_blocks_division_1_20251011_190400.webp",
+      "path": "images/base_ten_blocks_division_grid_1768102119.webp",
+      "filename": "base_ten_blocks_division_grid_1768102119.webp",
       "index": 1,
-      "size": 40358
+      "size": 71084
     },
     {
-      "path": "images/draw_base_ten_blocks_division_2_20251011_190400.webp",
-      "filename": "draw_base_ten_blocks_division_2_20251011_190400.webp",
+      "path": "images/base_ten_blocks_division_grid_1768102118.webp",
+      "filename": "base_ten_blocks_division_grid_1768102118.webp",
       "index": 2,
-      "size": 99162
+      "size": 50184
     },
     {
-      "path": "images/draw_base_ten_blocks_division_3_20251011_190400.webp",
-      "filename": "draw_base_ten_blocks_division_3_20251011_190400.webp",
+      "path": "images/base_ten_blocks_division_grid_labeled_1768102123.webp",
+      "filename": "base_ten_blocks_division_grid_labeled_1768102123.webp",
       "index": 3,
-      "size": 49334
+      "size": 52422
     },
     {
-      "path": "images/draw_base_ten_blocks_division_4_20251011_190147.webp",
-      "filename": "draw_base_ten_blocks_division_4_20251011_190147.webp",
+      "path": "images/base_ten_blocks_division_grid_1768102121.webp",
+      "filename": "base_ten_blocks_division_grid_1768102121.webp",
       "index": 4,
-      "size": 53850
+      "size": 49342
     },
     {
-      "path": "images/draw_base_ten_blocks_division_5_20251011_190147.webp",
-      "filename": "draw_base_ten_blocks_division_5_20251011_190147.webp",
+      "path": "images/base_ten_blocks_division_grid_1768102120.webp",
+      "filename": "base_ten_blocks_division_grid_1768102120.webp",
       "index": 5,
-      "size": 78062
+      "size": 53788
     },
     {
-      "path": "images/draw_base_ten_blocks_division_6_20251011_190147.webp",
-      "filename": "draw_base_ten_blocks_division_6_20251011_190147.webp",
+      "path": "images/base_ten_blocks_division_1768102117.webp",
+      "filename": "base_ten_blocks_division_1768102117.webp",
       "index": 6,
-      "size": 99162
+      "size": 49518
     },
     {
-      "path": "images/draw_base_ten_blocks_division_7_20251011_190147.webp",
-      "filename": "draw_base_ten_blocks_division_7_20251011_190147.webp",
+      "path": "images/base_ten_blocks_division_1768102116.webp",
+      "filename": "base_ten_blocks_division_1768102116.webp",
       "index": 7,
-      "size": 49334
+      "size": 40364
     }
   ],
-  "image_count": 21,
+  "image_count": 7,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.598633",
   "file_patterns": [
     "base_ten_blocks_division"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Base Ten Blocks Division Visualization",
-    "description": "This function can generate a visualization of division using base ten blocks. It accepts two inputs: a dividend and a divisor, both of which are integers. The dividend is broken down into hundreds, tens, and ones, and these blocks are then distributed across groups according to the divisor. The visualization is designed to help students understand the concept of division as a process of equal distribution. The function has been designed with a focus on simplicity and clarity, making it suitable for use in educational settings.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "Dividend: The number to be divided. This number is broken down into hundreds, tens, and ones for the visualization.",
-          "Divisor: The number by which the dividend is divided. This determines the number of groups in the visualization."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "Both the dividend and the divisor must be integers.",
-          "The dividend must be greater than or equal to the divisor.",
-          "The divisor cannot be zero."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The output is a visualization of base ten blocks divided into groups.",
-          "The size of the blocks and the spacing between them can vary depending on the presence of hundreds in the dividend.",
-          "The distribution of blocks across groups visually represents the division process."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_custom_input_output_table",
+  "description": "Draws custom input output table for educational visualization.",
+  "category": "tables",
+  "tags": [
+    "tables"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T10:02:49.069231",
+  "file_patterns": [
+    "custom_io_table"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.5.OA.B.3+5",
+      "display_name": "Two-Variable Relationships",
+      "description": "Identify the matching representations of a functional relationship across equations, tables, graphs, and real-world scenarios."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:14:41.339575"
+}

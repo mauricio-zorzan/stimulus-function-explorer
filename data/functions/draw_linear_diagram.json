@@ -1,0 +1,15 @@
+{
+  "function_name": "draw_linear_diagram",
+  "description": "Draws linear diagram for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.306656",
+  "file_patterns": [
+    "linear_diagram"
+  ]
+}

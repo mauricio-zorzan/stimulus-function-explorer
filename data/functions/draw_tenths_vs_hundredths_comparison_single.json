@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_tenths_vs_hundredths_comparison_single",
+  "description": "Draws tenths vs hundredths comparison single for educational visualization.",
+  "category": "other",
+  "tags": [
+    "comparison",
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/tenths_vs_hundredths_single_1768102478.webp",
+      "filename": "tenths_vs_hundredths_single_1768102478.webp",
+      "index": 1,
+      "size": 13230
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.701320",
+  "file_patterns": [
+    "tenths_vs_hundredths_single"
+  ]
+}

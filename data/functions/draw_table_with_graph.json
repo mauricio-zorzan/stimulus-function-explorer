@@ -1,0 +1,15 @@
+{
+  "function_name": "draw_table_with_graph",
+  "description": "Draws table with graph for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T23:46:19.444213",
+  "file_patterns": [
+    "draw_table_with_graph"
+  ]
+}

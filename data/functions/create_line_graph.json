@@ -1,0 +1,64 @@
+{
+  "function_name": "create_line_graph",
+  "description": "Creates line graph for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/line_graph_1768102787.webp",
+      "filename": "line_graph_1768102787.webp",
+      "index": 1,
+      "size": 191888
+    },
+    {
+      "path": "images/line_graph_1768102786.webp",
+      "filename": "line_graph_1768102786.webp",
+      "index": 2,
+      "size": 244430
+    },
+    {
+      "path": "images/line_graph_1768102783.webp",
+      "filename": "line_graph_1768102783.webp",
+      "index": 3,
+      "size": 152302
+    },
+    {
+      "path": "images/line_graph_1768102782.webp",
+      "filename": "line_graph_1768102782.webp",
+      "index": 4,
+      "size": 162024
+    },
+    {
+      "path": "images/line_graph_1768102785.webp",
+      "filename": "line_graph_1768102785.webp",
+      "index": 5,
+      "size": 230758
+    },
+    {
+      "path": "images/line_graph_1768102789.webp",
+      "filename": "line_graph_1768102789.webp",
+      "index": 6,
+      "size": 350124
+    },
+    {
+      "path": "images/line_graph_1768102788.webp",
+      "filename": "line_graph_1768102788.webp",
+      "index": 7,
+      "size": 164756
+    },
+    {
+      "path": "images/line_graph_1768102784.webp",
+      "filename": "line_graph_1768102784.webp",
+      "index": 8,
+      "size": 115358
+    }
+  ],
+  "image_count": 8,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.678765",
+  "file_patterns": [
+    "line_graph"
+  ]
+}

@@ -1,183 +1,178 @@
 {
   "function_name": "draw_geometric_shapes",
-  "description": "The 'draw_geometric_shapes' function generates a row of geometric shapes for educational visualization. The shapes are drawn based on the input list of geometric shapes, and each shape can be labeled and colored according to the input parameters. This function is useful for teaching geometry and shape recognition.",
+  "description": "Draws geometric shapes for educational visualization.",
   "category": "geometry",
   "tags": [
-    "geometry",
-    "shapes",
-    "visualization",
-    "education"
+    "geometry"
   ],
   "images": [
     {
-      "path": "images/draw_geometric_shapes_1_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_1_20251011_190400.webp",
+      "path": "images/geo_basic_with_rotation_1768102599.webp",
+      "filename": "geo_basic_with_rotation_1768102599.webp",
       "index": 1,
-      "size": 37660
+      "size": 182364
     },
     {
-      "path": "images/draw_geometric_shapes_2_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_2_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102699.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102699.webp",
       "index": 2,
-      "size": 41570
+      "size": 116156
     },
     {
-      "path": "images/draw_geometric_shapes_3_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_3_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102601.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102601.webp",
       "index": 3,
-      "size": 17760
+      "size": 145312
     },
     {
-      "path": "images/draw_geometric_shapes_4_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_4_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_1768102596518_1871.webp",
+      "filename": "geo_basic_no_indicators_1768102596518_1871.webp",
       "index": 4,
-      "size": 33796
+      "size": 147640
     },
     {
-      "path": "images/draw_geometric_shapes_5_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_5_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_1768102603989_2949.webp",
+      "filename": "geo_basic_no_indicators_1768102603989_2949.webp",
       "index": 5,
-      "size": 37146
+      "size": 31224
     },
     {
-      "path": "images/draw_geometric_shapes_6_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_6_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102695.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102695.webp",
       "index": 6,
-      "size": 30402
+      "size": 28380
     },
     {
-      "path": "images/draw_geometric_shapes_7_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_7_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_1768102599129_8967.webp",
+      "filename": "geo_basic_no_indicators_1768102599129_8967.webp",
       "index": 7,
-      "size": 45402
+      "size": 177642
     },
     {
-      "path": "images/draw_geometric_shapes_8_20251011_190400.webp",
-      "filename": "draw_geometric_shapes_8_20251011_190400.webp",
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102600.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102600.webp",
       "index": 8,
-      "size": 16880
+      "size": 93062
+    },
+    {
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102698.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102698.webp",
+      "index": 9,
+      "size": 51488
+    },
+    {
+      "path": "images/geo_basic_1768102591.webp",
+      "filename": "geo_basic_1768102591.webp",
+      "index": 10,
+      "size": 222596
+    },
+    {
+      "path": "images/geo_basic_1768102480.webp",
+      "filename": "geo_basic_1768102480.webp",
+      "index": 11,
+      "size": 93590
+    },
+    {
+      "path": "images/geo_basic_1768102592.webp",
+      "filename": "geo_basic_1768102592.webp",
+      "index": 12,
+      "size": 93296
+    },
+    {
+      "path": "images/geo_basic_1768102588.webp",
+      "filename": "geo_basic_1768102588.webp",
+      "index": 13,
+      "size": 159448
+    },
+    {
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102697.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102697.webp",
+      "index": 14,
+      "size": 21356
+    },
+    {
+      "path": "images/geo_basic_with_rotation_1768102601.webp",
+      "filename": "geo_basic_with_rotation_1768102601.webp",
+      "index": 15,
+      "size": 219594
+    },
+    {
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102602.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102602.webp",
+      "index": 16,
+      "size": 158856
+    },
+    {
+      "path": "images/geo_basic_no_indicators_1768102603684_1317.webp",
+      "filename": "geo_basic_no_indicators_1768102603684_1317.webp",
+      "index": 17,
+      "size": 14752
+    },
+    {
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102696.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102696.webp",
+      "index": 18,
+      "size": 19946
+    },
+    {
+      "path": "images/geo_basic_1768102589.webp",
+      "filename": "geo_basic_1768102589.webp",
+      "index": 19,
+      "size": 201852
+    },
+    {
+      "path": "images/geo_basic_no_indicators_1768102598363_3515.webp",
+      "filename": "geo_basic_no_indicators_1768102598363_3515.webp",
+      "index": 20,
+      "size": 140720
+    },
+    {
+      "path": "images/geo_basic_1768102593.webp",
+      "filename": "geo_basic_1768102593.webp",
+      "index": 21,
+      "size": 169960
+    },
+    {
+      "path": "images/geo_basic_no_indicators_1768102597563_3212.webp",
+      "filename": "geo_basic_no_indicators_1768102597563_3212.webp",
+      "index": 22,
+      "size": 172408
+    },
+    {
+      "path": "images/geo_basic_1768102594.webp",
+      "filename": "geo_basic_1768102594.webp",
+      "index": 23,
+      "size": 180884
+    },
+    {
+      "path": "images/geo_basic_no_indicators_1768102603843_5236.webp",
+      "filename": "geo_basic_no_indicators_1768102603843_5236.webp",
+      "index": 24,
+      "size": 14084
+    },
+    {
+      "path": "images/geo_basic_1768102595.webp",
+      "filename": "geo_basic_1768102595.webp",
+      "index": 25,
+      "size": 218430
+    },
+    {
+      "path": "images/geo_basic_no_indicators_1768102604134_8202.webp",
+      "filename": "geo_basic_no_indicators_1768102604134_8202.webp",
+      "index": 26,
+      "size": 37992
+    },
+    {
+      "path": "images/geo_basic_no_indicators_with_rotation_1768102700.webp",
+      "filename": "geo_basic_no_indicators_with_rotation_1768102700.webp",
+      "index": 27,
+      "size": 133982
     }
   ],
-  "image_count": 8,
+  "image_count": 27,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.660147",
   "file_patterns": [
     "geo_basic"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.1.G.A.1+1",
-      "display_name": null,
-      "description": "Distinguish between defining attributes of a shape versus non-defining attributes of a shape."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.1.G.A.1+2",
-      "display_name": null,
-      "description": "Build and draw shapes to possess defining attributes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+1",
-      "display_name": null,
-      "description": "Recognize 2D shapes having specified attributes."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+3",
-      "display_name": null,
-      "description": "Draw shapes having specified attributes"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+4",
-      "display_name": null,
-      "description": "Identify triangles."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+5",
-      "display_name": null,
-      "description": "Identify quadrilaterals."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.2.G.A.1+6",
-      "display_name": null,
-      "description": "Identify pentagons."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+1",
-      "display_name": "Classifying Quadrilaterals",
-      "description": "Identify quadrilaterals \u2014including rhombuses, rectangles, squares, and parallelograms\u2014by analyzing visible attributes such as number of sides, right angles, and equal-length sides."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.G.A.1+3",
-      "display_name": "Parallel Sides",
-      "description": "Recognize and describe basic geometric features: edges, vertices, parallel sides, and right angles."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+1",
-      "display_name": "Parallelogram Shapes",
-      "description": "Identify and classify quadrilaterals as parallelograms, rhombi, trapezoids, or non-parallelograms using their defining properties."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+2",
-      "display_name": "Classifying Triangles by Angles",
-      "description": "Classify triangles as right, acute, or obtuse."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.G.A.2+3",
-      "display_name": null,
-      "description": "Identify if a given triangle is scalene, isosceles but not equilateral, or equilateral"
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.OA.C.5+1",
-      "display_name": "Shape Patterns",
-      "description": "Generate a shape pattern that follows a given rule."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+1",
-      "display_name": "Relationships Between Quadrilaterals",
-      "description": "Understand that attributes belonging to a category of two-dimensional figures also belong to all subcategories of that category. "
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.G.B.3+6",
-      "display_name": null,
-      "description": "Classify polygons using Venn diagrams."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.6.G.A.1+5",
-      "display_name": "Real-World Area Problems",
-      "description": "Solve real world problems involving the area of quadrilaterals and triangles."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:21.116679",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Geometric Shapes",
-    "description": "The 'draw_geometric_shapes' function can draw a wide range of geometric shapes, including but not limited to rectangles, rhombuses, parallelograms, circles, and various types of triangles and quadrilaterals. The function accepts a list of GeometricShape objects, each of which specifies the shape to be drawn, its color, and an optional label. The size and layout of the drawn shapes are adjusted based on the number of shapes in the input list. This function is particularly useful for creating educational materials for teaching geometry, shape recognition, and spatial reasoning.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "shape: The geometric shape to be drawn. This is a required field.",
-          "color: The color of the shape. This is an optional field, with a default value of 'blue'.",
-          "label: An optional label for the shape. If not provided, the label defaults to the name of the shape."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The 'shape' field must be a valid geometric shape, as defined by the 'ValidGeometricShape' enumeration.",
-          "The 'color' field must be a valid color name or code.",
-          "The 'label' field, if provided, must be a string."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a row of geometric shapes, with the number of shapes determined by the length of the input list.",
-          "Each shape is drawn in its specified color and labeled according to the input parameters.",
-          "The size and layout of the shapes are adjusted based on the number of shapes, to maintain a clear and balanced visual presentation."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

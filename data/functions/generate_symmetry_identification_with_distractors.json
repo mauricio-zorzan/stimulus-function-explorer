@@ -1,0 +1,46 @@
+{
+  "function_name": "generate_symmetry_identification_with_distractors",
+  "description": "Generates symmetry identification with distractors for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/symmetry_with_distractors_hexagon_1768102052990273000.webp",
+      "filename": "symmetry_with_distractors_hexagon_1768102052990273000.webp",
+      "index": 1,
+      "size": 22168
+    },
+    {
+      "path": "images/symmetry_with_distractors_pentagon_1768102053264330000.webp",
+      "filename": "symmetry_with_distractors_pentagon_1768102053264330000.webp",
+      "index": 2,
+      "size": 19958
+    },
+    {
+      "path": "images/symmetry_with_distractors_pentagon_1768102052681710000.webp",
+      "filename": "symmetry_with_distractors_pentagon_1768102052681710000.webp",
+      "index": 3,
+      "size": 19652
+    },
+    {
+      "path": "images/symmetry_with_distractors_asterisk_1768102053130884000.webp",
+      "filename": "symmetry_with_distractors_asterisk_1768102053130884000.webp",
+      "index": 4,
+      "size": 19940
+    },
+    {
+      "path": "images/symmetry_with_distractors_square_1768102052832644000.webp",
+      "filename": "symmetry_with_distractors_square_1768102052832644000.webp",
+      "index": 5,
+      "size": 13032
+    }
+  ],
+  "image_count": 5,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.697425",
+  "file_patterns": [
+    "symmetry_with_distractors"
+  ]
+}

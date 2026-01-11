@@ -1,73 +1,76 @@
 {
   "function_name": "create_extended_unit_fraction_number_line",
-  "description": "This function generates a number line visualization that extends beyond the unit fraction. It is designed to aid in the understanding of fractions and their placement on a number line. The function only labels 0 and the fraction endpoint, with minor divisions for counting, which helps students to visualize and understand the concept of fractions.",
+  "description": "Creates extended unit fraction number line for educational visualization.",
   "category": "fractions",
   "tags": [
-    "number_line",
-    "fractions",
-    "visualization",
-    "education"
+    "fractions"
   ],
   "images": [
     {
-      "path": "images/create_extended_unit_fraction_number_line_1_20251011_190400.webp",
-      "filename": "create_extended_unit_fraction_number_line_1_20251011_190400.webp",
+      "path": "images/extended_unit_fraction_number_line_1768102834.webp",
+      "filename": "extended_unit_fraction_number_line_1768102834.webp",
       "index": 1,
-      "size": 2428
+      "size": 22510
     },
     {
-      "path": "images/create_extended_unit_fraction_number_line_2_20251011_190400.webp",
-      "filename": "create_extended_unit_fraction_number_line_2_20251011_190400.webp",
+      "path": "images/multi_extended_unit_fraction_number_line_with_dots_1768102845.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_dots_1768102845.webp",
       "index": 2,
-      "size": 2710
+      "size": 66286
+    },
+    {
+      "path": "images/extended_unit_fraction_number_line_1768102833.webp",
+      "filename": "extended_unit_fraction_number_line_1768102833.webp",
+      "index": 3,
+      "size": 23292
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_dots_1768102844.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_dots_1768102844.webp",
+      "index": 4,
+      "size": 66184
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_dots_1768102846.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_dots_1768102846.webp",
+      "index": 5,
+      "size": 66246
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_bar_1768102835.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_bar_1768102835.webp",
+      "index": 6,
+      "size": 36832
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_bar_v2_1768102840.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_bar_v2_1768102840.webp",
+      "index": 7,
+      "size": 41540
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_dots_1768102840.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_dots_1768102840.webp",
+      "index": 8,
+      "size": 66088
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_bar_v2_1768102841.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_bar_v2_1768102841.webp",
+      "index": 9,
+      "size": 41176
+    },
+    {
+      "path": "images/multi_extended_unit_fraction_number_line_with_dots_1768102837.webp",
+      "filename": "multi_extended_unit_fraction_number_line_with_dots_1768102837.webp",
+      "index": 10,
+      "size": 40970
     }
   ],
-  "image_count": 8,
+  "image_count": 10,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.635699",
   "file_patterns": [
     "extended_unit_fraction_number_line"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Extended Unit Fraction Number Line",
-    "description": "The function creates a number line that extends beyond the unit fraction. It takes as input an instance of the ExtendedUnitFractionNumberLine class, which includes parameters such as the range of the number line, the number of minor divisions, whether to show all tick labels, and the labeled fraction. The function is constrained by the range of the number line, which should start at 0 and end at the fraction value. It is designed to aid in the teaching and learning of fractions, particularly in understanding their placement on a number line.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "range: The range of the number line, starting at 0 and ending at the fraction value.",
-          "minor_divisions: The number of minor divisions on the number line.",
-          "show_all_tick_labels: A boolean value indicating whether to show all tick labels.",
-          "labeled_fraction: The fraction to be labeled on the number line."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The range of the number line should start at 0 and end at the fraction value.",
-          "The number of minor divisions should be a positive integer.",
-          "The labeled fraction should be a valid fraction and within the range of the number line."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function generates a number line with minor divisions for counting.",
-          "The number line labels only 0 and the fraction endpoint, unless the show_all_tick_labels parameter is set to True.",
-          "The labeled fraction, if provided, is also labeled on the number line."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true,
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NF.A.2.A+2",
-      "display_name": null,
-      "description": "Recognize that each part has size 1/b and that the endpoint of the part based at 0 locates the number 1/b on the number line."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:00.380092"
+  ]
 }

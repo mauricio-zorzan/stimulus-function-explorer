@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_rational_numbers_venn_concentric",
+  "description": "Draws rational numbers venn concentric for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/rational_numbers_venn_concentric_1768102188.webp",
+      "filename": "rational_numbers_venn_concentric_1768102188.webp",
+      "index": 1,
+      "size": 25398
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.690558",
+  "file_patterns": [
+    "rational_numbers_venn_concentric"
+  ]
+}

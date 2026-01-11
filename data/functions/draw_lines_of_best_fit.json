@@ -1,65 +1,22 @@
 {
   "function_name": "draw_lines_of_best_fit",
-  "description": "This function draws a scatter plot with lines of best fit on a 10x10 grid. It is designed to help students visualize the concept of linear regression and understand how lines of best fit represent the relationship between data points.",
-  "category": "data_visualization",
+  "description": "Draws lines of best fit for educational visualization.",
+  "category": "other",
   "tags": [
-    "scatter_plot",
-    "line_of_best_fit",
-    "linear_regression",
-    "data_analysis"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_lines_of_best_fit_1_20251011_190400.webp",
-      "filename": "draw_lines_of_best_fit_1_20251011_190400.webp",
+      "path": "images/lines_of_best_fit_1768102795.webp",
+      "filename": "lines_of_best_fit_1768102795.webp",
       "index": 1,
-      "size": 193328
+      "size": 197162
     }
   ],
-  "image_count": 4,
+  "image_count": 1,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.679766",
   "file_patterns": [
     "lines_of_best_fit"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.8.SP.A.2+1",
-      "display_name": null,
-      "description": "Write an equation for the line of best fit for a scatterplot."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:25.946077",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Scatter Plots with Lines of Best Fit",
-    "description": "The draw_lines_of_best_fit function can generate scatter plots with multiple lines of best fit, each with a unique color. The function accepts a LinesOfBestFit object, which contains a list of Line objects. Each Line object includes a slope, y-intercept, and label. The function plots each line on the same scatter plot, creating a visual representation of multiple lines of best fit. This function is particularly useful in teaching linear regression, correlation, and data analysis. It helps students understand how different lines can fit the same set of data points and how changes in slope and y-intercept affect the line's fit.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "LinesOfBestFit object: This is the main input for the function. It contains a list of Line objects.",
-          "Line object: Each Line object represents a line of best fit. It includes a slope, y-intercept, and label. The slope controls the steepness of the line, the y-intercept controls where the line crosses the y-axis, and the label is used for the legend."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The function is designed to work with a fixed 10x10 grid. Therefore, the range of scatter points and lines of best fit should be within this range.",
-          "The LinesOfBestFit object must contain at least one Line object.",
-          "The label in each Line object must be unique to ensure a clear legend."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function outputs a scatter plot with lines of best fit. Scatter points are represented as black dots, and each line of best fit is drawn in a unique color.",
-          "The plot includes a legend that matches each line's color with its label.",
-          "The visual output is affected by the input parameters. Changes in the slope and y-intercept of each Line object will change the position and steepness of the corresponding line of best fit."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

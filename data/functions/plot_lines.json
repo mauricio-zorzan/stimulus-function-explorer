@@ -1,0 +1,52 @@
+{
+  "function_name": "plot_lines",
+  "description": "Plots lines for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs"
+  ],
+  "images": [
+    {
+      "path": "images/1768102858_graphing_lines.webp",
+      "filename": "1768102858_graphing_lines.webp",
+      "index": 1,
+      "size": 62456
+    },
+    {
+      "path": "images/graphing_lines_1768102709.webp",
+      "filename": "graphing_lines_1768102709.webp",
+      "index": 2,
+      "size": 118572
+    },
+    {
+      "path": "images/1768102857_graphing_lines.webp",
+      "filename": "1768102857_graphing_lines.webp",
+      "index": 3,
+      "size": 60614
+    },
+    {
+      "path": "images/1768102856_graphing_lines.webp",
+      "filename": "1768102856_graphing_lines.webp",
+      "index": 4,
+      "size": 96776
+    },
+    {
+      "path": "images/graphing_lines_1768102710.webp",
+      "filename": "graphing_lines_1768102710.webp",
+      "index": 5,
+      "size": 85724
+    },
+    {
+      "path": "images/graphing_lines_1768102711.webp",
+      "filename": "graphing_lines_1768102711.webp",
+      "index": 6,
+      "size": 161384
+    }
+  ],
+  "image_count": 6,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.676649",
+  "file_patterns": [
+    "graphing_lines"
+  ]
+}

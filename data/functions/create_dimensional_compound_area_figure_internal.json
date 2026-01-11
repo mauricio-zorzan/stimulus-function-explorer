@@ -1,0 +1,13 @@
+{
+  "function_name": "create_dimensional_compound_area_figure_internal",
+  "description": "Creates dimensional compound area figure internal for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.300981",
+  "file_patterns": []
+}

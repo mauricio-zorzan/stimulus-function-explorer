@@ -1,90 +1,90 @@
 {
   "function_name": "draw_fractional_models_multiplication_units",
-  "description": "This function draws a visual representation of fractional multiplication, using shaded and unshaded rectangles to depict the fractions being multiplied. It is designed to aid in the understanding of fractional multiplication by providing a visual, tangible representation of the concept.",
+  "description": "Draws fractional models multiplication units for educational visualization.",
   "category": "fractions",
   "tags": [
     "fractions",
-    "multiplication",
-    "visualization",
-    "educational"
+    "multiple"
   ],
   "images": [
     {
-      "path": "images/draw_fractional_models_multiplication_units_1_20251011_190400.webp",
-      "filename": "draw_fractional_models_multiplication_units_1_20251011_190400.webp",
+      "path": "images/frac_model_multi_units1768102437.webp",
+      "filename": "frac_model_multi_units1768102437.webp",
       "index": 1,
-      "size": 8790
+      "size": 45770
     },
     {
-      "path": "images/draw_fractional_models_multiplication_units_2_20251011_190400.webp",
-      "filename": "draw_fractional_models_multiplication_units_2_20251011_190400.webp",
+      "path": "images/frac_model_multi_units1768102440.webp",
+      "filename": "frac_model_multi_units1768102440.webp",
       "index": 2,
-      "size": 4570
+      "size": 50212
+    },
+    {
+      "path": "images/frac_model_multi_units1768102441.webp",
+      "filename": "frac_model_multi_units1768102441.webp",
+      "index": 3,
+      "size": 84868
+    },
+    {
+      "path": "images/frac_model_multi_units1768102439.webp",
+      "filename": "frac_model_multi_units1768102439.webp",
+      "index": 4,
+      "size": 52602
+    },
+    {
+      "path": "images/frac_model_multi_units1768102442.webp",
+      "filename": "frac_model_multi_units1768102442.webp",
+      "index": 5,
+      "size": 41412
+    },
+    {
+      "path": "images/frac_model_multi_units1768102438.webp",
+      "filename": "frac_model_multi_units1768102438.webp",
+      "index": 6,
+      "size": 83084
+    },
+    {
+      "path": "images/frac_model_multi_units1768102437.webp",
+      "filename": "frac_model_multi_units1768102437.webp",
+      "index": 7,
+      "size": 45770
+    },
+    {
+      "path": "images/frac_model_multi_units1768102440.webp",
+      "filename": "frac_model_multi_units1768102440.webp",
+      "index": 8,
+      "size": 50212
+    },
+    {
+      "path": "images/frac_model_multi_units1768102441.webp",
+      "filename": "frac_model_multi_units1768102441.webp",
+      "index": 9,
+      "size": 84868
+    },
+    {
+      "path": "images/frac_model_multi_units1768102439.webp",
+      "filename": "frac_model_multi_units1768102439.webp",
+      "index": 10,
+      "size": 52602
+    },
+    {
+      "path": "images/frac_model_multi_units1768102442.webp",
+      "filename": "frac_model_multi_units1768102442.webp",
+      "index": 11,
+      "size": 41412
+    },
+    {
+      "path": "images/frac_model_multi_units1768102438.webp",
+      "filename": "frac_model_multi_units1768102438.webp",
+      "index": 12,
+      "size": 83084
     }
   ],
-  "image_count": 2,
+  "image_count": 12,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.638471",
   "file_patterns": [
-    "frac_model_multi"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+5",
-      "display_name": "Multiplying Fractions",
-      "description": "Multiply two fractions."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.A+6",
-      "display_name": "Multiplying a Mixed Number by a Whole Number",
-      "description": "Multiply mixed numbers by whole numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.4.B+1",
-      "display_name": null,
-      "description": "Calculate the area of rectangles with fractional sides."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+2",
-      "display_name": "Multiplying with Mixed Numbers: Word Problems",
-      "description": "Solve real world problems involving multiplication of a fraction and a mixed number, or two mixed numbers."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.5.NF.B.6+3",
-      "display_name": "Multiply Two Fractions: Word Problems",
-      "description": "Solve real world problems involving multiplication of two fractions."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:20.456050",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Fractional Multiplication Models",
-    "description": "This function can draw visualizations of fractional multiplication. It accepts two fractions as input, represented as strings in the format 'numerator/denominator'. The function then draws a rectangle divided into a grid, with the number of cells in the grid corresponding to the denominators of the fractions. A portion of the grid is shaded, representing the product of the two fractions. This visualization can be used in educational settings to help students understand the concept of fractional multiplication.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "model_data: A FractionSet object containing two fractions represented as strings in the format 'numerator/denominator'.",
-          "The first fraction determines the length and shaded length of the rectangle, while the second fraction determines the width and shaded width."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The fractions must be valid, i.e., the numerator must be less than or equal to the denominator, and the denominator must not be zero.",
-          "The fractions are split into numerator and denominator using the '/' character, so this character must be present in the input strings."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a rectangle divided into a grid, with the number of cells in the grid corresponding to the denominators of the fractions.",
-          "A portion of the grid is shaded, representing the product of the two fractions.",
-          "The size and position of the shaded area change based on the input fractions."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+    "frac_model_multi",
+    "frac_model_multi_units"
+  ]
 }

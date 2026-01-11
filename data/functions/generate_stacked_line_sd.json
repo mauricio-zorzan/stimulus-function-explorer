@@ -1,0 +1,28 @@
+{
+  "function_name": "generate_stacked_line_sd",
+  "description": "Generates stacked line sd for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [
+    {
+      "path": "images/line_plot_sd_1768102794.webp",
+      "filename": "line_plot_sd_1768102794.webp",
+      "index": 1,
+      "size": 72100
+    },
+    {
+      "path": "images/line_plot_sd_1768102795.webp",
+      "filename": "line_plot_sd_1768102795.webp",
+      "index": 2,
+      "size": 37724
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.679601",
+  "file_patterns": [
+    "line_plot_sd"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_base_ten_blocks_article_2",
+  "description": "Draws base ten blocks article 2 for educational visualization.",
+  "category": "base_ten",
+  "tags": [
+    "base_ten"
+  ],
+  "images": [
+    {
+      "path": "images/base_ten_blocks_legend_1768102122.webp",
+      "filename": "base_ten_blocks_legend_1768102122.webp",
+      "index": 1,
+      "size": 35076
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.601372",
+  "file_patterns": [
+    "base_ten_blocks_legend"
+  ]
+}

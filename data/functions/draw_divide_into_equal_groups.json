@@ -1,109 +1,52 @@
 {
   "function_name": "draw_divide_into_equal_groups",
-  "description": "The function 'draw_divide_into_equal_groups' creates a visual representation of a given number of dots divided into equal groups. Each group is represented by a large circle, and the number of dots in each group is represented by smaller circles within the large circle. This visualization is useful for teaching concepts related to division and grouping in mathematics.",
-  "category": "arithmetic",
+  "description": "Draws divide into equal groups for educational visualization.",
+  "category": "other",
   "tags": [
-    "division",
-    "grouping",
-    "visualization",
-    "mathematics"
+    "other"
   ],
   "images": [
     {
-      "path": "images/draw_divide_into_equal_groups_1_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_1_20251011_190400.webp",
+      "path": "images/divide_into_equal_groups_1768102294.webp",
+      "filename": "divide_into_equal_groups_1768102294.webp",
       "index": 1,
-      "size": 50882
+      "size": 55316
     },
     {
-      "path": "images/draw_divide_into_equal_groups_2_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_2_20251011_190400.webp",
+      "path": "images/divide_into_equal_groups_1768102295.webp",
+      "filename": "divide_into_equal_groups_1768102295.webp",
       "index": 2,
+      "size": 132806
+    },
+    {
+      "path": "images/divide_into_equal_groups_1768102292.webp",
+      "filename": "divide_into_equal_groups_1768102292.webp",
+      "index": 3,
+      "size": 37432
+    },
+    {
+      "path": "images/divide_into_equal_groups_1768102293.webp",
+      "filename": "divide_into_equal_groups_1768102293.webp",
+      "index": 4,
+      "size": 16122
+    },
+    {
+      "path": "images/divide_into_equal_groups_1768102290.webp",
+      "filename": "divide_into_equal_groups_1768102290.webp",
+      "index": 5,
       "size": 29012
     },
     {
-      "path": "images/draw_divide_into_equal_groups_3_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_3_20251011_190400.webp",
-      "index": 3,
-      "size": 139796
-    },
-    {
-      "path": "images/draw_divide_into_equal_groups_4_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_4_20251011_190400.webp",
-      "index": 4,
-      "size": 150798
-    },
-    {
-      "path": "images/draw_divide_into_equal_groups_5_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_5_20251011_190400.webp",
-      "index": 5,
-      "size": 15874
-    },
-    {
-      "path": "images/draw_divide_into_equal_groups_6_20251011_190400.webp",
-      "filename": "draw_divide_into_equal_groups_6_20251011_190400.webp",
+      "path": "images/divide_into_equal_groups_1768102291.webp",
+      "filename": "divide_into_equal_groups_1768102291.webp",
       "index": 6,
-      "size": 38878
+      "size": 48486
     }
   ],
-  "image_count": 27,
+  "image_count": 6,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.624582",
   "file_patterns": [
     "divide_into_equal_groups"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.1+1",
-      "display_name": "Understanding Multiplication With Groups",
-      "description": "Write a multiplication equation that represents an equal sets of objects."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.1+6",
-      "display_name": "Relating Division to Equal Groups",
-      "description": "Relate division to equal groups."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.2+3",
-      "display_name": "Writing Division Sentences for Groups",
-      "description": "Write a division equation that represents an equal sets of objects."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.B.6+2",
-      "display_name": "Find the Missing Factors up to Ten",
-      "description": "Find a missing factor for a multiplication fact."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:16.921656",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Division into Equal Groups",
-    "description": "The 'draw_divide_into_equal_groups' function generates images that visually represent the division of a certain number of dots into equal groups. It accepts two inputs: the number of dots per group and the number of groups, both of which must be positive integers. The number of dots per group and the number of groups are both constrained to be between 1 and 10 inclusive. This visualization can be used to teach and reinforce understanding of division, grouping, and the concept of equal distribution in an intuitive and visual manner.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "number_of_dots_per_group: Controls the number of dots in each group. Must be a positive integer between 1 and 10.",
-          "number_of_groups: Controls the number of groups to divide the dots into. Must be a positive integer between 1 and 10."
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The values for both 'number_of_dots_per_group' and 'number_of_groups' must be positive integers.",
-          "The values for both 'number_of_dots_per_group' and 'number_of_groups' must be between 1 and 10 inclusive."
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a large circle for each group, with smaller circles inside representing the dots.",
-          "The color of the dots is randomly selected from a predefined list of standard colors.",
-          "The layout of the groups (large circles) is calculated to fit a maximum of 3 per row, with the size of the figure adjusting based on the number of groups."
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

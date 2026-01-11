@@ -1,90 +1,88 @@
 {
   "function_name": "create_fixed_step_number_line",
-  "description": "The function 'create_fixed_step_number_line' generates a number line with a fixed step size. It is designed to provide a visual aid for understanding concepts related to number lines, intervals, and divisions. The function allows for customization of the number line's range, step size, and minor divisions, making it a versatile tool for teaching various mathematical concepts.",
-  "category": "arithmetic",
+  "description": "Creates fixed step number line for educational visualization.",
+  "category": "number_lines",
   "tags": [
-    "number_line",
-    "intervals",
-    "divisions",
-    "arithmetic",
-    "visualization"
+    "number_lines"
   ],
   "images": [
     {
-      "path": "images/create_fixed_step_number_line_1_20251011_190400.webp",
-      "filename": "create_fixed_step_number_line_1_20251011_190400.webp",
+      "path": "images/fixed_step_number_line_1768102854.webp",
+      "filename": "fixed_step_number_line_1768102854.webp",
       "index": 1,
-      "size": 51978
+      "size": 34534
     },
     {
-      "path": "images/create_fixed_step_number_line_2_20251011_190400.webp",
-      "filename": "create_fixed_step_number_line_2_20251011_190400.webp",
+      "path": "images/fixed_step_number_line_1768102839.webp",
+      "filename": "fixed_step_number_line_1768102839.webp",
       "index": 2,
-      "size": 58306
+      "size": 35410
     },
     {
-      "path": "images/create_fixed_step_number_line_3_20251011_190400.webp",
-      "filename": "create_fixed_step_number_line_3_20251011_190400.webp",
+      "path": "images/fixed_step_number_line_1768102838.webp",
+      "filename": "fixed_step_number_line_1768102838.webp",
       "index": 3,
-      "size": 58760
+      "size": 26596
     },
     {
-      "path": "images/create_fixed_step_number_line_4_20251011_190400.webp",
-      "filename": "create_fixed_step_number_line_4_20251011_190400.webp",
+      "path": "images/fixed_step_number_line_1768102852.webp",
+      "filename": "fixed_step_number_line_1768102852.webp",
       "index": 4,
-      "size": 56884
+      "size": 36620
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102848.webp",
+      "filename": "fixed_step_number_line_1768102848.webp",
+      "index": 5,
+      "size": 29186
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102849.webp",
+      "filename": "fixed_step_number_line_1768102849.webp",
+      "index": 6,
+      "size": 37742
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102853.webp",
+      "filename": "fixed_step_number_line_1768102853.webp",
+      "index": 7,
+      "size": 36424
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102850.webp",
+      "filename": "fixed_step_number_line_1768102850.webp",
+      "index": 8,
+      "size": 30760
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102851.webp",
+      "filename": "fixed_step_number_line_1768102851.webp",
+      "index": 9,
+      "size": 31798
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102847.webp",
+      "filename": "fixed_step_number_line_1768102847.webp",
+      "index": 10,
+      "size": 33928
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102837.webp",
+      "filename": "fixed_step_number_line_1768102837.webp",
+      "index": 11,
+      "size": 42008
+    },
+    {
+      "path": "images/fixed_step_number_line_1768102840.webp",
+      "filename": "fixed_step_number_line_1768102840.webp",
+      "index": 12,
+      "size": 29186
     }
   ],
-  "image_count": 17,
+  "image_count": 12,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.636146",
   "file_patterns": [
     "fixed_step_number_line"
-  ],
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Fixed Step Number Line",
-    "description": "The function 'create_fixed_step_number_line' can draw a number line with specified range, step size, and minor divisions. It accepts inputs based on the stimulus description class 'FixedStepNumberLine', which includes the range of the number line, the step size for major ticks, and the number of minor divisions between major ticks. The function ensures that the number line includes a buffer of 10% of the total range on both ends. The educational purpose of this function is to provide a visual representation of number lines, which can be used to teach concepts such as intervals, fractions, and divisions.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "range: Defines the minimum and maximum values of the number line",
-          "step_size: Specifies the distance between major ticks on the number line",
-          "minor_divisions: Determines the number of minor divisions between major ticks"
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The range must be defined with a minimum and maximum value",
-          "The step size must be a positive number",
-          "The number of minor divisions must be a positive integer"
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a number line with major and minor ticks",
-          "The number line includes a buffer of 10% of the total range on both ends",
-          "The position and number of ticks are determined by the input parameters"
-        ]
-      }
-    ]
-  },
-  "ai_generated": true,
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.NBT.A.1+1",
-      "display_name": "Rounding using the Number Line",
-      "description": "Round to the nearest 10 or 100 using the number line."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.NF.C.6+8",
-      "display_name": null,
-      "description": "Graph a fraction or mixed number on a number line that is labelled with decimals to the tenths place."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:00.719054"
+  ]
 }

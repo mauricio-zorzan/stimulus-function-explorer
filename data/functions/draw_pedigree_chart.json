@@ -1,0 +1,41 @@
+{
+  "function_name": "draw_pedigree_chart",
+  "description": "Draws pedigree chart for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.309137",
+  "file_patterns": [],
+  "educational_standards": [
+    {
+      "external_id": "IST-1.I.2",
+      "display_name": null,
+      "description": "Fertilization involves the fusion of two haploid gametes, restoring the diploid number of chromosomes and increasing genetic variation in populations by creating new combinations of alleles in the zygote\u2014 a. Rules of probability can be applied to analyze passage of single-gene traits from parent to offspring. b. The pattern of inheritance (monohybrid, dihybrid, sex-linked, and genetically linked genes) can often be predicted from data, including pedigree, that give the parent genotype/phenotype and the offspring genotypes/phenotypes. Relevant equation: Laws of Probability\u2014 If A and B are mutually exclusive, then: P ( A \\text{ or } B ) = P ( A ) + P ( B ) If A and B are independent, then: P ( A \\text{ and } B ) = P ( A ) \\times P ( B )"
+    },
+    {
+      "external_id": "IST-1.J.2",
+      "display_name": null,
+      "description": "Some traits are determined by genes on sex chromosomes and are known as sex-linked traits. The pattern of inheritance of sex-linked traits can often be predicted from data, including pedigree, indicating the parent genotype/phenotype and the offspring genotypes/phenotypes."
+    },
+    {
+      "external_id": "IST-1.J.4",
+      "display_name": null,
+      "description": "Some traits result from non-nuclear inheritance\u2014 a. Chloroplasts and mitochondria are randomly assorted to gametes and daughter cells; thus, traits determined by chloroplast and mitochondrial DNA do not follow simple Mendelian rules. b. In animals, mitochondria are transmitted by the egg and not by sperm; as such, traits determined by the mitochondrial DNA are maternally inherited. c. In plants, mitochondria and chloroplasts are transmitted in the ovule and not in the pollen; as such, mitochondria-determined and chloroplast-determined traits are maternally inherited."
+    },
+    {
+      "external_id": "IST-4.A.2",
+      "display_name": null,
+      "description": "Errors in mitosis or meiosis can result in changes in phenotype\u2014 a. Changes in chromosome number often result in new phenotypes, including sterility caused by triploidy, and increased vigor of other polyploids. b. Changes in chromosome number often result in human disorders with developmental limitations, including Down syndrome/Trisomy 21 and Turner syndrome."
+    },
+    {
+      "external_id": "SYI-3.C.3",
+      "display_name": null,
+      "description": "Certain human genetic disorders can be attributed to the inheritance of a single affected or mutated allele or specific chromosomal changes, such as nondisjunction."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:21:15.373400"
+}

@@ -1,0 +1,23 @@
+{
+  "function_name": "draw_ratio_object_array",
+  "description": "Draws ratio object array for educational visualization.",
+  "category": "other",
+  "tags": [
+    "other"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T10:02:49.068909",
+  "file_patterns": [
+    "ratio_object_array"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.6.RP.A.1+1",
+      "display_name": "Writing Ratios",
+      "description": "Understand the concept of a ratio and use ratio language to describe a ratio relationship between two quantities."
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:22:53.483931"
+}

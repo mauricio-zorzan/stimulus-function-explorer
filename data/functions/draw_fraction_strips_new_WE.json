@@ -1,0 +1,22 @@
+{
+  "function_name": "draw_fraction_strips_new_WE",
+  "description": "Draws fraction strips new we for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "images": [
+    {
+      "path": "images/1768102463_fraction_strips_WE.webp",
+      "filename": "1768102463_fraction_strips_WE.webp",
+      "index": 1,
+      "size": 1640
+    }
+  ],
+  "image_count": 1,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.640528",
+  "file_patterns": [
+    "fraction_strips_WE"
+  ]
+}

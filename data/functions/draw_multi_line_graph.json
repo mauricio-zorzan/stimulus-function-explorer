@@ -1,0 +1,284 @@
+{
+  "function_name": "draw_multi_line_graph",
+  "description": "Draws multi line graph for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "multiple",
+    "graphs"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T18:41:43.306885",
+  "file_patterns": [
+    "multi_line"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "ENE-1.A.1",
+      "display_name": null,
+      "description": "In order for a catalyst to increase the rate of a reaction, the addition of the catalyst must increase the number of effective collisions and/ or provide a reaction path with a lower activation energy relative to the original reaction coordinate."
+    },
+    {
+      "external_id": "ENE-1.A.2",
+      "display_name": null,
+      "description": "In a reaction mechanism containing a catalyst, the net concentration of the catalyst is constant. However, the catalyst will frequently be consumed in the rate-determining step of the reaction, only to be regenerated in a subsequent step in the mechanism."
+    },
+    {
+      "external_id": "ENE-1.B.2",
+      "display_name": null,
+      "description": "The surface area of the plasma membrane must be large enough to adequately exchange materials\u2014 a. These limitations can restrict cell size and shape. Smaller cells typically have a higher surface area-to-volume ratio and more efficient exchange of materials with the environment. b. As cells increase in volume, the relative surface area decreases and the demand for internal resources increases. c. More complex cellular structures (e.g., membrane folds) are necessary to adequately exchange materials with the environment. d. As organisms increase in size, their surface area-to-volume ratio decreases, affecting properties like rate of heat exchange with the environment."
+    },
+    {
+      "external_id": "ENE-1.F.1",
+      "display_name": null,
+      "description": "Change to the molecular structure of a component in an enzymatic system may result in a change of the function or efficiency of the system\u2014 a. Denaturation of an enzyme occurs when the protein structure is disrupted, eliminating the ability to catalyze reactions. b. Environmental temperatures and pH outside the optimal range for a given enzyme will cause changes to its structure, altering the efficiency with which it catalyzes reactions."
+    },
+    {
+      "external_id": "ENE-1.G.1",
+      "display_name": null,
+      "description": "Environmental pH can alter the efficiency of enzyme activity, including through disruption of hydrogen bonds that provide enzyme structure. Relevant equation: pH = - log [H^+]"
+    },
+    {
+      "external_id": "ENE-1.G.2",
+      "display_name": null,
+      "description": "The relative concentrations of substrates and products determine how efficiently an enzymatic reaction proceeds."
+    },
+    {
+      "external_id": "ENE-1.G.4",
+      "display_name": null,
+      "description": "Competitive inhibitor molecules can bind reversibly or irreversibly to the active site of the enzyme. Noncompetitive inhibitors can bind allosteric sites, changing the activity of the enzyme."
+    },
+    {
+      "external_id": "ENE-1.H.2",
+      "display_name": null,
+      "description": "Life requires a highly ordered system and does not violate the second law of thermodynamics\u2014 a. Energy input must exceed energy loss to maintain order and to power cellular processes. b. Cellular processes that release energy may be coupled with cellular processes that require energy. c. Loss of order or energy flow results in death."
+    },
+    {
+      "external_id": "ENE-1.I.1",
+      "display_name": null,
+      "description": "Organisms capture and store energy for use in biological processes\u2014 a. Photosynthesis captures energy from the sun and produces sugars. i. Photosynthesis first evolved in prokaryotic organisms. ii. Scientific evidence supports the claim that prokaryotic (cyanobacterial) photosynthesis was responsible for the production of an oxygenated atmosphere. iii. Prokaryotic photosynthetic pathways were the foundation of eukaryotic photosynthesis."
+    },
+    {
+      "external_id": "ENE-1.J.3",
+      "display_name": null,
+      "description": "When electrons are transferred between molecules in a sequence of reactions as they pass through the ETC, an electrochemical gradient of protons (hydrogen ions) is established across the internal membrane."
+    },
+    {
+      "external_id": "ENE-1.K.3",
+      "display_name": null,
+      "description": "The electron transport chain transfers energy from electrons in a series of coupled reactions that establish an electrochemical gradient across membranes\u2014 a. Electron transport chain reactions occur in chloroplasts, mitochondria, and prokaryotic plasma membranes. b. In cellular respiration, electrons delivered by NADH and FADH_2 are passed to a series of electron acceptors as they move toward the terminal electron acceptor, oxygen. In photosynthesis, the terminal electron acceptor is NADP^+. Aerobic prokaryotes use oxygen as a terminal electron acceptor, while anaerobic prokaryotes use other molecules. c. The transfer of electrons is accompanied by the formation of a proton gradient across the inner mitochondrial membrane or the internal membrane of chloroplasts, with the membrane(s) separating a region of high proton concentration from a region of low proton concentration. In prokaryotes, the passage of electrons is accompanied by the movement of protons across the plasma membrane. d."
+    },
+    {
+      "external_id": "ENE-1.L.6",
+      "display_name": null,
+      "description": "Fermentation allows glycolysis to proceed in the absence of oxygen and produces organic molecules, including alcohol and lactic acid, as waste products."
+    },
+    {
+      "external_id": "ENE-1.L.7",
+      "display_name": null,
+      "description": "The conversion of ATP to ADP releases energy, which is used to power many metabolic processes."
+    },
+    {
+      "external_id": "ENE-1.M.1",
+      "display_name": null,
+      "description": "Organisms use energy to maintain organization, grow, and reproduce\u2014 a. Organisms use different strategies to regulate body temperature and metabolism. i. Endotherms use thermal energy generated by metabolism to maintain homeostatic body temperatures. ii. Ectotherms lack efficient internal mechanisms for maintaining body temperature, though they may regulate their temperature behaviorally by moving into the sun or shade or by aggregating with other individuals. b. Different organisms use various reproductive strategies in response to energy availability. c. There is a relationship between metabolic rate per unit body mass and the size of multicellular organisms\u2014generally, the smaller the organism, the higher the metabolic rate. d. A net gain in energy results in energy storage or the growth of an organism. e. A net loss of energy results in loss of mass and, ultimately, the death of an organism."
+    },
+    {
+      "external_id": "ENE-1.N.1",
+      "display_name": null,
+      "description": "Changes in energy availability can result in changes in population size."
+    },
+    {
+      "external_id": "ENE-1.N.2",
+      "display_name": null,
+      "description": "Changes in energy availability can result in disruptions to an ecosystem\u2014 a. A change in energy resources such as sunlight can affect the number and size of the trophic levels. b. A change in the producer level can affect the number and size of other trophic levels."
+    },
+    {
+      "external_id": "ENE-1.O.1",
+      "display_name": null,
+      "description": "Autotrophs capture energy from physical or chemical sources in the environment\u2014 a. Photosynthetic organisms capture energy present in sunlight. b. Chemosynthetic organisms capture energy from small inorganic molecules present in their environment, and this process can occur in the absence of oxygen."
+    },
+    {
+      "external_id": "ENE-2.G.1",
+      "display_name": null,
+      "description": "Membrane proteins are required for facilitated diffusion of charged and large polar molecules through a membrane\u2014 a. Large quantities of water pass through aquaporins. b. Charged ions, including Na^+ and K^+, require channel proteins to move through the membrane. c. Membranes may become polarized by movement of ions across the membrane."
+    },
+    {
+      "external_id": "ENE-2.H.1",
+      "display_name": null,
+      "description": "External environments can be hypotonic, hypertonic or isotonic to internal environments of cells\u2014 a. Water moves by osmosis from areas of high water potential/low osmolarity/ low solute concentration to areas of low water potential/high osmolarity/high solute concentration. Relevant equation: Water Potential: \\Psi = \\Psi_p + \\Psi_s \\Psi_p = pressure potential \\Psi_s = solute potential"
+    },
+    {
+      "external_id": "ENE-2.I.2",
+      "display_name": null,
+      "description": "Osmoregulation maintains water balance and allows organisms to control their internal solute composition/water potential. Solute Potential of a Solution \\Psi_s = \u2212iCRT ...where: i = ionization constant C = molar concentration R = pressure constant \\left(R = 0.0831 \\dfrac {\\text{L} \\cdot \\text{bars}}{\\text{mol} \\cdot \\text{K}}\\right) T = temperature in Kelvin (^\\circ \\text{C} + 273)"
+    },
+    {
+      "external_id": "ENE-3.C.1",
+      "display_name": null,
+      "description": "Although the concept of \u201cstate function\u201d is not required for the course, two principles of Hess\u2019s law should be understood. First, when a reaction is reversed, the enthalpy change stays constant in magnitude but becomes reversed in mathematical sign. Second, when two (or more) reactions are added to obtain an overall reaction, the individual enthalpy changes of each reaction are added to obtain the net enthalpy of the overall reaction."
+    },
+    {
+      "external_id": "ENE-3.D.1",
+      "display_name": null,
+      "description": "When the products of a reaction are at a different temperature than their surroundings, they exchange energy with the surroundings to reach thermal equilibrium. Thermal energy is transferred to the surroundings from the products of an exothermic reaction. Thermal energy is transferred from the surroundings to the products of an endothermic reaction."
+    },
+    {
+      "external_id": "ENE-4.A.1",
+      "display_name": null,
+      "description": "Entropy increases when matter becomes more dispersed. For example, the phase change from solid to liquid or from liquid to gas results in a dispersal of matter as the individual particles become freer to move and generally occupy a larger volume. Similarly, for a gas, the entropy increases when there is an increase in volume (at constant temperature), and the gas molecules are able to move within a larger space. For reactions involving gas-phase reactants or products, the entropy generally increases when the total number of moles of gas-phase products is greater than the total number of moles of gas-phase reactants."
+    },
+    {
+      "external_id": "ENE-4.B.1",
+      "display_name": null,
+      "description": "The entropy change for a process can be calculated from the absolute entropies of the species involved before and after the process occurs. <br><br> EQN: \\Delta S^\\circ_{reaction} =\\Delta S^\\circ_{products}-\\Delta S^\\circ_{reactants}"
+    },
+    {
+      "external_id": "ENE-4.B.3",
+      "display_name": null,
+      "description": "Relationships among interacting populations can be characterized by positive and negative effects and can be modeled. Examples include predator/prey interactions, trophic cascades, and niche partitioning."
+    },
+    {
+      "external_id": "ENE-4.B.4",
+      "display_name": null,
+      "description": "Competition, predation, and symbioses, including parasitism, mutualism, and commensalism, can drive population dynamics."
+    },
+    {
+      "external_id": "ENE-4.C.1",
+      "display_name": null,
+      "description": "The Gibbs free energy change for a chemical process in which all the reactants and products are present in a standard state (as pure substances, as solutions of 1.0 M concentration, or as gases at a pressure of 1.0 atm (or 1.0 bar) is given the symbol \\Delta G^\\circ."
+    },
+    {
+      "external_id": "EVO-1.C.1",
+      "display_name": null,
+      "description": "Natural selection is a major mechanism of evolution."
+    },
+    {
+      "external_id": "EVO-1.D.1",
+      "display_name": null,
+      "description": "Evolutionary fitness is measured by reproductive success."
+    },
+    {
+      "external_id": "EVO-1.E.1",
+      "display_name": null,
+      "description": "Natural selection acts on phenotypic variations in populations."
+    },
+    {
+      "external_id": "EVO-1.F.1",
+      "display_name": null,
+      "description": "Through artificial selection, humans affect variation in other species."
+    },
+    {
+      "external_id": "EVO-1.I.1",
+      "display_name": null,
+      "description": "Reduction of genetic variation within a given population can increase the differences between populations of the same species."
+    },
+    {
+      "external_id": "EVO-1.K.1",
+      "display_name": null,
+      "description": "Hardy-Weinberg is a model for describing and predicting allele frequencies in a nonevolving population. Conditions for a population or an allele to be in Hardy-Weinberg equilibrium are\u2014(1) a large population size, (2) absence of migration, (3) no net mutations, (4) random mating, and (5) absence of selection. These conditions are seldom met, but they provide a valuable null hypothesis."
+    },
+    {
+      "external_id": "EVO-1.K.2",
+      "display_name": null,
+      "description": "Allele frequencies in a population can be calculated from genotype frequencies. Relevant equation: Hardy-Weinberg Equation\u2014 p^2 + 2pq + q^2 = 1 p + q = 1 ...where: p = frequency of allele 1 in the population q = frequency of allele 2 in the population"
+    },
+    {
+      "external_id": "EVO-1.L.1",
+      "display_name": null,
+      "description": "Changes in allele frequencies provide evidence for the occurrence of evolution in a population."
+    },
+    {
+      "external_id": "EVO-1.L.2",
+      "display_name": null,
+      "description": "Small populations are more susceptible to random environmental impact than large populations."
+    },
+    {
+      "external_id": "EVO-3.A.1",
+      "display_name": null,
+      "description": "Populations of organisms continue to evolve."
+    },
+    {
+      "external_id": "EVO-3.A.2",
+      "display_name": null,
+      "description": "All species have evolved and continue to evolve\u2014 a. Genomic changes over time. b. Continuous change in the fossil record. c. Evolution of resistance to antibiotics, pesticides, herbicides, or chemotherapy drugs. d. Pathogens evolve and cause emergent diseases."
+    },
+    {
+      "external_id": "EVO-3.E.1",
+      "display_name": null,
+      "description": "Punctuated equilibrium is when evolution occurs rapidly after a long period of stasis. Gradualism is when evolution occurs slowly over hundreds of thousands or millions of years."
+    },
+    {
+      "external_id": "IST-1.N.6",
+      "display_name": null,
+      "description": "In eukaryotic cells the mRNA transcript undergoes a series of enzyme-regulated modifications\u2014 a. Addition of a poly-A tail. b. Addition of a GTP cap. c. Excision of introns and splicing and retention of exons. d. Excision of introns and splicing and retention of exons can generate different versions of the resulting mRNA molecule; this is known as alternative splicing."
+    },
+    {
+      "external_id": "IST-1.P.1",
+      "display_name": null,
+      "description": "Genetic engineering techniques can be used to analyze and manipulate DNA and RNA\u2014 a. Electrophoresis separates molecules according to size and charge. b. During polymerase chain reaction (PCR), DNA fragments are amplified. c. Bacterial transformation introduces DNA into bacterial cells. d. DNA sequencing determines the order of nucleotides in a DNA molecule."
+    },
+    {
+      "external_id": "IST-3.D.2",
+      "display_name": null,
+      "description": "Signaling cascades relay signals from receptors to cell targets, often amplifying the incoming signals, resulting in the appropriate responses by the cell, which could include cell growth, secretion of molecules, or gene expression\u2014 a. After the ligand binds, the intracellular domain of a receptor protein changes shape initiating transduction of the signal. b. Second messengers (such as cyclic AMP) are molecules that relay and amplify the intracellular signal. c. Binding of ligand-to-ligand-gated channels can cause the channel to open or close."
+    },
+    {
+      "external_id": "IST-4.A.2",
+      "display_name": null,
+      "description": "Errors in mitosis or meiosis can result in changes in phenotype\u2014 a. Changes in chromosome number often result in new phenotypes, including sterility caused by triploidy, and increased vigor of other polyploids. b. Changes in chromosome number often result in human disorders with developmental limitations, including Down syndrome/Trisomy 21 and Turner syndrome."
+    },
+    {
+      "external_id": "IST-4.B.1",
+      "display_name": null,
+      "description": "Changes in genotype may affect phenotypes that are subject to natural selection. Genetic changes that enhance survival and reproduction can be selected for by environmental conditions\u2014 a. The horizontal acquisitions of genetic information primarily in prokaryotes via transformation (uptake of naked DNA), transduction (viral transmission of genetic information), conjugation (cell-to-cell transfer of DNA), and transposition (movement of DNA segments within and between DNA molecules) increase variation. b. Related viruses can combine/recombine genetic information if they infect the same host cell. c. Reproduction processes that increase genetic variation are evolutionarily conserved and are shared by various organisms."
+    },
+    {
+      "external_id": "SYI-1.B.1",
+      "display_name": null,
+      "description": "Hydrolysis and dehydration synthesis are used to cleave and form covalent bonds between monomers."
+    },
+    {
+      "external_id": "SYI-1.D.6",
+      "display_name": null,
+      "description": "Lysosomes are membrane-enclosed sacs that contain hydrolytic enzymes."
+    },
+    {
+      "external_id": "SYI-1.F.5",
+      "display_name": null,
+      "description": "The light-dependent reactions of photosynthesis occur in the grana."
+    },
+    {
+      "external_id": "SYI-1.G.1",
+      "display_name": null,
+      "description": "Populations comprise individual organisms that interact with one another and with the environment in complex ways."
+    },
+    {
+      "external_id": "SYI-1.G.2",
+      "display_name": null,
+      "description": "Many adaptations in organisms are related to obtaining and using energy and matter in a particular environment\u2014 Population growth dynamics depend on a number of factors. Relevant equation: Population Growth\u2014 \\dfrac{dN}{dt} = B-D ...where: dt = change in time B = birth rate D = death rate N = population size i. Reproduction without constraints results in the exponential growth of a population. Relevant equation: Exponential Growth\u2014 \\drac{dN}{dt} = r_{max} N where: dt = change in time N = population size r_{max} = maximum per capita growth rate of population"
+    },
+    {
+      "external_id": "SYI-1.H.1",
+      "display_name": null,
+      "description": "A population can produce a density of individuals that exceeds the system\u2019s resource availability."
+    },
+    {
+      "external_id": "SYI-1.H.2",
+      "display_name": null,
+      "description": "As limits to growth due to density-dependent and density-independent factors are imposed, a logistic growth model generally ensues. Relevant equation: \\dfrac{dN}{dt} = r_{max} N \\left(\\dfrac{K - N}{K}\\right) where: dt = change in time N = population size r_{max} = maximum per capita growth rate of population K = carrying capacity"
+    },
+    {
+      "external_id": "SYI-2.A.1",
+      "display_name": null,
+      "description": "The intentional or unintentional introduction of an invasive species can allow the species to exploit a new niche free of predators or competitors or to outcompete other organisms for resources."
+    },
+    {
+      "external_id": "SYI-2.B.2",
+      "display_name": null,
+      "description": "Human impact accelerates change at local and global levels\u2014 a. The introduction of new diseases can devastate native species. b. Habitat change can occur because of human activity"
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:21:22.011546"
+}

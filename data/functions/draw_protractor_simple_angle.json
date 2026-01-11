@@ -1,0 +1,26 @@
+{
+  "function_name": "draw_protractor_simple_angle",
+  "description": "Draws protractor simple angle for educational visualization.",
+  "category": "angles",
+  "tags": [
+    "angles"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-11T09:56:00.441825",
+  "file_patterns": [
+    "protractor_simple"
+  ],
+  "educational_standards": [
+    {
+      "external_id": "CCSS.MATH.CONTENT.4.MD.C.6+1",
+      "display_name": "Angle Measurement",
+      "description": "Determine and record angle measurements in degrees using a protractor.",
+      "stimulus_type_specifications": [
+        "The images that can be generated are based on a protractor with two unlabeled rays forming an angle. Here is a detailed summary of the available options:\n\n- **Protractor Image:** The base image is a protractor with angle measurements ranging from 0 to 180 degrees. Two black rays with arrows are drawn from a central vertex point to form an angle.\n\n- **Unlabeled Rays:** The generated image will show exactly two unlabeled rays (black arrows) extending from the center of the protractor. There are no labels or points marked on the rays - only the vertex point at the center is visible.\n\n- **Degree Measurements:** Each ray is positioned at a specific degree measurement on the protractor. The two degree values determine where each ray points.\n\n- **Degree Specifications:**\n  - **Number of Rays:** Exactly two rays must be specified.\n  - **Degree Range:** Each degree value must be an integer between 0 and 180 degrees, inclusive.\n  - **Measurement Scale:** All degree values are based on the **OUTER SCALE** of the protractor.\n  - **Measurement Origin:** Degrees are measured from the RIGHT side of the protractor (0\u00b0 points to the right), measuring counterclockwise along the outer scale.\n    - 0\u00b0 = pointing to the RIGHT (outer scale)\n    - 90\u00b0 = pointing straight UP (outer scale)\n    - 180\u00b0 = pointing to the LEFT (outer scale)\n  - **No Spacing Restrictions:** The two rays can be placed at any valid degree positions, with no minimum spacing requirement between them.\n\n- **Ray Appearance:** \n  - Both rays are drawn as thick black arrows extending from the central vertex.\n  - A black circular point marks the vertex where the two rays meet.\n  - The rays are drawn with increased length for better visibility.\n\n- **Angle Types:** You can create various angle types by choosing appropriate degree values:\n  - **Acute Angle:** Both rays between 0\u00b0 and 90\u00b0 (e.g., 30\u00b0 and 60\u00b0)\n  - **Right Angle:** One ray at 0\u00b0 and another at 90\u00b0\n  - **Obtuse Angle:** Rays forming an angle greater than 90\u00b0 (e.g., 30\u00b0 and 145\u00b0)\n  - **Straight Angle:** Rays at 0\u00b0 and 180\u00b0\n\nWith these guidelines, an image can be generated to visualize angles on a protractor, suitable for tasks involving angle measurement, identification, or estimation.\n\nExample stimulus description:\n{\n    \"degrees\": [30, 75]\n}\n\nThis would create a protractor with two unlabeled black rays - one pointing at 30 degrees and another at 75 degrees, forming an acute angle.\n\nAdditional examples:\n- {\"degrees\": [0, 90]} - Creates a right angle\n- {\"degrees\": [45, 135]} - Creates a 90-degree angle with rays at 45\u00b0 and 135\u00b0\n- {\"degrees\": [0, 180]} - Creates a straight angle\n- {\"degrees\": [60, 62]} - Creates a very small acute angle (2 degrees)"
+      ]
+    }
+  ],
+  "standards_last_updated": "2026-01-12T02:21:53.554420"
+}

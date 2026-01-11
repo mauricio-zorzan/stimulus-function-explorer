@@ -1,0 +1,76 @@
+{
+  "function_name": "create_fraction_hop_number_line",
+  "description": "Creates fraction hop number line for educational visualization.",
+  "category": "fractions",
+  "tags": [
+    "fractions"
+  ],
+  "images": [
+    {
+      "path": "images/fraction_hop_number_line_numbered_7_1768102426.webp",
+      "filename": "fraction_hop_number_line_numbered_7_1768102426.webp",
+      "index": 1,
+      "size": 84288
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_1_1768102426.webp",
+      "filename": "fraction_hop_number_line_numbered_1_1768102426.webp",
+      "index": 2,
+      "size": 42050
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_4_1768102425.webp",
+      "filename": "fraction_hop_number_line_numbered_4_1768102425.webp",
+      "index": 3,
+      "size": 69048
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_3_1768102425.webp",
+      "filename": "fraction_hop_number_line_numbered_3_1768102425.webp",
+      "index": 4,
+      "size": 58662
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_3_1768102426.webp",
+      "filename": "fraction_hop_number_line_numbered_3_1768102426.webp",
+      "index": 5,
+      "size": 65264
+    },
+    {
+      "path": "images/fraction_hop_number_line_1768102423.webp",
+      "filename": "fraction_hop_number_line_1768102423.webp",
+      "index": 6,
+      "size": 56330
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_4_1768102426.webp",
+      "filename": "fraction_hop_number_line_numbered_4_1768102426.webp",
+      "index": 7,
+      "size": 70644
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_3_1768102427.webp",
+      "filename": "fraction_hop_number_line_numbered_3_1768102427.webp",
+      "index": 8,
+      "size": 56990
+    },
+    {
+      "path": "images/fraction_hop_number_line_numbered_10_1768102425.webp",
+      "filename": "fraction_hop_number_line_numbered_10_1768102425.webp",
+      "index": 9,
+      "size": 108496
+    },
+    {
+      "path": "images/fraction_hop_number_line_1768102424.webp",
+      "filename": "fraction_hop_number_line_1768102424.webp",
+      "index": 10,
+      "size": 48958
+    }
+  ],
+  "image_count": 10,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.639753",
+  "file_patterns": [
+    "fraction_hop_number_line"
+  ]
+}

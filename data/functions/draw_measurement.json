@@ -1,103 +1,64 @@
 {
   "function_name": "draw_measurement",
-  "description": "The 'draw_measurement' function generates educational stimulus images that depict measurements in either liquid volume (milliliters or liters) or weight (grams or kilograms). The images are designed to help students understand and visualize different units of measurement and their conversions.",
-  "category": "measurement",
+  "description": "Draws measurement for educational visualization.",
+  "category": "measurements",
   "tags": [
-    "measurement",
-    "visualization",
-    "conversion",
-    "educational"
+    "measurements"
   ],
   "images": [
     {
-      "path": "images/draw_measurement_1_20251011_190400.webp",
-      "filename": "draw_measurement_1_20251011_190400.webp",
+      "path": "images/measurement_1768102799.webp",
+      "filename": "measurement_1768102799.webp",
       "index": 1,
-      "size": 12712
+      "size": 53980
     },
     {
-      "path": "images/draw_measurement_2_20251011_190400.webp",
-      "filename": "draw_measurement_2_20251011_190400.webp",
+      "path": "images/measurement_comparison_1768102798.webp",
+      "filename": "measurement_comparison_1768102798.webp",
       "index": 2,
-      "size": 10974
+      "size": 49338
     },
     {
-      "path": "images/draw_measurement_3_20251011_190400.webp",
-      "filename": "draw_measurement_3_20251011_190400.webp",
+      "path": "images/measurement_1768102803.webp",
+      "filename": "measurement_1768102803.webp",
       "index": 3,
-      "size": 33474
+      "size": 176030
+    },
+    {
+      "path": "images/measurement_1768102802.webp",
+      "filename": "measurement_1768102802.webp",
+      "index": 4,
+      "size": 173624
+    },
+    {
+      "path": "images/measurement_1768102801.webp",
+      "filename": "measurement_1768102801.webp",
+      "index": 5,
+      "size": 68682
+    },
+    {
+      "path": "images/measurement_comparison_1768102796.webp",
+      "filename": "measurement_comparison_1768102796.webp",
+      "index": 6,
+      "size": 160628
+    },
+    {
+      "path": "images/measurement_comparison_1768102797.webp",
+      "filename": "measurement_comparison_1768102797.webp",
+      "index": 7,
+      "size": 199790
+    },
+    {
+      "path": "images/measurement_1768102800.webp",
+      "filename": "measurement_1768102800.webp",
+      "index": 8,
+      "size": 55004
     }
   ],
-  "image_count": 13,
+  "image_count": 8,
   "status": "active",
-  "last_updated": "2025-01-06T00:00:00.000000",
+  "last_updated": "2026-01-12T03:22:16.680419",
   "file_patterns": [
     "measurement"
-  ],
-  "educational_standards": [
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+1",
-      "display_name": "Measuring Liquid Volume",
-      "description": "Measure and estimate liquid volumes using liters (l)."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+2",
-      "display_name": "Measuring Mass",
-      "description": "Measure and estimate the masses of objects using standard units of grams (g) and kilograms (kg)."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+4",
-      "display_name": null,
-      "description": "Solve one-step word problems by subtracting quantities of liquid volumes given in the same units."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.MD.A.2+5",
-      "display_name": null,
-      "description": "Solve one-step word problems by multiplying quantities of masses or volumes given in the same units."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.3.OA.A.3+3",
-      "display_name": "Two-Step Division Problems",
-      "description": "Solve word problems involving two step division."
-    },
-    {
-      "external_id": "CCSS.MATH.CONTENT.4.MD.A.2+13",
-      "display_name": null,
-      "description": "Use the four operations to solve word problems involving liquid volumes, including problems that require expressing measurements given in a larger unit in terms of a smaller unit."
-    }
-  ],
-  "standards_last_updated": "2025-10-11T19:27:26.872910",
-  "educational_level": "Elementary/Middle/High School/College",
-  "mathematical_concepts": [],
-  "stimulus_type_specification": {
-    "title": "Available Images: Measurement Visualizations",
-    "description": "The 'draw_measurement' function can create two types of visualizations: a cup filled with liquid to represent volume measurements, and an analog scale to represent weight measurements. The function accepts inputs based on the 'Measurements' class, which includes the measurement value, units (milliliters, liters, grams, kilograms), and color for the liquid or weight. The function validates the units and converts them if necessary, and it calculates the dimensions and scale parameters for the visualization. These images can be used in educational settings to teach students about different units of measurement and how to convert between them.",
-    "specifications": [
-      {
-        "section": "Input Parameters",
-        "details": [
-          "Measurement: The value to be represented in the visualization",
-          "Units: The units of the measurement, which must be milliliters, liters, grams, or kilograms",
-          "Color: The color of the liquid or weight in the visualization"
-        ]
-      },
-      {
-        "section": "Constraints & Validation",
-        "details": [
-          "The units must be either milliliters, liters, grams, or kilograms",
-          "The measurement value must be a positive number",
-          "The color must be a valid color name or hex code"
-        ]
-      },
-      {
-        "section": "Visual Output",
-        "details": [
-          "The function draws a cup filled with liquid for volume measurements, with a scale on the side to represent the measurement value",
-          "For weight measurements, the function draws an analog scale with the measurement value",
-          "The color of the liquid or weight is determined by the 'color' input"
-        ]
-      }
-    ]
-  },
-  "ai_generated": true
+  ]
 }

@@ -1,0 +1,28 @@
+{
+  "function_name": "draw_triangle_and_squares_algebraic_tiles",
+  "description": "Draws triangle and squares algebraic tiles for educational visualization.",
+  "category": "geometry",
+  "tags": [
+    "geometry"
+  ],
+  "images": [
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103235.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103235.webp",
+      "index": 1,
+      "size": 5100
+    },
+    {
+      "path": "images/triangle_square_algebraic_tiles_1768103236.webp",
+      "filename": "triangle_square_algebraic_tiles_1768103236.webp",
+      "index": 2,
+      "size": 6762
+    }
+  ],
+  "image_count": 2,
+  "status": "active",
+  "last_updated": "2026-01-12T03:22:16.703841",
+  "file_patterns": [
+    "triangle_square_algebraic_tiles"
+  ]
+}

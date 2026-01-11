@@ -1,0 +1,16 @@
+{
+  "function_name": "multiple_bar_graph",
+  "description": "Generates multiple bar graph for educational visualization.",
+  "category": "graphs",
+  "tags": [
+    "graphs",
+    "multiple"
+  ],
+  "images": [],
+  "image_count": 0,
+  "status": "active",
+  "last_updated": "2026-01-10T23:46:19.444375",
+  "file_patterns": [
+    "multiple_bar_graph"
+  ]
+}
